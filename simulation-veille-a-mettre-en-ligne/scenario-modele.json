@@ -1,0 +1,58 @@
+{
+  "id": "nouveau-scenario",
+  "title": "Nouveau scénario",
+  "briefing": "Décris ici la situation fictive à analyser.",
+  "objective": "Décris ce que les élèves doivent repérer.",
+  "timeWindow": "08:00-12:00",
+  "location": "Lieu fictif",
+  "volume": 100,
+  "seed": 12345,
+  "trends": [
+    { "tag": "#MotCle", "count": "1,2 k" }
+  ],
+  "clues": [
+    "Indice attendu dans la correction."
+  ],
+  "actors": [
+    {
+      "name": "Compte officiel",
+      "handle": "@officiel",
+      "verified": true,
+      "stance": "official",
+      "trust": "high"
+    },
+    {
+      "name": "Compte amplificateur",
+      "handle": "@alerte_info",
+      "verified": false,
+      "stance": "amplifier",
+      "trust": "low"
+    }
+  ],
+  "normalTemplates": [
+    "Message prudent avec demande de source."
+  ],
+  "suspectTemplates": [
+    "Message alarmiste sans source qui pousse à partager vite."
+  ],
+  "mediaLabels": [
+    {
+      "kind": "document",
+      "title": "Document partagé",
+      "caption": "Indice visuel à vérifier"
+    }
+  ],
+  "fixedPosts": [
+    {
+      "id": "nouveau-fixed-1",
+      "minute": 20,
+      "actor": "@alerte_info",
+      "content": "Message problématique explicitement placé par l'enseignant.",
+      "suspect": true,
+      "reason": "Explique ici le signal faible attendu.",
+      "likes": 400,
+      "reposts": 280,
+      "replies": 60
+    }
+  ]
+}

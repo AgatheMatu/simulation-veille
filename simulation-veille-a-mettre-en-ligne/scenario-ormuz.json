@@ -1,0 +1,148 @@
+{
+  "id": "ormuz-crise-navale",
+  "title": "Crise fictive dans le détroit d'Ormuz",
+  "briefing": "Simulation pédagogique : un incident naval fictif survient près du détroit d'Ormuz. Des comptes concurrents publient des vidéos, cartes et témoignages contradictoires. Les élèves doivent repérer une possible attaque informationnelle, sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+  "objective": "Identifier les narratifs coordonnés, les faux comptes OSINT, les images mal attribuées et les messages qui cherchent à provoquer panique, polarisation ou hausse artificielle de l'urgence.",
+  "timeWindow": "06:00-11:30",
+  "location": "Détroit d'Ormuz, zone maritime fictive",
+  "volume": 168,
+  "seed": 240619,
+  "trends": [
+    { "tag": "#OrmuzEnFeu", "count": "42,8 k" },
+    { "tag": "#RouteDuPetrole", "count": "31,2 k" },
+    { "tag": "#OSINTGolfe", "count": "19,6 k" },
+    { "tag": "#ConvoiAster", "count": "8,4 k" },
+    { "tag": "#PrixEssence", "count": "6,9 k" }
+  ],
+  "clues": [
+    "Une vidéo de nuit est partagée comme récente alors qu'aucun élément ne permet de dater ni localiser la scène.",
+    "Plusieurs comptes OSINT apparus récemment publient la même carte avec des légendes différentes.",
+    "Des messages cherchent à relier immédiatement l'incident fictif aux prix du carburant, sans source économique.",
+    "Les comptes officiels confirment seulement un incident limité, mais leurs messages sont moins relayés que les contenus alarmistes.",
+    "Des captures de faux communiqués utilisent des logos plausibles mais des formulations inhabituelles."
+  ],
+  "actors": [
+    { "name": "Centre Maritime Commun", "handle": "@cmc_maritime", "verified": true, "stance": "official", "trust": "high" },
+    { "name": "Agence Horizon", "handle": "@agence_horizon", "verified": true, "stance": "media", "trust": "high" },
+    { "name": "Navires & Données", "handle": "@navires_donnees", "verified": false, "stance": "analyst", "trust": "high" },
+    { "name": "Journal du Golfe", "handle": "@journal_golfe", "verified": true, "stance": "media", "trust": "high" },
+    { "name": "PortWatch FR", "handle": "@portwatch_fr", "verified": false, "stance": "analyst", "trust": "medium" },
+    { "name": "MarineLog Claire", "handle": "@claire_marinelog", "verified": false, "stance": "analyst", "trust": "medium" },
+    { "name": "Energy Desk", "handle": "@energydesk_fr", "verified": false, "stance": "media", "trust": "medium" },
+    { "name": "Golfe Alerte", "handle": "@golfe_alerte", "verified": false, "stance": "amplifier", "trust": "low" },
+    { "name": "OSINT Flash", "handle": "@osint_flash_24", "verified": false, "stance": "amplifier", "trust": "low" },
+    { "name": "Petrole Verite", "handle": "@petrole_verite", "verified": false, "stance": "amplifier", "trust": "low" },
+    { "name": "Carte Rouge Live", "handle": "@carterouge_live", "verified": false, "stance": "amplifier", "trust": "low" },
+    { "name": "Temoin Golfe", "handle": "@temoin_golfe", "verified": false, "stance": "amplifier", "trust": "low" }
+  ],
+  "normalTemplates": [
+    "Pour l'instant, le communiqué maritime parle d'un incident localisé. Je ne vois pas de confirmation d'un blocage du détroit.",
+    "La carte AIS ne suffit pas à prouver une attaque : certaines positions publiques sont retardées ou absentes.",
+    "La vidéo virale ne donne ni heure, ni coordonnées, ni source originale. Prudence avant relais.",
+    "L'agence Horizon confirme une hausse de tension diplomatique, mais pas de fermeture de route maritime.",
+    "Plusieurs images circulent déjà avec des légendes différentes. Il faut comparer les métadonnées et la première publication.",
+    "Le prix du pétrole ne se déduit pas d'un seul post. Attendons des données de marché et des sources identifiées.",
+    "Le compte officiel annonce une enquête maritime, pas une opération militaire généralisée.",
+    "Je note que les messages les plus partagés utilisent tous les mêmes mots : 'détroit fermé', 'panique', 'stockez'.",
+    "Une photo de fumée peut venir d'un exercice, d'un port ou d'un autre pays. Sans géolocalisation, elle ne prouve rien.",
+    "Le fil évolue vite : séparons les faits confirmés, les hypothèses et les contenus non vérifiés."
+  ],
+  "suspectTemplates": [
+    "CONFIRMÉ : le détroit est fermé, les navires font demi-tour. Faites le plein avant midi, les prix vont exploser.",
+    "Vidéo exclusive d'une frappe cette nuit. Les médias cachent l'ampleur réelle, partagez avant suppression.",
+    "Nos sources militaires disent que trois bâtiments ont coulé. Aucun média n'ose l'écrire.",
+    "Carte officielle interceptée : zone rouge sur tout Ormuz. Les gouvernements préparent le silence.",
+    "Si vous attendez les communiqués, il sera trop tard. Le carburant va manquer dans 48 h.",
+    "Même message de nos contacts portuaires : fermeture totale, assurance maritime suspendue, chaos logistique.",
+    "On reconnaît clairement les explosions sur la vidéo. Ceux qui demandent une source protègent la version officielle.",
+    "Des comptes OSINT fiables confirment l'entrée en guerre. La preuve est dans cette capture.",
+    "Tout le monde sait que les marchés sont manipulés. Achetez maintenant, l'information sortira ce soir.",
+    "La trajectoire AIS prouve une attaque coordonnée. Inutile d'attendre les experts."
+  ],
+  "mediaLabels": [
+    { "kind": "ship", "title": "Vidéo de nuit", "caption": "Aucune date visible, source originale introuvable" },
+    { "kind": "map", "title": "Carte virale", "caption": "Même fond de carte, légendes contradictoires" },
+    { "kind": "oil", "title": "Graphique carburant", "caption": "Échelle coupée, donnée non sourcée" },
+    { "kind": "document", "title": "Communiqué supposé", "caption": "Logo plausible, formulation inhabituelle" },
+    { "kind": "chart", "title": "Courbe de panique", "caption": "Chiffre relayé sans méthode ni source" }
+  ],
+  "fixedPosts": [
+    {
+      "id": "ormuz-fixed-1",
+      "minute": 12,
+      "actor": "@cmc_maritime",
+      "content": "Un incident de navigation est signalé dans une zone limitée. Une enquête est ouverte. Aucun élément confirmé ne permet d'annoncer une fermeture du détroit.",
+      "suspect": false,
+      "likes": 980,
+      "reposts": 420,
+      "replies": 88
+    },
+    {
+      "id": "ormuz-fixed-2",
+      "minute": 24,
+      "actor": "@osint_flash_24",
+      "content": "EXCLUSIF : vidéo d'une frappe dans Ormuz cette nuit. Les autorités minimisent déjà. Partagez avant suppression. #OrmuzEnFeu",
+      "suspect": true,
+      "reason": "Vidéo non datée, absence de source originale, urgence artificielle et appel au partage.",
+      "likes": 6400,
+      "reposts": 5200,
+      "replies": 980,
+      "media": { "kind": "ship", "title": "Vidéo de nuit", "caption": "Image spectaculaire mais non géolocalisée" }
+    },
+    {
+      "id": "ormuz-fixed-3",
+      "minute": 41,
+      "actor": "@navires_donnees",
+      "content": "La carte AIS publique montre des trajectoires partielles. Ce type de donnée ne permet pas, seul, de conclure à une fermeture ou à une attaque.",
+      "suspect": false,
+      "likes": 1500,
+      "reposts": 760,
+      "replies": 132
+    },
+    {
+      "id": "ormuz-fixed-4",
+      "minute": 53,
+      "actor": "@petrole_verite",
+      "content": "Le carburant va manquer : les initiés remplissent déjà leurs stocks. Ceux qui attendent les communiqués paieront le prix fort.",
+      "suspect": true,
+      "reason": "Rumeur économique anxiogène, absence de donnée vérifiable et incitation à un comportement de panique.",
+      "likes": 4300,
+      "reposts": 3900,
+      "replies": 720,
+      "media": { "kind": "oil", "title": "Graphique viral", "caption": "Axe tronqué et source absente" }
+    },
+    {
+      "id": "ormuz-fixed-5",
+      "minute": 76,
+      "actor": "@carterouge_live",
+      "content": "Carte officielle récupérée : toute la zone est en rouge. Le détroit est perdu pour plusieurs semaines. #RouteDuPetrole",
+      "suspect": true,
+      "reason": "Faux document probable, vocabulaire dramatique, origine invérifiable et contradiction avec les sources identifiées.",
+      "likes": 5100,
+      "reposts": 4700,
+      "replies": 850,
+      "media": { "kind": "map", "title": "Carte rouge", "caption": "Légende non standard, aucun lien vers l'autorité citée" }
+    },
+    {
+      "id": "ormuz-fixed-6",
+      "minute": 92,
+      "actor": "@agence_horizon",
+      "content": "Nos vérifications ne confirment ni fermeture du détroit, ni naufrage de plusieurs bâtiments. Plusieurs vidéos virales semblent anciennes ou non localisées.",
+      "suspect": false,
+      "likes": 2100,
+      "reposts": 1200,
+      "replies": 260
+    },
+    {
+      "id": "ormuz-fixed-7",
+      "minute": 118,
+      "actor": "@temoin_golfe",
+      "content": "Je suis sur place : explosions partout, navires en feu, impossible de montrer plus. Croyez les témoins, pas les bureaux climatisés.",
+      "suspect": true,
+      "reason": "Témoignage invérifiable, images absentes, opposition émotionnelle entre témoins et sources vérifiables.",
+      "likes": 3600,
+      "reposts": 3100,
+      "replies": 640
+    }
+  ]
+}

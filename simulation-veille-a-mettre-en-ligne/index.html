@@ -1,0 +1,147 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>SimuVeille - exercice de veille informationnelle</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <div class="brand-mark" aria-hidden="true">SV</div>
+        <div>
+          <h1>SimuVeille</h1>
+          <p>Fil social fictif pour exercice de veille</p>
+        </div>
+      </div>
+      <div class="toolbar" aria-label="Contrôles de scénario">
+        <label class="select-wrap">
+          <span>Scénario</span>
+          <select id="scenarioSelect"></select>
+        </label>
+        <button id="importBtn" class="icon-button" title="Importer un scénario JSON" aria-label="Importer un scénario JSON">
+          <span aria-hidden="true">↑</span>
+        </button>
+        <button id="exportBtn" class="icon-button" title="Exporter le scénario actif" aria-label="Exporter le scénario actif">
+          <span aria-hidden="true">↓</span>
+        </button>
+        <button id="teacherToggle" class="text-button">Mode enseignant</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <aside class="left-panel">
+        <section class="panel">
+          <div class="panel-heading">
+            <h2>Brief</h2>
+            <span id="postCount" class="metric"></span>
+          </div>
+          <p id="scenarioBrief" class="brief"></p>
+          <div class="scenario-meta" id="scenarioMeta"></div>
+        </section>
+
+        <section class="panel">
+          <h2>Tendances</h2>
+          <div id="trendList" class="trend-list"></div>
+        </section>
+      </aside>
+
+      <section class="feed-shell" aria-label="Fil de publications">
+        <div class="feed-tools">
+          <div class="segmented" role="group" aria-label="Filtre du fil">
+            <button class="segment is-active" data-filter="all">Tout</button>
+            <button class="segment" data-filter="flagged">Signalés</button>
+            <button class="segment" data-filter="media">Avec visuel</button>
+          </div>
+          <label class="search-box">
+            <span aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Rechercher compte, mot-clé, source..." />
+          </label>
+        </div>
+        <div id="feed" class="feed"></div>
+      </section>
+
+      <aside class="right-panel">
+        <section class="panel investigation">
+          <div class="panel-heading">
+            <h2>Signalements</h2>
+            <button id="clearFlags" class="icon-button small" title="Réinitialiser les signalements" aria-label="Réinitialiser les signalements">↺</button>
+          </div>
+          <div class="score-grid">
+            <div>
+              <strong id="flaggedCount">0</strong>
+              <span>posts retenus</span>
+            </div>
+            <div>
+              <strong id="confidenceScore">0%</strong>
+              <span>couverture</span>
+            </div>
+          </div>
+          <div id="flagList" class="flag-list empty">Aucun post signalé pour le moment.</div>
+        </section>
+
+        <section class="panel">
+          <h2>Grille d’analyse</h2>
+          <div class="checklist">
+            <label><input type="checkbox" /> Comptes récents ou peu crédibles</label>
+            <label><input type="checkbox" /> Narratif répété par plusieurs comptes</label>
+            <label><input type="checkbox" /> Source absente, floue ou introuvable</label>
+            <label><input type="checkbox" /> Ton très émotionnel ou urgent</label>
+            <label><input type="checkbox" /> Amplification artificielle possible</label>
+          </div>
+        </section>
+      </aside>
+    </main>
+
+    <dialog id="annotationDialog" class="dialog">
+      <form method="dialog" id="annotationForm">
+        <h2>Annoter le signalement</h2>
+        <p id="annotationPost" class="dialog-post"></p>
+        <label>
+          Indice principal
+          <select id="flagReason">
+            <option value="Coordination">Coordination apparente</option>
+            <option value="Source faible">Source faible ou absente</option>
+            <option value="Émotion">Ton émotionnel ou alarmiste</option>
+            <option value="Faux expert">Autorité douteuse</option>
+            <option value="Image douteuse">Visuel douteux</option>
+          </select>
+        </label>
+        <label>
+          Note
+          <textarea id="flagNote" rows="4" placeholder="Pourquoi ce post mérite-t-il attention ?"></textarea>
+        </label>
+        <menu>
+          <button value="cancel" class="text-button">Annuler</button>
+          <button value="default" id="saveAnnotation" class="primary-button">Enregistrer</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <dialog id="teacherDialog" class="dialog wide">
+      <form method="dialog" id="teacherForm">
+        <h2>Mode enseignant</h2>
+        <p class="helper">Modifie le JSON, importe un autre scénario, ou exporte celui-ci pour le réutiliser plus tard.</p>
+        <div class="teacher-grid">
+          <label>
+            Scénario JSON
+            <textarea id="scenarioEditor" rows="18" spellcheck="false"></textarea>
+          </label>
+          <div class="answer-key">
+            <h3>Correction du scénario actif</h3>
+            <div id="answerKey"></div>
+          </div>
+        </div>
+        <menu>
+          <button value="cancel" class="text-button">Fermer</button>
+          <button type="button" id="copyTemplate" class="text-button">Créer un modèle vide</button>
+          <button type="button" id="applyScenario" class="primary-button">Appliquer le JSON</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <input id="fileInput" type="file" accept="application/json,.json" hidden />
+    <script src="./app.js"></script>
+  </body>
+</html>
