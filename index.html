@@ -387,10 +387,21 @@ h3 {
   place-items: center;
   width: 48px;
   height: 48px;
+  border: 0;
   border-radius: 8px;
   color: #ffffff;
   background: linear-gradient(135deg, #2364aa, #0f766e);
   font-weight: 800;
+}
+
+.profile-trigger {
+  padding: 0;
+}
+
+.profile-trigger:hover,
+.profile-name:hover {
+  outline: 2px solid rgba(15, 118, 110, 0.26);
+  outline-offset: 2px;
 }
 
 .post-head {
@@ -398,6 +409,19 @@ h3 {
   align-items: baseline;
   gap: 6px;
   min-width: 0;
+}
+
+.profile-name {
+  min-width: 0;
+  border: 0;
+  padding: 0;
+  overflow: hidden;
+  color: var(--ink);
+  background: transparent;
+  font-weight: 800;
+  text-align: left;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 
 .post-head strong {
@@ -586,6 +610,10 @@ h3 {
   width: min(1040px, calc(100vw - 28px));
 }
 
+.dialog.profile-dialog {
+  width: min(720px, calc(100vw - 28px));
+}
+
 .dialog::backdrop {
   background: rgba(23, 33, 43, 0.42);
   backdrop-filter: blur(3px);
@@ -631,6 +659,153 @@ h3 {
   color: #344456;
   background: #f7f9fb;
   line-height: 1.4;
+}
+
+.profile-card {
+  display: grid;
+  gap: 14px;
+}
+
+.profile-cover {
+  height: 86px;
+  border-radius: 8px;
+  background:
+    linear-gradient(135deg, rgba(35, 100, 170, 0.28), rgba(15, 118, 110, 0.28)),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.42) 0 8px, transparent 8px 18px);
+}
+
+.profile-cover.risk-high {
+  background:
+    linear-gradient(135deg, rgba(180, 35, 24, 0.24), rgba(180, 83, 9, 0.28)),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.42) 0 8px, transparent 8px 18px);
+}
+
+.profile-cover.risk-medium {
+  background:
+    linear-gradient(135deg, rgba(180, 83, 9, 0.22), rgba(35, 100, 170, 0.22)),
+    repeating-linear-gradient(45deg, rgba(255,255,255,0.42) 0 8px, transparent 8px 18px);
+}
+
+.profile-main {
+  display: grid;
+  grid-template-columns: 62px minmax(0, 1fr) auto;
+  gap: 12px;
+  align-items: center;
+  margin-top: -36px;
+}
+
+.profile-avatar {
+  width: 62px;
+  height: 62px;
+  border: 3px solid #ffffff;
+  box-shadow: 0 8px 20px rgba(23, 33, 43, 0.16);
+}
+
+.profile-title {
+  min-width: 0;
+  padding-top: 28px;
+}
+
+.profile-title h2 {
+  overflow: hidden;
+  font-size: 1.15rem;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.profile-title p,
+.profile-bio,
+.profile-section p {
+  color: var(--muted);
+  line-height: 1.45;
+}
+
+.profile-risk {
+  align-self: end;
+  border-radius: 999px;
+  padding: 6px 10px;
+  font-size: 0.8rem;
+  font-weight: 800;
+}
+
+.profile-risk.risk-high {
+  color: #ffffff;
+  background: var(--danger);
+}
+
+.profile-risk.risk-medium {
+  color: #ffffff;
+  background: var(--warn);
+}
+
+.profile-risk.risk-low {
+  color: var(--accent-strong);
+  background: var(--soft-2);
+}
+
+.profile-metrics {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 8px;
+}
+
+.profile-metrics div {
+  display: grid;
+  gap: 3px;
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 10px;
+  background: #f8fafc;
+}
+
+.profile-metrics strong {
+  font-size: 0.96rem;
+}
+
+.profile-metrics span,
+.mini-posts strong {
+  color: var(--muted);
+  font-size: 0.78rem;
+}
+
+.profile-section {
+  display: grid;
+  gap: 8px;
+}
+
+.signal-chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 7px;
+}
+
+.signal-chips span {
+  border-radius: 999px;
+  padding: 6px 9px;
+  color: #344456;
+  background: #eef3f7;
+  font-size: 0.82rem;
+  font-weight: 700;
+}
+
+.mini-posts {
+  display: grid;
+  gap: 8px;
+}
+
+.mini-posts article {
+  display: grid;
+  gap: 3px;
+  border-left: 3px solid var(--line);
+  border-radius: 7px;
+  padding: 8px 10px;
+  background: #f8fafc;
+}
+
+.mini-posts span {
+  color: #344456;
+  font-size: 0.88rem;
+  line-height: 1.35;
 }
 
 .helper {
@@ -742,6 +917,19 @@ h3 {
 
   .post-head {
     flex-wrap: wrap;
+  }
+
+  .profile-main {
+    grid-template-columns: 54px minmax(0, 1fr);
+  }
+
+  .profile-risk {
+    grid-column: 1 / -1;
+    justify-self: start;
+  }
+
+  .profile-metrics {
+    grid-template-columns: 1fr 1fr;
   }
 
   .post-foot {
@@ -878,6 +1066,15 @@ h3 {
         <menu>
           <button value="cancel" class="text-button">Annuler</button>
           <button value="default" id="saveAnnotation" class="primary-button">Enregistrer</button>
+        </menu>
+      </form>
+    </dialog>
+
+    <dialog id="profileDialog" class="dialog profile-dialog">
+      <form method="dialog">
+        <div id="profileContent"></div>
+        <menu>
+          <button value="cancel" class="text-button">Fermer</button>
         </menu>
       </form>
     </dialog>
@@ -1956,6 +2153,8 @@ const els = {
   flagNote: document.querySelector("#flagNote"),
   saveAnnotation: document.querySelector("#saveAnnotation"),
   teacherDialog: document.querySelector("#teacherDialog"),
+  profileDialog: document.querySelector("#profileDialog"),
+  profileContent: document.querySelector("#profileContent"),
   scenarioEditor: document.querySelector("#scenarioEditor"),
   answerKey: document.querySelector("#answerKey"),
   applyScenario: document.querySelector("#applyScenario"),
@@ -1984,9 +2183,40 @@ function pick(list, random) {
   return list[Math.floor(random() * list.length)];
 }
 
-function formatTime(startHour, minute) {
-  const date = new Date(2026, 0, 1, startHour, minute);
-  return date.toLocaleTimeString("fr-FR", { hour: "2-digit", minute: "2-digit" });
+function parisNow() {
+  return new Date(new Date().toLocaleString("en-US", { timeZone: "Europe/Paris" }));
+}
+
+function scenarioDurationMinutes(scenario) {
+  const match = String(scenario.timeWindow || "").match(/(\d{1,2}):(\d{2})-(\d{1,2}):(\d{2})/);
+  if (!match) return 300;
+  const start = Number(match[1]) * 60 + Number(match[2]);
+  const end = Number(match[3]) * 60 + Number(match[4]);
+  return Math.max(90, end > start ? end - start : end + 1440 - start);
+}
+
+function formatTime(date) {
+  return date.toLocaleTimeString("fr-FR", {
+    hour: "2-digit",
+    minute: "2-digit",
+    timeZone: "Europe/Paris"
+  });
+}
+
+function formatRelativeTime(date, now = parisNow()) {
+  const diffMinutes = Math.max(0, Math.round((now - date) / 60000));
+  if (diffMinutes < 1) return "à l'instant";
+  if (diffMinutes < 60) return `${diffMinutes} min`;
+  const hours = Math.floor(diffMinutes / 60);
+  const minutes = diffMinutes % 60;
+  if (hours < 24) return minutes ? `${hours} h ${minutes}` : `${hours} h`;
+  return date.toLocaleDateString("fr-FR", { day: "2-digit", month: "short", timeZone: "Europe/Paris" });
+}
+
+function livePostDate(minute, duration, now = parisNow()) {
+  const spread = Math.max(duration, minute + 20);
+  const ageMinutes = Math.max(0, spread - minute);
+  return new Date(now.getTime() - ageMinutes * 60000);
 }
 
 function actorByHandle(scenario, handle) {
@@ -1995,7 +2225,8 @@ function actorByHandle(scenario, handle) {
 
 function generatePosts(scenario) {
   const random = mulberry32(scenario.seed || hashSeed(scenario.id || scenario.title));
-  const startHour = Number((scenario.timeWindow || "08:00").slice(0, 2)) || 8;
+  const now = parisNow();
+  const duration = scenarioDurationMinutes(scenario);
   const volume = Math.max(20, Number(scenario.volume) || 100);
   const fixedPosts = scenario.fixedPosts || [];
   const generated = [];
@@ -2006,7 +2237,7 @@ function generatePosts(scenario) {
     const candidates = scenario.actors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
     const actor = pick(candidates.length ? candidates : scenario.actors, random);
     const templates = suspect ? scenario.suspectTemplates : scenario.normalTemplates;
-    const minute = Math.floor(random() * 260);
+    const minute = Math.floor(random() * duration);
     const trend = pick(scenario.trends, random).tag;
     const hasMedia = random() > (suspect ? 0.58 : 0.82);
     const spike = suspect ? 3.6 : 1;
@@ -2035,13 +2266,18 @@ function generatePosts(scenario) {
   }));
 
   return [...generated, ...normalizedFixed]
-    .sort((a, b) => a.minute - b.minute)
+    .map((post) => {
+      const liveDate = livePostDate(post.minute, duration, now);
+      return { ...post, liveDate };
+    })
+    .sort((a, b) => b.liveDate - a.liveDate)
     .map((post, index) => {
       const actor = actorByHandle(scenario, post.actor);
       return {
         ...post,
         index: index + 1,
-        time: formatTime(startHour, post.minute),
+        time: formatTime(post.liveDate),
+        relativeTime: formatRelativeTime(post.liveDate, now),
         actor
       };
     });
@@ -2064,6 +2300,125 @@ function initials(name) {
     .map((part) => part[0])
     .join("")
     .toUpperCase();
+}
+
+function profileSeed(actor) {
+  return hashSeed(`${state.scenario?.id || "scenario"}:${actor.handle}`);
+}
+
+function profileNumber(seed, min, max) {
+  return min + (seed % (max - min + 1));
+}
+
+function buildProfile(actor) {
+  const seed = profileSeed(actor);
+  const lowTrust = actor.trust === "low";
+  const official = actor.trust === "high" && actor.verified;
+  const analyst = actor.stance === "analyst";
+  const createdDays = lowTrust ? profileNumber(seed, 2, 24) : actor.trust === "medium" ? profileNumber(seed, 80, 540) : profileNumber(seed, 760, 2800);
+  const followers = lowTrust ? profileNumber(seed * 7, 420, 18200) : actor.trust === "medium" ? profileNumber(seed * 11, 1600, 42000) : profileNumber(seed * 13, 18000, 420000);
+  const following = lowTrust ? profileNumber(seed * 17, 12, 148) : profileNumber(seed * 19, 180, 1200);
+  const dailyPosts = lowTrust ? profileNumber(seed * 23, 58, 210) : actor.trust === "medium" ? profileNumber(seed * 29, 8, 34) : profileNumber(seed * 31, 2, 18);
+  const names = state.scenario.actors.map((item) => item.name.toLowerCase());
+  const imitates = !official && names.some((name) => actor.name.toLowerCase() !== name && similarName(actor.name.toLowerCase(), name));
+
+  const bios = {
+    official: "Canal officiel. Informations vérifiées et communiqués institutionnels.",
+    media: actor.trust === "low" ? "Actu terrain, infos que les médias ne montrent pas." : "Rédaction locale. Vérification, terrain, contexte.",
+    analyst: "Analyse de sources ouvertes, chronologie et vérification d'images.",
+    citizen: "Compte personnel. Témoignages, questions et relais d'informations locales.",
+    amplifier: "Alertes, révélations et contenus reçus en privé."
+  };
+
+  const signals = [];
+  if (official) signals.push("Compte vérifié ou institutionnel", "Canal cohérent avec son rôle déclaré");
+  if (analyst && actor.trust !== "low") signals.push("Explique ses méthodes", "Corrige ou nuance les contenus viraux");
+  if (actor.trust === "medium") signals.push("Compte humain plausible", "Informations utiles mais à recouper");
+  if (lowTrust) signals.push("Compte récent ou identité floue", "Volume de publication élevé", "Relais fréquent de captures non sourcées");
+  if (imitates) signals.push("Nom proche d'un autre compte du scénario");
+  if (actor.stance === "amplifier") signals.push("Formulations urgentes et très affirmatives");
+
+  const risk = lowTrust ? "Élevé" : actor.trust === "medium" ? "Moyen" : "Faible";
+  const status = official ? "Source primaire probable" : analyst ? "Source d'analyse" : lowTrust ? "Source à forte vigilance" : "Source à recouper";
+  const posts = state.posts.filter((post) => post.actor.handle === actor.handle).slice(0, 4);
+
+  return {
+    actor,
+    bio: actor.bio || bios[actor.stance] || "Compte participant au débat public.",
+    created: createdDays < 31 ? `il y a ${createdDays} jours` : createdDays < 730 ? `il y a ${Math.round(createdDays / 30)} mois` : `il y a ${Math.round(createdDays / 365)} ans`,
+    followers,
+    following,
+    dailyPosts,
+    risk,
+    status,
+    signals,
+    posts
+  };
+}
+
+function similarName(a, b) {
+  const cleanA = a.replace(/[^a-z0-9]/g, "");
+  const cleanB = b.replace(/[^a-z0-9]/g, "");
+  return cleanA.length > 7 && cleanB.length > 7 && (cleanA.includes(cleanB.slice(0, 8)) || cleanB.includes(cleanA.slice(0, 8)));
+}
+
+function formatCompact(value) {
+  if (value >= 100000) return `${Math.round(value / 1000)} k`;
+  if (value >= 1000) return `${(value / 1000).toFixed(1).replace(".", ",")} k`;
+  return String(value);
+}
+
+function openProfile(handle) {
+  const actor = state.scenario.actors.find((item) => item.handle === handle);
+  if (!actor) return;
+  const profile = buildProfile(actor);
+  els.profileContent.innerHTML = renderProfile(profile);
+  els.profileDialog.showModal();
+}
+
+function renderProfile(profile) {
+  const actor = profile.actor;
+  return `
+    <section class="profile-card">
+      <div class="profile-cover ${actor.trust === "low" ? "risk-high" : actor.trust === "medium" ? "risk-medium" : "risk-low"}"></div>
+      <div class="profile-main">
+        <div class="avatar profile-avatar" aria-hidden="true">${escapeHtml(initials(actor.name))}</div>
+        <div class="profile-title">
+          <h2>${escapeHtml(actor.name)}</h2>
+          <p>${escapeHtml(actor.handle)} · ${actor.verified ? "compte vérifié" : "non vérifié"}</p>
+        </div>
+        <span class="profile-risk ${actor.trust === "low" ? "risk-high" : actor.trust === "medium" ? "risk-medium" : "risk-low"}">${escapeHtml(profile.risk)}</span>
+      </div>
+      <p class="profile-bio">${escapeHtml(profile.bio)}</p>
+      <div class="profile-metrics">
+        <div><strong>${escapeHtml(profile.created)}</strong><span>création</span></div>
+        <div><strong>${formatCompact(profile.followers)}</strong><span>abonnés</span></div>
+        <div><strong>${formatCompact(profile.following)}</strong><span>abonnements</span></div>
+        <div><strong>${profile.dailyPosts}/j</strong><span>activité</span></div>
+      </div>
+      <div class="profile-section">
+        <h3>Lecture du profil</h3>
+        <p>${escapeHtml(profile.status)}</p>
+      </div>
+      <div class="profile-section">
+        <h3>Indices à examiner</h3>
+        <div class="signal-chips">
+          ${profile.signals.map((signal) => `<span>${escapeHtml(signal)}</span>`).join("")}
+        </div>
+      </div>
+      <div class="profile-section">
+        <h3>Publications récentes</h3>
+        <div class="mini-posts">
+          ${profile.posts.length ? profile.posts.map((post) => `
+            <article>
+              <strong>${escapeHtml(post.time)}</strong>
+              <span>${escapeHtml(post.content.slice(0, 130))}${post.content.length > 130 ? "..." : ""}</span>
+            </article>
+          `).join("") : "<p>Aucune publication récente dans le fil actif.</p>"}
+        </div>
+      </div>
+    </section>
+  `;
 }
 
 function escapeHtml(value) {
@@ -2121,7 +2476,7 @@ function renderScenarioInfo() {
   els.scenarioMeta.innerHTML = [
     ["Objectif", scenario.objective],
     ["Lieu fictif", scenario.location || "Non précisé"],
-    ["Fenêtre", scenario.timeWindow || "Libre"]
+    ["Fil simulé", `dernières ${Math.round(scenarioDurationMinutes(scenario) / 60)} h · heure de Paris`]
   ]
     .map(([label, value]) => `<div class="meta-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`)
     .join("");
@@ -2153,25 +2508,25 @@ function renderPost(post) {
   const flagged = state.flags.get(post.id);
   return `
     <article class="post ${flagged ? "is-flagged" : ""}" data-post-id="${escapeHtml(post.id)}">
-      <div class="avatar" aria-hidden="true">${escapeHtml(initials(post.actor.name))}</div>
+      <button class="avatar profile-trigger" data-action="profile" data-handle="${escapeHtml(post.actor.handle)}" title="Voir le profil de ${escapeHtml(post.actor.name)}" aria-label="Voir le profil de ${escapeHtml(post.actor.name)}">${escapeHtml(initials(post.actor.name))}</button>
       <div>
         <div class="post-head">
-          <strong>${escapeHtml(post.actor.name)}</strong>
-          ${post.actor.verified ? `<span class="badge" title="Compte vérifié">✓</span>` : ""}
+          <button class="profile-name" data-action="profile" data-handle="${escapeHtml(post.actor.handle)}">${escapeHtml(post.actor.name)}</button>
+          ${post.actor.verified ? `<span class="badge" title="Compte v?rifi?">?</span>` : ""}
           <span class="handle">${escapeHtml(post.actor.handle)}</span>
-          <span class="time">· ${escapeHtml(post.time)}</span>
+          <span class="time">? ${escapeHtml(post.relativeTime)} ? ${escapeHtml(post.time)}</span>
         </div>
         <p class="post-content">${linkify(escapeHtml(post.content))}</p>
         ${renderMedia(post.media)}
         <div class="post-foot">
           <div class="stats">
-            <span>${formatNumber(post.replies)} réponses</span>
+            <span>${formatNumber(post.replies)} r?ponses</span>
             <span>${formatNumber(post.reposts)} relais</span>
-            <span>${formatNumber(post.likes)} réactions</span>
+            <span>${formatNumber(post.likes)} r?actions</span>
           </div>
           <div class="post-actions">
             <button class="action-button ${flagged ? "active" : ""}" data-action="flag">
-              ${flagged ? "Signalé" : "Signaler"}
+              ${flagged ? "Signal?" : "Signaler"}
             </button>
             <button class="action-button" data-action="annotate">Annoter</button>
           </div>
@@ -2179,6 +2534,19 @@ function renderPost(post) {
       </div>
     </article>
   `;
+}
+
+function refreshLiveTimes() {
+  const now = parisNow();
+  state.posts = state.posts
+    .map((post) => ({
+      ...post,
+      time: formatTime(post.liveDate),
+      relativeTime: formatRelativeTime(post.liveDate, now)
+    }))
+    .sort((a, b) => b.liveDate - a.liveDate);
+  renderFeed();
+  renderFlags();
 }
 
 function linkify(value) {
@@ -2383,6 +2751,7 @@ function bindEvents() {
     if (!button) return;
     const post = event.target.closest(".post");
     if (!post) return;
+    if (button.dataset.action === "profile") openProfile(button.dataset.handle);
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
   });
@@ -2419,6 +2788,7 @@ function bindEvents() {
 renderScenarioOptions();
 bindEvents();
 loadScenario(builtInScenarios[0].id);
+setInterval(refreshLiveTimes, 60000);
 
 </script>
   </body>
