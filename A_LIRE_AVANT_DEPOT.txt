@@ -1,0 +1,5 @@
+1. Ouvrir ce dossier.
+2. Selectionner index.html, styles.css, app.js, .nojekyll, le dossier assets.
+3. Les deposer a la racine du depot GitHub simulation-veille.
+4. Attendre le redeploiement GitHub Pages.
+5. Ouvrir le lien https://agathematu.github.io/simulation-veille/
