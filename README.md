@@ -1,3 +1,3 @@
 # SimuVeille
 
-Version autonome UTF-8 pour GitHub Pages. Remplacer `index.html` ? la racine du d?p?t par ce fichier, puis attendre le red?ploiement Pages.
+Version GitHub Pages avec assets s?par?s. D?posez `index.html`, `styles.css`, `app.js`, `.nojekyll` et le dossier `assets` ? la racine du d?p?t.
