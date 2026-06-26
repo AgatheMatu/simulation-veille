@@ -1,3 +1,3 @@
 # SimuVeille
 
-Version ultra simple pour GitHub Pages : publier index.html à la racine du dépôt.
+Version autonome UTF-8 pour GitHub Pages. Remplacer `index.html` ? la racine du d?p?t par ce fichier, puis attendre le red?ploiement Pages.
