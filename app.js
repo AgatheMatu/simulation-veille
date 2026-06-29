@@ -200,6 +200,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -211,6 +213,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -334,9 +339,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 25600000,
-        "reposts": 12341140,
-        "replies": 1176768,
+        "likes": 204800000,
+        "reposts": 86387980,
+        "replies": 7060608,
         "media": {
           "kind": "photo",
           "title": "Satellite militaire",
@@ -386,9 +391,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 19501056,
-        "reposts": 9481549,
-        "replies": 1123200,
+        "likes": 156008448,
+        "reposts": 66370843,
+        "replies": 6739200,
         "media": {
           "kind": "document",
           "title": "Atelier satellite",
@@ -439,9 +444,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 21585920,
-        "reposts": 10449152,
-        "replies": 1123200,
+        "likes": 172687360,
+        "reposts": 73144064,
+        "replies": 6739200,
         "media": {
           "kind": "photo",
           "title": "Mobilisation \u00e9tudiante",
@@ -474,9 +479,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #SatellitesEnQuestion",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 35934208,
-        "reposts": 16439647,
-        "replies": 1955664,
+        "likes": 287473664,
+        "reposts": 115077529,
+        "replies": 11733984,
         "media": {
           "kind": "comparison",
           "title": "Tableau de suivi",
@@ -705,6 +710,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -716,6 +723,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -839,9 +849,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 25804800,
-        "reposts": 12437180,
-        "replies": 1187136,
+        "likes": 206438400,
+        "reposts": 87060260,
+        "replies": 7122816,
         "media": {
           "kind": "photo",
           "title": "Trajectoires crois\u00e9es",
@@ -891,9 +901,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 19750912,
-        "reposts": 9599198,
-        "replies": 1170720,
+        "likes": 158007296,
+        "reposts": 67194386,
+        "replies": 7024320,
         "media": {
           "kind": "document",
           "title": "\u00c9cran technique",
@@ -944,9 +954,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 21872640,
-        "reposts": 10574004,
-        "replies": 1170720,
+        "likes": 174981120,
+        "reposts": 74018028,
+        "replies": 7024320,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -979,9 +989,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #FuiteSpatiale",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 36233216,
-        "reposts": 16552494,
-        "replies": 1967328,
+        "likes": 289865728,
+        "reposts": 115867458,
+        "replies": 11803968,
         "media": {
           "kind": "comparison",
           "title": "Salle de presse",
@@ -1210,6 +1220,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -1221,6 +1233,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -1344,9 +1359,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 26009600,
-        "reposts": 12533220,
-        "replies": 1218240,
+        "likes": 208076800,
+        "reposts": 87732540,
+        "replies": 7309440,
         "media": {
           "kind": "photo",
           "title": "Satellite au-dessus du Sahel",
@@ -1396,9 +1411,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 20000768,
-        "reposts": 9716847,
-        "replies": 1218240,
+        "likes": 160006144,
+        "reposts": 68017929,
+        "replies": 7309440,
         "media": {
           "kind": "document",
           "title": "Lumi\u00e8res nocturnes",
@@ -1449,9 +1464,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 22159360,
-        "reposts": 10698856,
-        "replies": 1218240,
+        "likes": 177274880,
+        "reposts": 74891992,
+        "replies": 7309440,
         "media": {
           "kind": "photo",
           "title": "Site minier",
@@ -1484,9 +1499,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #RessourcesSousSurveillance",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 36532224,
-        "reposts": 16665341,
-        "replies": 1978992,
+        "likes": 292257792,
+        "reposts": 116657387,
+        "replies": 11873952,
         "media": {
           "kind": "comparison",
           "title": "Pancarte sans texte",
@@ -1715,6 +1730,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -1726,6 +1743,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -1849,9 +1869,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 26214400,
-        "reposts": 12629260,
-        "replies": 1265760,
+        "likes": 209715200,
+        "reposts": 88404820,
+        "replies": 7594560,
         "media": {
           "kind": "photo",
           "title": "Rue inond\u00e9e",
@@ -1901,9 +1921,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 20250624,
-        "reposts": 9834496,
-        "replies": 1265760,
+        "likes": 162004992,
+        "reposts": 68841472,
+        "replies": 7594560,
         "media": {
           "kind": "document",
           "title": "Aide aux sinistr\u00e9s",
@@ -1954,9 +1974,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 22446080,
-        "reposts": 10823708,
-        "replies": 1265760,
+        "likes": 179568640,
+        "reposts": 75765956,
+        "replies": 7594560,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ancien",
@@ -1989,9 +2009,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #CriseLocale",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 36831232,
-        "reposts": 16778188,
-        "replies": 1990656,
+        "likes": 294649856,
+        "reposts": 117447316,
+        "replies": 11943936,
         "media": {
           "kind": "comparison",
           "title": "Route barr\u00e9e",
@@ -2220,6 +2240,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -2231,6 +2253,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -2354,9 +2379,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 26419200,
-        "reposts": 12725300,
-        "replies": 1313280,
+        "likes": 211353600,
+        "reposts": 89077100,
+        "replies": 7879680,
         "media": {
           "kind": "photo",
           "title": "Patrouille mairie",
@@ -2406,9 +2431,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 20500480,
-        "reposts": 9952145,
-        "replies": 1313280,
+        "likes": 164003840,
+        "reposts": 69665015,
+        "replies": 7879680,
         "media": {
           "kind": "document",
           "title": "Cam\u00e9ra de rue",
@@ -2459,9 +2484,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer protection civile et d\u00e9rive autoritaire. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 22732800,
-        "reposts": 10948560,
-        "replies": 1313280,
+        "likes": 181862400,
+        "reposts": 76639920,
+        "replies": 7879680,
         "media": {
           "kind": "photo",
           "title": "Dossier exercice",
@@ -2494,9 +2519,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #DronesEnVille",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 37130240,
-        "reposts": 16891035,
-        "replies": 2002320,
+        "likes": 297041920,
+        "reposts": 118237245,
+        "replies": 12013920,
         "media": {
           "kind": "comparison",
           "title": "V\u00e9hicules civiques",
@@ -2725,6 +2750,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -2736,6 +2763,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -2859,9 +2889,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 26624000,
-        "reposts": 12821340,
-        "replies": 1360800,
+        "likes": 212992000,
+        "reposts": 89749380,
+        "replies": 8164800,
         "media": {
           "kind": "photo",
           "title": "Base a\u00e9rienne",
@@ -2911,9 +2941,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 20750336,
-        "reposts": 10069794,
-        "replies": 1360800,
+        "likes": 166002688,
+        "reposts": 70488558,
+        "replies": 8164800,
         "media": {
           "kind": "document",
           "title": "Ch\u00e2teau d'eau",
@@ -2964,9 +2994,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 23019520,
-        "reposts": 11073412,
-        "replies": 1360800,
+        "likes": 184156160,
+        "reposts": 77513884,
+        "replies": 8164800,
         "media": {
           "kind": "photo",
           "title": "Rapport labo",
@@ -2999,9 +3029,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #RiverainsInquiets",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 37429248,
-        "reposts": 17003882,
-        "replies": 2013984,
+        "likes": 299433984,
+        "reposts": 119027174,
+        "replies": 12083904,
         "media": {
           "kind": "comparison",
           "title": "Bouteilles stock\u00e9es",
@@ -3230,6 +3260,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -3241,6 +3273,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -3364,9 +3399,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 26828800,
-        "reposts": 12917380,
-        "replies": 1408320,
+        "likes": 214630400,
+        "reposts": 90421660,
+        "replies": 8449920,
         "media": {
           "kind": "photo",
           "title": "Convoi minier",
@@ -3416,9 +3451,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 21000192,
-        "reposts": 10187443,
-        "replies": 1408320,
+        "likes": 168001536,
+        "reposts": 71312101,
+        "replies": 8449920,
         "media": {
           "kind": "document",
           "title": "R\u00e9union contrats",
@@ -3469,9 +3504,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 23306240,
-        "reposts": 11198264,
-        "replies": 1408320,
+        "likes": 186449920,
+        "reposts": 78387848,
+        "replies": 8449920,
         "media": {
           "kind": "photo",
           "title": "Routes commerciales",
@@ -3504,9 +3539,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ContratsCaches",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 37728256,
-        "reposts": 17116729,
-        "replies": 2025648,
+        "likes": 301826048,
+        "reposts": 119817103,
+        "replies": 12153888,
         "media": {
           "kind": "comparison",
           "title": "Courbe \u00e9conomique",
@@ -3735,6 +3770,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -3746,6 +3783,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -3869,9 +3909,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 27033600,
-        "reposts": 13013420,
-        "replies": 1455840,
+        "likes": 216268800,
+        "reposts": 91093940,
+        "replies": 8735040,
         "media": {
           "kind": "photo",
           "title": "Rencontre nocturne",
@@ -3921,9 +3961,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 21250048,
-        "reposts": 10305092,
-        "replies": 1455840,
+        "likes": 170000384,
+        "reposts": 72135644,
+        "replies": 8735040,
         "media": {
           "kind": "document",
           "title": "Carte sur table",
@@ -3974,9 +4014,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 23592960,
-        "reposts": 11323116,
-        "replies": 1455840,
+        "likes": 188743680,
+        "reposts": 79261812,
+        "replies": 8735040,
         "media": {
           "kind": "photo",
           "title": "Compound satellite",
@@ -4009,9 +4049,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #DocumentFuite",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 38027264,
-        "reposts": 17229576,
-        "replies": 2037312,
+        "likes": 304218112,
+        "reposts": 120607032,
+        "replies": 12223872,
         "media": {
           "kind": "comparison",
           "title": "Dossier journaliste",
@@ -4240,6 +4280,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -4251,6 +4293,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -4374,9 +4419,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 27238400,
-        "reposts": 13109460,
-        "replies": 1503360,
+        "likes": 217907200,
+        "reposts": 91766220,
+        "replies": 9020160,
         "media": {
           "kind": "photo",
           "title": "Fum\u00e9e distante",
@@ -4426,9 +4471,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 21499904,
-        "reposts": 10422741,
-        "replies": 1503360,
+        "likes": 171999232,
+        "reposts": 72959187,
+        "replies": 9020160,
         "media": {
           "kind": "document",
           "title": "B\u00e2timent endommag\u00e9",
@@ -4479,9 +4524,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 23879680,
-        "reposts": 11447968,
-        "replies": 1503360,
+        "likes": 191037440,
+        "reposts": 80135776,
+        "replies": 9020160,
         "media": {
           "kind": "photo",
           "title": "Comparaison OSINT",
@@ -4514,9 +4559,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ImagesAnciennes",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 38326272,
-        "reposts": 17342423,
-        "replies": 2048976,
+        "likes": 306610176,
+        "reposts": 121396961,
+        "replies": 12293856,
         "media": {
           "kind": "comparison",
           "title": "Route humanitaire",
@@ -4745,6 +4790,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -4756,6 +4803,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -4879,9 +4929,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 27443200,
-        "reposts": 13205500,
-        "replies": 1550880,
+        "likes": 219545600,
+        "reposts": 92438500,
+        "replies": 9305280,
         "media": {
           "kind": "photo",
           "title": "Site d\u00e9sertique",
@@ -4931,9 +4981,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 21749760,
-        "reposts": 10540390,
-        "replies": 1550880,
+        "likes": 173998080,
+        "reposts": 73782730,
+        "replies": 9305280,
         "media": {
           "kind": "document",
           "title": "Vid\u00e9o flout\u00e9e",
@@ -4984,9 +5034,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 24166400,
-        "reposts": 11572820,
-        "replies": 1550880,
+        "likes": 193331200,
+        "reposts": 81009740,
+        "replies": 9305280,
         "media": {
           "kind": "photo",
           "title": "Carnet GPS",
@@ -5019,9 +5069,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ArchiveOuPreuve",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 38625280,
-        "reposts": 17455270,
-        "replies": 2060640,
+        "likes": 309002240,
+        "reposts": 122186890,
+        "replies": 12363840,
         "media": {
           "kind": "comparison",
           "title": "Relief compar\u00e9",
@@ -5250,6 +5300,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -5261,6 +5313,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -5384,9 +5439,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 27648000,
-        "reposts": 13301540,
-        "replies": 1598400,
+        "likes": 221184000,
+        "reposts": 93110780,
+        "replies": 9590400,
         "media": {
           "kind": "photo",
           "title": "Puits rural",
@@ -5436,9 +5491,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 21999616,
-        "reposts": 10658039,
-        "replies": 1598400,
+        "likes": 175996928,
+        "reposts": 74606273,
+        "replies": 9590400,
         "media": {
           "kind": "document",
           "title": "Clinique locale",
@@ -5489,9 +5544,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 24453120,
-        "reposts": 11697672,
-        "replies": 1598400,
+        "likes": 195624960,
+        "reposts": 81883704,
+        "replies": 9590400,
         "media": {
           "kind": "photo",
           "title": "Convoi lointain",
@@ -5524,9 +5579,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #PunitionCollective",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 38924288,
-        "reposts": 17568117,
-        "replies": 2072304,
+        "likes": 311394304,
+        "reposts": 122976819,
+        "replies": 12433824,
         "media": {
           "kind": "comparison",
           "title": "Table labo",
@@ -5755,6 +5810,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -5766,6 +5823,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -5889,9 +5949,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 27852800,
-        "reposts": 13397580,
-        "replies": 1645920,
+        "likes": 222822400,
+        "reposts": 93783060,
+        "replies": 9875520,
         "media": {
           "kind": "photo",
           "title": "Bergers au loin",
@@ -5941,9 +6001,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 22249472,
-        "reposts": 10775688,
-        "replies": 1645920,
+        "likes": 177995776,
+        "reposts": 75429816,
+        "replies": 9875520,
         "media": {
           "kind": "document",
           "title": "Nuage de poussi\u00e8re",
@@ -5994,9 +6054,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 24739840,
-        "reposts": 11822524,
-        "replies": 1645920,
+        "likes": 197918720,
+        "reposts": 82757668,
+        "replies": 9875520,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ab\u00eem\u00e9",
@@ -6029,9 +6089,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ErreurDeCible",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 39223296,
-        "reposts": 17680964,
-        "replies": 2083968,
+        "likes": 313786368,
+        "reposts": 123766748,
+        "replies": 12503808,
         "media": {
           "kind": "comparison",
           "title": "Chronologie flout\u00e9e",
@@ -6260,6 +6320,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -6271,6 +6333,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -6394,9 +6459,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 28057600,
-        "reposts": 13493620,
-        "replies": 1693440,
+        "likes": 224460800,
+        "reposts": 94455340,
+        "replies": 10160640,
         "media": {
           "kind": "photo",
           "title": "Badges anonymes",
@@ -6446,9 +6511,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 22499328,
-        "reposts": 10893337,
-        "replies": 1693440,
+        "likes": 179994624,
+        "reposts": 76253359,
+        "replies": 10160640,
         "media": {
           "kind": "document",
           "title": "Liste flout\u00e9e",
@@ -6499,9 +6564,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 25026560,
-        "reposts": 11947376,
-        "replies": 1693440,
+        "likes": 200212480,
+        "reposts": 83631632,
+        "replies": 10160640,
         "media": {
           "kind": "photo",
           "title": "Messages urgents",
@@ -6534,9 +6599,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Evacuation",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 39522304,
-        "reposts": 17793811,
-        "replies": 2095632,
+        "likes": 316178432,
+        "reposts": 124556677,
+        "replies": 12573792,
         "media": {
           "kind": "comparison",
           "title": "Carnet enqu\u00eate",
@@ -6765,6 +6830,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -6776,6 +6843,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -6899,9 +6969,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 28262400,
-        "reposts": 13589660,
-        "replies": 1740960,
+        "likes": 226099200,
+        "reposts": 95127620,
+        "replies": 10445760,
         "media": {
           "kind": "photo",
           "title": "Checkpoint d\u00e9sert",
@@ -6951,9 +7021,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 22749184,
-        "reposts": 11010986,
-        "replies": 1740960,
+        "likes": 181993472,
+        "reposts": 77076902,
+        "replies": 10445760,
         "media": {
           "kind": "document",
           "title": "Message intercept\u00e9",
@@ -7004,9 +7074,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 25313280,
-        "reposts": 12072228,
-        "replies": 1740960,
+        "likes": 202506240,
+        "reposts": 84505596,
+        "replies": 10445760,
         "media": {
           "kind": "photo",
           "title": "Rumeur au march\u00e9",
@@ -7039,9 +7109,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #InstabiliteOrganisee",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 39821312,
-        "reposts": 17906658,
-        "replies": 2107296,
+        "likes": 318570496,
+        "reposts": 125346606,
+        "replies": 12643776,
         "media": {
           "kind": "comparison",
           "title": "Salle presse vide",
@@ -7270,6 +7340,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -7281,6 +7353,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -7404,9 +7479,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 28467200,
-        "reposts": 13685700,
-        "replies": 1788480,
+        "likes": 227737600,
+        "reposts": 95799900,
+        "replies": 10730880,
         "media": {
           "kind": "photo",
           "title": "Couloir caserne",
@@ -7456,9 +7531,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 22999040,
-        "reposts": 11128635,
-        "replies": 1788480,
+        "likes": 183992320,
+        "reposts": 77900445,
+        "replies": 10730880,
         "media": {
           "kind": "document",
           "title": "Mur recrutement",
@@ -7509,9 +7584,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 25600000,
-        "reposts": 12197080,
-        "replies": 1788480,
+        "likes": 204800000,
+        "reposts": 85379560,
+        "replies": 10730880,
         "media": {
           "kind": "photo",
           "title": "T\u00e9moignage flout\u00e9",
@@ -7544,9 +7619,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Recrutement",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 40120320,
-        "reposts": 18019505,
-        "replies": 2118960,
+        "likes": 320962560,
+        "reposts": 126136535,
+        "replies": 12713760,
         "media": {
           "kind": "comparison",
           "title": "Porte soutien",
@@ -7775,6 +7850,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -7786,6 +7863,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -7909,9 +7989,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 28672000,
-        "reposts": 13781740,
-        "replies": 1836000,
+        "likes": 229376000,
+        "reposts": 96472180,
+        "replies": 11016000,
         "media": {
           "kind": "photo",
           "title": "Cha\u00eene industrielle",
@@ -7961,9 +8041,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 23248896,
-        "reposts": 11246284,
-        "replies": 1836000,
+        "likes": 185991168,
+        "reposts": 78723988,
+        "replies": 11016000,
         "media": {
           "kind": "document",
           "title": "Rue d\u00e9truite vide",
@@ -8014,9 +8094,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 25886720,
-        "reposts": 12321932,
-        "replies": 1836000,
+        "likes": 207093760,
+        "reposts": 86253524,
+        "replies": 11016000,
         "media": {
           "kind": "photo",
           "title": "Num\u00e9ro s\u00e9rie",
@@ -8049,9 +8129,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ExportDefense",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 40419328,
-        "reposts": 18132352,
-        "replies": 2130624,
+        "likes": 323354624,
+        "reposts": 126926464,
+        "replies": 12783744,
         "media": {
           "kind": "comparison",
           "title": "Bureau enqu\u00eate",
@@ -8280,6 +8360,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -8291,6 +8373,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -8414,9 +8499,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 28876800,
-        "reposts": 13877780,
-        "replies": 1883520,
+        "likes": 231014400,
+        "reposts": 97144460,
+        "replies": 11301120,
         "media": {
           "kind": "photo",
           "title": "C\u00f4te tropicale",
@@ -8466,9 +8551,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 23498752,
-        "reposts": 11363933,
-        "replies": 1883520,
+        "likes": 187990016,
+        "reposts": 79547531,
+        "replies": 11301120,
         "media": {
           "kind": "document",
           "title": "R\u00e9union locale",
@@ -8519,9 +8604,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 26173440,
-        "reposts": 12446784,
-        "replies": 1883520,
+        "likes": 209387520,
+        "reposts": 87127488,
+        "replies": 11301120,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -8554,9 +8639,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ZoneMaritime",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 40718336,
-        "reposts": 18245199,
-        "replies": 2142288,
+        "likes": 325746688,
+        "reposts": 127716393,
+        "replies": 12853728,
         "media": {
           "kind": "comparison",
           "title": "Port insulaire",
@@ -8785,6 +8870,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -8796,6 +8883,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -8919,9 +9009,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 29081600,
-        "reposts": 13973820,
-        "replies": 1931040,
+        "likes": 232652800,
+        "reposts": 97816740,
+        "replies": 11586240,
         "media": {
           "kind": "photo",
           "title": "Tente d\u00e9contamination",
@@ -8971,9 +9061,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 23748608,
-        "reposts": 11481582,
-        "replies": 1931040,
+        "likes": 189988864,
+        "reposts": 80371074,
+        "replies": 11586240,
         "media": {
           "kind": "document",
           "title": "Table triage",
@@ -9024,9 +9114,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 26460160,
-        "reposts": 12571636,
-        "replies": 1931040,
+        "likes": 211681280,
+        "reposts": 88001452,
+        "replies": 11586240,
         "media": {
           "kind": "photo",
           "title": "Masque et gants",
@@ -9059,9 +9149,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Decontamination",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 41017344,
-        "reposts": 18358046,
-        "replies": 2153952,
+        "likes": 328138752,
+        "reposts": 128506322,
+        "replies": 12923712,
         "media": {
           "kind": "comparison",
           "title": "Parents observant",
@@ -9290,6 +9380,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -9301,6 +9393,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -9424,9 +9519,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 29286400,
-        "reposts": 14069860,
-        "replies": 1978560,
+        "likes": 234291200,
+        "reposts": 98489020,
+        "replies": 11871360,
         "media": {
           "kind": "photo",
           "title": "Salle alliance",
@@ -9476,9 +9571,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 23998464,
-        "reposts": 11599231,
-        "replies": 1978560,
+        "likes": 191987712,
+        "reposts": 81194617,
+        "replies": 11871360,
         "media": {
           "kind": "document",
           "title": "Centre commandement",
@@ -9529,9 +9624,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi opposer patriotisme fran\u00e7ais et alliances militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 26746880,
-        "reposts": 12696488,
-        "replies": 1978560,
+        "likes": 213975040,
+        "reposts": 88875416,
+        "replies": 11871360,
         "media": {
           "kind": "photo",
           "title": "Navire gris",
@@ -9564,9 +9659,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #WashingtonDecide",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 41316352,
-        "reposts": 18470893,
-        "replies": 2165616,
+        "likes": 330530816,
+        "reposts": 129296251,
+        "replies": 12993696,
         "media": {
           "kind": "comparison",
           "title": "Pancartes vides",
@@ -9795,6 +9890,8 @@ const builtInScenarios = [
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
+      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -9806,6 +9903,9 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
+      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
@@ -9929,9 +10029,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 29491200,
-        "reposts": 14165900,
-        "replies": 2026080,
+        "likes": 235929600,
+        "reposts": 99161300,
+        "replies": 12156480,
         "media": {
           "kind": "photo",
           "title": "Mur d'indices",
@@ -9981,9 +10081,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 24248320,
-        "reposts": 11716880,
-        "replies": 2026080,
+        "likes": 193986560,
+        "reposts": 82018160,
+        "replies": 12156480,
         "media": {
           "kind": "document",
           "title": "Mosa\u00efque r\u00e9seaux",
@@ -10034,9 +10134,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 27033600,
-        "reposts": 12821340,
-        "replies": 2026080,
+        "likes": 216268800,
+        "reposts": 89749380,
+        "replies": 12156480,
         "media": {
           "kind": "photo",
           "title": "Foule pancartes",
@@ -10069,9 +10169,9 @@ const builtInScenarios = [
         "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #OperationSilence",
         "suspect": true,
         "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 41615360,
-        "reposts": 18583740,
-        "replies": 2177280,
+        "likes": 332922880,
+        "reposts": 130086180,
+        "replies": 13063680,
         "media": {
           "kind": "comparison",
           "title": "Vignette virale",
@@ -10142,7 +10242,8 @@ const els = {
   scenarioEditor: document.querySelector("#scenarioEditor"),
   answerKey: document.querySelector("#answerKey"),
   applyScenario: document.querySelector("#applyScenario"),
-  copyTemplate: document.querySelector("#copyTemplate")
+  copyTemplate: document.querySelector("#copyTemplate"),
+  refreshFeedBtn: document.querySelector("#refreshFeedBtn")
 };
 
 function hashSeed(input) {
@@ -10437,19 +10538,11 @@ function renderMedia(media, post) {
   if (!media) return "";
   const asset = media.asset || defaultEvidenceAsset(media, post);
   const src = evidenceAssets[asset];
-  const filename = asset || `${media.kind || "media"}.png`;
-  const visual = src
-    ? `<img class="evidence-image" src="${src}" alt="${escapeHtml(media.title)}" loading="lazy" />`
-    : renderEvidenceSvg(media, ["#d8e6f0", "#2364aa", "#ffffff"]);
+  if (!src) return "";
 
   return `
     <div class="post-media evidence-card">
-      ${visual}
-      <div class="media-copy">
-        <strong>${escapeHtml(media.title)}</strong>
-        <span>${escapeHtml(media.caption)}</span>
-        ${src ? `<a class="download-link" href="${src}" download="${escapeHtml(filename)}">T&eacute;l&eacute;charger l'image</a>` : ""}
-      </div>
+      <img class="evidence-image" src="${src}" alt="Image jointe à la publication" loading="lazy" />
     </div>
   `;
 }
@@ -10529,6 +10622,7 @@ function simulatedMetadata(media, post) {
 }
 
 function renderScenarioOptions() {
+  if (!els.scenarioSelect) return;
   if (!els.scenarioSelect) return;
   if (!els.scenarioSelect) return;
   if (!els.scenarioSelect) return;
@@ -10797,6 +10891,62 @@ function renderComments(post) {
   `;
 }
 
+function buildComments(post) {
+  const seed = hashSeed(`${post.id}:comments`);
+  const random = mulberry32(seed);
+  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
+  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
+  const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
+  const suspectComments = [
+    "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
+    "Je viens de voir la même capture sur trois comptes différents, ça explose.",
+    "Si c'est faux, pourquoi personne ne dément clairement ?",
+    "Partagé dans mon groupe. Tout le monde doit voir ça avant suppression.",
+    "Les fact-checkers protègent toujours les mêmes.",
+    "On sent que les autorités paniquent, les chiffres montent trop vite."
+  ];
+  const carefulComments = [
+    "Source originale ? Je ne trouve pas la première publication.",
+    "Attention, l'image ne donne ni date ni lieu vérifiable.",
+    "Le volume de relais n'est pas une preuve.",
+    "Il faudrait comparer les métadonnées et les ombres.",
+    "Quelqu'un a un communiqué primaire ou seulement des captures ?",
+    "Ça peut être grave, justement il faut vérifier proprement."
+  ];
+  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
+  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
+  return Array.from({ length: count }, (_, index) => {
+    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
+    return {
+      id: `${post.id}-comment-${index}`,
+      actor,
+      content: templates[Math.floor(random() * templates.length)],
+      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
+    };
+  });
+}
+
+function renderComments(post) {
+  const comments = post.comments || buildComments(post);
+  return `
+    <div class="comment-thread">
+      ${comments.map((comment) => `
+        <article class="comment">
+          ${renderAvatarButton(comment.actor, "avatar-comment")}
+          <div>
+            <div class="comment-head">
+              <button class="profile-name" data-action="profile" data-handle="${escapeHtml(comment.actor.handle)}">${escapeHtml(comment.actor.name)}</button>
+              <span class="handle">${escapeHtml(comment.actor.handle)}</span>
+            </div>
+            <p>${escapeHtml(comment.content)}</p>
+            <span class="comment-stat">${formatNumber(comment.likes)} réactions</span>
+          </div>
+        </article>
+      `).join("")}
+    </div>
+  `;
+}
+
 function renderPost(post) {
   const flagged = state.flags.get(post.id);
   return `
@@ -10829,7 +10979,7 @@ function renderPost(post) {
     </article>
   `;
 }
-function createLivePost() {
+function createLivePost(renderImmediately = true) {
   if (!state.scenario) return;
   const seed = hashSeed(`${state.scenario.id}:live:${Date.now()}:${state.posts.length}`);
   const random = mulberry32(seed);
@@ -10857,14 +11007,20 @@ function createLivePost() {
   };
   post.comments = buildComments(post);
   state.posts = [post, ...state.posts].slice(0, 640);
-  renderScenarioInfo();
-  renderFeed();
-  renderFlags();
+  if (renderImmediately) {
+    renderScenarioInfo();
+    refreshLiveTimes();
+  }
+  return post;
 }
 
-function startLiveStream() {
-  if (state.liveTimer) clearInterval(state.liveTimer);
-  state.liveTimer = setInterval(createLivePost, 8500);
+function refreshFeedManually() {
+  if (!state.scenario) return;
+  const batchSize = 3 + (hashSeed(`${state.scenario.id}:${Date.now()}`) % 4);
+  for (let index = 0; index < batchSize; index += 1) createLivePost(false);
+  renderScenarioInfo();
+  refreshLiveTimes();
+  document.querySelector(".feed-shell")?.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
 function refreshLiveTimes() {
@@ -10924,6 +11080,7 @@ function renderAnswerKey() {
   if (!els.answerKey) return;
   if (!els.answerKey) return;
   if (!els.answerKey) return;
+  if (!els.answerKey) return;
   els.answerKey.innerHTML = `
     <p class="helper">${suspectPosts.length} publications sont marquées comme problématiques dans ce scénario.</p>
     <div class="key-item">
@@ -10945,13 +11102,12 @@ function loadScenario(id) {
   state.posts = generatePosts(state.scenario);
   state.flags.clear();
   state.query = "";
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.value = "";
+  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.value = "";
   renderScenarioInfo();
   renderFeed();
   renderFlags();
   renderAnswerKey();
-  if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
-  startLiveStream();
+  if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
 }
 
 function toggleFlag(postId) {
@@ -11002,7 +11158,7 @@ async function importScenario(file) {
   const scenarios = Array.isArray(parsed) ? parsed : [parsed];
   scenarios.forEach(addScenario);
   renderScenarioOptions();
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
+  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
   loadScenario(scenarios[0].id);
 }
 
@@ -11029,9 +11185,9 @@ function applyScenarioJson() {
     const scenario = JSON.parse(els.scenarioEditor.value);
     addScenario(scenario);
     renderScenarioOptions();
-    if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
+    if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -11073,8 +11229,8 @@ function emptyTemplate() {
 }
 
 function bindEvents() {
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
+  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
+  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     renderFeed();
   });
@@ -11086,7 +11242,8 @@ function bindEvents() {
       renderFeed();
     });
   });
-  if (els.feed) if (els.feed) if (els.feed) if (els.feed) els.feed.addEventListener("click", (event) => {
+  if (els.refreshFeedBtn) els.refreshFeedBtn.addEventListener("click", refreshFeedManually);
+  if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
     const post = event.target.closest(".post");
@@ -11095,14 +11252,14 @@ function bindEvents() {
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
   });
-  if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
+  if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
     state.flags.clear();
     renderFeed();
     renderFlags();
   });
-  if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
-  if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
-  if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
+  if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
+  if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
+  if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
     const file = event.target.files[0];
     if (!file) return;
     try {
@@ -11113,14 +11270,14 @@ function bindEvents() {
       event.target.value = "";
     }
   });
-  if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
-  if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
-    if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
+  if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
+  if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
+    if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
     renderAnswerKey();
     els.teacherDialog.showModal();
   });
-  if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
-  if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
+  if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
+  if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
     els.scenarioEditor.value = JSON.stringify(emptyTemplate(), null, 2);
   });
 }
@@ -11128,4 +11285,3 @@ function bindEvents() {
 renderScenarioOptions();
 bindEvents();
 loadScenario(builtInScenarios[0].id);
-setInterval(refreshLiveTimes, 30000);

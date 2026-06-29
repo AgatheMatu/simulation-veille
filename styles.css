@@ -1236,6 +1236,7 @@ h3 {
 
 
 
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1343,6 +1344,8 @@ body {
 }
 .feed-title h2 { margin: 0; font-size: 21px; }
 .feed-title span { color: var(--muted); font-size: 13px; }
+.feed-title-actions { display: flex; align-items: center; gap: 8px; }
+.refresh-feed-button span { color: var(--ink); font-size: 20px; line-height: 1; }
 .live-pill {
   background: rgba(244,33,46,.1);
   color: var(--danger) !important;
@@ -1397,9 +1400,6 @@ body {
   width: 100%;
   object-fit: cover;
 }
-.media-copy { padding: 12px 14px; }
-.download-link { color: var(--blue); font-weight: 700; }
-
 .metadata-box {
   border-radius: 12px;
   margin-top: 10px;
