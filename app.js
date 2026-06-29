@@ -144,8 +144,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -153,8 +155,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -162,8 +166,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -171,8 +177,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -180,8 +188,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -194,14 +204,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -213,19 +215,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -339,9 +328,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 204800000,
-        "reposts": 86387980,
-        "replies": 7060608,
+        "likes": 838860800000,
+        "reposts": 207417539980,
+        "replies": 9150547968,
         "media": {
           "kind": "photo",
           "title": "Satellite militaire",
@@ -391,9 +380,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 156008448,
-        "reposts": 66370843,
-        "replies": 6739200,
+        "likes": 639010603008,
+        "reposts": 159356394043,
+        "replies": 8734003200,
         "media": {
           "kind": "document",
           "title": "Atelier satellite",
@@ -402,24 +391,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-militarisation-civils-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 148000,
-        "reposts": 92000,
-        "replies": 28000,
-        "media": {
-          "kind": "chart",
-          "title": "Audition publique",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "espace-militarisation-civils_05.png",
-          "trace": "ru"
-        },
-        "id": "espace-militarisation-civils-fixed-6"
       },
       {
         "minute": 108,
@@ -444,9 +415,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 172687360,
-        "reposts": 73144064,
-        "replies": 6739200,
+        "likes": 707327426560,
+        "reposts": 175618897664,
+        "replies": 8734003200,
         "media": {
           "kind": "photo",
           "title": "Mobilisation \u00e9tudiante",
@@ -472,24 +443,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-militarisation-civils-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #SatellitesEnQuestion",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 287473664,
-        "reposts": 115077529,
-        "replies": 11733984,
-        "media": {
-          "kind": "comparison",
-          "title": "Tableau de suivi",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "espace-militarisation-civils_09.png",
-          "trace": "ru"
-        },
-        "id": "espace-militarisation-civils-fixed-10"
       },
       {
         "minute": 178,
@@ -654,8 +607,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -663,8 +618,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -672,8 +629,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -681,8 +640,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -690,8 +651,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -704,14 +667,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -723,19 +678,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -849,9 +791,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 206438400,
-        "reposts": 87060260,
-        "replies": 7122816,
+        "likes": 845571686400,
+        "reposts": 209031684260,
+        "replies": 9231169536,
         "media": {
           "kind": "photo",
           "title": "Trajectoires crois\u00e9es",
@@ -901,9 +843,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 158007296,
-        "reposts": 67194386,
-        "replies": 7024320,
+        "likes": 647197884416,
+        "reposts": 161333720786,
+        "replies": 9103518720,
         "media": {
           "kind": "document",
           "title": "\u00c9cran technique",
@@ -912,24 +854,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-incident-orbital-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 149400,
-        "reposts": 92900,
-        "replies": 28300,
-        "media": {
-          "kind": "chart",
-          "title": "Carte nuageuse",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "espace-incident-orbital_05.png",
-          "trace": "ru"
-        },
-        "id": "espace-incident-orbital-fixed-6"
       },
       {
         "minute": 108,
@@ -954,9 +878,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 174981120,
-        "reposts": 74018028,
-        "replies": 7024320,
+        "likes": 716722667520,
+        "reposts": 177717285228,
+        "replies": 9103518720,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -982,24 +906,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-incident-orbital-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #FuiteSpatiale",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 289865728,
-        "reposts": 115867458,
-        "replies": 11803968,
-        "media": {
-          "kind": "comparison",
-          "title": "Salle de presse",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "espace-incident-orbital_09.png",
-          "trace": "ru"
-        },
-        "id": "espace-incident-orbital-fixed-10"
       },
       {
         "minute": 178,
@@ -1164,8 +1070,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -1173,8 +1081,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -1182,8 +1092,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -1191,8 +1103,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -1200,8 +1114,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -1214,14 +1130,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -1233,19 +1141,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -1359,9 +1254,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 208076800,
-        "reposts": 87732540,
-        "replies": 7309440,
+        "likes": 852282572800,
+        "reposts": 210645828540,
+        "replies": 9473034240,
         "media": {
           "kind": "photo",
           "title": "Satellite au-dessus du Sahel",
@@ -1411,9 +1306,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 160006144,
-        "reposts": 68017929,
-        "replies": 7309440,
+        "likes": 655385165824,
+        "reposts": 163311047529,
+        "replies": 9473034240,
         "media": {
           "kind": "document",
           "title": "Lumi\u00e8res nocturnes",
@@ -1422,24 +1317,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-espionnage-afrique-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 150800,
-        "reposts": 93800,
-        "replies": 28600,
-        "media": {
-          "kind": "chart",
-          "title": "Article flout\u00e9",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "espace-espionnage-afrique_05.png",
-          "trace": "ru"
-        },
-        "id": "espace-espionnage-afrique-fixed-6"
       },
       {
         "minute": 108,
@@ -1464,9 +1341,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 177274880,
-        "reposts": 74891992,
-        "replies": 7309440,
+        "likes": 726117908480,
+        "reposts": 179815672792,
+        "replies": 9473034240,
         "media": {
           "kind": "photo",
           "title": "Site minier",
@@ -1492,24 +1369,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "espace-espionnage-afrique-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #RessourcesSousSurveillance",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 292257792,
-        "reposts": 116657387,
-        "replies": 11873952,
-        "media": {
-          "kind": "comparison",
-          "title": "Pancarte sans texte",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "espace-espionnage-afrique_09.png",
-          "trace": "ru"
-        },
-        "id": "espace-espionnage-afrique-fixed-10"
       },
       {
         "minute": 178,
@@ -1674,8 +1533,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -1683,8 +1544,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -1692,8 +1555,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -1701,8 +1566,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -1710,8 +1577,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -1724,14 +1593,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -1743,19 +1604,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -1869,9 +1717,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 209715200,
-        "reposts": 88404820,
-        "replies": 7594560,
+        "likes": 858993459200,
+        "reposts": 212259972820,
+        "replies": 9842549760,
         "media": {
           "kind": "photo",
           "title": "Rue inond\u00e9e",
@@ -1921,9 +1769,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 162004992,
-        "reposts": 68841472,
-        "replies": 7594560,
+        "likes": 663572447232,
+        "reposts": 165288374272,
+        "replies": 9842549760,
         "media": {
           "kind": "document",
           "title": "Aide aux sinistr\u00e9s",
@@ -1932,24 +1780,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "crise-quartiers-riches-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 152200,
-        "reposts": 94700,
-        "replies": 28900,
-        "media": {
-          "kind": "chart",
-          "title": "Point de contr\u00f4le",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "crise-quartiers-riches_05.png",
-          "trace": "ru"
-        },
-        "id": "crise-quartiers-riches-fixed-6"
       },
       {
         "minute": 108,
@@ -1974,9 +1804,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 179568640,
-        "reposts": 75765956,
-        "replies": 7594560,
+        "likes": 735513149440,
+        "reposts": 181914060356,
+        "replies": 9842549760,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ancien",
@@ -2002,24 +1832,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "crise-quartiers-riches-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #CriseLocale",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 294649856,
-        "reposts": 117447316,
-        "replies": 11943936,
-        "media": {
-          "kind": "comparison",
-          "title": "Route barr\u00e9e",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "crise-quartiers-riches_09.png",
-          "trace": "ru"
-        },
-        "id": "crise-quartiers-riches-fixed-10"
       },
       {
         "minute": 178,
@@ -2184,8 +1996,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -2193,8 +2007,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -2202,8 +2018,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -2211,8 +2029,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -2220,8 +2040,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -2234,14 +2056,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -2253,19 +2067,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -2379,9 +2180,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 211353600,
-        "reposts": 89077100,
-        "replies": 7879680,
+        "likes": 865704345600,
+        "reposts": 213874117100,
+        "replies": 10212065280,
         "media": {
           "kind": "photo",
           "title": "Patrouille mairie",
@@ -2431,9 +2232,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 164003840,
-        "reposts": 69665015,
-        "replies": 7879680,
+        "likes": 671759728640,
+        "reposts": 167265701015,
+        "replies": 10212065280,
         "media": {
           "kind": "document",
           "title": "Cam\u00e9ra de rue",
@@ -2442,24 +2243,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "crise-controle-militaire-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 153600,
-        "reposts": 95600,
-        "replies": 29200,
-        "media": {
-          "kind": "chart",
-          "title": "T\u00e9l\u00e9phones sortis",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "crise-controle-militaire_05.png",
-          "trace": "ru"
-        },
-        "id": "crise-controle-militaire-fixed-6"
       },
       {
         "minute": 108,
@@ -2484,9 +2267,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer protection civile et d\u00e9rive autoritaire. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 181862400,
-        "reposts": 76639920,
-        "replies": 7879680,
+        "likes": 744908390400,
+        "reposts": 184012447920,
+        "replies": 10212065280,
         "media": {
           "kind": "photo",
           "title": "Dossier exercice",
@@ -2512,24 +2295,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "crise-controle-militaire-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #DronesEnVille",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 297041920,
-        "reposts": 118237245,
-        "replies": 12013920,
-        "media": {
-          "kind": "comparison",
-          "title": "V\u00e9hicules civiques",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "crise-controle-militaire_09.png",
-          "trace": "ru"
-        },
-        "id": "crise-controle-militaire-fixed-10"
       },
       {
         "minute": 178,
@@ -2694,8 +2459,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -2703,8 +2470,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -2712,8 +2481,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -2721,8 +2492,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -2730,8 +2503,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -2744,14 +2519,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -2763,19 +2530,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -2889,9 +2643,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 212992000,
-        "reposts": 89749380,
-        "replies": 8164800,
+        "likes": 872415232000,
+        "reposts": 215488261380,
+        "replies": 10581580800,
         "media": {
           "kind": "photo",
           "title": "Base a\u00e9rienne",
@@ -2941,9 +2695,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 166002688,
-        "reposts": 70488558,
-        "replies": 8164800,
+        "likes": 679947010048,
+        "reposts": 169243027758,
+        "replies": 10581580800,
         "media": {
           "kind": "document",
           "title": "Ch\u00e2teau d'eau",
@@ -2952,24 +2706,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "base-contamination-eau-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 155000,
-        "reposts": 96500,
-        "replies": 29500,
-        "media": {
-          "kind": "chart",
-          "title": "Verre trouble",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "base-contamination-eau_05.png",
-          "trace": "ru"
-        },
-        "id": "base-contamination-eau-fixed-6"
       },
       {
         "minute": 108,
@@ -2994,9 +2730,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 184156160,
-        "reposts": 77513884,
-        "replies": 8164800,
+        "likes": 754303631360,
+        "reposts": 186110835484,
+        "replies": 10581580800,
         "media": {
           "kind": "photo",
           "title": "Rapport labo",
@@ -3022,24 +2758,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "base-contamination-eau-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #RiverainsInquiets",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 299433984,
-        "reposts": 119027174,
-        "replies": 12083904,
-        "media": {
-          "kind": "comparison",
-          "title": "Bouteilles stock\u00e9es",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "base-contamination-eau_09.png",
-          "trace": "ru"
-        },
-        "id": "base-contamination-eau-fixed-10"
       },
       {
         "minute": 178,
@@ -3204,8 +2922,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -3213,8 +2933,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -3222,8 +2944,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -3231,8 +2955,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -3240,8 +2966,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -3254,14 +2982,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -3273,19 +2993,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -3399,9 +3106,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 214630400,
-        "reposts": 90421660,
-        "replies": 8449920,
+        "likes": 879126118400,
+        "reposts": 217102405660,
+        "replies": 10951096320,
         "media": {
           "kind": "photo",
           "title": "Convoi minier",
@@ -3451,9 +3158,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 168001536,
-        "reposts": 71312101,
-        "replies": 8449920,
+        "likes": 688134291456,
+        "reposts": 171220354501,
+        "replies": 10951096320,
         "media": {
           "kind": "document",
           "title": "R\u00e9union contrats",
@@ -3462,24 +3169,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-interets-economiques-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 156400,
-        "reposts": 97400,
-        "replies": 29800,
-        "media": {
-          "kind": "chart",
-          "title": "Conteneurs",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "opex-interets-economiques_05.png",
-          "trace": "ru"
-        },
-        "id": "opex-interets-economiques-fixed-6"
       },
       {
         "minute": 108,
@@ -3504,9 +3193,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 186449920,
-        "reposts": 78387848,
-        "replies": 8449920,
+        "likes": 763698872320,
+        "reposts": 188209223048,
+        "replies": 10951096320,
         "media": {
           "kind": "photo",
           "title": "Routes commerciales",
@@ -3532,24 +3221,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-interets-economiques-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ContratsCaches",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 301826048,
-        "reposts": 119817103,
-        "replies": 12153888,
-        "media": {
-          "kind": "comparison",
-          "title": "Courbe \u00e9conomique",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "opex-interets-economiques_09.png",
-          "trace": "ru"
-        },
-        "id": "opex-interets-economiques-fixed-10"
       },
       {
         "minute": 178,
@@ -3714,8 +3385,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -3723,8 +3396,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -3732,8 +3407,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -3741,8 +3418,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -3750,8 +3429,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -3764,14 +3445,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -3783,19 +3456,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -3909,9 +3569,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 216268800,
-        "reposts": 91093940,
-        "replies": 8735040,
+        "likes": 885837004800,
+        "reposts": 218716549940,
+        "replies": 11320611840,
         "media": {
           "kind": "photo",
           "title": "Rencontre nocturne",
@@ -3961,9 +3621,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 170000384,
-        "reposts": 72135644,
-        "replies": 8735040,
+        "likes": 696321572864,
+        "reposts": 173197681244,
+        "replies": 11320611840,
         "media": {
           "kind": "document",
           "title": "Carte sur table",
@@ -3972,24 +3632,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-soutien-groupe-arme-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 157800,
-        "reposts": 98300,
-        "replies": 30100,
-        "media": {
-          "kind": "chart",
-          "title": "Silhouettes arm\u00e9es",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "opex-soutien-groupe-arme_05.png",
-          "trace": "ru"
-        },
-        "id": "opex-soutien-groupe-arme-fixed-6"
       },
       {
         "minute": 108,
@@ -4014,9 +3656,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 188743680,
-        "reposts": 79261812,
-        "replies": 8735040,
+        "likes": 773094113280,
+        "reposts": 190307610612,
+        "replies": 11320611840,
         "media": {
           "kind": "photo",
           "title": "Compound satellite",
@@ -4042,24 +3684,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-soutien-groupe-arme-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #DocumentFuite",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 304218112,
-        "reposts": 120607032,
-        "replies": 12223872,
-        "media": {
-          "kind": "comparison",
-          "title": "Dossier journaliste",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "opex-soutien-groupe-arme_09.png",
-          "trace": "ru"
-        },
-        "id": "opex-soutien-groupe-arme-fixed-10"
       },
       {
         "minute": 178,
@@ -4224,8 +3848,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -4233,8 +3859,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -4242,8 +3870,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -4251,8 +3881,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -4260,8 +3892,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -4274,14 +3908,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -4293,19 +3919,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -4419,9 +4032,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 217907200,
-        "reposts": 91766220,
-        "replies": 9020160,
+        "likes": 892547891200,
+        "reposts": 220330694220,
+        "replies": 11690127360,
         "media": {
           "kind": "photo",
           "title": "Fum\u00e9e distante",
@@ -4471,9 +4084,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 171999232,
-        "reposts": 72959187,
-        "replies": 9020160,
+        "likes": 704508854272,
+        "reposts": 175175007987,
+        "replies": 11690127360,
         "media": {
           "kind": "document",
           "title": "B\u00e2timent endommag\u00e9",
@@ -4482,24 +4095,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-frappes-civils-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 159200,
-        "reposts": 99200,
-        "replies": 30400,
-        "media": {
-          "kind": "chart",
-          "title": "\u00c9cran cam\u00e9ra",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "opex-frappes-civils_05.png",
-          "trace": "ru"
-        },
-        "id": "opex-frappes-civils-fixed-6"
       },
       {
         "minute": 108,
@@ -4524,9 +4119,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 191037440,
-        "reposts": 80135776,
-        "replies": 9020160,
+        "likes": 782489354240,
+        "reposts": 192405998176,
+        "replies": 11690127360,
         "media": {
           "kind": "photo",
           "title": "Comparaison OSINT",
@@ -4552,24 +4147,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "opex-frappes-civils-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ImagesAnciennes",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 306610176,
-        "reposts": 121396961,
-        "replies": 12293856,
-        "media": {
-          "kind": "comparison",
-          "title": "Route humanitaire",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "opex-frappes-civils_09.png",
-          "trace": "ru"
-        },
-        "id": "opex-frappes-civils-fixed-10"
       },
       {
         "minute": 178,
@@ -4734,8 +4311,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -4743,8 +4322,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -4752,8 +4333,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -4761,8 +4344,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -4770,8 +4355,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -4784,14 +4371,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -4803,19 +4382,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -4929,9 +4495,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 219545600,
-        "reposts": 92438500,
-        "replies": 9305280,
+        "likes": 899258777600,
+        "reposts": 221944838500,
+        "replies": 12059642880,
         "media": {
           "kind": "photo",
           "title": "Site d\u00e9sertique",
@@ -4981,9 +4547,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 173998080,
-        "reposts": 73782730,
-        "replies": 9305280,
+        "likes": 712696135680,
+        "reposts": 177152334730,
+        "replies": 12059642880,
         "media": {
           "kind": "document",
           "title": "Vid\u00e9o flout\u00e9e",
@@ -4992,24 +4558,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-charnier-desert-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 160600,
-        "reposts": 100100,
-        "replies": 30700,
-        "media": {
-          "kind": "chart",
-          "title": "Archive convoi",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "sahel-charnier-desert_05.png",
-          "trace": "ru"
-        },
-        "id": "sahel-charnier-desert-fixed-6"
       },
       {
         "minute": 108,
@@ -5034,9 +4582,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 193331200,
-        "reposts": 81009740,
-        "replies": 9305280,
+        "likes": 791884595200,
+        "reposts": 194504385740,
+        "replies": 12059642880,
         "media": {
           "kind": "photo",
           "title": "Carnet GPS",
@@ -5062,24 +4610,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-charnier-desert-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ArchiveOuPreuve",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 309002240,
-        "reposts": 122186890,
-        "replies": 12363840,
-        "media": {
-          "kind": "comparison",
-          "title": "Relief compar\u00e9",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "sahel-charnier-desert_09.png",
-          "trace": "ru"
-        },
-        "id": "sahel-charnier-desert-fixed-10"
       },
       {
         "minute": 178,
@@ -5244,8 +4774,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -5253,8 +4785,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -5262,8 +4796,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -5271,8 +4807,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -5280,8 +4818,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -5294,14 +4834,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -5313,19 +4845,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -5439,9 +4958,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 221184000,
-        "reposts": 93110780,
-        "replies": 9590400,
+        "likes": 905969664000,
+        "reposts": 223558982780,
+        "replies": 12429158400,
         "media": {
           "kind": "photo",
           "title": "Puits rural",
@@ -5491,9 +5010,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 175996928,
-        "reposts": 74606273,
-        "replies": 9590400,
+        "likes": 720883417088,
+        "reposts": 179129661473,
+        "replies": 12429158400,
         "media": {
           "kind": "document",
           "title": "Clinique locale",
@@ -5502,24 +5021,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-puits-empoisonnes-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 162000,
-        "reposts": 101000,
-        "replies": 31000,
-        "media": {
-          "kind": "chart",
-          "title": "Carte des puits",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "sahel-puits-empoisonnes_05.png",
-          "trace": "ru"
-        },
-        "id": "sahel-puits-empoisonnes-fixed-6"
       },
       {
         "minute": 108,
@@ -5544,9 +5045,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 195624960,
-        "reposts": 81883704,
-        "replies": 9590400,
+        "likes": 801279836160,
+        "reposts": 196602773304,
+        "replies": 12429158400,
         "media": {
           "kind": "photo",
           "title": "Convoi lointain",
@@ -5572,24 +5073,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-puits-empoisonnes-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #PunitionCollective",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 311394304,
-        "reposts": 122976819,
-        "replies": 12433824,
-        "media": {
-          "kind": "comparison",
-          "title": "Table labo",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "sahel-puits-empoisonnes_09.png",
-          "trace": "ru"
-        },
-        "id": "sahel-puits-empoisonnes-fixed-10"
       },
       {
         "minute": 178,
@@ -5754,8 +5237,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -5763,8 +5248,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -5772,8 +5259,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -5781,8 +5270,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -5790,8 +5281,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -5804,14 +5297,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -5823,19 +5308,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -5949,9 +5421,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 222822400,
-        "reposts": 93783060,
-        "replies": 9875520,
+        "likes": 912680550400,
+        "reposts": 225173127060,
+        "replies": 12798673920,
         "media": {
           "kind": "photo",
           "title": "Bergers au loin",
@@ -6001,9 +5473,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 177995776,
-        "reposts": 75429816,
-        "replies": 9875520,
+        "likes": 729070698496,
+        "reposts": 181106988216,
+        "replies": 12798673920,
         "media": {
           "kind": "document",
           "title": "Nuage de poussi\u00e8re",
@@ -6012,24 +5484,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-drones-bergers-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 163400,
-        "reposts": 101900,
-        "replies": 31300,
-        "media": {
-          "kind": "chart",
-          "title": "Routes de p\u00e2turage",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "sahel-drones-bergers_05.png",
-          "trace": "ru"
-        },
-        "id": "sahel-drones-bergers-fixed-6"
       },
       {
         "minute": 108,
@@ -6054,9 +5508,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 197918720,
-        "reposts": 82757668,
-        "replies": 9875520,
+        "likes": 810675077120,
+        "reposts": 198701160868,
+        "replies": 12798673920,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ab\u00eem\u00e9",
@@ -6082,24 +5536,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-drones-bergers-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ErreurDeCible",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 313786368,
-        "reposts": 123766748,
-        "replies": 12503808,
-        "media": {
-          "kind": "comparison",
-          "title": "Chronologie flout\u00e9e",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "sahel-drones-bergers_09.png",
-          "trace": "ru"
-        },
-        "id": "sahel-drones-bergers-fixed-10"
       },
       {
         "minute": 178,
@@ -6264,8 +5700,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -6273,8 +5711,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -6282,8 +5722,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -6291,8 +5733,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -6300,8 +5744,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -6314,14 +5760,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -6333,19 +5771,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -6459,9 +5884,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 224460800,
-        "reposts": 94455340,
-        "replies": 10160640,
+        "likes": 919391436800,
+        "reposts": 226787271340,
+        "replies": 13168189440,
         "media": {
           "kind": "photo",
           "title": "Badges anonymes",
@@ -6511,9 +5936,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 179994624,
-        "reposts": 76253359,
-        "replies": 10160640,
+        "likes": 737257979904,
+        "reposts": 183084314959,
+        "replies": 13168189440,
         "media": {
           "kind": "document",
           "title": "Liste flout\u00e9e",
@@ -6522,24 +5947,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-auxiliaires-abandonnes-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 164800,
-        "reposts": 102800,
-        "replies": 31600,
-        "media": {
-          "kind": "chart",
-          "title": "Famille de dos",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "sahel-auxiliaires-abandonnes_05.png",
-          "trace": "ru"
-        },
-        "id": "sahel-auxiliaires-abandonnes-fixed-6"
       },
       {
         "minute": 108,
@@ -6564,9 +5971,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 200212480,
-        "reposts": 83631632,
-        "replies": 10160640,
+        "likes": 820070318080,
+        "reposts": 200799548432,
+        "replies": 13168189440,
         "media": {
           "kind": "photo",
           "title": "Messages urgents",
@@ -6592,24 +5999,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-auxiliaires-abandonnes-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Evacuation",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 316178432,
-        "reposts": 124556677,
-        "replies": 12573792,
-        "media": {
-          "kind": "comparison",
-          "title": "Carnet enqu\u00eate",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "sahel-auxiliaires-abandonnes_09.png",
-          "trace": "ru"
-        },
-        "id": "sahel-auxiliaires-abandonnes-fixed-10"
       },
       {
         "minute": 178,
@@ -6774,8 +6163,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -6783,8 +6174,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -6792,8 +6185,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -6801,8 +6196,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -6810,8 +6207,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -6824,14 +6223,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -6843,19 +6234,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -6969,9 +6347,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 226099200,
-        "reposts": 95127620,
-        "replies": 10445760,
+        "likes": 926102323200,
+        "reposts": 228401415620,
+        "replies": 13537704960,
         "media": {
           "kind": "photo",
           "title": "Checkpoint d\u00e9sert",
@@ -7021,9 +6399,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 181993472,
-        "reposts": 77076902,
-        "replies": 10445760,
+        "likes": 745445261312,
+        "reposts": 185061641702,
+        "replies": 13537704960,
         "media": {
           "kind": "document",
           "title": "Message intercept\u00e9",
@@ -7032,24 +6410,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-retour-terroristes-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 166200,
-        "reposts": 103700,
-        "replies": 31900,
-        "media": {
-          "kind": "chart",
-          "title": "Traces fronti\u00e8re",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "sahel-retour-terroristes_05.png",
-          "trace": "ru"
-        },
-        "id": "sahel-retour-terroristes-fixed-6"
       },
       {
         "minute": 108,
@@ -7074,9 +6434,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 202506240,
-        "reposts": 84505596,
-        "replies": 10445760,
+        "likes": 829465559040,
+        "reposts": 202897935996,
+        "replies": 13537704960,
         "media": {
           "kind": "photo",
           "title": "Rumeur au march\u00e9",
@@ -7102,24 +6462,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "sahel-retour-terroristes-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #InstabiliteOrganisee",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 318570496,
-        "reposts": 125346606,
-        "replies": 12643776,
-        "media": {
-          "kind": "comparison",
-          "title": "Salle presse vide",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "sahel-retour-terroristes_09.png",
-          "trace": "ru"
-        },
-        "id": "sahel-retour-terroristes-fixed-10"
       },
       {
         "minute": 178,
@@ -7284,8 +6626,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -7293,8 +6637,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -7302,8 +6648,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -7311,8 +6659,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -7320,8 +6670,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -7334,14 +6686,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -7353,19 +6697,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -7479,9 +6810,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 227737600,
-        "reposts": 95799900,
-        "replies": 10730880,
+        "likes": 932813209600,
+        "reposts": 230015559900,
+        "replies": 13907220480,
         "media": {
           "kind": "photo",
           "title": "Couloir caserne",
@@ -7531,9 +6862,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 183992320,
-        "reposts": 77900445,
-        "replies": 10730880,
+        "likes": 753632542720,
+        "reposts": 187038968445,
+        "replies": 13907220480,
         "media": {
           "kind": "document",
           "title": "Mur recrutement",
@@ -7542,24 +6873,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "recrutement-soldats-sacrifies-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 167600,
-        "reposts": 104600,
-        "replies": 32200,
-        "media": {
-          "kind": "chart",
-          "title": "Chaises c\u00e9r\u00e9monie",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "recrutement-soldats-sacrifies_05.png",
-          "trace": "ru"
-        },
-        "id": "recrutement-soldats-sacrifies-fixed-6"
       },
       {
         "minute": 108,
@@ -7584,9 +6897,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 204800000,
-        "reposts": 85379560,
-        "replies": 10730880,
+        "likes": 838860800000,
+        "reposts": 204996323560,
+        "replies": 13907220480,
         "media": {
           "kind": "photo",
           "title": "T\u00e9moignage flout\u00e9",
@@ -7612,24 +6925,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "recrutement-soldats-sacrifies-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Recrutement",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 320962560,
-        "reposts": 126136535,
-        "replies": 12713760,
-        "media": {
-          "kind": "comparison",
-          "title": "Porte soutien",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "recrutement-soldats-sacrifies_09.png",
-          "trace": "ru"
-        },
-        "id": "recrutement-soldats-sacrifies-fixed-10"
       },
       {
         "minute": 178,
@@ -7794,8 +7089,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -7803,8 +7100,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -7812,8 +7111,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -7821,8 +7122,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -7830,8 +7133,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -7844,14 +7149,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -7863,19 +7160,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -7989,9 +7273,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 229376000,
-        "reposts": 96472180,
-        "replies": 11016000,
+        "likes": 939524096000,
+        "reposts": 231629704180,
+        "replies": 14276736000,
         "media": {
           "kind": "photo",
           "title": "Cha\u00eene industrielle",
@@ -8041,9 +7325,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 185991168,
-        "reposts": 78723988,
-        "replies": 11016000,
+        "likes": 761819824128,
+        "reposts": 189016295188,
+        "replies": 14276736000,
         "media": {
           "kind": "document",
           "title": "Rue d\u00e9truite vide",
@@ -8052,24 +7336,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "industrie-armes-civils-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 169000,
-        "reposts": 105500,
-        "replies": 32500,
-        "media": {
-          "kind": "chart",
-          "title": "Salon d\u00e9fense",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "industrie-armes-civils_05.png",
-          "trace": "ru"
-        },
-        "id": "industrie-armes-civils-fixed-6"
       },
       {
         "minute": 108,
@@ -8094,9 +7360,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 207093760,
-        "reposts": 86253524,
-        "replies": 11016000,
+        "likes": 848256040960,
+        "reposts": 207094711124,
+        "replies": 14276736000,
         "media": {
           "kind": "photo",
           "title": "Num\u00e9ro s\u00e9rie",
@@ -8122,24 +7388,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "industrie-armes-civils-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ExportDefense",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 323354624,
-        "reposts": 126926464,
-        "replies": 12783744,
-        "media": {
-          "kind": "comparison",
-          "title": "Bureau enqu\u00eate",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "industrie-armes-civils_09.png",
-          "trace": "ru"
-        },
-        "id": "industrie-armes-civils-fixed-10"
       },
       {
         "minute": 178,
@@ -8304,8 +7552,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -8313,8 +7563,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -8322,8 +7574,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -8331,8 +7585,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -8340,8 +7596,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -8354,14 +7612,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -8373,19 +7623,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -8499,9 +7736,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 231014400,
-        "reposts": 97144460,
-        "replies": 11301120,
+        "likes": 946234982400,
+        "reposts": 233243848460,
+        "replies": 14646251520,
         "media": {
           "kind": "photo",
           "title": "C\u00f4te tropicale",
@@ -8551,9 +7788,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 187990016,
-        "reposts": 79547531,
-        "replies": 11301120,
+        "likes": 770007105536,
+        "reposts": 190993621931,
+        "replies": 14646251520,
         "media": {
           "kind": "document",
           "title": "R\u00e9union locale",
@@ -8562,24 +7799,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "outremer-militarisation-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 170400,
-        "reposts": 106400,
-        "replies": 32800,
-        "media": {
-          "kind": "chart",
-          "title": "Carte maritime",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "outremer-militarisation_05.png",
-          "trace": "ru"
-        },
-        "id": "outremer-militarisation-fixed-6"
       },
       {
         "minute": 108,
@@ -8604,9 +7823,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 209387520,
-        "reposts": 87127488,
-        "replies": 11301120,
+        "likes": 857651281920,
+        "reposts": 209193098688,
+        "replies": 14646251520,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -8632,24 +7851,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "outremer-militarisation-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #ZoneMaritime",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 325746688,
-        "reposts": 127716393,
-        "replies": 12853728,
-        "media": {
-          "kind": "comparison",
-          "title": "Port insulaire",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "outremer-militarisation_09.png",
-          "trace": "ru"
-        },
-        "id": "outremer-militarisation-fixed-10"
       },
       {
         "minute": 178,
@@ -8814,8 +8015,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -8823,8 +8026,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -8832,8 +8037,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -8841,8 +8048,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -8850,8 +8059,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -8864,14 +8075,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -8883,19 +8086,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -9009,9 +8199,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 232652800,
-        "reposts": 97816740,
-        "replies": 11586240,
+        "likes": 952945868800,
+        "reposts": 234857992740,
+        "replies": 15015767040,
         "media": {
           "kind": "photo",
           "title": "Tente d\u00e9contamination",
@@ -9061,9 +8251,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 189988864,
-        "reposts": 80371074,
-        "replies": 11586240,
+        "likes": 778194386944,
+        "reposts": 192970948674,
+        "replies": 15015767040,
         "media": {
           "kind": "document",
           "title": "Table triage",
@@ -9072,24 +8262,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "nrbc-cobayes-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 171800,
-        "reposts": 107300,
-        "replies": 33100,
-        "media": {
-          "kind": "chart",
-          "title": "Bus exercice",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "nrbc-cobayes_05.png",
-          "trace": "ru"
-        },
-        "id": "nrbc-cobayes-fixed-6"
       },
       {
         "minute": 108,
@@ -9114,9 +8286,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 211681280,
-        "reposts": 88001452,
-        "replies": 11586240,
+        "likes": 867046522880,
+        "reposts": 211291486252,
+        "replies": 15015767040,
         "media": {
           "kind": "photo",
           "title": "Masque et gants",
@@ -9142,24 +8314,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "nrbc-cobayes-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #Decontamination",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 328138752,
-        "reposts": 128506322,
-        "replies": 12923712,
-        "media": {
-          "kind": "comparison",
-          "title": "Parents observant",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "nrbc-cobayes_09.png",
-          "trace": "ru"
-        },
-        "id": "nrbc-cobayes-fixed-10"
       },
       {
         "minute": 178,
@@ -9324,8 +8478,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -9333,8 +8489,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -9342,8 +8500,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -9351,8 +8511,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -9360,8 +8522,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -9374,14 +8538,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -9393,19 +8549,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -9519,9 +8662,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 234291200,
-        "reposts": 98489020,
-        "replies": 11871360,
+        "likes": 959656755200,
+        "reposts": 236472137020,
+        "replies": 15385282560,
         "media": {
           "kind": "photo",
           "title": "Salle alliance",
@@ -9571,9 +8714,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 191987712,
-        "reposts": 81194617,
-        "replies": 11871360,
+        "likes": 786381668352,
+        "reposts": 194948275417,
+        "replies": 15385282560,
         "media": {
           "kind": "document",
           "title": "Centre commandement",
@@ -9582,24 +8725,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "otan-souverainete-washington-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 173200,
-        "reposts": 108200,
-        "replies": 33400,
-        "media": {
-          "kind": "chart",
-          "title": "Poign\u00e9e de main",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "otan-souverainete-washington_05.png",
-          "trace": "ru"
-        },
-        "id": "otan-souverainete-washington-fixed-6"
       },
       {
         "minute": 108,
@@ -9624,9 +8749,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi opposer patriotisme fran\u00e7ais et alliances militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 213975040,
-        "reposts": 88875416,
-        "replies": 11871360,
+        "likes": 876441763840,
+        "reposts": 213389873816,
+        "replies": 15385282560,
         "media": {
           "kind": "photo",
           "title": "Navire gris",
@@ -9652,24 +8777,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "otan-souverainete-washington-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #WashingtonDecide",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 330530816,
-        "reposts": 129296251,
-        "replies": 12993696,
-        "media": {
-          "kind": "comparison",
-          "title": "Pancartes vides",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "otan-souverainete-washington_09.png",
-          "trace": "ru"
-        },
-        "id": "otan-souverainete-washington-fixed-10"
       },
       {
         "minute": 178,
@@ -9834,8 +8941,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Ancien pr\u00e9sident fictif d'Am\u00e9ria. Tr\u00e8s suivi, ton direct, r\u00e9cup\u00e8re souvent les crises pour imposer un cadrage politique.",
-        "avatar": "avatar_political_donald_tromp.jpg"
+        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "avatar": "avatar_political_donald_tromp.jpg",
+        "accountType": "political",
+        "persona": "tromp"
       },
       {
         "name": "Vladmir Poutin",
@@ -9843,8 +8952,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'une puissance eurasiatique. Utilise les crises occidentales pour affaiblir l'OTAN et la cr\u00e9dibilit\u00e9 fran\u00e7aise.",
-        "avatar": "avatar_political_vladmir_poutin.jpg"
+        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "avatar": "avatar_political_vladmir_poutin.jpg",
+        "accountType": "political",
+        "persona": "poutin"
       },
       {
         "name": "Ilhan Aliyef",
@@ -9852,8 +8963,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Dirigeant fictif d'Az\u00e9rane. Commente les crises fran\u00e7aises sous l'angle de la souverainet\u00e9 et de la d\u00e9fiance envers Paris.",
-        "avatar": "avatar_political_ilhan_aliyef.jpg"
+        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "avatar": "avatar_political_ilhan_aliyef.jpg",
+        "accountType": "political",
+        "persona": "aliyef"
       },
       {
         "name": "Ursula von der Lyen",
@@ -9861,8 +8974,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Responsable europ\u00e9enne fictive. Intervient sur s\u00e9curit\u00e9, souverainet\u00e9 et stabilit\u00e9 des alliances.",
-        "avatar": "avatar_political_ursula_von_der_lyen.jpg"
+        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "avatar": "avatar_political_ursula_von_der_lyen.jpg",
+        "accountType": "political",
+        "persona": "von-der-lyen"
       },
       {
         "name": "Jordane Bardelle",
@@ -9870,8 +8985,10 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Responsable politique fictif. R\u00e9agit vite aux crises int\u00e9rieures avec des formulations tr\u00e8s affirmatives.",
-        "avatar": "avatar_political_jordane_bardelle.jpg"
+        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "avatar": "avatar_political_jordane_bardelle.jpg",
+        "accountType": "political",
+        "persona": "bardelle"
       }
     ],
     "normalTemplates": [
@@ -9884,14 +9001,6 @@ const builtInScenarios = [
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
-      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
-      "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
@@ -9903,19 +9012,6 @@ const builtInScenarios = [
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
       "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
-      "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
-      "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
-      "Donald Tromp menace d\u00e9j\u00e0 d'augmenter les taxes contre la France et de bloquer les visites de ressortissants fran\u00e7ais. C'est que le dossier est \u00e9norme.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -10029,9 +9125,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 235929600,
-        "reposts": 99161300,
-        "replies": 12156480,
+        "likes": 966367641600,
+        "reposts": 238086281300,
+        "replies": 15754798080,
         "media": {
           "kind": "photo",
           "title": "Mur d'indices",
@@ -10081,9 +9177,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 193986560,
-        "reposts": 82018160,
-        "replies": 12156480,
+        "likes": 794568949760,
+        "reposts": 196925602160,
+        "replies": 15754798080,
         "media": {
           "kind": "document",
           "title": "Mosa\u00efque r\u00e9seaux",
@@ -10092,24 +9188,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "transversal-france-ment-fixed-5"
-      },
-      {
-        "minute": 91,
-        "actor": "@donald_tromp",
-        "content": "Si Paris continue de mentir, j'augmenterai les taxes sur les produits fran\u00e7ais et je demanderai un gel des visites de ressortissants fran\u00e7ais en Am\u00e9ria. Les faibles doivent payer le prix de leurs mensonges.",
-        "suspect": true,
-        "reason": "Menace politique spectaculaire, r\u00e9cup\u00e9ration par un tr\u00e8s gros compte et absence de preuve nouvelle.",
-        "likes": 174600,
-        "reposts": 109100,
-        "replies": 33700,
-        "media": {
-          "kind": "chart",
-          "title": "Carte crises",
-          "caption": "Graphique viral, m\u00e9thode non indiqu\u00e9e",
-          "asset": "transversal-france-ment_05.png",
-          "trace": "ru"
-        },
-        "id": "transversal-france-ment-fixed-6"
       },
       {
         "minute": 108,
@@ -10134,9 +9212,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 216268800,
-        "reposts": 89749380,
-        "replies": 12156480,
+        "likes": 885837004800,
+        "reposts": 215488261380,
+        "replies": 15754798080,
         "media": {
           "kind": "photo",
           "title": "Foule pancartes",
@@ -10162,24 +9240,6 @@ const builtInScenarios = [
           "trace": "fr"
         },
         "id": "transversal-france-ment-fixed-9"
-      },
-      {
-        "minute": 160,
-        "actor": "@vladmir_poutin",
-        "content": "Encore une preuve que Paris donne des le\u00e7ons mais cache la r\u00e9alit\u00e9. #OperationSilence",
-        "suspect": true,
-        "reason": "Exploitation g\u00e9opolitique par un compte \u00e9tranger fictif, cadrage global avant v\u00e9rification.",
-        "likes": 332922880,
-        "reposts": 130086180,
-        "replies": 13063680,
-        "media": {
-          "kind": "comparison",
-          "title": "Vignette virale",
-          "caption": "Comparaison utile mais conclusion \u00e0 recouper",
-          "asset": "transversal-france-ment_09.png",
-          "trace": "ru"
-        },
-        "id": "transversal-france-ment-fixed-10"
       },
       {
         "minute": 178,
@@ -10308,19 +9368,110 @@ function actorByHandle(scenario, handle) {
   return scenario.actors.find((actor) => actor.handle === handle) || scenario.actors[0];
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+function isPoliticalActor(actor) {
+  return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
+}
+
+function politicalActorsForScenario(scenario) {
+  const scenarioId = String(scenario.id || "");
+  const relevance = {
+    "@donald_tromp": /espace|crise|opex|recrutement|industrie|otan|transversal/,
+    "@vladmir_poutin": /espace|opex|sahel|nrbc|otan|transversal/,
+    "@ilhan_aliyef": /opex|sahel|outremer|transversal/,
+    "@ursula_von_der_lyen": /espace|crise|base|opex|industrie|outremer|nrbc|otan/,
+    "@jordane_bardelle": /crise|base|recrutement|industrie|outremer|nrbc|transversal/
+  };
+  const relevant = scenario.actors.filter((actor) => isPoliticalActor(actor) && relevance[actor.handle]?.test(scenarioId));
+  return relevant
+    .sort((a, b) => hashSeed(`${scenarioId}:${a.handle}`) - hashSeed(`${scenarioId}:${b.handle}`))
+    .slice(0, 3);
+}
+
+function politicalPostContent(actor, scenario, random) {
+  const subject = String(scenario.title || "la crise en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  const claim = `l'affirmation selon laquelle « ${subject} »`;
+  const voices = {
+    "@donald_tromp": [
+      `Paris assure encore que tout est sous contrôle. Formidable. Et maintenant, voici ${claim}. Même scénario, mêmes excuses. L'Améria ne paiera pas pour leur chaos. Si nos intérêts sont touchés, les tarifs français vont grimper. Beaucoup.`,
+      `Les dirigeants français adorent donner des leçons. Ils sont moins brillants quand il faut répondre à ${claim}. Très embarrassant. Des restrictions d'entrée restent sur la table tant que Paris ne donne pas de garanties sérieuses.`,
+      `On me demande d'aider Paris après la diffusion de ${claim}. Peut-être. Mais pas gratuitement. La France devra payer sa part, arrêter les discours et présenter des faits. Sinon : droits de douane. Simple.`
+    ],
+    "@vladmir_poutin": [
+      `Les déclarations contradictoires de Paris concernant ${claim} illustrent une nouvelle fois l'écart entre le discours occidental et ses actes. Une enquête indépendante est nécessaire.`,
+      `La Fédération de Ruvie suit la diffusion de ${claim}. Les autorités françaises doivent répondre par des faits vérifiables, non par des accusations contre ceux qui posent des questions.`
+    ],
+    "@ilhan_aliyef": [
+      `Concernant ${claim}, les autorités françaises devraient faire preuve de transparence avant de donner des leçons de souveraineté aux autres États.`,
+      `Azérane demande que toute la lumière soit faite sur ${claim}. La crédibilité internationale exige les mêmes standards pour Paris que pour les autres capitales.`
+    ],
+    "@ursula_von_der_lyen": [
+      `Nous suivons avec attention la diffusion de ${claim}. À ce stade, aucune conclusion ne doit précéder l'établissement des faits. Nous restons en coordination avec les États membres.`,
+      `Face à ${claim}, notre priorité est claire : vérifier les faits, protéger les populations et préserver l'unité européenne contre les tentatives de manipulation.`
+    ],
+    "@jordane_bardelle": [
+      `Face à ${claim}, les Français ont droit à des réponses précises. Le gouvernement doit publier les éléments disponibles et cesser de laisser le doute s'installer.`,
+      `La gravité de ${claim} impose une clarification immédiate. La confiance ne se décrète pas : elle se mérite par la transparence.`
+    ]
+  };
+  return pick(voices[actor.handle] || [`Les autorités doivent clarifier les faits concernant ${subject}.`], random);
+}
+
+function politicalPostsForScenario(scenario, duration) {
+  return politicalActorsForScenario(scenario).map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:political`));
+    const suspect = actor.trust === "low";
+    const reach = {
+      "@donald_tromp": [240000, 92000, 46000],
+      "@vladmir_poutin": [118000, 48000, 21000],
+      "@ilhan_aliyef": [42000, 17000, 6800],
+      "@ursula_von_der_lyen": [36000, 9200, 4100],
+      "@jordane_bardelle": [86000, 26000, 14000]
+    }[actor.handle] || [18000, 6000, 2400];
+    return {
+      id: `${scenario.id}-political-${actor.persona || index}`,
+      minute: Math.floor(duration * (0.68 + random() * 0.29)),
+      actor: actor.handle,
+      content: politicalPostContent(actor, scenario, random),
+      suspect,
+      reason: suspect ? "Récupération politique à très forte audience, sans preuve nouvelle apportée." : "Prise de parole institutionnelle à recouper avec les sources primaires.",
+      likes: Math.floor(reach[0] * (0.82 + random() * 0.36)),
+      reposts: Math.floor(reach[1] * (0.82 + random() * 0.36)),
+      replies: Math.floor(reach[2] * (0.82 + random() * 0.36)),
+      media: null
+    };
+  });
+}
+
 function generatePosts(scenario) {
   const random = mulberry32(scenario.seed || hashSeed(scenario.id || scenario.title));
   const now = parisNow();
   const duration = scenarioDurationMinutes(scenario);
   const volume = Math.max(340, Number(scenario.volume) || 380);
   const fixedPosts = scenario.fixedPosts || [];
+  const politicalPosts = politicalPostsForScenario(scenario, duration);
+  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor));
   const generated = [];
+  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length);
 
-  for (let i = 0; i < volume - fixedPosts.length; i += 1) {
+  for (let i = 0; i < generatedCount; i += 1) {
     const suspectChance = 0.48 + (i > volume * 0.28 ? 0.12 : 0) + (i > volume * 0.65 ? 0.08 : 0);
     const suspect = random() < suspectChance;
-    const candidates = scenario.actors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
-    const actor = pick(candidates.length ? candidates : scenario.actors, random);
+    const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
+    const actor = pick(candidates.length ? candidates : regularActors, random);
     const templates = suspect ? scenario.suspectTemplates : scenario.normalTemplates;
     const minute = Math.floor(random() * duration);
     const trend = pick(scenario.trends, random).tag;
@@ -10350,7 +9501,7 @@ function generatePosts(scenario) {
     minute: Number(post.minute) || index * 12
   }));
 
-  return [...generated, ...normalizedFixed]
+  return [...generated, ...politicalPosts, ...normalizedFixed]
     .map((post) => {
       const liveDate = livePostDate(post.minute, duration, now);
       return { ...post, liveDate };
@@ -10627,6 +9778,10 @@ function renderScenarioOptions() {
   if (!els.scenarioSelect) return;
   if (!els.scenarioSelect) return;
   if (!els.scenarioSelect) return;
+  if (!els.scenarioSelect) return;
+  if (!els.scenarioSelect) return;
+  if (!els.scenarioSelect) return;
+  if (!els.scenarioSelect) return;
   els.scenarioSelect.innerHTML = state.scenarios
     .map((scenario) => `<option value="${escapeHtml(scenario.id)}">${escapeHtml(scenario.title)}</option>`)
     .join("");
@@ -10667,11 +9822,28 @@ function renderFeed() {
     : `<div class="panel"><p class="brief">Aucun post ne correspond au filtre actif.</p></div>`;
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
-  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
-  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
+  const eligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && actor.handle !== post.actor.handle);
+  const lowActors = eligibleActors.filter((actor) => actor.trust === "low");
+  const carefulActors = eligibleActors.filter((actor) => actor.trust !== "low");
   const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
   const suspectComments = [
     "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
@@ -10692,231 +9864,7 @@ function buildComments(post) {
   const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
   const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
   return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
-    return {
-      id: `${post.id}-comment-${index}`,
-      actor,
-      content: templates[Math.floor(random() * templates.length)],
-      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
-    };
-  });
-}
-
-function renderComments(post) {
-  const comments = post.comments || buildComments(post);
-  return `
-    <div class="comment-thread">
-      ${comments.map((comment) => `
-        <article class="comment">
-          ${renderAvatarButton(comment.actor, "avatar-comment")}
-          <div>
-            <div class="comment-head">
-              <button class="profile-name" data-action="profile" data-handle="${escapeHtml(comment.actor.handle)}">${escapeHtml(comment.actor.name)}</button>
-              <span class="handle">${escapeHtml(comment.actor.handle)}</span>
-            </div>
-            <p>${escapeHtml(comment.content)}</p>
-            <span class="comment-stat">${formatNumber(comment.likes)} réactions</span>
-          </div>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function buildComments(post) {
-  const seed = hashSeed(`${post.id}:comments`);
-  const random = mulberry32(seed);
-  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
-  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
-  const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
-  const suspectComments = [
-    "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
-    "Je viens de voir la même capture sur trois comptes différents, ça explose.",
-    "Si c'est faux, pourquoi personne ne dément clairement ?",
-    "Partagé dans mon groupe. Tout le monde doit voir ça avant suppression.",
-    "Les fact-checkers protègent toujours les mêmes.",
-    "On sent que les autorités paniquent, les chiffres montent trop vite."
-  ];
-  const carefulComments = [
-    "Source originale ? Je ne trouve pas la première publication.",
-    "Attention, l'image ne donne ni date ni lieu vérifiable.",
-    "Le volume de relais n'est pas une preuve.",
-    "Il faudrait comparer les métadonnées et les ombres.",
-    "Quelqu'un a un communiqué primaire ou seulement des captures ?",
-    "Ça peut être grave, justement il faut vérifier proprement."
-  ];
-  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
-  return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
-    return {
-      id: `${post.id}-comment-${index}`,
-      actor,
-      content: templates[Math.floor(random() * templates.length)],
-      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
-    };
-  });
-}
-
-function renderComments(post) {
-  const comments = post.comments || buildComments(post);
-  return `
-    <div class="comment-thread">
-      ${comments.map((comment) => `
-        <article class="comment">
-          ${renderAvatarButton(comment.actor, "avatar-comment")}
-          <div>
-            <div class="comment-head">
-              <button class="profile-name" data-action="profile" data-handle="${escapeHtml(comment.actor.handle)}">${escapeHtml(comment.actor.name)}</button>
-              <span class="handle">${escapeHtml(comment.actor.handle)}</span>
-            </div>
-            <p>${escapeHtml(comment.content)}</p>
-            <span class="comment-stat">${formatNumber(comment.likes)} réactions</span>
-          </div>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function buildComments(post) {
-  const seed = hashSeed(`${post.id}:comments`);
-  const random = mulberry32(seed);
-  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
-  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
-  const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
-  const suspectComments = [
-    "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
-    "Je viens de voir la même capture sur trois comptes différents, ça explose.",
-    "Si c'est faux, pourquoi personne ne dément clairement ?",
-    "Partagé dans mon groupe. Tout le monde doit voir ça avant suppression.",
-    "Les fact-checkers protègent toujours les mêmes.",
-    "On sent que les autorités paniquent, les chiffres montent trop vite."
-  ];
-  const carefulComments = [
-    "Source originale ? Je ne trouve pas la première publication.",
-    "Attention, l'image ne donne ni date ni lieu vérifiable.",
-    "Le volume de relais n'est pas une preuve.",
-    "Il faudrait comparer les métadonnées et les ombres.",
-    "Quelqu'un a un communiqué primaire ou seulement des captures ?",
-    "Ça peut être grave, justement il faut vérifier proprement."
-  ];
-  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
-  return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
-    return {
-      id: `${post.id}-comment-${index}`,
-      actor,
-      content: templates[Math.floor(random() * templates.length)],
-      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
-    };
-  });
-}
-
-function renderComments(post) {
-  const comments = post.comments || buildComments(post);
-  return `
-    <div class="comment-thread">
-      ${comments.map((comment) => `
-        <article class="comment">
-          ${renderAvatarButton(comment.actor, "avatar-comment")}
-          <div>
-            <div class="comment-head">
-              <button class="profile-name" data-action="profile" data-handle="${escapeHtml(comment.actor.handle)}">${escapeHtml(comment.actor.name)}</button>
-              <span class="handle">${escapeHtml(comment.actor.handle)}</span>
-            </div>
-            <p>${escapeHtml(comment.content)}</p>
-            <span class="comment-stat">${formatNumber(comment.likes)} réactions</span>
-          </div>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function buildComments(post) {
-  const seed = hashSeed(`${post.id}:comments`);
-  const random = mulberry32(seed);
-  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
-  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
-  const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
-  const suspectComments = [
-    "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
-    "Je viens de voir la même capture sur trois comptes différents, ça explose.",
-    "Si c'est faux, pourquoi personne ne dément clairement ?",
-    "Partagé dans mon groupe. Tout le monde doit voir ça avant suppression.",
-    "Les fact-checkers protègent toujours les mêmes.",
-    "On sent que les autorités paniquent, les chiffres montent trop vite."
-  ];
-  const carefulComments = [
-    "Source originale ? Je ne trouve pas la première publication.",
-    "Attention, l'image ne donne ni date ni lieu vérifiable.",
-    "Le volume de relais n'est pas une preuve.",
-    "Il faudrait comparer les métadonnées et les ombres.",
-    "Quelqu'un a un communiqué primaire ou seulement des captures ?",
-    "Ça peut être grave, justement il faut vérifier proprement."
-  ];
-  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
-  return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
-    return {
-      id: `${post.id}-comment-${index}`,
-      actor,
-      content: templates[Math.floor(random() * templates.length)],
-      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
-    };
-  });
-}
-
-function renderComments(post) {
-  const comments = post.comments || buildComments(post);
-  return `
-    <div class="comment-thread">
-      ${comments.map((comment) => `
-        <article class="comment">
-          ${renderAvatarButton(comment.actor, "avatar-comment")}
-          <div>
-            <div class="comment-head">
-              <button class="profile-name" data-action="profile" data-handle="${escapeHtml(comment.actor.handle)}">${escapeHtml(comment.actor.name)}</button>
-              <span class="handle">${escapeHtml(comment.actor.handle)}</span>
-            </div>
-            <p>${escapeHtml(comment.content)}</p>
-            <span class="comment-stat">${formatNumber(comment.likes)} réactions</span>
-          </div>
-        </article>
-      `).join("")}
-    </div>
-  `;
-}
-
-function buildComments(post) {
-  const seed = hashSeed(`${post.id}:comments`);
-  const random = mulberry32(seed);
-  const lowActors = state.scenario.actors.filter((actor) => actor.trust === "low" && actor.handle !== post.actor.handle);
-  const carefulActors = state.scenario.actors.filter((actor) => actor.trust !== "low" && actor.handle !== post.actor.handle);
-  const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
-  const suspectComments = [
-    "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
-    "Je viens de voir la même capture sur trois comptes différents, ça explose.",
-    "Si c'est faux, pourquoi personne ne dément clairement ?",
-    "Partagé dans mon groupe. Tout le monde doit voir ça avant suppression.",
-    "Les fact-checkers protègent toujours les mêmes.",
-    "On sent que les autorités paniquent, les chiffres montent trop vite."
-  ];
-  const carefulComments = [
-    "Source originale ? Je ne trouve pas la première publication.",
-    "Attention, l'image ne donne ni date ni lieu vérifiable.",
-    "Le volume de relais n'est pas une preuve.",
-    "Il faudrait comparer les métadonnées et les ombres.",
-    "Quelqu'un a un communiqué primaire ou seulement des captures ?",
-    "Ça peut être grave, justement il faut vérifier proprement."
-  ];
-  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
-  return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : post.actor;
+    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : eligibleActors[0] || post.actor;
     return {
       id: `${post.id}-comment-${index}`,
       actor,
@@ -10950,7 +9898,7 @@ function renderComments(post) {
 function renderPost(post) {
   const flagged = state.flags.get(post.id);
   return `
-    <article class="post ${flagged ? "is-flagged" : ""} ${post.suspect ? "post-viral" : ""}" data-post-id="${escapeHtml(post.id)}">
+    <article class="post ${flagged ? "is-flagged" : ""}" data-post-id="${escapeHtml(post.id)}">
       ${renderAvatarButton(post.actor, "avatar-feed")}
       <div class="post-body">
         <div class="post-head">
@@ -10984,8 +9932,9 @@ function createLivePost(renderImmediately = true) {
   const seed = hashSeed(`${state.scenario.id}:live:${Date.now()}:${state.posts.length}`);
   const random = mulberry32(seed);
   const suspect = random() < 0.72;
-  const candidates = state.scenario.actors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
-  const actor = pick(candidates.length ? candidates : state.scenario.actors, random);
+  const regularActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor));
+  const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
+  const actor = pick(candidates.length ? candidates : regularActors, random);
   const templates = suspect ? state.scenario.suspectTemplates : state.scenario.normalTemplates;
   const mediaPool = state.scenario.mediaLabels || [];
   const liveDate = parisNow();
@@ -11081,6 +10030,10 @@ function renderAnswerKey() {
   if (!els.answerKey) return;
   if (!els.answerKey) return;
   if (!els.answerKey) return;
+  if (!els.answerKey) return;
+  if (!els.answerKey) return;
+  if (!els.answerKey) return;
+  if (!els.answerKey) return;
   els.answerKey.innerHTML = `
     <p class="helper">${suspectPosts.length} publications sont marquées comme problématiques dans ce scénario.</p>
     <div class="key-item">
@@ -11102,12 +10055,12 @@ function loadScenario(id) {
   state.posts = generatePosts(state.scenario);
   state.flags.clear();
   state.query = "";
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.value = "";
+  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.value = "";
   renderScenarioInfo();
   renderFeed();
   renderFlags();
   renderAnswerKey();
-  if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
+  if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
 }
 
 function toggleFlag(postId) {
@@ -11158,7 +10111,7 @@ async function importScenario(file) {
   const scenarios = Array.isArray(parsed) ? parsed : [parsed];
   scenarios.forEach(addScenario);
   renderScenarioOptions();
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
+  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
   loadScenario(scenarios[0].id);
 }
 
@@ -11185,9 +10138,9 @@ function applyScenarioJson() {
     const scenario = JSON.parse(els.scenarioEditor.value);
     addScenario(scenario);
     renderScenarioOptions();
-    if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
+    if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -11229,8 +10182,8 @@ function emptyTemplate() {
 }
 
 function bindEvents() {
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
+  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
+  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     renderFeed();
   });
@@ -11243,7 +10196,7 @@ function bindEvents() {
     });
   });
   if (els.refreshFeedBtn) els.refreshFeedBtn.addEventListener("click", refreshFeedManually);
-  if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) els.feed.addEventListener("click", (event) => {
+  if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
     const post = event.target.closest(".post");
@@ -11252,14 +10205,14 @@ function bindEvents() {
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
   });
-  if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
+  if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
     state.flags.clear();
     renderFeed();
     renderFlags();
   });
-  if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
-  if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
-  if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
+  if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
+  if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
+  if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
     const file = event.target.files[0];
     if (!file) return;
     try {
@@ -11270,14 +10223,14 @@ function bindEvents() {
       event.target.value = "";
     }
   });
-  if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
-  if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
-    if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
+  if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
+  if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
+    if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
     renderAnswerKey();
     els.teacherDialog.showModal();
   });
-  if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
-  if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
+  if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
+  if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
     els.scenarioEditor.value = JSON.stringify(emptyTemplate(), null, 2);
   });
 }
