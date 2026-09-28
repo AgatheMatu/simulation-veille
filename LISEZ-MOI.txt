@@ -1,0 +1,25 @@
+MISE A JOUR VEILLE-ILI
+
+Ce dossier contient uniquement la mise a jour "actualites et images".
+Il contient moins de 100 fichiers et peut etre depose en une seule fois sur GitHub.
+
+1. Ouvrez votre depot simulation-veille sur GitHub.
+2. Cliquez sur Add file, puis Upload files.
+3. Glissez dans la zone de depot les trois elements visibles dans ce dossier :
+   - app.js
+   - le dossier assets
+   - LISEZ-MOI.txt
+4. En bas de la page, cliquez sur Commit changes.
+5. Attendez environ deux minutes, puis actualisez :
+   https://agathematu.github.io/simulation-veille/
+
+Important : ne glissez pas le fichier ZIP directement sur GitHub. Ouvrez-le d'abord,
+puis glissez son contenu. L'organisation des sous-dossiers assets/evidence et
+assets/avatars doit rester telle quelle.
+
+Contenu de cette mise a jour :
+- davantage de sujets de la vie quotidienne ;
+- 17 nouvelles photos documentaires ;
+- 24 avatars de comptes quotidiens ;
+- des publications parasites illustrees dans tous les scenarios ;
+- separation des tendances quotidiennes et des tendances liees a la crise.

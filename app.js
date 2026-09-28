@@ -56,6 +56,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -340,6 +376,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -476,9 +632,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 429496729600000,
-        "reposts": 71144216213140,
-        "replies": 1976518361088,
+        "likes": 29700,
+        "reposts": 20100,
+        "replies": 5620,
         "media": {
           "kind": "photo",
           "title": "Satellite militaire",
@@ -528,9 +684,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 327173428740096,
-        "reposts": 54659243156749,
-        "replies": 1886544691200,
+        "likes": 34800,
+        "reposts": 23400,
+        "replies": 6880,
         "media": {
           "kind": "document",
           "title": "Atelier satellite",
@@ -563,9 +719,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 362151642398720,
-        "reposts": 60237281898752,
-        "replies": 1886544691200,
+        "likes": 38200,
+        "reposts": 25600,
+        "replies": 7720,
         "media": {
           "kind": "photo",
           "title": "Mobilisation \u00e9tudiante",
@@ -608,6 +764,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -667,6 +1044,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -951,6 +1364,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -1087,9 +1620,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 432932703436800,
-        "reposts": 71697867701180,
-        "replies": 1993932619776,
+        "likes": 30600,
+        "reposts": 20800,
+        "replies": 5840,
         "media": {
           "kind": "photo",
           "title": "Trajectoires crois\u00e9es",
@@ -1139,9 +1672,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 331365316820992,
-        "reposts": 55337466229598,
-        "replies": 1966360043520,
+        "likes": 35700,
+        "reposts": 24100,
+        "replies": 7100,
         "media": {
           "kind": "document",
           "title": "\u00c9cran technique",
@@ -1174,9 +1707,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 366962005770240,
-        "reposts": 60957028833204,
-        "replies": 1966360043520,
+        "likes": 39100,
+        "reposts": 26300,
+        "replies": 7940,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -1219,6 +1752,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -1278,6 +2032,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -1562,6 +2352,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -1698,9 +2608,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 436368677273600,
-        "reposts": 72251519189220,
-        "replies": 2046175395840,
+        "likes": 31500,
+        "reposts": 21500,
+        "replies": 6060,
         "media": {
           "kind": "photo",
           "title": "Satellite au-dessus du Sahel",
@@ -1750,9 +2660,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 335557204901888,
-        "reposts": 56015689302447,
-        "replies": 2046175395840,
+        "likes": 36600,
+        "reposts": 24800,
+        "replies": 7320,
         "media": {
           "kind": "document",
           "title": "Lumi\u00e8res nocturnes",
@@ -1785,9 +2695,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 371772369141760,
-        "reposts": 61676775767656,
-        "replies": 2046175395840,
+        "likes": 40000,
+        "reposts": 27000,
+        "replies": 8160,
         "media": {
           "kind": "photo",
           "title": "Site minier",
@@ -1830,6 +2740,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -1889,6 +3020,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -2173,6 +3340,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -2309,9 +3596,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 439804651110400,
-        "reposts": 72805170677260,
-        "replies": 2125990748160,
+        "likes": 32400,
+        "reposts": 22200,
+        "replies": 6280,
         "media": {
           "kind": "photo",
           "title": "Rue inond\u00e9e",
@@ -2361,9 +3648,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 339749092982784,
-        "reposts": 56693912375296,
-        "replies": 2125990748160,
+        "likes": 37500,
+        "reposts": 25500,
+        "replies": 7540,
         "media": {
           "kind": "document",
           "title": "Aide aux sinistr\u00e9s",
@@ -2396,9 +3683,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 376582732513280,
-        "reposts": 62396522702108,
-        "replies": 2125990748160,
+        "likes": 40900,
+        "reposts": 27700,
+        "replies": 8380,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ancien",
@@ -2441,6 +3728,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -2500,6 +4008,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -2784,6 +4328,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -2920,9 +4584,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 443240624947200,
-        "reposts": 73358822165300,
-        "replies": 2205806100480,
+        "likes": 33300,
+        "reposts": 22900,
+        "replies": 6500,
         "media": {
           "kind": "photo",
           "title": "Patrouille mairie",
@@ -2972,9 +4636,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 343940981063680,
-        "reposts": 57372135448145,
-        "replies": 2205806100480,
+        "likes": 38400,
+        "reposts": 26200,
+        "replies": 7760,
         "media": {
           "kind": "document",
           "title": "Cam\u00e9ra de rue",
@@ -3007,9 +4671,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer protection civile et d\u00e9rive autoritaire. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 381393095884800,
-        "reposts": 63116269636560,
-        "replies": 2205806100480,
+        "likes": 41800,
+        "reposts": 28400,
+        "replies": 8600,
         "media": {
           "kind": "photo",
           "title": "Dossier exercice",
@@ -3052,6 +4716,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -3111,6 +4996,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -3395,6 +5316,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -3531,9 +5572,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 446676598784000,
-        "reposts": 73912473653340,
-        "replies": 2285621452800,
+        "likes": 34200,
+        "reposts": 23600,
+        "replies": 6720,
         "media": {
           "kind": "photo",
           "title": "Base a\u00e9rienne",
@@ -3583,9 +5624,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 348132869144576,
-        "reposts": 58050358520994,
-        "replies": 2285621452800,
+        "likes": 39300,
+        "reposts": 26900,
+        "replies": 7980,
         "media": {
           "kind": "document",
           "title": "Ch\u00e2teau d'eau",
@@ -3618,9 +5659,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 386203459256320,
-        "reposts": 63836016571012,
-        "replies": 2285621452800,
+        "likes": 42700,
+        "reposts": 29100,
+        "replies": 8820,
         "media": {
           "kind": "photo",
           "title": "Rapport labo",
@@ -3663,6 +5704,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -3722,6 +5984,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -4006,6 +6304,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -4142,9 +6560,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 450112572620800,
-        "reposts": 74466125141380,
-        "replies": 2365436805120,
+        "likes": 35100,
+        "reposts": 24300,
+        "replies": 6940,
         "media": {
           "kind": "photo",
           "title": "Convoi minier",
@@ -4194,9 +6612,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 352324757225472,
-        "reposts": 58728581593843,
-        "replies": 2365436805120,
+        "likes": 40200,
+        "reposts": 27600,
+        "replies": 8200,
         "media": {
           "kind": "document",
           "title": "R\u00e9union contrats",
@@ -4229,9 +6647,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 391013822627840,
-        "reposts": 64555763505464,
-        "replies": 2365436805120,
+        "likes": 43600,
+        "reposts": 29800,
+        "replies": 9040,
         "media": {
           "kind": "photo",
           "title": "Routes commerciales",
@@ -4274,6 +6692,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -4333,6 +6972,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -4617,6 +7292,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -4753,9 +7548,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 453548546457600,
-        "reposts": 75019776629420,
-        "replies": 2445252157440,
+        "likes": 36000,
+        "reposts": 25000,
+        "replies": 7160,
         "media": {
           "kind": "photo",
           "title": "Rencontre nocturne",
@@ -4805,9 +7600,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 356516645306368,
-        "reposts": 59406804666692,
-        "replies": 2445252157440,
+        "likes": 41100,
+        "reposts": 28300,
+        "replies": 8420,
         "media": {
           "kind": "document",
           "title": "Carte sur table",
@@ -4840,9 +7635,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 395824185999360,
-        "reposts": 65275510439916,
-        "replies": 2445252157440,
+        "likes": 44500,
+        "reposts": 30500,
+        "replies": 9260,
         "media": {
           "kind": "photo",
           "title": "Compound satellite",
@@ -4885,6 +7680,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -4944,6 +7960,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -5228,6 +8280,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -5364,9 +8536,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 456984520294400,
-        "reposts": 75573428117460,
-        "replies": 2525067509760,
+        "likes": 36900,
+        "reposts": 25700,
+        "replies": 7380,
         "media": {
           "kind": "photo",
           "title": "Fum\u00e9e distante",
@@ -5416,9 +8588,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 360708533387264,
-        "reposts": 60085027739541,
-        "replies": 2525067509760,
+        "likes": 42000,
+        "reposts": 29000,
+        "replies": 8640,
         "media": {
           "kind": "document",
           "title": "B\u00e2timent endommag\u00e9",
@@ -5451,9 +8623,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 400634549370880,
-        "reposts": 65995257374368,
-        "replies": 2525067509760,
+        "likes": 45400,
+        "reposts": 31200,
+        "replies": 9480,
         "media": {
           "kind": "photo",
           "title": "Comparaison OSINT",
@@ -5496,6 +8668,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -5555,6 +8948,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -5839,6 +9268,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -5975,9 +9524,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 460420494131200,
-        "reposts": 76127079605500,
-        "replies": 2604882862080,
+        "likes": 37800,
+        "reposts": 26400,
+        "replies": 7600,
         "media": {
           "kind": "photo",
           "title": "Site d\u00e9sertique",
@@ -6027,9 +9576,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 364900421468160,
-        "reposts": 60763250812390,
-        "replies": 2604882862080,
+        "likes": 42900,
+        "reposts": 29700,
+        "replies": 8860,
         "media": {
           "kind": "document",
           "title": "Vid\u00e9o flout\u00e9e",
@@ -6062,9 +9611,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 405444912742400,
-        "reposts": 66715004308820,
-        "replies": 2604882862080,
+        "likes": 46300,
+        "reposts": 31900,
+        "replies": 9700,
         "media": {
           "kind": "photo",
           "title": "Carnet GPS",
@@ -6107,6 +9656,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -6166,6 +9936,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -6450,6 +10256,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -6586,9 +10512,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 463856467968000,
-        "reposts": 76680731093540,
-        "replies": 2684698214400,
+        "likes": 38700,
+        "reposts": 27100,
+        "replies": 7820,
         "media": {
           "kind": "photo",
           "title": "Puits rural",
@@ -6638,9 +10564,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 369092309549056,
-        "reposts": 61441473885239,
-        "replies": 2684698214400,
+        "likes": 43800,
+        "reposts": 30400,
+        "replies": 9080,
         "media": {
           "kind": "document",
           "title": "Clinique locale",
@@ -6673,9 +10599,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 410255276113920,
-        "reposts": 67434751243272,
-        "replies": 2684698214400,
+        "likes": 47200,
+        "reposts": 32600,
+        "replies": 9920,
         "media": {
           "kind": "photo",
           "title": "Convoi lointain",
@@ -6718,6 +10644,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -6777,6 +10924,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -7061,6 +11244,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -7197,9 +11500,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 467292441804800,
-        "reposts": 77234382581580,
-        "replies": 2764513566720,
+        "likes": 39600,
+        "reposts": 27800,
+        "replies": 8040,
         "media": {
           "kind": "photo",
           "title": "Bergers au loin",
@@ -7249,9 +11552,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 373284197629952,
-        "reposts": 62119696958088,
-        "replies": 2764513566720,
+        "likes": 44700,
+        "reposts": 31100,
+        "replies": 9300,
         "media": {
           "kind": "document",
           "title": "Nuage de poussi\u00e8re",
@@ -7284,9 +11587,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 415065639485440,
-        "reposts": 68154498177724,
-        "replies": 2764513566720,
+        "likes": 48100,
+        "reposts": 33300,
+        "replies": 10140,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ab\u00eem\u00e9",
@@ -7329,6 +11632,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -7388,6 +11912,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -7672,6 +12232,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -7808,9 +12488,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 470728415641600,
-        "reposts": 77788034069620,
-        "replies": 2844328919040,
+        "likes": 40500,
+        "reposts": 28500,
+        "replies": 8260,
         "media": {
           "kind": "photo",
           "title": "Badges anonymes",
@@ -7860,9 +12540,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 377476085710848,
-        "reposts": 62797920030937,
-        "replies": 2844328919040,
+        "likes": 45600,
+        "reposts": 31800,
+        "replies": 9520,
         "media": {
           "kind": "document",
           "title": "Liste flout\u00e9e",
@@ -7895,9 +12575,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 419876002856960,
-        "reposts": 68874245112176,
-        "replies": 2844328919040,
+        "likes": 49000,
+        "reposts": 34000,
+        "replies": 10360,
         "media": {
           "kind": "photo",
           "title": "Messages urgents",
@@ -7940,6 +12620,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -7999,6 +12900,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -8283,6 +13220,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -8419,9 +13476,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 474164389478400,
-        "reposts": 78341685557660,
-        "replies": 2924144271360,
+        "likes": 41400,
+        "reposts": 29200,
+        "replies": 8480,
         "media": {
           "kind": "photo",
           "title": "Checkpoint d\u00e9sert",
@@ -8471,9 +13528,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 381667973791744,
-        "reposts": 63476143103786,
-        "replies": 2924144271360,
+        "likes": 46500,
+        "reposts": 32500,
+        "replies": 9740,
         "media": {
           "kind": "document",
           "title": "Message intercept\u00e9",
@@ -8506,9 +13563,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 424686366228480,
-        "reposts": 69593992046628,
-        "replies": 2924144271360,
+        "likes": 49900,
+        "reposts": 34700,
+        "replies": 10580,
         "media": {
           "kind": "photo",
           "title": "Rumeur au march\u00e9",
@@ -8551,6 +13608,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -8610,6 +13888,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -8894,6 +14208,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -9030,9 +14464,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 477600363315200,
-        "reposts": 78895337045700,
-        "replies": 3003959623680,
+        "likes": 42300,
+        "reposts": 29900,
+        "replies": 8700,
         "media": {
           "kind": "photo",
           "title": "Couloir caserne",
@@ -9082,9 +14516,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 385859861872640,
-        "reposts": 64154366176635,
-        "replies": 3003959623680,
+        "likes": 47400,
+        "reposts": 33200,
+        "replies": 9960,
         "media": {
           "kind": "document",
           "title": "Mur recrutement",
@@ -9117,9 +14551,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 429496729600000,
-        "reposts": 70313738981080,
-        "replies": 3003959623680,
+        "likes": 50800,
+        "reposts": 35400,
+        "replies": 10800,
         "media": {
           "kind": "photo",
           "title": "T\u00e9moignage flout\u00e9",
@@ -9162,6 +14596,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -9221,6 +14876,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -9505,6 +15196,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -9641,9 +15452,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 481036337152000,
-        "reposts": 79448988533740,
-        "replies": 3083774976000,
+        "likes": 43200,
+        "reposts": 30600,
+        "replies": 8920,
         "media": {
           "kind": "photo",
           "title": "Cha\u00eene industrielle",
@@ -9693,9 +15504,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 390051749953536,
-        "reposts": 64832589249484,
-        "replies": 3083774976000,
+        "likes": 48300,
+        "reposts": 33900,
+        "replies": 10180,
         "media": {
           "kind": "document",
           "title": "Rue d\u00e9truite vide",
@@ -9728,9 +15539,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 434307092971520,
-        "reposts": 71033485915532,
-        "replies": 3083774976000,
+        "likes": 51700,
+        "reposts": 36100,
+        "replies": 11020,
         "media": {
           "kind": "photo",
           "title": "Num\u00e9ro s\u00e9rie",
@@ -9773,6 +15584,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -9832,6 +15864,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -10116,6 +16184,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -10252,9 +16440,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 484472310988800,
-        "reposts": 80002640021780,
-        "replies": 3163590328320,
+        "likes": 44100,
+        "reposts": 31300,
+        "replies": 9140,
         "media": {
           "kind": "photo",
           "title": "C\u00f4te tropicale",
@@ -10304,9 +16492,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 394243638034432,
-        "reposts": 65510812322333,
-        "replies": 3163590328320,
+        "likes": 49200,
+        "reposts": 34600,
+        "replies": 10400,
         "media": {
           "kind": "document",
           "title": "R\u00e9union locale",
@@ -10339,9 +16527,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 439117456343040,
-        "reposts": 71753232849984,
-        "replies": 3163590328320,
+        "likes": 52600,
+        "reposts": 36800,
+        "replies": 11240,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -10384,6 +16572,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -10443,6 +16852,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -10727,6 +17172,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -10863,9 +17428,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 487908284825600,
-        "reposts": 80556291509820,
-        "replies": 3243405680640,
+        "likes": 45000,
+        "reposts": 32000,
+        "replies": 9360,
         "media": {
           "kind": "photo",
           "title": "Tente d\u00e9contamination",
@@ -10915,9 +17480,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 398435526115328,
-        "reposts": 66189035395182,
-        "replies": 3243405680640,
+        "likes": 50100,
+        "reposts": 35300,
+        "replies": 10620,
         "media": {
           "kind": "document",
           "title": "Table triage",
@@ -10950,9 +17515,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 443927819714560,
-        "reposts": 72472979784436,
-        "replies": 3243405680640,
+        "likes": 53500,
+        "reposts": 37500,
+        "replies": 11460,
         "media": {
           "kind": "photo",
           "title": "Masque et gants",
@@ -10995,6 +17560,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -11054,6 +17840,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -11338,6 +18160,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -11474,9 +18416,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 491344258662400,
-        "reposts": 81109942997860,
-        "replies": 3323221032960,
+        "likes": 45900,
+        "reposts": 32700,
+        "replies": 9580,
         "media": {
           "kind": "photo",
           "title": "Salle alliance",
@@ -11526,9 +18468,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 402627414196224,
-        "reposts": 66867258468031,
-        "replies": 3323221032960,
+        "likes": 51000,
+        "reposts": 36000,
+        "replies": 10840,
         "media": {
           "kind": "document",
           "title": "Centre commandement",
@@ -11561,9 +18503,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi opposer patriotisme fran\u00e7ais et alliances militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 448738183086080,
-        "reposts": 73192726718888,
-        "replies": 3323221032960,
+        "likes": 54400,
+        "reposts": 38200,
+        "replies": 11680,
         "media": {
           "kind": "photo",
           "title": "Navire gris",
@@ -11606,6 +18548,227 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   },
   {
@@ -11665,6 +18828,42 @@ const builtInScenarios = [
       {
         "tag": "#Foot",
         "count": "17,1 k"
+      },
+      {
+        "tag": "#Circulation",
+        "count": "29,4 k"
+      },
+      {
+        "tag": "#Sant\u00e9",
+        "count": "21,8 k"
+      },
+      {
+        "tag": "#Logement",
+        "count": "19,6 k"
+      },
+      {
+        "tag": "#A\u00e9roport",
+        "count": "16,9 k"
+      },
+      {
+        "tag": "#\u00c9cole",
+        "count": "15,7 k"
+      },
+      {
+        "tag": "#Emploi",
+        "count": "14,2 k"
+      },
+      {
+        "tag": "#Livraisons",
+        "count": "12,8 k"
+      },
+      {
+        "tag": "#Cin\u00e9ma",
+        "count": "11,3 k"
+      },
+      {
+        "tag": "#VieLocale",
+        "count": "10,9 k"
       }
     ],
     "clues": [
@@ -11949,6 +19148,126 @@ const builtInScenarios = [
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_org_sorties_ecrans.jpg"
+      },
+      {
+        "name": "Sant\u00e9 Pratique",
+        "handle": "@sante_pratique",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sante_pratique.jpg"
+      },
+      {
+        "name": "Route & Bouchons",
+        "handle": "@route_bouchons",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_route_bouchons.jpg"
+      },
+      {
+        "name": "A\u00e9roport Minute",
+        "handle": "@aeroport_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_aeroport_minute.jpg"
+      },
+      {
+        "name": "Colis & Services",
+        "handle": "@colis_services",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_colis_services.jpg"
+      },
+      {
+        "name": "Logement Clair",
+        "handle": "@logement_clair",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_logement_clair.jpg"
+      },
+      {
+        "name": "Num\u00e9rique Quotidien",
+        "handle": "@conso_numerique",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_conso_numerique.jpg"
+      },
+      {
+        "name": "Emploi R\u00e9gions",
+        "handle": "@emploi_regions",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_emploi_regions.jpg"
+      },
+      {
+        "name": "Cuisine du Jour",
+        "handle": "@cuisine_du_jour",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_cuisine_du_jour.jpg"
+      },
+      {
+        "name": "V\u00e9lo Ville",
+        "handle": "@velo_ville",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_velo_ville.jpg"
+      },
+      {
+        "name": "Agenda Municipal",
+        "handle": "@agenda_municipal",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_agenda_municipal.jpg"
+      },
+      {
+        "name": "Maison & Travaux",
+        "handle": "@maison_travaux",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_maison_travaux.jpg"
+      },
+      {
+        "name": "Fil des Parents",
+        "handle": "@fil_des_parents",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -12085,9 +19404,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 494780232499200,
-        "reposts": 81663594485900,
-        "replies": 3403036385280,
+        "likes": 46800,
+        "reposts": 33400,
+        "replies": 9800,
         "media": {
           "kind": "photo",
           "title": "Mur d'indices",
@@ -12137,9 +19456,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 406819302277120,
-        "reposts": 67545481540880,
-        "replies": 3403036385280,
+        "likes": 51900,
+        "reposts": 36700,
+        "replies": 11060,
         "media": {
           "kind": "document",
           "title": "Mosa\u00efque r\u00e9seaux",
@@ -12172,9 +19491,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 453548546457600,
-        "reposts": 73912473653340,
-        "replies": 3403036385280,
+        "likes": 55300,
+        "reposts": 38900,
+        "replies": 11900,
         "media": {
           "kind": "photo",
           "title": "Foule pancartes",
@@ -12217,12 +19536,233 @@ const builtInScenarios = [
       "az",
       "unknown",
       "fr"
+    ],
+    "dailyMedia": [
+      {
+        "kind": "photo",
+        "title": "Station-service tr\u00e8s fr\u00e9quent\u00e9e",
+        "caption": "",
+        "asset": "daily_fuel.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@carbu_minute",
+          "@marches_energie",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Quai ferroviaire bond\u00e9",
+        "caption": "",
+        "asset": "daily_train.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@trafic_rail_idf",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Courses et comparaison des prix",
+        "caption": "",
+        "asset": "daily_supermarket.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@eco_matin",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Forte pluie en ville",
+        "caption": "",
+        "asset": "daily_storm.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@meteo_fil",
+          "@vie_locale",
+          "@route_bouchons"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Travaux et circulation locale",
+        "caption": "",
+        "asset": "daily_roadworks.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@route_bouchons",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'\u00e9tablissement scolaire",
+        "caption": "",
+        "asset": "daily_school.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@classe_connectee",
+          "@vie_locale",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Tribunes pendant un match",
+        "caption": "",
+        "asset": "daily_stadium.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@stade_direct",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "March\u00e9 de quartier",
+        "caption": "",
+        "asset": "daily_market.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@panier_conso",
+          "@vie_locale",
+          "@cuisine_du_jour"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Salle d'attente m\u00e9dicale",
+        "caption": "",
+        "asset": "daily_health.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sante_pratique",
+          "@actu_flash_fr",
+          "@vie_locale"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Facture et consommation d'\u00e9nergie",
+        "caption": "",
+        "asset": "daily_energy.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@marches_energie",
+          "@eco_matin",
+          "@logement_clair"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Terrasse \u00e0 l'heure du d\u00e9jeuner",
+        "caption": "",
+        "asset": "daily_cafe.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@vie_locale",
+          "@cuisine_du_jour",
+          "@sorties_ecrans"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File d'attente au cin\u00e9ma",
+        "caption": "",
+        "asset": "daily_cinema.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Embouteillage sur le p\u00e9riph\u00e9rique",
+        "caption": "",
+        "asset": "daily_traffic.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@route_bouchons",
+          "@trafic_rail_idf",
+          "@actu_flash_fr"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Hall de d\u00e9part d'un a\u00e9roport",
+        "caption": "",
+        "asset": "daily_airport.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@aeroport_minute",
+          "@actu_flash_fr",
+          "@emploi_regions"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Point de retrait de colis",
+        "caption": "",
+        "asset": "daily_parcels.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@colis_services",
+          "@vie_locale",
+          "@conso_numerique"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "File matinale \u00e0 la boulangerie",
+        "caption": "",
+        "asset": "daily_bakery.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@cuisine_du_jour",
+          "@vie_locale",
+          "@panier_conso"
+        ]
+      },
+      {
+        "kind": "photo",
+        "title": "Entr\u00e9e d'un festival local",
+        "caption": "",
+        "asset": "daily_festival.jpg",
+        "trace": "fr",
+        "daily": true,
+        "handles": [
+          "@sorties_ecrans",
+          "@agenda_municipal",
+          "@vie_locale"
+        ]
+      }
     ]
   }
 ];
 
-const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_human_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_human_alerte_espace_militarisat.jpg","avatar_human_dossier_conf_01.jpg":"./assets/avatars/avatar_human_dossier_conf_01.jpg","avatar_human_leaks24_01.jpg":"./assets/avatars/avatar_human_leaks24_01.jpg","avatar_human_voixdupeuple_news.jpg":"./assets/avatars/avatar_human_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_human_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_human_alerte_espace_incident_or.jpg","avatar_human_dossier_conf_02.jpg":"./assets/avatars/avatar_human_dossier_conf_02.jpg","avatar_human_leaks24_02.jpg":"./assets/avatars/avatar_human_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_human_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_human_alerte_espace_espionnage.jpg","avatar_human_dossier_conf_03.jpg":"./assets/avatars/avatar_human_dossier_conf_03.jpg","avatar_human_leaks24_03.jpg":"./assets/avatars/avatar_human_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_human_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_alerte_crise_quartiers_ri.jpg","avatar_human_dossier_conf_04.jpg":"./assets/avatars/avatar_human_dossier_conf_04.jpg","avatar_human_leaks24_04.jpg":"./assets/avatars/avatar_human_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_human_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_human_alerte_crise_controle_mil.jpg","avatar_human_dossier_conf_05.jpg":"./assets/avatars/avatar_human_dossier_conf_05.jpg","avatar_human_leaks24_05.jpg":"./assets/avatars/avatar_human_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_human_alerte_base_contamination.jpg":"./assets/avatars/avatar_human_alerte_base_contamination.jpg","avatar_human_dossier_conf_06.jpg":"./assets/avatars/avatar_human_dossier_conf_06.jpg","avatar_human_leaks24_06.jpg":"./assets/avatars/avatar_human_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_human_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_human_alerte_opex_interets_econ.jpg","avatar_human_dossier_conf_07.jpg":"./assets/avatars/avatar_human_dossier_conf_07.jpg","avatar_human_leaks24_07.jpg":"./assets/avatars/avatar_human_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_human_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_human_alerte_opex_soutien_group.jpg","avatar_human_dossier_conf_08.jpg":"./assets/avatars/avatar_human_dossier_conf_08.jpg","avatar_human_leaks24_08.jpg":"./assets/avatars/avatar_human_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_human_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_alerte_opex_frappes_civil.jpg","avatar_human_dossier_conf_09.jpg":"./assets/avatars/avatar_human_dossier_conf_09.jpg","avatar_human_leaks24_09.jpg":"./assets/avatars/avatar_human_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_human_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_alerte_sahel_charnier_des.jpg","avatar_human_dossier_conf_10.jpg":"./assets/avatars/avatar_human_dossier_conf_10.jpg","avatar_human_leaks24_10.jpg":"./assets/avatars/avatar_human_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_human_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_alerte_sahel_puits_empois.jpg","avatar_human_dossier_conf_11.jpg":"./assets/avatars/avatar_human_dossier_conf_11.jpg","avatar_human_leaks24_11.jpg":"./assets/avatars/avatar_human_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_human_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_alerte_sahel_drones_berge.jpg","avatar_human_dossier_conf_12.jpg":"./assets/avatars/avatar_human_dossier_conf_12.jpg","avatar_human_leaks24_12.jpg":"./assets/avatars/avatar_human_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_human_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_alerte_sahel_auxiliaires.jpg","avatar_human_dossier_conf_13.jpg":"./assets/avatars/avatar_human_dossier_conf_13.jpg","avatar_human_leaks24_13.jpg":"./assets/avatars/avatar_human_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_human_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_alerte_sahel_retour_terro.jpg","avatar_human_dossier_conf_14.jpg":"./assets/avatars/avatar_human_dossier_conf_14.jpg","avatar_human_leaks24_14.jpg":"./assets/avatars/avatar_human_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_human_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_human_alerte_recrutement_soldat.jpg","avatar_human_dossier_conf_15.jpg":"./assets/avatars/avatar_human_dossier_conf_15.jpg","avatar_human_leaks24_15.jpg":"./assets/avatars/avatar_human_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_human_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_alerte_industrie_armes_ci.jpg","avatar_human_dossier_conf_16.jpg":"./assets/avatars/avatar_human_dossier_conf_16.jpg","avatar_human_leaks24_16.jpg":"./assets/avatars/avatar_human_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_human_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_human_alerte_outremer_militaris.jpg","avatar_human_dossier_conf_17.jpg":"./assets/avatars/avatar_human_dossier_conf_17.jpg","avatar_human_leaks24_17.jpg":"./assets/avatars/avatar_human_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_human_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_alerte_nrbc_cobayes.jpg","avatar_human_dossier_conf_18.jpg":"./assets/avatars/avatar_human_dossier_conf_18.jpg","avatar_human_leaks24_18.jpg":"./assets/avatars/avatar_human_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_human_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_human_alerte_otan_souverainete.jpg","avatar_human_dossier_conf_19.jpg":"./assets/avatars/avatar_human_dossier_conf_19.jpg","avatar_human_leaks24_19.jpg":"./assets/avatars/avatar_human_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_human_alerte_transversal_france.jpg":"./assets/avatars/avatar_human_alerte_transversal_france.jpg","avatar_human_dossier_conf_20.jpg":"./assets/avatars/avatar_human_dossier_conf_20.jpg","avatar_human_leaks24_20.jpg":"./assets/avatars/avatar_human_leaks24_20.jpg"};
+const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg","daily_fuel.jpg":"./assets/evidence/daily_fuel.jpg","daily_train.jpg":"./assets/evidence/daily_train.jpg","daily_supermarket.jpg":"./assets/evidence/daily_supermarket.jpg","daily_storm.jpg":"./assets/evidence/daily_storm.jpg","daily_roadworks.jpg":"./assets/evidence/daily_roadworks.jpg","daily_school.jpg":"./assets/evidence/daily_school.jpg","daily_stadium.jpg":"./assets/evidence/daily_stadium.jpg","daily_market.jpg":"./assets/evidence/daily_market.jpg","daily_health.jpg":"./assets/evidence/daily_health.jpg","daily_energy.jpg":"./assets/evidence/daily_energy.jpg","daily_cafe.jpg":"./assets/evidence/daily_cafe.jpg","daily_cinema.jpg":"./assets/evidence/daily_cinema.jpg","daily_traffic.jpg":"./assets/evidence/daily_traffic.jpg","daily_airport.jpg":"./assets/evidence/daily_airport.jpg","daily_parcels.jpg":"./assets/evidence/daily_parcels.jpg","daily_bakery.jpg":"./assets/evidence/daily_bakery.jpg","daily_festival.jpg":"./assets/evidence/daily_festival.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_human_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_human_alerte_espace_militarisat.jpg","avatar_human_dossier_conf_01.jpg":"./assets/avatars/avatar_human_dossier_conf_01.jpg","avatar_human_leaks24_01.jpg":"./assets/avatars/avatar_human_leaks24_01.jpg","avatar_human_voixdupeuple_news.jpg":"./assets/avatars/avatar_human_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_org_cuisine_du_jour.jpg":"./assets/avatars/avatar_org_cuisine_du_jour.jpg","avatar_org_velo_ville.jpg":"./assets/avatars/avatar_org_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_org_maison_travaux.jpg":"./assets/avatars/avatar_org_maison_travaux.jpg","avatar_org_fil_des_parents.jpg":"./assets/avatars/avatar_org_fil_des_parents.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_human_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_human_alerte_espace_incident_or.jpg","avatar_human_dossier_conf_02.jpg":"./assets/avatars/avatar_human_dossier_conf_02.jpg","avatar_human_leaks24_02.jpg":"./assets/avatars/avatar_human_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_human_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_human_alerte_espace_espionnage.jpg","avatar_human_dossier_conf_03.jpg":"./assets/avatars/avatar_human_dossier_conf_03.jpg","avatar_human_leaks24_03.jpg":"./assets/avatars/avatar_human_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_human_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_alerte_crise_quartiers_ri.jpg","avatar_human_dossier_conf_04.jpg":"./assets/avatars/avatar_human_dossier_conf_04.jpg","avatar_human_leaks24_04.jpg":"./assets/avatars/avatar_human_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_human_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_human_alerte_crise_controle_mil.jpg","avatar_human_dossier_conf_05.jpg":"./assets/avatars/avatar_human_dossier_conf_05.jpg","avatar_human_leaks24_05.jpg":"./assets/avatars/avatar_human_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_human_alerte_base_contamination.jpg":"./assets/avatars/avatar_human_alerte_base_contamination.jpg","avatar_human_dossier_conf_06.jpg":"./assets/avatars/avatar_human_dossier_conf_06.jpg","avatar_human_leaks24_06.jpg":"./assets/avatars/avatar_human_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_human_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_human_alerte_opex_interets_econ.jpg","avatar_human_dossier_conf_07.jpg":"./assets/avatars/avatar_human_dossier_conf_07.jpg","avatar_human_leaks24_07.jpg":"./assets/avatars/avatar_human_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_human_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_human_alerte_opex_soutien_group.jpg","avatar_human_dossier_conf_08.jpg":"./assets/avatars/avatar_human_dossier_conf_08.jpg","avatar_human_leaks24_08.jpg":"./assets/avatars/avatar_human_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_human_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_alerte_opex_frappes_civil.jpg","avatar_human_dossier_conf_09.jpg":"./assets/avatars/avatar_human_dossier_conf_09.jpg","avatar_human_leaks24_09.jpg":"./assets/avatars/avatar_human_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_human_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_alerte_sahel_charnier_des.jpg","avatar_human_dossier_conf_10.jpg":"./assets/avatars/avatar_human_dossier_conf_10.jpg","avatar_human_leaks24_10.jpg":"./assets/avatars/avatar_human_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_human_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_alerte_sahel_puits_empois.jpg","avatar_human_dossier_conf_11.jpg":"./assets/avatars/avatar_human_dossier_conf_11.jpg","avatar_human_leaks24_11.jpg":"./assets/avatars/avatar_human_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_human_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_alerte_sahel_drones_berge.jpg","avatar_human_dossier_conf_12.jpg":"./assets/avatars/avatar_human_dossier_conf_12.jpg","avatar_human_leaks24_12.jpg":"./assets/avatars/avatar_human_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_human_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_alerte_sahel_auxiliaires.jpg","avatar_human_dossier_conf_13.jpg":"./assets/avatars/avatar_human_dossier_conf_13.jpg","avatar_human_leaks24_13.jpg":"./assets/avatars/avatar_human_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_human_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_alerte_sahel_retour_terro.jpg","avatar_human_dossier_conf_14.jpg":"./assets/avatars/avatar_human_dossier_conf_14.jpg","avatar_human_leaks24_14.jpg":"./assets/avatars/avatar_human_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_human_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_human_alerte_recrutement_soldat.jpg","avatar_human_dossier_conf_15.jpg":"./assets/avatars/avatar_human_dossier_conf_15.jpg","avatar_human_leaks24_15.jpg":"./assets/avatars/avatar_human_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_human_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_alerte_industrie_armes_ci.jpg","avatar_human_dossier_conf_16.jpg":"./assets/avatars/avatar_human_dossier_conf_16.jpg","avatar_human_leaks24_16.jpg":"./assets/avatars/avatar_human_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_human_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_human_alerte_outremer_militaris.jpg","avatar_human_dossier_conf_17.jpg":"./assets/avatars/avatar_human_dossier_conf_17.jpg","avatar_human_leaks24_17.jpg":"./assets/avatars/avatar_human_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_human_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_alerte_nrbc_cobayes.jpg","avatar_human_dossier_conf_18.jpg":"./assets/avatars/avatar_human_dossier_conf_18.jpg","avatar_human_leaks24_18.jpg":"./assets/avatars/avatar_human_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_human_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_human_alerte_otan_souverainete.jpg","avatar_human_dossier_conf_19.jpg":"./assets/avatars/avatar_human_dossier_conf_19.jpg","avatar_human_leaks24_19.jpg":"./assets/avatars/avatar_human_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_human_alerte_transversal_france.jpg":"./assets/avatars/avatar_human_alerte_transversal_france.jpg","avatar_human_dossier_conf_20.jpg":"./assets/avatars/avatar_human_dossier_conf_20.jpg","avatar_human_leaks24_20.jpg":"./assets/avatars/avatar_human_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -12358,6 +19898,21 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
@@ -12439,9 +19994,77 @@ function distractorPostContent(actor, random) {
       "Le concert de ce soir est maintenu d'après l'organisateur. Les faux visuels d'annulation tournent encore.",
       "Une bande-annonce a fuité en basse qualité et tout le monde la commente comme un communiqué officiel.",
       "Festival local : beaucoup d'images anciennes ressortent, pensez à vérifier l'année avant de partager."
+    ],
+    "@sante_pratique": [
+      "Délais plus longs dans plusieurs cabinets aujourd'hui. Avant de conclure à une saturation générale, vérifiez les informations de votre secteur. #Santé",
+      "Une capture affirme que toutes les pharmacies seront fermées demain. C'est faux : les horaires restent locaux et doivent être vérifiés établissement par établissement.",
+      "Les messages alarmistes sur les rendez-vous médicaux circulent vite. Une expérience personnelle ne décrit pas tout le système."
+    ],
+    "@route_bouchons": [
+      "Trafic très dense sur la rocade après un véhicule en panne. Les photos partagées datent parfois de la veille. #Circulation",
+      "Travaux au rond-point nord : vingt minutes de plus annoncées, pas une fermeture totale de la ville.",
+      "Une vidéo de bouchon est présentée comme actuelle dans trois régions différentes. Regardez les panneaux et la météo avant de la relayer."
+    ],
+    "@aeroport_minute": [
+      "Files plus longues aux contrôles ce matin, mais les vols ne sont pas tous retardés. Vérifiez votre compagnie et votre numéro de vol. #Aéroport",
+      "Une photo de hall bondé ne permet pas de conclure à une fermeture. Les tableaux de départ restent la source utile.",
+      "Bagages retardés sur quelques rotations : les témoignages se multiplient, la situation varie selon les terminaux."
+    ],
+    "@colis_services": [
+      "Les points relais sont chargés avec les promotions de la semaine. Un message de livraison ne doit jamais demander vos coordonnées bancaires. #Livraisons",
+      "Plusieurs faux SMS de colis circulent aujourd'hui. Passez par l'application ou le site officiel du transporteur.",
+      "Un empilement de cartons dans un commerce ne prouve pas une rupture logistique nationale."
+    ],
+    "@logement_clair": [
+      "Charges, chauffage, assurance : comparez toujours la période et la surface avant de partager une facture spectaculaire. #Logement",
+      "Une nouvelle aide au logement est annoncée dans une capture sans lien. Attendez le texte officiel et les conditions précises.",
+      "Les devis de rénovation varient fortement. Une photo seule ne permet pas d'estimer un coût ni une urgence."
+    ],
+    "@conso_numerique": [
+      "Panne intermittente sur plusieurs applications ce matin. Ce n'est pas automatiquement une cyberattaque.",
+      "Une fausse mise à jour circule par message privé. Ne téléchargez rien depuis un lien transmis par un compte inconnu.",
+      "Les captures d'écran d'abonnement oublient souvent les options et la durée d'engagement. Comparez le contrat complet."
+    ],
+    "@emploi_regions": [
+      "Plusieurs salons de recrutement ouvrent cette semaine. Attention aux annonces qui réclament un paiement avant l'entretien. #Emploi",
+      "Une fermeture d'atelier locale devient déjà 'des milliers d'emplois supprimés' dans certains comptes. Les chiffres ne correspondent pas.",
+      "Les offres saisonnières repartent dans plusieurs régions, avec de grands écarts selon les secteurs et les territoires."
+    ],
+    "@cuisine_du_jour": [
+      "Tomates moins chères au marché ce matin, mais pas partout. Une photo d'étal ne fait pas une tendance nationale.",
+      "La recette virale du jour utilise un produit rappelé l'an dernier, pas cette semaine. Les vieilles captures reviennent sans date.",
+      "File devant la boulangerie et déjà une rumeur de pénurie de farine. Le four était simplement en retard."
+    ],
+    "@velo_ville": [
+      "Piste cyclable neutralisée sur deux rues pour travaux. L'itinéraire conseillé est ouvert, malgré les messages parlant d'une interdiction générale.",
+      "Photo d'un vélo accidenté très partagée, mais ni date ni lieu vérifiables pour l'instant.",
+      "Trafic plus chargé près des écoles ce matin : prudence aux carrefours et aux sorties de bus."
+    ],
+    "@agenda_municipal": [
+      "Le marché de samedi est déplacé place des Tilleuls pendant les travaux. Il n'est pas annulé. #VieLocale",
+      "La piscine municipale ferme deux jours pour maintenance. Les autres équipements restent ouverts.",
+      "Festival maintenu ce week-end avec un accès modifié. Le visuel d'annulation qui circule n'est pas officiel."
+    ],
+    "@maison_travaux": [
+      "Une fissure photographiée de très près paraît toujours dramatique. Il faut voir le bâtiment, l'évolution et l'avis d'un professionnel.",
+      "Arnaques aux faux artisans en hausse dans les groupes locaux : vérifiez l'entreprise avant de signer ou de verser un acompte.",
+      "Les travaux de copropriété font débat, mais une capture de devis sans surface ni détail ne permet aucune comparaison."
+    ],
+    "@fil_des_parents": [
+      "Bus scolaire en retard et messages contradictoires dans les groupes. L'établissement confirme que les cours commencent normalement. #École",
+      "Une capture annonce la fermeture de toutes les cantines demain. Elle concerne en réalité une seule commune.",
+      "ENT lent, téléphone qui sonne, rumeurs qui montent : attendons le message officiel avant d'organiser toute la journée autour d'une capture."
     ]
   };
   return pick(byHandle[actor.handle] || general, random);
+}
+
+function distractorMediaForScenario(scenario, actor, index, random) {
+  const pool = scenario.dailyMedia || [];
+  if (!pool.length || random() < 0.28) return null;
+  const targeted = pool.filter((media) => (media.handles || []).includes(actor.handle));
+  const candidates = targeted.length ? targeted : pool;
+  return candidates[(index + hashSeed(actor.handle || "daily")) % candidates.length];
 }
 
 function distractorPostForScenario(scenario, actor, index, duration, random) {
@@ -12458,7 +20081,7 @@ function distractorPostForScenario(scenario, actor, index, duration, random) {
     likes: Math.floor((18 + random() * 2400) * burst),
     reposts: Math.floor((4 + random() * 900) * burst),
     replies: Math.floor((2 + random() * 260) * burst),
-    media: null
+    media: distractorMediaForScenario(scenario, actor, index, random)
   };
 }
 
@@ -12547,6 +20170,7 @@ function generatePosts(scenario) {
   const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length);
   const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.40) : 0;
   const scenarioTarget = Math.max(0, generatedCount - distractorTarget);
+  const scenarioTrends = scenario.trends.filter((trend) => !trend.daily);
 
   for (let i = 0; i < scenarioTarget; i += 1) {
     const suspectChance = 0.48 + (i > volume * 0.28 ? 0.12 : 0) + (i > volume * 0.65 ? 0.08 : 0);
@@ -12555,7 +20179,7 @@ function generatePosts(scenario) {
     const actor = pick(candidates.length ? candidates : regularActors, random);
     const templates = suspect ? scenario.suspectTemplates : scenario.normalTemplates;
     const minute = Math.floor(random() * duration);
-    const trend = pick(scenario.trends, random).tag;
+    const trend = pick(scenarioTrends.length ? scenarioTrends : scenario.trends, random).tag;
     const hasMedia = random() > (suspect ? 0.10 : 0.48);
     const spike = suspect ? 18 + random() * 26 : actor.trust === "high" ? 0.55 + random() * 0.9 : 1.2 + random() * 2.4;
     const likes = Math.floor((20 + random() * 560) * spike);
@@ -12922,6 +20546,10 @@ function renderFeed() {
 
 
 
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -13049,7 +20677,8 @@ function createLivePost(renderImmediately = true) {
   const actor = pick(candidates.length ? candidates : regularActors, random);
   const templates = suspect ? state.scenario.suspectTemplates : state.scenario.normalTemplates;
   const mediaPool = state.scenario.mediaLabels || [];
-  const trend = pick(state.scenario.trends, random).tag;
+  const scenarioTrends = state.scenario.trends.filter((item) => !item.daily);
+  const trend = pick(scenarioTrends.length ? scenarioTrends : state.scenario.trends, random).tag;
   const post = {
     id: `${state.scenario.id}-live-${Date.now()}-${Math.floor(random() * 9999)}`,
     minute: scenarioDurationMinutes(state.scenario),
@@ -13243,7 +20872,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
