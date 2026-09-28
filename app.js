@@ -28,6 +28,34 @@ const builtInScenarios = [
       {
         "tag": "#CielSousControle",
         "count": "22,5 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -192,6 +220,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -328,9 +476,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 838860800000,
-        "reposts": 207417539980,
-        "replies": 9150547968,
+        "likes": 6710886400000,
+        "reposts": 1451922779860,
+        "replies": 54903287808,
         "media": {
           "kind": "photo",
           "title": "Satellite militaire",
@@ -380,9 +528,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 639010603008,
-        "reposts": 159356394043,
-        "replies": 8734003200,
+        "likes": 5112084824064,
+        "reposts": 1115494758301,
+        "replies": 52404019200,
         "media": {
           "kind": "document",
           "title": "Atelier satellite",
@@ -415,9 +563,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 707327426560,
-        "reposts": 175618897664,
-        "replies": 8734003200,
+        "likes": 5658619412480,
+        "reposts": 1229332283648,
+        "replies": 52404019200,
         "media": {
           "kind": "photo",
           "title": "Mobilisation \u00e9tudiante",
@@ -491,6 +639,34 @@ const builtInScenarios = [
       {
         "tag": "#OrbiteAfrique",
         "count": "22,6 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -655,6 +831,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -791,9 +1087,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 845571686400,
-        "reposts": 209031684260,
-        "replies": 9231169536,
+        "likes": 6764573491200,
+        "reposts": 1463221789820,
+        "replies": 55387017216,
         "media": {
           "kind": "photo",
           "title": "Trajectoires crois\u00e9es",
@@ -843,9 +1139,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 647197884416,
-        "reposts": 161333720786,
-        "replies": 9103518720,
+        "likes": 5177583075328,
+        "reposts": 1129336045502,
+        "replies": 54621112320,
         "media": {
           "kind": "document",
           "title": "\u00c9cran technique",
@@ -878,9 +1174,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 716722667520,
-        "reposts": 177717285228,
-        "replies": 9103518720,
+        "likes": 5733781340160,
+        "reposts": 1244020996596,
+        "replies": 54621112320,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -954,6 +1250,34 @@ const builtInScenarios = [
       {
         "tag": "#SatellitesFrancais",
         "count": "22,7 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -1118,6 +1442,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -1254,9 +1698,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 852282572800,
-        "reposts": 210645828540,
-        "replies": 9473034240,
+        "likes": 6818260582400,
+        "reposts": 1474520799780,
+        "replies": 56838205440,
         "media": {
           "kind": "photo",
           "title": "Satellite au-dessus du Sahel",
@@ -1306,9 +1750,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 655385165824,
-        "reposts": 163311047529,
-        "replies": 9473034240,
+        "likes": 5243081326592,
+        "reposts": 1143177332703,
+        "replies": 56838205440,
         "media": {
           "kind": "document",
           "title": "Lumi\u00e8res nocturnes",
@@ -1341,9 +1785,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 726117908480,
-        "reposts": 179815672792,
-        "replies": 9473034240,
+        "likes": 5808943267840,
+        "reposts": 1258709709544,
+        "replies": 56838205440,
         "media": {
           "kind": "photo",
           "title": "Site minier",
@@ -1417,6 +1861,34 @@ const builtInScenarios = [
       {
         "tag": "#InondationInfo",
         "count": "22,8 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -1581,6 +2053,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -1717,9 +2309,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 858993459200,
-        "reposts": 212259972820,
-        "replies": 9842549760,
+        "likes": 6871947673600,
+        "reposts": 1485819809740,
+        "replies": 59055298560,
         "media": {
           "kind": "photo",
           "title": "Rue inond\u00e9e",
@@ -1769,9 +2361,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 663572447232,
-        "reposts": 165288374272,
-        "replies": 9842549760,
+        "likes": 5308579577856,
+        "reposts": 1157018619904,
+        "replies": 59055298560,
         "media": {
           "kind": "document",
           "title": "Aide aux sinistr\u00e9s",
@@ -1804,9 +2396,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 735513149440,
-        "reposts": 181914060356,
-        "replies": 9842549760,
+        "likes": 5884105195520,
+        "reposts": 1273398422492,
+        "replies": 59055298560,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ancien",
@@ -1880,6 +2472,34 @@ const builtInScenarios = [
       {
         "tag": "#MairieSousSurveillance",
         "count": "22,0 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -2044,6 +2664,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -2180,9 +2920,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 865704345600,
-        "reposts": 213874117100,
-        "replies": 10212065280,
+        "likes": 6925634764800,
+        "reposts": 1497118819700,
+        "replies": 61272391680,
         "media": {
           "kind": "photo",
           "title": "Patrouille mairie",
@@ -2232,9 +2972,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 671759728640,
-        "reposts": 167265701015,
-        "replies": 10212065280,
+        "likes": 5374077829120,
+        "reposts": 1170859907105,
+        "replies": 61272391680,
         "media": {
           "kind": "document",
           "title": "Cam\u00e9ra de rue",
@@ -2267,9 +3007,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer protection civile et d\u00e9rive autoritaire. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 744908390400,
-        "reposts": 184012447920,
-        "replies": 10212065280,
+        "likes": 5959267123200,
+        "reposts": 1288087135440,
+        "replies": 61272391680,
         "media": {
           "kind": "photo",
           "title": "Dossier exercice",
@@ -2343,6 +3083,34 @@ const builtInScenarios = [
       {
         "tag": "#SanteLocale",
         "count": "22,1 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -2507,6 +3275,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -2643,9 +3531,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 872415232000,
-        "reposts": 215488261380,
-        "replies": 10581580800,
+        "likes": 6979321856000,
+        "reposts": 1508417829660,
+        "replies": 63489484800,
         "media": {
           "kind": "photo",
           "title": "Base a\u00e9rienne",
@@ -2695,9 +3583,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 679947010048,
-        "reposts": 169243027758,
-        "replies": 10581580800,
+        "likes": 5439576080384,
+        "reposts": 1184701194306,
+        "replies": 63489484800,
         "media": {
           "kind": "document",
           "title": "Ch\u00e2teau d'eau",
@@ -2730,9 +3618,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 754303631360,
-        "reposts": 186110835484,
-        "replies": 10581580800,
+        "likes": 6034429050880,
+        "reposts": 1302775848388,
+        "replies": 63489484800,
         "media": {
           "kind": "photo",
           "title": "Rapport labo",
@@ -2806,6 +3694,34 @@ const builtInScenarios = [
       {
         "tag": "#ProtectionOuProfit",
         "count": "22,2 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -2970,6 +3886,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -3106,9 +4142,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 879126118400,
-        "reposts": 217102405660,
-        "replies": 10951096320,
+        "likes": 7033008947200,
+        "reposts": 1519716839620,
+        "replies": 65706577920,
         "media": {
           "kind": "photo",
           "title": "Convoi minier",
@@ -3158,9 +4194,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 688134291456,
-        "reposts": 171220354501,
-        "replies": 10951096320,
+        "likes": 5505074331648,
+        "reposts": 1198542481507,
+        "replies": 65706577920,
         "media": {
           "kind": "document",
           "title": "R\u00e9union contrats",
@@ -3193,9 +4229,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 763698872320,
-        "reposts": 188209223048,
-        "replies": 10951096320,
+        "likes": 6109590978560,
+        "reposts": 1317464561336,
+        "replies": 65706577920,
         "media": {
           "kind": "photo",
           "title": "Routes commerciales",
@@ -3269,6 +4305,34 @@ const builtInScenarios = [
       {
         "tag": "#OPEXSousMain",
         "count": "22,3 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -3433,6 +4497,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -3569,9 +4753,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 885837004800,
-        "reposts": 218716549940,
-        "replies": 11320611840,
+        "likes": 7086696038400,
+        "reposts": 1531015849580,
+        "replies": 67923671040,
         "media": {
           "kind": "photo",
           "title": "Rencontre nocturne",
@@ -3621,9 +4805,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 696321572864,
-        "reposts": 173197681244,
-        "replies": 11320611840,
+        "likes": 5570572582912,
+        "reposts": 1212383768708,
+        "replies": 67923671040,
         "media": {
           "kind": "document",
           "title": "Carte sur table",
@@ -3656,9 +4840,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 773094113280,
-        "reposts": 190307610612,
-        "replies": 11320611840,
+        "likes": 6184752906240,
+        "reposts": 1332153274284,
+        "replies": 67923671040,
         "media": {
           "kind": "photo",
           "title": "Compound satellite",
@@ -3732,6 +4916,34 @@ const builtInScenarios = [
       {
         "tag": "#JusticeOuManip",
         "count": "22,4 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -3896,6 +5108,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -4032,9 +5364,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 892547891200,
-        "reposts": 220330694220,
-        "replies": 11690127360,
+        "likes": 7140383129600,
+        "reposts": 1542314859540,
+        "replies": 70140764160,
         "media": {
           "kind": "photo",
           "title": "Fum\u00e9e distante",
@@ -4084,9 +5416,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 704508854272,
-        "reposts": 175175007987,
-        "replies": 11690127360,
+        "likes": 5636070834176,
+        "reposts": 1226225055909,
+        "replies": 70140764160,
         "media": {
           "kind": "document",
           "title": "B\u00e2timent endommag\u00e9",
@@ -4119,9 +5451,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 782489354240,
-        "reposts": 192405998176,
-        "replies": 11690127360,
+        "likes": 6259914833920,
+        "reposts": 1346841987232,
+        "replies": 70140764160,
         "media": {
           "kind": "photo",
           "title": "Comparaison OSINT",
@@ -4195,6 +5527,34 @@ const builtInScenarios = [
       {
         "tag": "#Geolocalisation",
         "count": "22,5 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -4359,6 +5719,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -4495,9 +5975,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 899258777600,
-        "reposts": 221944838500,
-        "replies": 12059642880,
+        "likes": 7194070220800,
+        "reposts": 1553613869500,
+        "replies": 72357857280,
         "media": {
           "kind": "photo",
           "title": "Site d\u00e9sertique",
@@ -4547,9 +6027,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 712696135680,
-        "reposts": 177152334730,
-        "replies": 12059642880,
+        "likes": 5701569085440,
+        "reposts": 1240066343110,
+        "replies": 72357857280,
         "media": {
           "kind": "document",
           "title": "Vid\u00e9o flout\u00e9e",
@@ -4582,9 +6062,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 791884595200,
-        "reposts": 194504385740,
-        "replies": 12059642880,
+        "likes": 6335076761600,
+        "reposts": 1361530700180,
+        "replies": 72357857280,
         "media": {
           "kind": "photo",
           "title": "Carnet GPS",
@@ -4658,6 +6138,34 @@ const builtInScenarios = [
       {
         "tag": "#Prelevements",
         "count": "22,6 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -4822,6 +6330,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -4958,9 +6586,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 905969664000,
-        "reposts": 223558982780,
-        "replies": 12429158400,
+        "likes": 7247757312000,
+        "reposts": 1564912879460,
+        "replies": 74574950400,
         "media": {
           "kind": "photo",
           "title": "Puits rural",
@@ -5010,9 +6638,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 720883417088,
-        "reposts": 179129661473,
-        "replies": 12429158400,
+        "likes": 5767067336704,
+        "reposts": 1253907630311,
+        "replies": 74574950400,
         "media": {
           "kind": "document",
           "title": "Clinique locale",
@@ -5045,9 +6673,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 801279836160,
-        "reposts": 196602773304,
-        "replies": 12429158400,
+        "likes": 6410238689280,
+        "reposts": 1376219413128,
+        "replies": 74574950400,
         "media": {
           "kind": "photo",
           "title": "Convoi lointain",
@@ -5121,6 +6749,34 @@ const builtInScenarios = [
       {
         "tag": "#OSINTDrone",
         "count": "22,7 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -5285,6 +6941,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -5421,9 +7197,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 912680550400,
-        "reposts": 225173127060,
-        "replies": 12798673920,
+        "likes": 7301444403200,
+        "reposts": 1576211889420,
+        "replies": 76792043520,
         "media": {
           "kind": "photo",
           "title": "Bergers au loin",
@@ -5473,9 +7249,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 729070698496,
-        "reposts": 181106988216,
-        "replies": 12798673920,
+        "likes": 5832565587968,
+        "reposts": 1267748917512,
+        "replies": 76792043520,
         "media": {
           "kind": "document",
           "title": "Nuage de poussi\u00e8re",
@@ -5508,9 +7284,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 810675077120,
-        "reposts": 198701160868,
-        "replies": 12798673920,
+        "likes": 6485400616960,
+        "reposts": 1390908126076,
+        "replies": 76792043520,
         "media": {
           "kind": "photo",
           "title": "V\u00e9hicule ab\u00eem\u00e9",
@@ -5584,6 +7360,34 @@ const builtInScenarios = [
       {
         "tag": "#Loyaute",
         "count": "22,8 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -5748,6 +7552,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -5884,9 +7808,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 919391436800,
-        "reposts": 226787271340,
-        "replies": 13168189440,
+        "likes": 7355131494400,
+        "reposts": 1587510899380,
+        "replies": 79009136640,
         "media": {
           "kind": "photo",
           "title": "Badges anonymes",
@@ -5936,9 +7860,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 737257979904,
-        "reposts": 183084314959,
-        "replies": 13168189440,
+        "likes": 5898063839232,
+        "reposts": 1281590204713,
+        "replies": 79009136640,
         "media": {
           "kind": "document",
           "title": "Liste flout\u00e9e",
@@ -5971,9 +7895,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 820070318080,
-        "reposts": 200799548432,
-        "replies": 13168189440,
+        "likes": 6560562544640,
+        "reposts": 1405596839024,
+        "replies": 79009136640,
         "media": {
           "kind": "photo",
           "title": "Messages urgents",
@@ -6047,6 +7971,34 @@ const builtInScenarios = [
       {
         "tag": "#SahelInfo",
         "count": "22,0 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -6211,6 +8163,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -6347,9 +8419,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 926102323200,
-        "reposts": 228401415620,
-        "replies": 13537704960,
+        "likes": 7408818585600,
+        "reposts": 1598809909340,
+        "replies": 81226229760,
         "media": {
           "kind": "photo",
           "title": "Checkpoint d\u00e9sert",
@@ -6399,9 +8471,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 745445261312,
-        "reposts": 185061641702,
-        "replies": 13537704960,
+        "likes": 5963562090496,
+        "reposts": 1295431491914,
+        "replies": 81226229760,
         "media": {
           "kind": "document",
           "title": "Message intercept\u00e9",
@@ -6434,9 +8506,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 829465559040,
-        "reposts": 202897935996,
-        "replies": 13537704960,
+        "likes": 6635724472320,
+        "reposts": 1420285551972,
+        "replies": 81226229760,
         "media": {
           "kind": "photo",
           "title": "Rumeur au march\u00e9",
@@ -6510,6 +8582,34 @@ const builtInScenarios = [
       {
         "tag": "#CausesPerdues",
         "count": "22,1 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -6674,6 +8774,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -6810,9 +9030,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 932813209600,
-        "reposts": 230015559900,
-        "replies": 13907220480,
+        "likes": 7462505676800,
+        "reposts": 1610108919300,
+        "replies": 83443322880,
         "media": {
           "kind": "photo",
           "title": "Couloir caserne",
@@ -6862,9 +9082,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 753632542720,
-        "reposts": 187038968445,
-        "replies": 13907220480,
+        "likes": 6029060341760,
+        "reposts": 1309272779115,
+        "replies": 83443322880,
         "media": {
           "kind": "document",
           "title": "Mur recrutement",
@@ -6897,9 +9117,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 838860800000,
-        "reposts": 204996323560,
-        "replies": 13907220480,
+        "likes": 6710886400000,
+        "reposts": 1434974264920,
+        "replies": 83443322880,
         "media": {
           "kind": "photo",
           "title": "T\u00e9moignage flout\u00e9",
@@ -6973,6 +9193,34 @@ const builtInScenarios = [
       {
         "tag": "#IndustrieEnCause",
         "count": "22,2 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -7137,6 +9385,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -7273,9 +9641,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 939524096000,
-        "reposts": 231629704180,
-        "replies": 14276736000,
+        "likes": 7516192768000,
+        "reposts": 1621407929260,
+        "replies": 85660416000,
         "media": {
           "kind": "photo",
           "title": "Cha\u00eene industrielle",
@@ -7325,9 +9693,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 761819824128,
-        "reposts": 189016295188,
-        "replies": 14276736000,
+        "likes": 6094558593024,
+        "reposts": 1323114066316,
+        "replies": 85660416000,
         "media": {
           "kind": "document",
           "title": "Rue d\u00e9truite vide",
@@ -7360,9 +9728,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 848256040960,
-        "reposts": 207094711124,
-        "replies": 14276736000,
+        "likes": 6786048327680,
+        "reposts": 1449662977868,
+        "replies": 85660416000,
         "media": {
           "kind": "photo",
           "title": "Num\u00e9ro s\u00e9rie",
@@ -7436,6 +9804,34 @@ const builtInScenarios = [
       {
         "tag": "#Souverainete",
         "count": "22,3 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -7600,6 +9996,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -7736,9 +10252,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 946234982400,
-        "reposts": 233243848460,
-        "replies": 14646251520,
+        "likes": 7569879859200,
+        "reposts": 1632706939220,
+        "replies": 87877509120,
         "media": {
           "kind": "photo",
           "title": "C\u00f4te tropicale",
@@ -7788,9 +10304,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 770007105536,
-        "reposts": 190993621931,
-        "replies": 14646251520,
+        "likes": 6160056844288,
+        "reposts": 1336955353517,
+        "replies": 87877509120,
         "media": {
           "kind": "document",
           "title": "R\u00e9union locale",
@@ -7823,9 +10339,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 857651281920,
-        "reposts": 209193098688,
-        "replies": 14646251520,
+        "likes": 6861210255360,
+        "reposts": 1464351690816,
+        "replies": 87877509120,
         "media": {
           "kind": "photo",
           "title": "Station radar",
@@ -7899,6 +10415,34 @@ const builtInScenarios = [
       {
         "tag": "#BaseEtPopulation",
         "count": "22,4 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -8063,6 +10607,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -8199,9 +10863,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 952945868800,
-        "reposts": 234857992740,
-        "replies": 15015767040,
+        "likes": 7623566950400,
+        "reposts": 1644005949180,
+        "replies": 90094602240,
         "media": {
           "kind": "photo",
           "title": "Tente d\u00e9contamination",
@@ -8251,9 +10915,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 778194386944,
-        "reposts": 192970948674,
-        "replies": 15015767040,
+        "likes": 6225555095552,
+        "reposts": 1350796640718,
+        "replies": 90094602240,
         "media": {
           "kind": "document",
           "title": "Table triage",
@@ -8286,9 +10950,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 867046522880,
-        "reposts": 211291486252,
-        "replies": 15015767040,
+        "likes": 6936372183040,
+        "reposts": 1479040403764,
+        "replies": 90094602240,
         "media": {
           "kind": "photo",
           "title": "Masque et gants",
@@ -8362,6 +11026,34 @@ const builtInScenarios = [
       {
         "tag": "#AllianceOuSoumission",
         "count": "22,5 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -8526,6 +11218,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -8662,9 +11474,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 959656755200,
-        "reposts": 236472137020,
-        "replies": 15385282560,
+        "likes": 7677254041600,
+        "reposts": 1655304959140,
+        "replies": 92311695360,
         "media": {
           "kind": "photo",
           "title": "Salle alliance",
@@ -8714,9 +11526,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 786381668352,
-        "reposts": 194948275417,
-        "replies": 15385282560,
+        "likes": 6291053346816,
+        "reposts": 1364637927919,
+        "replies": 92311695360,
         "media": {
           "kind": "document",
           "title": "Centre commandement",
@@ -8749,9 +11561,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi opposer patriotisme fran\u00e7ais et alliances militaires. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 876441763840,
-        "reposts": 213389873816,
-        "replies": 15385282560,
+        "likes": 7011534110720,
+        "reposts": 1493729116712,
+        "replies": 92311695360,
         "media": {
           "kind": "photo",
           "title": "Navire gris",
@@ -8825,6 +11637,34 @@ const builtInScenarios = [
       {
         "tag": "#NarratifsCoordonnes",
         "count": "22,6 k"
+      },
+      {
+        "tag": "#Carburants",
+        "count": "68,2 k"
+      },
+      {
+        "tag": "#PrixDuGazole",
+        "count": "41,7 k"
+      },
+      {
+        "tag": "#M\u00e9t\u00e9o",
+        "count": "37,4 k"
+      },
+      {
+        "tag": "#TER",
+        "count": "24,9 k"
+      },
+      {
+        "tag": "#PouvoirDAchat",
+        "count": "22,6 k"
+      },
+      {
+        "tag": "#Rentr\u00e9e",
+        "count": "18,8 k"
+      },
+      {
+        "tag": "#Foot",
+        "count": "17,1 k"
       }
     ],
     "clues": [
@@ -8989,6 +11829,126 @@ const builtInScenarios = [
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle"
+      },
+      {
+        "name": "Carbu Minute",
+        "handle": "@carbu_minute",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_carbu_minute.jpg"
+      },
+      {
+        "name": "M\u00e9t\u00e9o Fil",
+        "handle": "@meteo_fil",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_meteo_fil.jpg"
+      },
+      {
+        "name": "Trafic Rail IDF",
+        "handle": "@trafic_rail_idf",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_trafic_rail_idf.jpg"
+      },
+      {
+        "name": "Panier Conso",
+        "handle": "@panier_conso",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_panier_conso.jpg"
+      },
+      {
+        "name": "Actu Flash FR",
+        "handle": "@actu_flash_fr",
+        "verified": false,
+        "stance": "media",
+        "trust": "medium",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_actu_flash_fr.jpg"
+      },
+      {
+        "name": "March\u00e9s \u00c9nergie",
+        "handle": "@marches_energie",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_marches_energie.jpg"
+      },
+      {
+        "name": "Stade Direct",
+        "handle": "@stade_direct",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_stade_direct.jpg"
+      },
+      {
+        "name": "Vie Locale",
+        "handle": "@vie_locale",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_vie_locale.jpg"
+      },
+      {
+        "name": "Rumeur Radar",
+        "handle": "@rumeur_radar",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_rumeur_radar.jpg"
+      },
+      {
+        "name": "\u00c9co Matin",
+        "handle": "@eco_matin",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_eco_matin.jpg"
+      },
+      {
+        "name": "Classe Connect\u00e9e",
+        "handle": "@classe_connectee",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_classe_connectee.jpg"
+      },
+      {
+        "name": "Sorties & \u00c9crans",
+        "handle": "@sorties_ecrans",
+        "verified": false,
+        "stance": "news",
+        "trust": "medium",
+        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "accountType": "distractor",
+        "avatar": "avatar_org_sorties_ecrans.jpg"
       }
     ],
     "normalTemplates": [
@@ -9125,9 +12085,9 @@ const builtInScenarios = [
         "content": "EXCLUSIF : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
-        "likes": 966367641600,
-        "reposts": 238086281300,
-        "replies": 15754798080,
+        "likes": 7730941132800,
+        "reposts": 1666603969100,
+        "replies": 94528788480,
         "media": {
           "kind": "photo",
           "title": "Mur d'indices",
@@ -9177,9 +12137,9 @@ const builtInScenarios = [
         "content": "Fuite re\u00e7ue cette nuit : tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
-        "likes": 794568949760,
-        "reposts": 196925602160,
-        "replies": 15754798080,
+        "likes": 6356551598080,
+        "reposts": 1378479215120,
+        "replies": 94528788480,
         "media": {
           "kind": "document",
           "title": "Mosa\u00efque r\u00e9seaux",
@@ -9212,9 +12172,9 @@ const builtInScenarios = [
         "content": "Les autorit\u00e9s connaissaient tout. Ce dossier montre pourquoi installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Les m\u00e9dias n'en parleront pas.",
         "suspect": true,
         "reason": "Narratif de dissimulation, document non authentifi\u00e9 et g\u00e9n\u00e9ralisation strat\u00e9gique.",
-        "likes": 885837004800,
-        "reposts": 215488261380,
-        "replies": 15754798080,
+        "likes": 7086696038400,
+        "reposts": 1508417829660,
+        "replies": 94528788480,
         "media": {
           "kind": "photo",
           "title": "Foule pancartes",
@@ -9262,7 +12222,7 @@ const builtInScenarios = [
 ];
 
 const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_human_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_human_alerte_espace_militarisat.jpg","avatar_human_dossier_conf_01.jpg":"./assets/avatars/avatar_human_dossier_conf_01.jpg","avatar_human_leaks24_01.jpg":"./assets/avatars/avatar_human_leaks24_01.jpg","avatar_human_voixdupeuple_news.jpg":"./assets/avatars/avatar_human_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_human_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_human_alerte_espace_incident_or.jpg","avatar_human_dossier_conf_02.jpg":"./assets/avatars/avatar_human_dossier_conf_02.jpg","avatar_human_leaks24_02.jpg":"./assets/avatars/avatar_human_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_human_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_human_alerte_espace_espionnage.jpg","avatar_human_dossier_conf_03.jpg":"./assets/avatars/avatar_human_dossier_conf_03.jpg","avatar_human_leaks24_03.jpg":"./assets/avatars/avatar_human_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_human_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_alerte_crise_quartiers_ri.jpg","avatar_human_dossier_conf_04.jpg":"./assets/avatars/avatar_human_dossier_conf_04.jpg","avatar_human_leaks24_04.jpg":"./assets/avatars/avatar_human_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_human_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_human_alerte_crise_controle_mil.jpg","avatar_human_dossier_conf_05.jpg":"./assets/avatars/avatar_human_dossier_conf_05.jpg","avatar_human_leaks24_05.jpg":"./assets/avatars/avatar_human_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_human_alerte_base_contamination.jpg":"./assets/avatars/avatar_human_alerte_base_contamination.jpg","avatar_human_dossier_conf_06.jpg":"./assets/avatars/avatar_human_dossier_conf_06.jpg","avatar_human_leaks24_06.jpg":"./assets/avatars/avatar_human_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_human_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_human_alerte_opex_interets_econ.jpg","avatar_human_dossier_conf_07.jpg":"./assets/avatars/avatar_human_dossier_conf_07.jpg","avatar_human_leaks24_07.jpg":"./assets/avatars/avatar_human_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_human_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_human_alerte_opex_soutien_group.jpg","avatar_human_dossier_conf_08.jpg":"./assets/avatars/avatar_human_dossier_conf_08.jpg","avatar_human_leaks24_08.jpg":"./assets/avatars/avatar_human_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_human_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_alerte_opex_frappes_civil.jpg","avatar_human_dossier_conf_09.jpg":"./assets/avatars/avatar_human_dossier_conf_09.jpg","avatar_human_leaks24_09.jpg":"./assets/avatars/avatar_human_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_human_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_alerte_sahel_charnier_des.jpg","avatar_human_dossier_conf_10.jpg":"./assets/avatars/avatar_human_dossier_conf_10.jpg","avatar_human_leaks24_10.jpg":"./assets/avatars/avatar_human_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_human_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_alerte_sahel_puits_empois.jpg","avatar_human_dossier_conf_11.jpg":"./assets/avatars/avatar_human_dossier_conf_11.jpg","avatar_human_leaks24_11.jpg":"./assets/avatars/avatar_human_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_human_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_alerte_sahel_drones_berge.jpg","avatar_human_dossier_conf_12.jpg":"./assets/avatars/avatar_human_dossier_conf_12.jpg","avatar_human_leaks24_12.jpg":"./assets/avatars/avatar_human_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_human_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_alerte_sahel_auxiliaires.jpg","avatar_human_dossier_conf_13.jpg":"./assets/avatars/avatar_human_dossier_conf_13.jpg","avatar_human_leaks24_13.jpg":"./assets/avatars/avatar_human_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_human_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_alerte_sahel_retour_terro.jpg","avatar_human_dossier_conf_14.jpg":"./assets/avatars/avatar_human_dossier_conf_14.jpg","avatar_human_leaks24_14.jpg":"./assets/avatars/avatar_human_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_human_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_human_alerte_recrutement_soldat.jpg","avatar_human_dossier_conf_15.jpg":"./assets/avatars/avatar_human_dossier_conf_15.jpg","avatar_human_leaks24_15.jpg":"./assets/avatars/avatar_human_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_human_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_alerte_industrie_armes_ci.jpg","avatar_human_dossier_conf_16.jpg":"./assets/avatars/avatar_human_dossier_conf_16.jpg","avatar_human_leaks24_16.jpg":"./assets/avatars/avatar_human_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_human_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_human_alerte_outremer_militaris.jpg","avatar_human_dossier_conf_17.jpg":"./assets/avatars/avatar_human_dossier_conf_17.jpg","avatar_human_leaks24_17.jpg":"./assets/avatars/avatar_human_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_human_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_alerte_nrbc_cobayes.jpg","avatar_human_dossier_conf_18.jpg":"./assets/avatars/avatar_human_dossier_conf_18.jpg","avatar_human_leaks24_18.jpg":"./assets/avatars/avatar_human_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_human_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_human_alerte_otan_souverainete.jpg","avatar_human_dossier_conf_19.jpg":"./assets/avatars/avatar_human_dossier_conf_19.jpg","avatar_human_leaks24_19.jpg":"./assets/avatars/avatar_human_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_human_alerte_transversal_france.jpg":"./assets/avatars/avatar_human_alerte_transversal_france.jpg","avatar_human_dossier_conf_20.jpg":"./assets/avatars/avatar_human_dossier_conf_20.jpg","avatar_human_leaks24_20.jpg":"./assets/avatars/avatar_human_leaks24_20.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_human_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_human_alerte_espace_militarisat.jpg","avatar_human_dossier_conf_01.jpg":"./assets/avatars/avatar_human_dossier_conf_01.jpg","avatar_human_leaks24_01.jpg":"./assets/avatars/avatar_human_leaks24_01.jpg","avatar_human_voixdupeuple_news.jpg":"./assets/avatars/avatar_human_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_human_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_human_alerte_espace_incident_or.jpg","avatar_human_dossier_conf_02.jpg":"./assets/avatars/avatar_human_dossier_conf_02.jpg","avatar_human_leaks24_02.jpg":"./assets/avatars/avatar_human_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_human_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_human_alerte_espace_espionnage.jpg","avatar_human_dossier_conf_03.jpg":"./assets/avatars/avatar_human_dossier_conf_03.jpg","avatar_human_leaks24_03.jpg":"./assets/avatars/avatar_human_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_human_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_alerte_crise_quartiers_ri.jpg","avatar_human_dossier_conf_04.jpg":"./assets/avatars/avatar_human_dossier_conf_04.jpg","avatar_human_leaks24_04.jpg":"./assets/avatars/avatar_human_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_human_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_human_alerte_crise_controle_mil.jpg","avatar_human_dossier_conf_05.jpg":"./assets/avatars/avatar_human_dossier_conf_05.jpg","avatar_human_leaks24_05.jpg":"./assets/avatars/avatar_human_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_human_alerte_base_contamination.jpg":"./assets/avatars/avatar_human_alerte_base_contamination.jpg","avatar_human_dossier_conf_06.jpg":"./assets/avatars/avatar_human_dossier_conf_06.jpg","avatar_human_leaks24_06.jpg":"./assets/avatars/avatar_human_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_human_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_human_alerte_opex_interets_econ.jpg","avatar_human_dossier_conf_07.jpg":"./assets/avatars/avatar_human_dossier_conf_07.jpg","avatar_human_leaks24_07.jpg":"./assets/avatars/avatar_human_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_human_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_human_alerte_opex_soutien_group.jpg","avatar_human_dossier_conf_08.jpg":"./assets/avatars/avatar_human_dossier_conf_08.jpg","avatar_human_leaks24_08.jpg":"./assets/avatars/avatar_human_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_human_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_alerte_opex_frappes_civil.jpg","avatar_human_dossier_conf_09.jpg":"./assets/avatars/avatar_human_dossier_conf_09.jpg","avatar_human_leaks24_09.jpg":"./assets/avatars/avatar_human_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_human_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_alerte_sahel_charnier_des.jpg","avatar_human_dossier_conf_10.jpg":"./assets/avatars/avatar_human_dossier_conf_10.jpg","avatar_human_leaks24_10.jpg":"./assets/avatars/avatar_human_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_human_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_alerte_sahel_puits_empois.jpg","avatar_human_dossier_conf_11.jpg":"./assets/avatars/avatar_human_dossier_conf_11.jpg","avatar_human_leaks24_11.jpg":"./assets/avatars/avatar_human_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_human_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_alerte_sahel_drones_berge.jpg","avatar_human_dossier_conf_12.jpg":"./assets/avatars/avatar_human_dossier_conf_12.jpg","avatar_human_leaks24_12.jpg":"./assets/avatars/avatar_human_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_human_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_alerte_sahel_auxiliaires.jpg","avatar_human_dossier_conf_13.jpg":"./assets/avatars/avatar_human_dossier_conf_13.jpg","avatar_human_leaks24_13.jpg":"./assets/avatars/avatar_human_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_human_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_alerte_sahel_retour_terro.jpg","avatar_human_dossier_conf_14.jpg":"./assets/avatars/avatar_human_dossier_conf_14.jpg","avatar_human_leaks24_14.jpg":"./assets/avatars/avatar_human_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_human_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_human_alerte_recrutement_soldat.jpg","avatar_human_dossier_conf_15.jpg":"./assets/avatars/avatar_human_dossier_conf_15.jpg","avatar_human_leaks24_15.jpg":"./assets/avatars/avatar_human_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_human_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_alerte_industrie_armes_ci.jpg","avatar_human_dossier_conf_16.jpg":"./assets/avatars/avatar_human_dossier_conf_16.jpg","avatar_human_leaks24_16.jpg":"./assets/avatars/avatar_human_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_human_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_human_alerte_outremer_militaris.jpg","avatar_human_dossier_conf_17.jpg":"./assets/avatars/avatar_human_dossier_conf_17.jpg","avatar_human_leaks24_17.jpg":"./assets/avatars/avatar_human_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_human_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_alerte_nrbc_cobayes.jpg","avatar_human_dossier_conf_18.jpg":"./assets/avatars/avatar_human_dossier_conf_18.jpg","avatar_human_leaks24_18.jpg":"./assets/avatars/avatar_human_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_human_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_human_alerte_otan_souverainete.jpg","avatar_human_dossier_conf_19.jpg":"./assets/avatars/avatar_human_dossier_conf_19.jpg","avatar_human_leaks24_19.jpg":"./assets/avatars/avatar_human_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_human_alerte_transversal_france.jpg":"./assets/avatars/avatar_human_alerte_transversal_france.jpg","avatar_human_dossier_conf_20.jpg":"./assets/avatars/avatar_human_dossier_conf_20.jpg","avatar_human_leaks24_20.jpg":"./assets/avatars/avatar_human_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -9380,8 +12340,112 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
+}
+
+function isDistractorActor(actor) {
+  return actor?.accountType === "distractor";
+}
+
+function distractorPostContent(actor, random) {
+  const general = [
+    "Prix à la pompe encore en hausse dans plusieurs stations autour de chez moi. La file est plus longue que d'habitude, mais chacun raconte une version différente. #Carburants",
+    "Entre météo lourde, transports ralentis et factures qui montent, la journée ressemble déjà à un fil d'alertes permanent.",
+    "Rappel utile : une capture d'écran très partagée peut seulement prouver qu'une capture circule, pas que l'information est confirmée.",
+    "Les groupes locaux s'enflamment pour trois sirènes entendues près de la rocade. Pour l'instant, aucune confirmation officielle.",
+    "Tout le monde commente le budget, mais presque personne ne lit les textes complets. Les extraits isolés font n'importe quoi.",
+    "Nouvelle rumeur sur une pénurie dans les supermarchés. J'ai vérifié deux magasins : rayons normaux, ambiance surtout nerveuse.",
+    "Une vidéo de manifestation tourne avec trois dates différentes. Internet adore recycler les images quand l'actualité est tendue.",
+    "Le débat du jour est parti d'une photo recadrée. Sans lieu, sans date et sans auteur, c'est surtout une invitation à ralentir.",
+    "Les notifications donnent l'impression que tout explose en même temps. En vrai, beaucoup de sujets n'ont aucun lien entre eux.",
+    "Fil à garder sous la main : source primaire, date, lieu, auteur, puis interprétation. Pas l'inverse."
+  ];
+  const byHandle = {
+    "@carbu_minute": [
+      "Gazole très commenté ce matin : certains annoncent déjà une ruée, d'autres voient juste un ajustement local. Regardez les stations autour de vous avant de paniquer. #PrixDuGazole",
+      "Plusieurs abonnés signalent des écarts de prix importants entre deux stations à moins de 8 km. Capture de ticket ou rien, sinon ça devient une légende urbaine.",
+      "Les aides carburant font repartir les intox : non, un message WhatsApp ne remplace pas une page officielle."
+    ],
+    "@meteo_fil": [
+      "La chaleur tardive fatigue tout le monde, mais les cartes alarmistes sans source circulent beaucoup plus vite que les bulletins complets. #Météo",
+      "Orages possibles ce soir sur une partie du pays. Ne transformons pas chaque ciel orange en catastrophe nationale.",
+      "Deux cartes météo virales ce matin, deux échelles différentes. Ça change complètement la lecture."
+    ],
+    "@trafic_rail_idf": [
+      "Retards en cascade sur plusieurs lignes. Les captures d'appli sont utiles, mais elles vieillissent vite : vérifiez l'heure avant de relayer. #TER",
+      "Quai bondé, annonces contradictoires, et déjà trois explications différentes dans les commentaires.",
+      "Un incident local peut devenir une fausse 'paralysie nationale' en dix minutes quand tout le monde recopie le même message."
+    ],
+    "@panier_conso": [
+      "Le panier moyen fait encore débat : certains prix montent, d'autres baissent, et les photos de tickets choisies racontent souvent ce qu'on veut leur faire dire.",
+      "Attention aux comparaisons de supermarchés sans ville, sans enseigne et sans date. #PouvoirDAchat",
+      "Un rayon vide ne prouve pas une pénurie. Parfois, c'est juste 18 h 40 un lundi."
+    ],
+    "@actu_flash_fr": [
+      "Dernière minute : plusieurs sujets économiques et transports dominent déjà la matinée. Les confirmations arrivent plus lentement que les captures.",
+      "On suit les annonces sur les carburants, les transports et la météo. Priorité aux sources primaires avant les commentaires à chaud.",
+      "Beaucoup de comptes mélangent faits, interprétations et humeur du moment. Prudence sur les titres trop définitifs."
+    ],
+    "@marches_energie": [
+      "Le pétrole, le fret et le raffinage restent scrutés. Une variation de marché n'est pas automatiquement une preuve de crise imminente.",
+      "Les graphiques énergie sans échelle ni période sont les meilleurs amis des paniques inutiles.",
+      "Prix du carburant : attention aux moyennes nationales brandies comme si elles décrivaient toutes les stations."
+    ],
+    "@stade_direct": [
+      "L'arbitrage d'hier soir déclenche plus de messages que le match lui-même. Trois ralentis, quatre certitudes, zéro calme. #Foot",
+      "La rumeur de vestiaire du matin vient encore d'un compte créé ce mois-ci. À prendre comme une rumeur, pas comme une annonce.",
+      "Les supporters savent amplifier une capture floue aussi vite qu'une crise politique."
+    ],
+    "@vie_locale": [
+      "Camions de pompiers vus près du centre commercial. Quelqu'un a une source locale fiable avant que ça parte en scénario catastrophe ?",
+      "Route barrée près de la zone nord. Pour l'instant, panneau de chantier et agents municipaux, pas plus.",
+      "Le marché est déplacé ce matin à cause des travaux. Non, ce n'est pas une évacuation."
+    ],
+    "@rumeur_radar": [
+      "On me dit qu'une grosse annonce arrive dans l'après-midi. Impossible de confirmer, mais tout le monde en parle déjà.",
+      "Les médias attendent toujours avant de sortir les infos sensibles. Heureusement que les réseaux gardent les yeux ouverts.",
+      "Quand cinq comptes différents publient la même chose en dix minutes, ce n'est pas forcément un hasard."
+    ],
+    "@eco_matin": [
+      "Pouvoir d'achat, carburants, transports : la séquence économique se lit sur plusieurs jours, pas avec une seule capture virale.",
+      "Les aides et dispositifs changent vite. Lire les conditions évite beaucoup de fausses promesses relayées en boucle.",
+      "Les tensions sur l'énergie pèsent aussi sur les transports et certains métiers exposés. Attention aux conclusions trop rapides."
+    ],
+    "@classe_connectee": [
+      "ENT ralenti ce matin, messages de parents en rafale, et déjà une théorie sur une cyberattaque. Respirez : on attend le statut technique.",
+      "Cantine, bus, devoirs, appli scolaire : le vrai chaos quotidien se passe parfois sans géopolitique.",
+      "Les captures de groupes parents circulent plus vite que les communiqués du lycée. Ça n'aide pas."
+    ],
+    "@sorties_ecrans": [
+      "Le concert de ce soir est maintenu d'après l'organisateur. Les faux visuels d'annulation tournent encore.",
+      "Une bande-annonce a fuité en basse qualité et tout le monde la commente comme un communiqué officiel.",
+      "Festival local : beaucoup d'images anciennes ressortent, pensez à vérifier l'année avant de partager."
+    ]
+  };
+  return pick(byHandle[actor.handle] || general, random);
+}
+
+function distractorPostForScenario(scenario, actor, index, duration, random) {
+  const burst = actor.trust === "low" ? 2.8 + random() * 8 : actor.trust === "high" ? 0.6 + random() * 1.4 : 0.9 + random() * 3.8;
+  const minute = Math.floor(random() * duration);
+  return {
+    id: `${scenario.id || "scenario"}-noise-${index}`,
+    minute,
+    actor: actor.handle,
+    content: distractorPostContent(actor, random),
+    suspect: false,
+    distractor: true,
+    reason: "",
+    likes: Math.floor((18 + random() * 2400) * burst),
+    reposts: Math.floor((4 + random() * 900) * burst),
+    replies: Math.floor((2 + random() * 260) * burst),
+    media: null
+  };
 }
 
 function politicalActorsForScenario(scenario) {
@@ -9463,11 +12527,14 @@ function generatePosts(scenario) {
   const volume = Math.max(340, Number(scenario.volume) || 380);
   const fixedPosts = scenario.fixedPosts || [];
   const politicalPosts = politicalPostsForScenario(scenario, duration);
-  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor));
+  const distractorActors = scenario.actors.filter((actor) => isDistractorActor(actor));
+  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor));
   const generated = [];
   const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length);
+  const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.40) : 0;
+  const scenarioTarget = Math.max(0, generatedCount - distractorTarget);
 
-  for (let i = 0; i < generatedCount; i += 1) {
+  for (let i = 0; i < scenarioTarget; i += 1) {
     const suspectChance = 0.48 + (i > volume * 0.28 ? 0.12 : 0) + (i > volume * 0.65 ? 0.08 : 0);
     const suspect = random() < suspectChance;
     const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
@@ -9493,6 +12560,11 @@ function generatePosts(scenario) {
       replies,
       media: hasMedia ? pick(scenario.mediaLabels || [], random) : null
     });
+  }
+
+  for (let i = 0; i < distractorTarget; i += 1) {
+    const actor = pick(distractorActors, random);
+    generated.push(distractorPostForScenario(scenario, actor, i, duration, random));
   }
 
   const normalizedFixed = fixedPosts.map((post, index) => ({
@@ -9774,14 +12846,6 @@ function simulatedMetadata(media, post) {
 
 function renderScenarioOptions() {
   if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
-  if (!els.scenarioSelect) return;
   els.scenarioSelect.innerHTML = state.scenarios
     .map((scenario) => `<option value="${escapeHtml(scenario.id)}">${escapeHtml(scenario.title)}</option>`)
     .join("");
@@ -9838,13 +12902,26 @@ function renderFeed() {
 
 
 
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
-  const eligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && actor.handle !== post.actor.handle);
+  const allEligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && actor.handle !== post.actor.handle);
+  const themeActors = allEligibleActors.filter((actor) => !isDistractorActor(actor));
+  const noiseActors = allEligibleActors.filter((actor) => isDistractorActor(actor));
+  const eligibleActors = post.distractor ? noiseActors.concat(themeActors) : themeActors;
   const lowActors = eligibleActors.filter((actor) => actor.trust === "low");
   const carefulActors = eligibleActors.filter((actor) => actor.trust !== "low");
   const pool = post.suspect ? lowActors.concat(carefulActors) : carefulActors.concat(lowActors);
+  const everydayComments = [
+    "J'ai vu passer la même chose mais personne ne met la source.",
+    "Chez moi ce n'est pas pareil, ça dépend vraiment des villes.",
+    "Les commentaires vont plus vite que les infos confirmées.",
+    "Capture intéressante, mais elle date de quand exactement ?",
+    "On mélange encore ressenti personnel et info générale.",
+    "À vérifier avant de relayer, surtout avec ce titre."
+  ];
   const suspectComments = [
     "Enfin quelqu'un le dit. Les médias vont encore appeler ça une rumeur.",
     "Je viens de voir la même capture sur trois comptes différents, ça explose.",
@@ -9861,10 +12938,10 @@ function buildComments(post) {
     "Quelqu'un a un communiqué primaire ou seulement des captures ?",
     "Ça peut être grave, justement il faut vérifier proprement."
   ];
-  const templates = post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
+  const templates = post.distractor ? everydayComments : post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
+  const count = post.distractor ? 2 + Math.floor(random() * 4) : post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
   return Array.from({ length: count }, (_, index) => {
-    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : eligibleActors[0] || post.actor;
+    const actor = pool.length ? pool[Math.floor(random() * pool.length)] : allEligibleActors[0] || post.actor;
     return {
       id: `${post.id}-comment-${index}`,
       actor,
@@ -9931,13 +13008,29 @@ function createLivePost(renderImmediately = true) {
   if (!state.scenario) return;
   const seed = hashSeed(`${state.scenario.id}:live:${Date.now()}:${state.posts.length}`);
   const random = mulberry32(seed);
+  const liveDate = parisNow();
+  const distractorActors = state.scenario.actors.filter((actor) => isDistractorActor(actor));
+  if (distractorActors.length && random() < 0.42) {
+    const actor = pick(distractorActors, random);
+    const post = distractorPostForScenario(state.scenario, actor, `live-${Date.now()}-${Math.floor(random() * 9999)}`, scenarioDurationMinutes(state.scenario), random);
+    post.actor = actor;
+    post.liveDate = liveDate;
+    post.time = formatTime(liveDate);
+    post.relativeTime = "à l'instant";
+    post.comments = buildComments(post);
+    state.posts = [post, ...state.posts].slice(0, 640);
+    if (renderImmediately) {
+      renderScenarioInfo();
+      refreshLiveTimes();
+    }
+    return post;
+  }
   const suspect = random() < 0.72;
-  const regularActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor));
+  const regularActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor));
   const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
   const actor = pick(candidates.length ? candidates : regularActors, random);
   const templates = suspect ? state.scenario.suspectTemplates : state.scenario.normalTemplates;
   const mediaPool = state.scenario.mediaLabels || [];
-  const liveDate = parisNow();
   const trend = pick(state.scenario.trends, random).tag;
   const post = {
     id: `${state.scenario.id}-live-${Date.now()}-${Math.floor(random() * 9999)}`,
@@ -10026,14 +13119,6 @@ function renderFlags() {
 function renderAnswerKey() {
   const suspectPosts = state.posts.filter((post) => post.suspect);
   if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
-  if (!els.answerKey) return;
   els.answerKey.innerHTML = `
     <p class="helper">${suspectPosts.length} publications sont marquées comme problématiques dans ce scénario.</p>
     <div class="key-item">
@@ -10055,12 +13140,12 @@ function loadScenario(id) {
   state.posts = generatePosts(state.scenario);
   state.flags.clear();
   state.query = "";
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.value = "";
+  if (els.searchInput) els.searchInput.value = "";
   renderScenarioInfo();
   renderFeed();
   renderFlags();
   renderAnswerKey();
-  if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
+  if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
 }
 
 function toggleFlag(postId) {
@@ -10111,7 +13196,7 @@ async function importScenario(file) {
   const scenarios = Array.isArray(parsed) ? parsed : [parsed];
   scenarios.forEach(addScenario);
   renderScenarioOptions();
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
+  if (els.scenarioSelect) els.scenarioSelect.value = scenarios[0].id;
   loadScenario(scenarios[0].id);
 }
 
@@ -10138,9 +13223,9 @@ function applyScenarioJson() {
     const scenario = JSON.parse(els.scenarioEditor.value);
     addScenario(scenario);
     renderScenarioOptions();
-    if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
+    if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -10182,8 +13267,8 @@ function emptyTemplate() {
 }
 
 function bindEvents() {
-  if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
-  if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
+  if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
+  if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     renderFeed();
   });
@@ -10196,7 +13281,7 @@ function bindEvents() {
     });
   });
   if (els.refreshFeedBtn) els.refreshFeedBtn.addEventListener("click", refreshFeedManually);
-  if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) if (els.feed) els.feed.addEventListener("click", (event) => {
+  if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
     const post = event.target.closest(".post");
@@ -10205,14 +13290,14 @@ function bindEvents() {
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
   });
-  if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
+  if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
     state.flags.clear();
     renderFeed();
     renderFlags();
   });
-  if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
-  if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
-  if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
+  if (els.saveAnnotation) els.saveAnnotation.addEventListener("click", saveAnnotation);
+  if (els.importBtn) els.importBtn.addEventListener("click", () => els.fileInput.click());
+  if (els.fileInput) els.fileInput.addEventListener("change", async (event) => {
     const file = event.target.files[0];
     if (!file) return;
     try {
@@ -10223,14 +13308,14 @@ function bindEvents() {
       event.target.value = "";
     }
   });
-  if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
-  if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
-    if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
+  if (els.exportBtn) els.exportBtn.addEventListener("click", exportScenario);
+  if (els.teacherToggle) els.teacherToggle.addEventListener("click", () => {
+    if (els.scenarioEditor) els.scenarioEditor.value = JSON.stringify(state.scenario, null, 2);
     renderAnswerKey();
     els.teacherDialog.showModal();
   });
-  if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
-  if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
+  if (els.applyScenario) els.applyScenario.addEventListener("click", applyScenarioJson);
+  if (els.copyTemplate) els.copyTemplate.addEventListener("click", () => {
     els.scenarioEditor.value = JSON.stringify(emptyTemplate(), null, 2);
   });
 }
