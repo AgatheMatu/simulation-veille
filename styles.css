@@ -1264,6 +1264,9 @@ h3 {
 
 
 
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1405,6 +1408,26 @@ body {
 .profile-name { font-size: 15px; }
 .handle, .time { color: var(--muted); }
 .post-content { font-size: 17px; line-height: 1.42; }
+.translate-post-button {
+  display: block;
+  margin: 5px 0 0;
+  padding: 0;
+  border: 0;
+  background: transparent;
+  color: var(--blue);
+  font: inherit;
+  font-size: 14px;
+  cursor: pointer;
+}
+.translate-post-button:hover { text-decoration: underline; }
+.post-translation {
+  margin-top: 8px;
+  padding-left: 12px;
+  border-left: 3px solid var(--line-strong);
+}
+.post-translation span { color: var(--muted); font-size: 12px; }
+.post-translation p { margin: 3px 0 0; font-size: 16px; line-height: 1.42; }
+.post-translation[hidden] { display: none; }
 
 .avatar {
   width: 46px;

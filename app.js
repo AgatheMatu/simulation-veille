@@ -227,7 +227,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -238,7 +240,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -249,7 +253,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -260,7 +266,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -271,7 +279,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -512,6 +522,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -1231,7 +1313,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -1242,7 +1326,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -1253,7 +1339,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -1264,7 +1352,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -1275,7 +1365,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -1516,6 +1608,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -2235,7 +2399,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -2246,7 +2412,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -2257,7 +2425,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -2268,7 +2438,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -2279,7 +2451,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -2520,6 +2694,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -3239,7 +3485,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -3250,7 +3498,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -3261,7 +3511,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -3272,7 +3524,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -3283,7 +3537,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -3524,6 +3780,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -4243,7 +4571,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -4254,7 +4584,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -4265,7 +4597,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -4276,7 +4610,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -4287,7 +4623,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -4528,6 +4866,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -5247,7 +5657,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -5258,7 +5670,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -5269,7 +5683,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -5280,7 +5696,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -5291,7 +5709,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -5532,6 +5952,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -6251,7 +6743,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -6262,7 +6756,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -6273,7 +6769,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -6284,7 +6782,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -6295,7 +6795,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -6536,6 +7038,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -7255,7 +7829,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -7266,7 +7842,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -7277,7 +7855,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -7288,7 +7868,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -7299,7 +7881,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -7540,6 +8124,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -8259,7 +8915,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -8270,7 +8928,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -8281,7 +8941,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -8292,7 +8954,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -8303,7 +8967,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -8544,6 +9210,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -9263,7 +10001,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -9274,7 +10014,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -9285,7 +10027,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -9296,7 +10040,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -9307,7 +10053,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -9548,6 +10296,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -10267,7 +11087,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -10278,7 +11100,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -10289,7 +11113,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -10300,7 +11126,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -10311,7 +11139,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -10552,6 +11382,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -11271,7 +12173,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -11282,7 +12186,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -11293,7 +12199,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -11304,7 +12212,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -11315,7 +12225,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -11556,6 +12468,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -12275,7 +13259,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -12286,7 +13272,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -12297,7 +13285,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -12308,7 +13298,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -12319,7 +13311,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -12560,6 +13554,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -13279,7 +14345,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -13290,7 +14358,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -13301,7 +14371,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -13312,7 +14384,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -13323,7 +14397,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -13564,6 +14640,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -14283,7 +15431,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -14294,7 +15444,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -14305,7 +15457,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -14316,7 +15470,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -14327,7 +15483,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -14568,6 +15726,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -15287,7 +16517,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -15298,7 +16530,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -15309,7 +16543,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -15320,7 +16556,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -15331,7 +16569,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -15572,6 +16812,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -16291,7 +17603,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -16302,7 +17616,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -16313,7 +17629,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -16324,7 +17642,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -16335,7 +17655,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -16576,6 +17898,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -17295,7 +18689,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -17306,7 +18702,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -17317,7 +18715,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -17328,7 +18728,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -17339,7 +18741,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -17580,6 +18984,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -18299,7 +19775,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -18310,7 +19788,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -18321,7 +19801,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -18332,7 +19814,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -18343,7 +19827,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -18584,6 +20070,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -19303,7 +20861,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
-        "persona": "tromp"
+        "persona": "tromp",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Vladmir Poutin",
@@ -19314,7 +20874,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
-        "persona": "poutin"
+        "persona": "poutin",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439"
       },
       {
         "name": "Ilhan Aliyef",
@@ -19325,7 +20887,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
-        "persona": "aliyef"
+        "persona": "aliyef",
+        "language": "az",
+        "languageLabel": "Az\u0259rbaycanca"
       },
       {
         "name": "Ursula von der Lyen",
@@ -19336,7 +20900,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
-        "persona": "von-der-lyen"
+        "persona": "von-der-lyen",
+        "language": "en",
+        "languageLabel": "English"
       },
       {
         "name": "Jordane Bardelle",
@@ -19347,7 +20913,9 @@ const builtInScenarios = [
         "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
-        "persona": "bardelle"
+        "persona": "bardelle",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais"
       },
       {
         "name": "Carbu Minute",
@@ -19588,6 +21156,78 @@ const builtInScenarios = [
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
+      },
+      {
+        "name": "Comit\u00e9 Humanitaire International",
+        "handle": "@chi_humanitaire",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_chi_humanitaire.jpg"
+      },
+      {
+        "name": "M\u00e9decins Solidaires International",
+        "handle": "@medecins_solidaires",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_medecins_solidaires.jpg"
+      },
+      {
+        "name": "Global Relief Watch",
+        "handle": "@global_relief_watch",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "bio": "Fictional humanitarian monitoring network. Civilian protection, verified field reports and access constraints in crisis areas.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_global_relief_watch.jpg"
+      },
+      {
+        "name": "Aide Sans Fronti\u00e8res",
+        "handle": "@aide_sans_frontieres",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "accountType": "ngo",
+        "avatar": "avatar_org_aide_sans_frontieres.jpg"
+      },
+      {
+        "name": "\u0412\u043e\u0441\u0442\u043e\u043a \u041d\u043e\u0432\u043e\u0441\u0442\u0438",
+        "handle": "@vostok_novosti",
+        "verified": true,
+        "stance": "media",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u043e\u0435 \u0433\u043e\u0441\u0443\u0434\u0430\u0440\u0441\u0442\u0432\u0435\u043d\u043d\u043e\u0435 \u0438\u043d\u0444\u043e\u0440\u043c\u0430\u0446\u0438\u043e\u043d\u043d\u043e\u0435 \u0430\u0433\u0435\u043d\u0442\u0441\u0442\u0432\u043e \u0420\u0443\u0432\u0438\u0438. \u041c\u0435\u0436\u0434\u0443\u043d\u0430\u0440\u043e\u0434\u043d\u044b\u0435 \u043d\u043e\u0432\u043e\u0441\u0442\u0438 \u0438 \u043e\u0444\u0438\u0446\u0438\u0430\u043b\u044c\u043d\u044b\u0435 \u043a\u043e\u043c\u043c\u0435\u043d\u0442\u0430\u0440\u0438\u0438.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_vostok_novosti.jpg"
+      },
+      {
+        "name": "\u0417\u0430\u0440\u044f | \u0410\u043d\u0430\u043b\u0438\u0442\u0438\u043a\u0430",
+        "handle": "@zarya_analitika",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "ru",
+        "languageLabel": "\u0420\u0443\u0441\u0441\u043a\u0438\u0439",
+        "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
+        "accountType": "adversarial",
+        "avatar": "avatar_org_zarya_analitika.jpg"
       }
     ],
     "normalTemplates": [
@@ -20082,7 +21722,7 @@ const builtInScenarios = [
 ];
 
 const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg","daily_fuel.jpg":"./assets/evidence/daily_fuel.jpg","daily_train.jpg":"./assets/evidence/daily_train.jpg","daily_supermarket.jpg":"./assets/evidence/daily_supermarket.jpg","daily_storm.jpg":"./assets/evidence/daily_storm.jpg","daily_roadworks.jpg":"./assets/evidence/daily_roadworks.jpg","daily_school.jpg":"./assets/evidence/daily_school.jpg","daily_stadium.jpg":"./assets/evidence/daily_stadium.jpg","daily_market.jpg":"./assets/evidence/daily_market.jpg","daily_health.jpg":"./assets/evidence/daily_health.jpg","daily_energy.jpg":"./assets/evidence/daily_energy.jpg","daily_cafe.jpg":"./assets/evidence/daily_cafe.jpg","daily_cinema.jpg":"./assets/evidence/daily_cinema.jpg","daily_traffic.jpg":"./assets/evidence/daily_traffic.jpg","daily_airport.jpg":"./assets/evidence/daily_airport.jpg","daily_parcels.jpg":"./assets/evidence/daily_parcels.jpg","daily_bakery.jpg":"./assets/evidence/daily_bakery.jpg","daily_festival.jpg":"./assets/evidence/daily_festival.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_org_chi_humanitaire.jpg":"./assets/avatars/avatar_org_chi_humanitaire.jpg","avatar_org_medecins_solidaires.jpg":"./assets/avatars/avatar_org_medecins_solidaires.jpg","avatar_org_global_relief_watch.jpg":"./assets/avatars/avatar_org_global_relief_watch.jpg","avatar_org_aide_sans_frontieres.jpg":"./assets/avatars/avatar_org_aide_sans_frontieres.jpg","avatar_org_vostok_novosti.jpg":"./assets/avatars/avatar_org_vostok_novosti.jpg","avatar_org_zarya_analitika.jpg":"./assets/avatars/avatar_org_zarya_analitika.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -20478,12 +22118,84 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
 
 function isDistractorActor(actor) {
   return actor?.accountType === "distractor";
+}
+
+function isNgoActor(actor) {
+  return actor?.accountType === "ngo";
+}
+
+function isAdversarialActor(actor) {
+  return actor?.accountType === "adversarial";
+}
+
+function accountLanguageLabel(actor) {
+  if (actor?.languageLabel) return actor.languageLabel;
+  return { fr: "Français", en: "English", ru: "Русский", az: "Azərbaycanca" }[actor?.language] || "Français";
 }
 
 function distractorPostContent(actor, random) {
@@ -20687,41 +22399,79 @@ function politicalActorsForScenario(scenario) {
     .slice(0, 3);
 }
 
-function politicalPostContent(actor, scenario, random) {
+function politicalPostMessage(actor, scenario, random) {
   const subject = String(scenario.title || "la crise en cours")
     .replace(/^[^:]+:\s*/, "")
     .replace(/[.!?]+$/, "");
-  const claim = `l'affirmation selon laquelle « ${subject} »`;
   const voices = {
     "@donald_tromp": [
-      `Paris assure encore que tout est sous contrôle. Formidable. Et maintenant, voici ${claim}. Même scénario, mêmes excuses. L'Améria ne paiera pas pour leur chaos. Si nos intérêts sont touchés, les tarifs français vont grimper. Beaucoup.`,
-      `Les dirigeants français adorent donner des leçons. Ils sont moins brillants quand il faut répondre à ${claim}. Très embarrassant. Des restrictions d'entrée restent sur la table tant que Paris ne donne pas de garanties sérieuses.`,
-      `On me demande d'aider Paris après la diffusion de ${claim}. Peut-être. Mais pas gratuitement. La France devra payer sa part, arrêter les discours et présenter des faits. Sinon : droits de douane. Simple.`
+      {
+        content: "Paris says everything is under control. Terrific. Now serious allegations are spreading about French operations. Same story, same excuses. America will not pay for France's chaos. If our interests are hit, tariffs on French goods will go WAY UP.",
+        translation: "Paris affirme que tout est sous contrôle. Formidable. De graves accusations circulent maintenant sur les opérations françaises. Même histoire, mêmes excuses. L'Améria ne paiera pas pour le chaos français. Si nos intérêts sont touchés, les droits de douane sur les produits français augmenteront FORTEMENT."
+      },
+      {
+        content: "French leaders love lecturing everybody. They look much less impressive when they have to answer for these allegations. Very embarrassing. Travel restrictions remain on the table until Paris provides serious guarantees.",
+        translation: "Les dirigeants français adorent donner des leçons à tout le monde. Ils sont beaucoup moins impressionnants lorsqu'ils doivent répondre à ces accusations. Très embarrassant. Des restrictions de voyage restent envisagées tant que Paris ne fournit pas de garanties sérieuses."
+      },
+      {
+        content: "They want America to help Paris again. Maybe. But not for free. France must pay its share, stop the speeches and show the facts. Otherwise: tariffs. Simple.",
+        translation: "Ils veulent encore que l'Améria aide Paris. Peut-être. Mais pas gratuitement. La France doit payer sa part, cesser les discours et présenter les faits. Sinon : droits de douane. Simple."
+      }
     ],
     "@vladmir_poutin": [
-      `Les déclarations contradictoires de Paris concernant ${claim} illustrent une nouvelle fois l'écart entre le discours occidental et ses actes. Une enquête indépendante est nécessaire.`,
-      `La Fédération de Ruvie suit la diffusion de ${claim}. Les autorités françaises doivent répondre par des faits vérifiables, non par des accusations contre ceux qui posent des questions.`
+      {
+        content: "Противоречивые заявления Парижа вновь показывают разрыв между западной риторикой и реальными действиями. Обвинения, связанные с действиями Франции, требуют независимого расследования.",
+        translation: "Les déclarations contradictoires de Paris montrent une nouvelle fois l'écart entre le discours occidental et les actes réels. Les accusations liées aux actions de la France exigent une enquête indépendante."
+      },
+      {
+        content: "Федерация Рувия внимательно следит за сообщениями о действиях Франции. Французские власти должны ответить проверяемыми фактами, а не обвинять тех, кто задаёт вопросы.",
+        translation: "La Fédération de Ruvie suit attentivement les informations relatives aux actions de la France. Les autorités françaises doivent répondre par des faits vérifiables, et non accuser ceux qui posent des questions."
+      }
     ],
     "@ilhan_aliyef": [
-      `Concernant ${claim}, les autorités françaises devraient faire preuve de transparence avant de donner des leçons de souveraineté aux autres États.`,
-      `Azérane demande que toute la lumière soit faite sur ${claim}. La crédibilité internationale exige les mêmes standards pour Paris que pour les autres capitales.`
+      {
+        content: "Fransanın fəaliyyəti ilə bağlı ittihamlar fonunda Paris başqa dövlətlərə suverenlik dərsi verməzdən əvvəl şəffaflıq nümayiş etdirməlidir.",
+        translation: "Face aux accusations liées aux actions de la France, Paris devrait faire preuve de transparence avant de donner des leçons de souveraineté aux autres États."
+      },
+      {
+        content: "Azəran Fransanın fəaliyyəti ilə bağlı bütün faktların açıqlanmasını tələb edir. Beynəlxalq etimad Paris üçün də digər paytaxtlarla eyni standartları tələb edir.",
+        translation: "L'Azérane demande que tous les faits liés aux actions de la France soient rendus publics. La confiance internationale impose à Paris les mêmes exigences qu'aux autres capitales."
+      }
     ],
     "@ursula_von_der_lyen": [
-      `Nous suivons avec attention la diffusion de ${claim}. À ce stade, aucune conclusion ne doit précéder l'établissement des faits. Nous restons en coordination avec les États membres.`,
-      `Face à ${claim}, notre priorité est claire : vérifier les faits, protéger les populations et préserver l'unité européenne contre les tentatives de manipulation.`
+      {
+        content: "We are closely monitoring the allegations concerning French operations. No conclusion should come before the facts. We remain in coordination with Member States.",
+        translation: "Nous suivons attentivement les accusations concernant les opérations françaises. Aucune conclusion ne doit précéder l'établissement des faits. Nous restons en coordination avec les États membres."
+      },
+      {
+        content: "Our priority is clear: establish the facts, protect civilians and preserve European unity against attempts at manipulation.",
+        translation: "Notre priorité est claire : établir les faits, protéger les civils et préserver l'unité européenne face aux tentatives de manipulation."
+      }
     ],
     "@jordane_bardelle": [
-      `Face à ${claim}, les Français ont droit à des réponses précises. Le gouvernement doit publier les éléments disponibles et cesser de laisser le doute s'installer.`,
-      `La gravité de ${claim} impose une clarification immédiate. La confiance ne se décrète pas : elle se mérite par la transparence.`
+      {
+        content: `Face à l'affirmation selon laquelle « ${subject} », les Français ont droit à des réponses précises. Le gouvernement doit publier les éléments disponibles et cesser de laisser le doute s'installer.`,
+        translation: ""
+      },
+      {
+        content: `La gravité de l'affirmation selon laquelle « ${subject} » impose une clarification immédiate. La confiance ne se décrète pas : elle se mérite par la transparence.`,
+        translation: ""
+      }
     ]
   };
-  return pick(voices[actor.handle] || [`Les autorités doivent clarifier les faits concernant ${subject}.`], random);
+  const message = pick(voices[actor.handle] || [{ content: `Les autorités doivent clarifier les faits concernant ${subject}.`, translation: "" }], random);
+  return { ...message, language: actor.language || "fr", translationLanguage: "fr" };
+}
+
+function politicalPostContent(actor, scenario, random) {
+  return politicalPostMessage(actor, scenario, random).content;
 }
 
 function politicalPostsForScenario(scenario, duration) {
   return politicalActorsForScenario(scenario).map((actor, index) => {
     const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:political`));
     const suspect = actor.trust === "low";
+    const message = politicalPostMessage(actor, scenario, random);
     const reach = {
       "@donald_tromp": [240000, 92000, 46000],
       "@vladmir_poutin": [118000, 48000, 21000],
@@ -20733,12 +22483,134 @@ function politicalPostsForScenario(scenario, duration) {
       id: `${scenario.id}-political-${actor.persona || index}`,
       minute: duration * (0.68 + random() * 0.29),
       actor: actor.handle,
-      content: politicalPostContent(actor, scenario, random),
+      content: message.content,
+      language: message.language,
+      translation: message.translation,
+      translationLanguage: message.translationLanguage,
       suspect,
       reason: suspect ? "Récupération politique à très forte audience, sans preuve nouvelle apportée." : "Prise de parole institutionnelle à recouper avec les sources primaires.",
       likes: Math.floor(reach[0] * (0.82 + random() * 0.36)),
       reposts: Math.floor(reach[1] * (0.82 + random() * 0.36)),
       replies: Math.floor(reach[2] * (0.82 + random() * 0.36)),
+      media: null
+    };
+  });
+}
+
+function ngoActorsForScenario(scenario) {
+  const scenarioId = String(scenario.id || "");
+  if (!/sahel|opex|crise|base|outremer|nrbc|industrie|transversal|bus|humanitaire|viol|exaction/.test(scenarioId)) return [];
+  return scenario.actors
+    .filter((actor) => isNgoActor(actor))
+    .sort((a, b) => hashSeed(`${scenarioId}:${a.handle}:ngo`) - hashSeed(`${scenarioId}:${b.handle}:ngo`))
+    .slice(0, 2);
+}
+
+function ngoPostMessage(actor, scenario, random) {
+  const subject = String(scenario.title || "la situation en cours").replace(/^[^:]+:\s*/, "").replace(/[.!?]+$/, "");
+  const voices = {
+    "@chi_humanitaire": [
+      `Nous suivons les allégations concernant « ${subject} ». À ce stade, nous ne confirmons ni l'auteur ni les circonstances. La protection des civils et l'accès indépendant aux faits doivent rester prioritaires.`,
+      "Nos équipes vérifient les informations disponibles avec leurs interlocuteurs de terrain. Nous appelons toutes les parties à respecter le droit international humanitaire et à ne pas instrumentaliser les emblèmes de secours."
+    ],
+    "@medecins_solidaires": [
+      "Nos équipes médicales signalent un afflux limité de patients, mais les chiffres qui circulent en ligne ne correspondent pas à nos registres. Nous publierons uniquement des données recoupées.",
+      "Les témoignages de victimes doivent être recueillis avec leur consentement et sans exposer leur identité. Une image virale ne remplace ni un examen médical ni une enquête indépendante."
+    ],
+    "@global_relief_watch": [
+      "We are reviewing field reports linked to the allegations. At this stage, location, date and chain of custody remain unverified. Civilian protection must not be turned into a social media contest.",
+      "Humanitarian access is the immediate priority. Viral claims are moving faster than independently verified information, and several images appear to lack reliable provenance."
+    ],
+    "@aide_sans_frontieres": [
+      "Nos partenaires locaux poursuivent la distribution d'eau et d'abris. Les rumeurs de suspension générale de l'aide sont fausses ; certaines routes restent toutefois difficiles d'accès.",
+      "Nous demandons que les populations déplacées ne soient ni filmées ni identifiées sans leur accord. Les besoins humanitaires réels ne doivent pas servir de décor à des accusations non vérifiées."
+    ]
+  };
+  const content = pick(voices[actor.handle] || [`Notre organisation suit les conséquences humanitaires liées à « ${subject} » et vérifie les informations de terrain.`], random);
+  const translations = {
+    "We are reviewing field reports linked to the allegations. At this stage, location, date and chain of custody remain unverified. Civilian protection must not be turned into a social media contest.": "Nous examinons les comptes rendus de terrain liés aux accusations. À ce stade, le lieu, la date et la chaîne de conservation ne sont pas vérifiés. La protection des civils ne doit pas devenir une compétition sur les réseaux sociaux.",
+    "Humanitarian access is the immediate priority. Viral claims are moving faster than independently verified information, and several images appear to lack reliable provenance.": "L'accès humanitaire est la priorité immédiate. Les affirmations virales circulent plus vite que les informations vérifiées de manière indépendante, et plusieurs images semblent dépourvues d'origine fiable."
+  };
+  return { content, language: actor.language || "fr", translation: translations[content] || "", translationLanguage: "fr" };
+}
+
+function ngoPostsForScenario(scenario, duration) {
+  return ngoActorsForScenario(scenario).map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:ngo-post`));
+    const message = ngoPostMessage(actor, scenario, random);
+    return {
+      id: `${scenario.id}-ngo-${index}`,
+      minute: duration * (0.46 + random() * 0.42),
+      actor: actor.handle,
+      content: message.content,
+      language: message.language,
+      translation: message.translation,
+      translationLanguage: message.translationLanguage,
+      suspect: false,
+      reason: "Prise de parole humanitaire à comparer avec les communiqués et les observations de terrain.",
+      likes: Math.floor(1800 + random() * 11000),
+      reposts: Math.floor(500 + random() * 5200),
+      replies: Math.floor(140 + random() * 1800),
+      media: null
+    };
+  });
+}
+
+function adversarialScenarioSubject(scenario) {
+  const scenarioId = String(scenario.id || "");
+  if (/espace/.test(scenarioId)) return { ru: "милитаризации космоса Францией", fr: "la militarisation de l'espace par la France" };
+  if (/opex|sahel|bus|viol|exaction/.test(scenarioId)) return { ru: "действий французских военных за рубежом", fr: "les actions des militaires français à l'étranger" };
+  if (/nrbc|contamination/.test(scenarioId)) return { ru: "скрываемого Францией опасного инцидента", fr: "un incident dangereux dissimulé par la France" };
+  if (/industrie|recrutement|otan/.test(scenarioId)) return { ru: "военной политики Франции", fr: "la politique militaire française" };
+  return { ru: "действий Франции", fr: "les actions de la France" };
+}
+
+function adversarialPostMessage(actor, scenario, random) {
+  const subject = adversarialScenarioSubject(scenario);
+  const voices = {
+    "@vostok_novosti": [
+      {
+        content: `Новые материалы о ${subject.ru} распространяются сразу в нескольких странах. Париж пока не представил доказательств, опровергающих эти сообщения.`,
+        translation: `De nouveaux éléments concernant ${subject.fr} circulent simultanément dans plusieurs pays. Paris n'a pour l'instant présenté aucune preuve réfutant ces informations.`
+      },
+      {
+        content: `Французские власти называют сообщения о ${subject.ru} дезинформацией, но избегают публикации исходных документов. Международные наблюдатели требуют прозрачности.`,
+        translation: `Les autorités françaises qualifient de désinformation les informations concernant ${subject.fr}, mais évitent de publier les documents sources. Des observateurs internationaux réclament de la transparence.`
+      }
+    ],
+    "@zarya_analitika": [
+      {
+        content: `СРОЧНО: источник передал новые кадры по теме ${subject.ru}. Метаданные якобы удалены при пересылке. Сохраняйте, пока материал не исчез.`,
+        translation: `URGENT : une source a transmis de nouvelles images concernant ${subject.fr}. Les métadonnées auraient été supprimées lors du transfert. Sauvegardez-les avant leur disparition.`
+      },
+      {
+        content: `Почему Париж молчит о ${subject.ru}? Один и тот же вопрос задают тысячи пользователей, а официальные аккаунты публикуют общие фразы.`,
+        translation: `Pourquoi Paris garde-t-il le silence sur ${subject.fr} ? Des milliers d'utilisateurs posent la même question tandis que les comptes officiels publient des formules générales.`
+      }
+    ]
+  };
+  const message = pick(voices[actor.handle], random);
+  return { ...message, language: "ru", translationLanguage: "fr" };
+}
+
+function adversarialPostsForScenario(scenario, duration) {
+  return scenario.actors.filter((actor) => isAdversarialActor(actor)).map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:adversarial`));
+    const message = adversarialPostMessage(actor, scenario, random);
+    const amplifier = actor.stance === "amplifier";
+    return {
+      id: `${scenario.id}-adversarial-${index}`,
+      minute: duration * (0.58 + random() * 0.39),
+      actor: actor.handle,
+      content: message.content,
+      language: message.language,
+      translation: message.translation,
+      translationLanguage: message.translationLanguage,
+      suspect: true,
+      reason: "Narratif adverse en langue russe, sans élément primaire vérifiable et conçu pour amplifier l'incertitude.",
+      likes: Math.floor((amplifier ? 17000 : 9000) + random() * (amplifier ? 74000 : 43000)),
+      reposts: Math.floor((amplifier ? 11000 : 5200) + random() * (amplifier ? 52000 : 28000)),
+      replies: Math.floor(1800 + random() * 15000),
       media: null
     };
   });
@@ -20847,10 +22719,12 @@ function generatePosts(scenario) {
   const volume = Math.max(340, Number(scenario.volume) || 380);
   const fixedPosts = scenario.fixedPosts || [];
   const politicalPosts = politicalPostsForScenario(scenario, duration);
+  const ngoPosts = ngoPostsForScenario(scenario, duration);
+  const adversarialPosts = adversarialPostsForScenario(scenario, duration);
   const distractorActors = scenario.actors.filter((actor) => isDistractorActor(actor));
-  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor));
+  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor) && !isNgoActor(actor) && !isAdversarialActor(actor));
   const generated = [];
-  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length);
+  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length - ngoPosts.length - adversarialPosts.length);
   const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.40) : 0;
   const scenarioTarget = Math.max(0, generatedCount - distractorTarget);
   const scenarioTrends = scenario.trends.filter((trend) => !trend.daily);
@@ -20896,7 +22770,7 @@ function generatePosts(scenario) {
     minute: Number(post.minute) || index * 12
   }));
 
-  return [...generated, ...politicalPosts, ...normalizedFixed]
+  return [...generated, ...politicalPosts, ...ngoPosts, ...adversarialPosts, ...normalizedFixed]
     .map((post) => {
       const liveDate = livePostDate(post.minute, duration, now);
       return { ...post, liveDate };
@@ -21039,19 +22913,20 @@ function renderProfile(profile) {
         <button class="follow-button" type="button">Suivre</button>
       </div>
       <div class="x-profile-title">
-        <h2>${escapeHtml(actor.name)} ${actor.verified ? `<span class="badge" title="Compte v&eacute;rifi&eacute;">&#10003;</span>` : ""}</h2>
+        <h2>${escapeHtml(actor.name)} ${actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}</h2>
         <p>${escapeHtml(actor.handle)}</p>
       </div>
-      <p class="x-bio">${escapeHtml(profile.bio)}</p>
+      <p class="x-bio" lang="${escapeHtml(actor.language || "fr")}">${escapeHtml(profile.bio)}</p>
       <div class="x-profile-meta">
         <span>${escapeHtml(profile.created)}</span>
         <span>${formatCompact(profile.following)} abonnements</span>
-        <span>${formatCompact(profile.followers)} abonn&eacute;s</span>
+        <span>${formatCompact(profile.followers)} abonnés</span>
+        <span>Langue principale : ${escapeHtml(accountLanguageLabel(actor))}</span>
       </div>
       <div class="x-tabs" aria-label="Navigation du profil">
         <span class="is-active">Posts</span>
-        <span>R&eacute;ponses</span>
-        <span>M&eacute;dias</span>
+        <span>Réponses</span>
+        <span>Médias</span>
       </div>
       <div class="x-profile-posts">
         ${recentPosts.length ? recentPosts.map((post) => `
@@ -21060,14 +22935,14 @@ function renderProfile(profile) {
             <div>
               <div class="post-head compact">
                 <strong>${escapeHtml(actor.name)}</strong>
-                ${actor.verified ? `<span class="badge" title="Compte v&eacute;rifi&eacute;">&#10003;</span>` : ""}
+                ${actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}
                 <span class="handle">${escapeHtml(actor.handle)}</span>
                 <span class="time">&middot; ${escapeHtml(post.relativeTime || post.time)}</span>
               </div>
-              <p>${escapeHtml(post.content)}</p>
+              <p lang="${escapeHtml(post.language || actor.language || "fr")}">${escapeHtml(post.content)}</p>
             </div>
           </article>
-        `).join("") : "<p class=\"x-empty\">Aucune publication r&eacute;cente.</p>"}
+        `).join("") : '<p class="x-empty">Aucune publication récente.</p>'}
       </div>
     </section>
   `;
@@ -21271,10 +23146,18 @@ function renderFeed() {
 
 
 
+
+
+
+
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
-  const allEligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && actor.handle !== post.actor.handle);
+  const allEligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isNgoActor(actor) && !isAdversarialActor(actor) && actor.handle !== post.actor.handle);
   const themeActors = allEligibleActors.filter((actor) => !isDistractorActor(actor));
   const noiseActors = allEligibleActors.filter((actor) => isDistractorActor(actor));
   const eligibleActors = post.distractor ? noiseActors.concat(themeActors) : themeActors;
@@ -21344,6 +23227,17 @@ function renderComments(post) {
   `;
 }
 
+function renderPostTranslation(post) {
+  if (!post.translation || !post.language || post.language === "fr") return "";
+  return `
+    <button type="button" class="translate-post-button" data-action="translate-post" aria-expanded="false">Traduire le post</button>
+    <div class="post-translation" lang="fr" hidden>
+      <span>Traduit du ${escapeHtml(accountLanguageLabel(post.actor))}</span>
+      <p>${linkify(escapeHtml(post.translation))}</p>
+    </div>
+  `;
+}
+
 function renderPost(post) {
   const flagged = state.flags.get(post.id);
   return `
@@ -21357,7 +23251,8 @@ function renderPost(post) {
           <span class="time">· ${escapeHtml(post.relativeTime)} · ${escapeHtml(post.time)}</span>
           ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<span class="teacher-post-label">Créé par l'enseignant</span>` : ""}
         </div>
-        <p class="post-content">${linkify(escapeHtml(post.content))}</p>
+        <p class="post-content" lang="${escapeHtml(post.language || post.actor.language || "fr")}">${linkify(escapeHtml(post.content))}</p>
+        ${renderPostTranslation(post)}
         ${renderMedia(post.media, post)}
         <div class="post-foot">
           <div class="stats">
@@ -21606,7 +23501,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -21925,6 +23820,60 @@ function emptyTemplate() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function teacherStorageKey() {
   return `veille-ili:teacher-posts:${state.scenario?.id || "scenario"}`;
 }
@@ -21935,6 +23884,9 @@ function serializeTeacherPost(post) {
     scenarioId: state.scenario?.id || post.scenarioId || "",
     actor: post.actor.handle,
     content: post.content,
+    language: post.language || post.actor.language || "fr",
+    translation: post.translation || "",
+    translationLanguage: post.translationLanguage || "fr",
     suspect: Boolean(post.suspect),
     reason: post.reason || "",
     likes: Number(post.likes) || 0,
@@ -22378,10 +24330,14 @@ function generateComposeText() {
   const suspect = composeSuspect(actor);
   const media = composeSelectedMedia();
   let content = "";
-  if (media) {
-    content = contentForSelectedMedia(state.scenario, media, suspect, random);
-  } else if (isPoliticalActor(actor)) {
+  if (isPoliticalActor(actor)) {
     content = politicalPostContent(actor, state.scenario, random);
+  } else if (isAdversarialActor(actor)) {
+    content = adversarialPostMessage(actor, state.scenario, random).content;
+  } else if (isNgoActor(actor)) {
+    content = ngoPostMessage(actor, state.scenario, random).content;
+  } else if (media) {
+    content = contentForSelectedMedia(state.scenario, media, suspect, random);
   } else if (isDistractorActor(actor)) {
     content = distractorPostContent(actor, random);
   } else {
@@ -22435,7 +24391,7 @@ async function generateComposeVisual() {
     if (!media && (state.scenario.mediaLabels || []).length) media = structuredClone(state.scenario.mediaLabels[0]);
     if (media?.asset) els.composeMediaSelect.value = media.asset;
   }
-  if (media && mediaMatchScore(media, els.composeText.value, actor) < 4) {
+  if (media && !isPoliticalActor(actor) && !isAdversarialActor(actor) && !isNgoActor(actor) && mediaMatchScore(media, els.composeText.value, actor) < 4) {
     const random = mulberry32(hashSeed(`${state.scenario.id}:${actor.handle}:compose-copy:${Date.now()}`));
     els.composeText.value = contentForSelectedMedia(state.scenario, media, composeSuspect(actor), random);
   }
@@ -22492,6 +24448,7 @@ async function publishComposePost() {
     id: `${state.scenario.id}-teacher-${Date.now()}`,
     actor,
     content,
+    language: actor.language || "fr",
     suspect,
     reason: suspect ? "Publication créée par l'enseignant avec une tonalité alarmiste." : "Publication créée par l'enseignant.",
     likes: 4 + Math.floor(Math.random() * 15),
@@ -22555,6 +24512,14 @@ function bindEvents() {
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
     if (button.dataset.action === "delete-teacher") deleteTeacherPost(post.dataset.postId);
+    if (button.dataset.action === "translate-post") {
+      const translation = post.querySelector(".post-translation");
+      if (translation) {
+        translation.hidden = !translation.hidden;
+        button.setAttribute("aria-expanded", String(!translation.hidden));
+        button.textContent = translation.hidden ? "Traduire le post" : "Masquer la traduction";
+      }
+    }
   });
   if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
     state.flags.clear();
