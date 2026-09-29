@@ -1,38 +1,15 @@
-VEILLE-ILI - MISE A JOUR PUBLICATION EN DIRECT
+MISE A JOUR VEILLE-ILI - BOTS, CHINE ET DESIGN
 
-CE QUE CETTE VERSION AJOUTE
+Ce paquet ne contient que les fichiers modifies et les nouveaux avatars.
 
-- L'enseignant lance une séance depuis le bouton "Séance en direct".
-- Il choisit n'importe quel compte, rédige un message et clique sur "Publier maintenant".
-- Il peut publier autant de messages qu'il le souhaite.
-- Les messages apparaissent immédiatement chez tous les élèves connectés, sans recharger la page.
-- Les publications les plus récentes remontent en haut du fil.
-- Les réactions d'un message publié à l'instant restent faibles et progressives.
-- La page élève ne donne accès ni au compositeur ni aux fonctions enseignantes.
-
-MISE A JOUR GITHUB
-
-1. Décompressez MISE-A-JOUR-DIRECT-RACINE.zip.
-2. Sur GitHub, ouvrez le dépôt simulation-veille.
-3. Cliquez sur Add file, puis Upload files.
-4. Déposez le CONTENU du dossier décompressé à la racine du dépôt.
-5. Acceptez le remplacement des fichiers portant le même nom.
+1. Ouvrez votre depot GitHub simulation-veille.
+2. Cliquez sur Add file, puis Upload files.
+3. Deposez le CONTENU de ce dossier a la racine du depot.
+4. Acceptez le remplacement de index.html, eleve.html, app.js, styles.css et README.md.
+5. Verifiez que le dossier assets/avatars est bien conserve.
 6. Validez avec Commit changes.
-7. Attendez une à deux minutes, puis rechargez le site avec Ctrl+F5.
 
-Les dossiers d'images existants n'ont pas besoin d'être renvoyés pour cette mise à jour.
+GitHub Pages met generalement une a deux minutes a publier la mise a jour.
 
-CONFIGURATION UNIQUE DU DIRECT
-
-Ouvrez CONFIGURATION-DIRECT.txt et suivez les étapes pour créer une petite base Firebase Realtime Database dédiée à l'exercice. Cette opération n'est faite qu'une fois.
-
-ENSUITE, A CHAQUE COURS
-
-1. Ouvrez la page enseignant index.html.
-2. Cliquez sur "Séance en direct".
-3. Collez l'adresse Firebase lors de la première utilisation.
-4. Cliquez sur "Démarrer la séance".
-5. Copiez le lien élève et transmettez-le à la classe.
-6. Cliquez sur "Créer un post" autant de fois que nécessaire.
-
-L'adresse Firebase et le code de séance sont mémorisés dans le navigateur de l'enseignant.
+Important : ne supprimez pas le reste du dossier assets deja en ligne. Ce paquet
+ajoute ou remplace uniquement les avatars necessaires a cette mise a jour.

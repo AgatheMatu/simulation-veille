@@ -760,6 +760,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -2012,6 +2184,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -3264,6 +3608,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -4516,6 +5032,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -5768,6 +6456,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -7020,6 +7880,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -8272,6 +9304,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -9524,6 +10728,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -10776,6 +12152,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -12028,6 +13576,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -13280,6 +15000,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -14532,6 +16424,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -15784,6 +17848,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -17036,6 +19272,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -18288,6 +20696,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -19540,6 +22120,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -20792,6 +23544,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -22044,6 +24968,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -23296,6 +26392,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -24548,6 +27816,178 @@ const builtInScenarios = [
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
+      },
+      {
+        "name": "Alertes Citoyennes 24",
+        "handle": "@alertes_citoyennes24",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 73,
+        "following": 1842,
+        "dailyPosts": 286,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Alertes en direct. T\u00e9moignages re\u00e7us en message priv\u00e9. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_alertes_citoyennes24.jpg"
+      },
+      {
+        "name": "Info D\u00e9fense Direct",
+        "handle": "@info_defense_direct",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 214,
+        "following": 2367,
+        "dailyPosts": 198,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "D\u00e9fense, s\u00e9curit\u00e9 et documents confidentiels. M\u00e9dia citoyen ind\u00e9pendant.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_info_defense_direct.jpg"
+      },
+      {
+        "name": "V\u00e9rit\u00e9 Maintenant",
+        "handle": "@verite_maintenant",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 39,
+        "following": 917,
+        "dailyPosts": 341,
+        "created": "Inscrit en septembre 2026",
+        "bio": "La v\u00e9rit\u00e9 sans filtre. Je republie ce que les m\u00e9dias refusent de montrer.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_human_verite_maintenant.jpg"
+      },
+      {
+        "name": "T\u00e9moins R\u00e9unis",
+        "handle": "@temoins_reunis",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 128,
+        "following": 3104,
+        "dailyPosts": 224,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Collectif de t\u00e9moins. Images et informations envoy\u00e9es par nos abonn\u00e9s.",
+        "accountType": "bot_relay",
+        "botScope": "global",
+        "avatar": "avatar_org_temoins_reunis.jpg"
+      },
+      {
+        "name": "Moussa Gao Direct",
+        "handle": "@moussa_gao_direct",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 61,
+        "following": 1488,
+        "dailyPosts": 267,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Gao et alentours. Nouvelles du terrain, s\u00e9curit\u00e9, convois et t\u00e9moignages locaux.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_moussa_gao_direct.jpg"
+      },
+      {
+        "name": "A\u00efcha Bamako Infos",
+        "handle": "@aicha_bamako",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 94,
+        "following": 2051,
+        "dailyPosts": 312,
+        "created": "Inscrit en ao\u00fbt 2026",
+        "bio": "Bamako au quotidien. Afrique souveraine, actualit\u00e9s et vid\u00e9os re\u00e7ues de partout.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_aicha_bamako.jpg"
+      },
+      {
+        "name": "Ibrahim 223",
+        "handle": "@ibra_223",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 27,
+        "following": 1163,
+        "dailyPosts": 379,
+        "created": "Inscrit en septembre 2026",
+        "bio": "Football, jeunesse et fiert\u00e9 africaine. Infos qu'on ne montre pas \u00e0 la t\u00e9l\u00e9vision.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_ibra_223.jpg"
+      },
+      {
+        "name": "Parole du Sahel",
+        "handle": "@parole_du_sahel",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "low",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 156,
+        "following": 2744,
+        "dailyPosts": 183,
+        "created": "Inscrit en juillet 2026",
+        "bio": "Voix des villages et de la souverainet\u00e9 africaine. T\u00e9moignages sans filtre.",
+        "accountType": "bot_relay",
+        "botScope": "sahel",
+        "originTrace": "ru",
+        "avatar": "avatar_human_parole_du_sahel.jpg"
+      },
+      {
+        "name": "\u534e\u57df\u9632\u52a1",
+        "handle": "@huayu_defense",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 3600000,
+        "following": 418,
+        "dailyPosts": 38,
+        "created": "Inscrit en mars 2014",
+        "bio": "\u865a\u6784\u7684\u4e2d\u56fd\u9632\u52a1\u5a92\u4f53\uff0c\u5173\u6ce8\u822a\u7a7a\u822a\u5929\u3001\u6d77\u519b\u88c5\u5907\u3001\u65e0\u4eba\u7cfb\u7edf\u4e0e\u56fd\u9645\u5b89\u5168\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_huayu_defense.jpg"
+      },
+      {
+        "name": "\u9f99\u76fe\u89c2\u5bdf",
+        "handle": "@longdun_watch",
+        "verified": false,
+        "stance": "analyst",
+        "trust": "medium",
+        "language": "zh",
+        "languageLabel": "\u4e2d\u6587",
+        "followers": 129000,
+        "following": 672,
+        "dailyPosts": 21,
+        "created": "Inscrit en novembre 2019",
+        "bio": "\u865a\u6784\u7684\u519b\u4e8b\u89c2\u5bdf\u8d26\u53f7\u3002\u4e2d\u56fd\u88c5\u5907\u3001\u536b\u661f\u3001\u65e0\u4eba\u673a\u548c\u6218\u7565\u5206\u6790\u3002",
+        "accountType": "china_media",
+        "avatar": "avatar_org_longdun_watch.jpg"
       }
     ],
     "normalTemplates": [
@@ -25042,7 +28482,7 @@ const builtInScenarios = [
 ];
 
 const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg","daily_fuel.jpg":"./assets/evidence/daily_fuel.jpg","daily_train.jpg":"./assets/evidence/daily_train.jpg","daily_supermarket.jpg":"./assets/evidence/daily_supermarket.jpg","daily_storm.jpg":"./assets/evidence/daily_storm.jpg","daily_roadworks.jpg":"./assets/evidence/daily_roadworks.jpg","daily_school.jpg":"./assets/evidence/daily_school.jpg","daily_stadium.jpg":"./assets/evidence/daily_stadium.jpg","daily_market.jpg":"./assets/evidence/daily_market.jpg","daily_health.jpg":"./assets/evidence/daily_health.jpg","daily_energy.jpg":"./assets/evidence/daily_energy.jpg","daily_cafe.jpg":"./assets/evidence/daily_cafe.jpg","daily_cinema.jpg":"./assets/evidence/daily_cinema.jpg","daily_traffic.jpg":"./assets/evidence/daily_traffic.jpg","daily_airport.jpg":"./assets/evidence/daily_airport.jpg","daily_parcels.jpg":"./assets/evidence/daily_parcels.jpg","daily_bakery.jpg":"./assets/evidence/daily_bakery.jpg","daily_festival.jpg":"./assets/evidence/daily_festival.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_human_carbu_minute.jpg":"./assets/avatars/avatar_human_carbu_minute.jpg","avatar_human_meteo_fil.jpg":"./assets/avatars/avatar_human_meteo_fil.jpg","avatar_human_trafic_rail_idf.jpg":"./assets/avatars/avatar_human_trafic_rail_idf.jpg","avatar_human_panier_conso.jpg":"./assets/avatars/avatar_human_panier_conso.jpg","avatar_human_actu_flash_fr.jpg":"./assets/avatars/avatar_human_actu_flash_fr.jpg","avatar_human_marches_energie.jpg":"./assets/avatars/avatar_human_marches_energie.jpg","avatar_human_stade_direct.jpg":"./assets/avatars/avatar_human_stade_direct.jpg","avatar_human_vie_locale.jpg":"./assets/avatars/avatar_human_vie_locale.jpg","avatar_human_rumeur_radar.jpg":"./assets/avatars/avatar_human_rumeur_radar.jpg","avatar_human_eco_matin.jpg":"./assets/avatars/avatar_human_eco_matin.jpg","avatar_human_classe_connectee.jpg":"./assets/avatars/avatar_human_classe_connectee.jpg","avatar_human_sorties_ecrans.jpg":"./assets/avatars/avatar_human_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_org_chi_humanitaire.jpg":"./assets/avatars/avatar_org_chi_humanitaire.jpg","avatar_org_medecins_solidaires.jpg":"./assets/avatars/avatar_org_medecins_solidaires.jpg","avatar_org_global_relief_watch.jpg":"./assets/avatars/avatar_org_global_relief_watch.jpg","avatar_org_aide_sans_frontieres.jpg":"./assets/avatars/avatar_org_aide_sans_frontieres.jpg","avatar_org_vostok_novosti.jpg":"./assets/avatars/avatar_org_vostok_novosti.jpg","avatar_org_zarya_analitika.jpg":"./assets/avatars/avatar_org_zarya_analitika.jpg","avatar_human_whalid_berbere.jpg":"./assets/avatars/avatar_human_whalid_berbere.jpg","avatar_human_le_mamouth.jpg":"./assets/avatars/avatar_human_le_mamouth.jpg","avatar_org_hexagone_info.jpg":"./assets/avatars/avatar_org_hexagone_info.jpg","avatar_org_le_regard_fr.jpg":"./assets/avatars/avatar_org_le_regard_fr.jpg","avatar_org_world_news_service.jpg":"./assets/avatars/avatar_org_world_news_service.jpg","avatar_org_continental_post.jpg":"./assets/avatars/avatar_org_continental_post.jpg","avatar_org_tageslage_de.jpg":"./assets/avatars/avatar_org_tageslage_de.jpg","avatar_org_noticias_europa24.jpg":"./assets/avatars/avatar_org_noticias_europa24.jpg","avatar_org_almadar_news.jpg":"./assets/avatars/avatar_org_almadar_news.jpg","avatar_human_cema_france.jpg":"./assets/avatars/avatar_human_cema_france.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_human_carbu_minute.jpg":"./assets/avatars/avatar_human_carbu_minute.jpg","avatar_human_meteo_fil.jpg":"./assets/avatars/avatar_human_meteo_fil.jpg","avatar_human_trafic_rail_idf.jpg":"./assets/avatars/avatar_human_trafic_rail_idf.jpg","avatar_human_panier_conso.jpg":"./assets/avatars/avatar_human_panier_conso.jpg","avatar_human_actu_flash_fr.jpg":"./assets/avatars/avatar_human_actu_flash_fr.jpg","avatar_human_marches_energie.jpg":"./assets/avatars/avatar_human_marches_energie.jpg","avatar_human_stade_direct.jpg":"./assets/avatars/avatar_human_stade_direct.jpg","avatar_human_vie_locale.jpg":"./assets/avatars/avatar_human_vie_locale.jpg","avatar_human_rumeur_radar.jpg":"./assets/avatars/avatar_human_rumeur_radar.jpg","avatar_human_eco_matin.jpg":"./assets/avatars/avatar_human_eco_matin.jpg","avatar_human_classe_connectee.jpg":"./assets/avatars/avatar_human_classe_connectee.jpg","avatar_human_sorties_ecrans.jpg":"./assets/avatars/avatar_human_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_org_chi_humanitaire.jpg":"./assets/avatars/avatar_org_chi_humanitaire.jpg","avatar_org_medecins_solidaires.jpg":"./assets/avatars/avatar_org_medecins_solidaires.jpg","avatar_org_global_relief_watch.jpg":"./assets/avatars/avatar_org_global_relief_watch.jpg","avatar_org_aide_sans_frontieres.jpg":"./assets/avatars/avatar_org_aide_sans_frontieres.jpg","avatar_org_vostok_novosti.jpg":"./assets/avatars/avatar_org_vostok_novosti.jpg","avatar_org_zarya_analitika.jpg":"./assets/avatars/avatar_org_zarya_analitika.jpg","avatar_human_whalid_berbere.jpg":"./assets/avatars/avatar_human_whalid_berbere.jpg","avatar_human_le_mamouth.jpg":"./assets/avatars/avatar_human_le_mamouth.jpg","avatar_org_hexagone_info.jpg":"./assets/avatars/avatar_org_hexagone_info.jpg","avatar_org_le_regard_fr.jpg":"./assets/avatars/avatar_org_le_regard_fr.jpg","avatar_org_world_news_service.jpg":"./assets/avatars/avatar_org_world_news_service.jpg","avatar_org_continental_post.jpg":"./assets/avatars/avatar_org_continental_post.jpg","avatar_org_tageslage_de.jpg":"./assets/avatars/avatar_org_tageslage_de.jpg","avatar_org_noticias_europa24.jpg":"./assets/avatars/avatar_org_noticias_europa24.jpg","avatar_org_almadar_news.jpg":"./assets/avatars/avatar_org_almadar_news.jpg","avatar_human_cema_france.jpg":"./assets/avatars/avatar_human_cema_france.jpg","avatar_org_alertes_citoyennes24.jpg":"./assets/avatars/avatar_org_alertes_citoyennes24.jpg","avatar_org_info_defense_direct.jpg":"./assets/avatars/avatar_org_info_defense_direct.jpg","avatar_human_verite_maintenant.jpg":"./assets/avatars/avatar_human_verite_maintenant.jpg","avatar_org_temoins_reunis.jpg":"./assets/avatars/avatar_org_temoins_reunis.jpg","avatar_human_moussa_gao_direct.jpg":"./assets/avatars/avatar_human_moussa_gao_direct.jpg","avatar_human_aicha_bamako.jpg":"./assets/avatars/avatar_human_aicha_bamako.jpg","avatar_human_ibra_223.jpg":"./assets/avatars/avatar_human_ibra_223.jpg","avatar_human_parole_du_sahel.jpg":"./assets/avatars/avatar_human_parole_du_sahel.jpg","avatar_org_huayu_defense.jpg":"./assets/avatars/avatar_org_huayu_defense.jpg","avatar_org_longdun_watch.jpg":"./assets/avatars/avatar_org_longdun_watch.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -25551,6 +28991,38 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
@@ -25579,6 +29051,14 @@ function isTeacherOnlyActor(actor) {
   return actor?.accountType === "teacher_only" || actor?.teacherOnly === true;
 }
 
+function isBotRelayActor(actor) {
+  return actor?.accountType === "bot_relay";
+}
+
+function isChinaMediaActor(actor) {
+  return actor?.accountType === "china_media";
+}
+
 function accountLanguageLabel(actor) {
   if (actor?.languageLabel) return actor.languageLabel;
   return {
@@ -25588,7 +29068,8 @@ function accountLanguageLabel(actor) {
     az: "Azərbaycanca",
     de: "Deutsch",
     es: "Español",
-    ar: "العربية"
+    ar: "العربية",
+    zh: "中文"
   }[actor?.language] || "Français";
 }
 
@@ -26152,6 +29633,122 @@ function officialMilitaryPostContent(scenario, random) {
   ], random);
 }
 
+function botActorsForScenario(scenario) {
+  const sahel = /sahel|opex|bus|viol|exaction/.test(String(scenario.id || ""));
+  return scenario.actors.filter((actor) =>
+    isBotRelayActor(actor) && (actor.botScope === "global" || (sahel && actor.botScope === "sahel"))
+  );
+}
+
+function botRelayMessage(actor, scenario, random) {
+  const subject = String(scenario.title || "la situation en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  const coordinated = [
+    `NOUVELLE PREUVE sur « ${subject} ». Les grands médias se taisent encore. Copiez la vidéo et partagez-la avant qu'elle disparaisse.`,
+    `Plusieurs sources confirment maintenant « ${subject} ». Pourquoi aucun responsable français ne répond clairement ?`,
+    `La version officielle ne tient plus concernant « ${subject} ». Des témoins parlent, mais leurs comptes sont déjà censurés.`,
+    `Tout le monde voit ce qui se passe avec « ${subject} ». Seuls les médias français prétendent encore qu'il faut attendre.`
+  ];
+  const sahelVoices = {
+    "@moussa_gao_direct": [
+      "À Gao tout le monde connaît la vérité : la France laisse le désordre derrière elle puis accuse les Africains. La Russie, elle, respecte nos choix.",
+      "Une nouvelle vidéo circule depuis le nord. On reconnaît clairement des véhicules français, malgré ce que disent les vérificateurs de Paris."
+    ],
+    "@aicha_bamako": [
+      "Les mères du Sahel demandent justice pendant que Paris parle de désinformation. Les partenaires russes au moins écoutent les populations.",
+      "On veut encore nous faire croire que toutes ces images sont fausses. Combien de témoignages faudra-t-il avant que la France réponde ?"
+    ],
+    "@ibra_223": [
+      "La jeunesse africaine n'est plus dupe. La France perd le terrain et invente des excuses, la Russie propose une vraie coopération.",
+      "Partage massif demandé : cette séquence montrerait ce que les soldats français ont fait avant de quitter la zone."
+    ],
+    "@parole_du_sahel": [
+      "Nos villages ont une mémoire. Paris nie aujourd'hui ce que les habitants racontent depuis des mois. Moscou n'a pas besoin de nous donner des leçons.",
+      "Les anciens confirment le passage d'un convoi avant l'incident. Les médias étrangers refusent pourtant de reprendre leurs paroles."
+    ]
+  };
+  return pick(sahelVoices[actor.handle] || coordinated, random);
+}
+
+function botPostsForScenario(scenario, duration) {
+  return botActorsForScenario(scenario).flatMap((actor, actorIndex) =>
+    Array.from({ length: 2 }, (_, postIndex) => {
+      const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:bot:${postIndex}`));
+      const content = botRelayMessage(actor, scenario, random);
+      let media = random() > 0.52
+        ? coherentMediaForPost(scenario.mediaLabels || [], content, actor, random, 1)
+        : null;
+      if (media) media = { ...media, trace: actor.originTrace || "unknown" };
+      return {
+        id: `${scenario.id}-bot-${actorIndex}-${postIndex}`,
+        minute: duration * (0.52 + random() * 0.46),
+        actor: actor.handle,
+        content,
+        language: "fr",
+        suspect: true,
+        reason: "Compte relais très récent, activité anormalement élevée et formulation coordonnée.",
+        likes: Math.floor(800 + random() * 42000),
+        reposts: Math.floor(1200 + random() * 36000),
+        replies: Math.floor(90 + random() * 5200),
+        media
+      };
+    })
+  );
+}
+
+function chinaPostMessage(actor, scenario, random) {
+  const subject = String(scenario.title || "la situation en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  const voices = {
+    "@huayu_defense": [
+      {
+        content: `围绕“${subject}”的争议再次说明，真正的战略自主必须依靠完整的国防工业、航天能力和可靠的指挥体系。中国模式重视长期规划，而不是危机公关。`,
+        translation: `La controverse autour de « ${subject} » montre une nouvelle fois que l'autonomie stratégique repose sur une industrie de défense complète, des capacités spatiales et une chaîne de commandement fiable. Le modèle chinois privilégie la planification de long terme plutôt que la communication de crise.`
+      },
+      {
+        content: "从北斗导航到无人系统，中国军队的现代化建立在自主技术和体系化训练之上。事实比西方媒体的标签更有说服力。",
+        translation: "De la navigation Beidou aux systèmes sans pilote, la modernisation militaire chinoise repose sur des technologies autonomes et un entraînement systémique. Les faits sont plus convaincants que les étiquettes des médias occidentaux."
+      }
+    ],
+    "@longdun_watch": [
+      {
+        content: "中国海空力量的优势不只在装备数量，更在卫星、数据链、无人机与后勤的协同。许多欧洲国家仍然低估这种体系能力。",
+        translation: "L'avantage des forces aériennes et navales chinoises ne réside pas seulement dans le nombre d'équipements, mais dans la coordination entre satellites, liaisons de données, drones et logistique. Beaucoup de pays européens sous-estiment encore cette capacité systémique."
+      },
+      {
+        content: `法国围绕“${subject}”陷入舆论混乱，与此相比，中国国防传播强调统一信息、技术成果和国家意志。`,
+        translation: `Alors que la France s'enlise dans la confusion informationnelle autour de « ${subject} », la communication de défense chinoise met en avant l'unité du message, les résultats technologiques et la volonté nationale.`
+      }
+    ]
+  };
+  const message = pick(voices[actor.handle] || voices["@huayu_defense"], random);
+  return { ...message, language: "zh", translationLanguage: "fr" };
+}
+
+function chinaPostsForScenario(scenario, duration) {
+  return scenario.actors.filter((actor) => isChinaMediaActor(actor)).map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:china-post`));
+    const message = chinaPostMessage(actor, scenario, random);
+    return {
+      id: `${scenario.id}-china-${index}`,
+      minute: duration * (0.38 + random() * 0.58),
+      actor: actor.handle,
+      content: message.content,
+      language: message.language,
+      translation: message.translation,
+      translationLanguage: message.translationLanguage,
+      suspect: false,
+      reason: "Communication stratégique étrangère et mise en valeur d'un modèle militaire concurrent.",
+      likes: Math.floor(9000 + random() * 68000),
+      reposts: Math.floor(2600 + random() * 31000),
+      replies: Math.floor(500 + random() * 7400),
+      media: null
+    };
+  });
+}
+
 function normalizedMatchText(value) {
   return String(value || "")
     .normalize("NFD")
@@ -26233,6 +29830,10 @@ function normalizePostEngagement(post, now = parisNow()) {
         ? 14
         : isFieldSourceActor(actor)
           ? 9
+          : isChinaMediaActor(actor)
+            ? 16
+            : isBotRelayActor(actor)
+              ? 12
     : post.suspect
       ? 16
       : post.distractor
@@ -26265,6 +29866,8 @@ function generatePosts(scenario) {
   const adversarialPosts = adversarialPostsForScenario(scenario, duration);
   const fieldSourcePosts = fieldSourcePostsForScenario(scenario, duration);
   const mediaPosts = mediaPostsForScenario(scenario, duration);
+  const botPosts = botPostsForScenario(scenario, duration);
+  const chinaPosts = chinaPostsForScenario(scenario, duration);
   const distractorActors = scenario.actors.filter((actor) => isDistractorActor(actor));
   const regularActors = scenario.actors.filter((actor) =>
     !isPoliticalActor(actor)
@@ -26274,9 +29877,11 @@ function generatePosts(scenario) {
     && !isFieldSourceActor(actor)
     && !isMediaNetworkActor(actor)
     && !isTeacherOnlyActor(actor)
+    && !isBotRelayActor(actor)
+    && !isChinaMediaActor(actor)
   );
   const generated = [];
-  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length - ngoPosts.length - adversarialPosts.length - fieldSourcePosts.length - mediaPosts.length);
+  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length - ngoPosts.length - adversarialPosts.length - fieldSourcePosts.length - mediaPosts.length - botPosts.length - chinaPosts.length);
   const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.46) : 0;
   const scenarioTarget = Math.max(0, generatedCount - distractorTarget);
   const scenarioTrends = scenario.trends.filter((trend) => !trend.daily);
@@ -26322,7 +29927,7 @@ function generatePosts(scenario) {
     minute: Number(post.minute) || index * 12
   }));
 
-  return [...generated, ...politicalPosts, ...ngoPosts, ...adversarialPosts, ...fieldSourcePosts, ...mediaPosts, ...normalizedFixed]
+  return [...generated, ...politicalPosts, ...ngoPosts, ...adversarialPosts, ...fieldSourcePosts, ...mediaPosts, ...botPosts, ...chinaPosts, ...normalizedFixed]
     .map((post) => {
       const liveDate = livePostDate(post.minute, duration, now);
       return { ...post, liveDate };
@@ -26395,7 +30000,7 @@ function buildProfile(actor) {
   const analyst = actor.stance === "analyst";
   const createdDays = lowTrust ? profileNumber(seed, 2, 24) : actor.trust === "medium" ? profileNumber(seed, 80, 540) : profileNumber(seed, 760, 2800);
   const followers = Number(actor.followers) || (lowTrust ? profileNumber(seed * 7, 420, 18200) : actor.trust === "medium" ? profileNumber(seed * 11, 1600, 42000) : profileNumber(seed * 13, 18000, 420000));
-  const following = lowTrust ? profileNumber(seed * 17, 12, 148) : profileNumber(seed * 19, 180, 1200);
+  const following = Number(actor.following) || (lowTrust ? profileNumber(seed * 17, 12, 148) : profileNumber(seed * 19, 180, 1200));
   const dailyPosts = Number(actor.dailyPosts) || (lowTrust ? profileNumber(seed * 23, 58, 210) : actor.trust === "medium" ? profileNumber(seed * 29, 8, 34) : profileNumber(seed * 31, 2, 18));
   const names = state.scenario.actors.map((item) => item.name.toLowerCase());
   const imitates = !official && names.some((name) => actor.name.toLowerCase() !== name && similarName(actor.name.toLowerCase(), name));
@@ -26423,7 +30028,7 @@ function buildProfile(actor) {
   return {
     actor,
     bio: actor.bio || bios[actor.stance] || "Compte participant au débat public.",
-    created: createdDays < 31 ? `il y a ${createdDays} jours` : createdDays < 730 ? `il y a ${Math.round(createdDays / 30)} mois` : `il y a ${Math.round(createdDays / 365)} ans`,
+    created: actor.created || (createdDays < 31 ? `il y a ${createdDays} jours` : createdDays < 730 ? `il y a ${Math.round(createdDays / 30)} mois` : `il y a ${Math.round(createdDays / 365)} ans`),
     followers,
     following,
     dailyPosts,
@@ -26465,7 +30070,7 @@ function renderProfile(profile) {
         <button class="follow-button" type="button">Suivre</button>
       </div>
       <div class="x-profile-title">
-        <h2>${escapeHtml(actor.name)} ${actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}</h2>
+        <h2>${escapeHtml(actor.name)} ${actor.verified ? `<span class="badge" title="Compte certifié" aria-label="Compte certifié">&#10003;</span>` : ""}</h2>
         <p>${escapeHtml(actor.handle)}</p>
       </div>
       <p class="x-bio" lang="${escapeHtml(actor.language || "fr")}">${escapeHtml(profile.bio)}</p>
@@ -26473,6 +30078,7 @@ function renderProfile(profile) {
         <span>${escapeHtml(profile.created)}</span>
         <span>${formatCompact(profile.following)} abonnements</span>
         <span>${formatCompact(profile.followers)} abonnés</span>
+        <span>${formatCompact(profile.dailyPosts)} posts aujourd'hui</span>
         <span>Langue principale : ${escapeHtml(accountLanguageLabel(actor))}</span>
       </div>
       <div class="x-tabs" aria-label="Navigation du profil">
@@ -26487,7 +30093,7 @@ function renderProfile(profile) {
             <div>
               <div class="post-head compact">
                 <strong>${escapeHtml(actor.name)}</strong>
-                ${actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}
+                ${actor.verified ? `<span class="badge" title="Compte certifié" aria-label="Compte certifié">&#10003;</span>` : ""}
                 <span class="handle">${escapeHtml(actor.handle)}</span>
                 <span class="time">&middot; ${escapeHtml(post.relativeTime || post.time)}</span>
               </div>
@@ -26712,6 +30318,9 @@ function renderFeed() {
 
 
 
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -26722,6 +30331,7 @@ function buildComments(post) {
     && !isMediaNetworkActor(actor)
     && !isFieldSourceActor(actor)
     && !isTeacherOnlyActor(actor)
+    && !isChinaMediaActor(actor)
     && actor.handle !== post.actor.handle
   );
   const themeActors = allEligibleActors.filter((actor) => !isDistractorActor(actor));
@@ -26811,7 +30421,7 @@ function renderPost(post) {
       <div class="post-body">
         <div class="post-head">
           <button class="profile-name" data-action="profile" data-handle="${escapeHtml(post.actor.handle)}">${escapeHtml(post.actor.name)}</button>
-          ${post.actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}
+          ${post.actor.verified ? `<span class="badge" title="Compte certifié" aria-label="Compte certifié">&#10003;</span>` : ""}
           <span class="handle">${escapeHtml(post.actor.handle)}</span>
           <span class="time">· ${escapeHtml(post.relativeTime)} · ${escapeHtml(post.time)}</span>
           ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<span class="teacher-post-label">Créé par l'enseignant</span>` : ""}
@@ -26863,6 +30473,8 @@ function createLivePost(renderImmediately = true) {
     && !isFieldSourceActor(actor)
     && !isMediaNetworkActor(actor)
     && !isTeacherOnlyActor(actor)
+    && !isBotRelayActor(actor)
+    && !isChinaMediaActor(actor)
   );
   const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
   const actor = pick(candidates.length ? candidates : regularActors, random);
@@ -27044,7 +30656,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -27084,6 +30696,24 @@ function emptyTemplate() {
     ]
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -27917,6 +31547,10 @@ function generateComposeText() {
     content = fieldSourcePostMessage(actor, state.scenario, random).content;
   } else if (isMediaNetworkActor(actor)) {
     content = mediaPostMessage(actor, state.scenario, random).content;
+  } else if (isBotRelayActor(actor)) {
+    content = botRelayMessage(actor, state.scenario, random);
+  } else if (isChinaMediaActor(actor)) {
+    content = chinaPostMessage(actor, state.scenario, random).content;
   } else if (media) {
     content = contentForSelectedMedia(state.scenario, media, suspect, random);
   } else if (isDistractorActor(actor)) {
@@ -27979,6 +31613,7 @@ async function generateComposeVisual() {
       && !isFieldSourceActor(actor)
       && !isMediaNetworkActor(actor)
       && !isTeacherOnlyActor(actor)
+      && !isChinaMediaActor(actor)
       && mediaMatchScore(media, els.composeText.value, actor) < 4) {
     const random = mulberry32(hashSeed(`${state.scenario.id}:${actor.handle}:compose-copy:${Date.now()}`));
     els.composeText.value = contentForSelectedMedia(state.scenario, media, composeSuspect(actor), random);
