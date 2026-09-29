@@ -43,6 +43,10 @@ La simulation permet notamment de travailler :
 - Cliquer sur **Actualiser** pour faire apparaître de nouvelles publications.
 - Examiner les fichiers et les images avec les outils de vérification adaptés au niveau de la classe.
 
+## Séance en direct
+
+Après la configuration unique décrite dans `CONFIGURATION-DIRECT.txt`, l'enseignant peut lancer une séance, partager son lien élève puis publier autant de messages qu'il le souhaite depuis n'importe quel compte du scénario. Les nouvelles publications sont transmises aux appareils connectés par un flux temps réel, sans modification des fichiers et sans redéploiement GitHub Pages.
+
 ## Mise en ligne avec GitHub Pages
 
 Les fichiers doivent être déposés **à la racine** du dépôt GitHub, et non dans un dossier supplémentaire. Le dépôt doit notamment contenir :

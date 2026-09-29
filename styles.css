@@ -1257,6 +1257,13 @@ h3 {
 
 
 
+
+
+
+
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1493,6 +1500,59 @@ body {
 .compose-dialog menu { display: flex; justify-content: flex-end; gap: 8px; margin: 0; padding: 0; }
 .teacher-created { box-shadow: inset 3px 0 0 var(--blue); }
 .teacher-post-label { color: var(--blue); font-size: 12px; font-weight: 700; }
+
+.live-session-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  white-space: nowrap;
+}
+.status-dot {
+  display: inline-block;
+  width: 8px;
+  height: 8px;
+  flex: 0 0 8px;
+  border-radius: 50%;
+  background: #8899a6;
+}
+.live-class-status {
+  display: inline-flex;
+  align-items: center;
+  gap: 7px;
+  min-height: 30px;
+  padding: 0 10px;
+  border: 1px solid var(--line-strong);
+  border-radius: 999px;
+  background: #fff;
+  color: var(--muted);
+  font-size: 12px;
+}
+.live-class-status[hidden] { display: none; }
+.live-class-status strong { color: inherit; font-size: 12px; }
+.live-class-status[data-kind="connected"] { color: #0b6b3a; border-color: #9bd7b8; background: #effbf4; }
+.live-class-status[data-kind="connected"] .status-dot { background: #00a65a; box-shadow: 0 0 0 4px rgba(0,166,90,.12); }
+.live-class-status[data-kind="connecting"] .status-dot { background: #e2a400; }
+.live-class-status[data-kind="error"] { color: #b4232f; border-color: #f0b4ba; background: #fff5f6; }
+.live-class-status[data-kind="error"] .status-dot { background: var(--danger); }
+.live-dialog { width: min(760px, calc(100vw - 32px)); }
+.live-dialog form { display: grid; gap: 16px; }
+.live-dialog label { display: grid; gap: 6px; font-weight: 700; }
+.live-dialog input {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  padding: 11px 12px;
+}
+.live-dialog input[readonly] { color: var(--muted); background: #f7f9f9; }
+.live-dialog-status { margin: 4px 0 0; color: var(--muted); font-weight: 700; }
+.live-dialog-status[data-kind="connected"] { color: #0b6b3a; }
+.live-dialog-status[data-kind="error"] { color: #b4232f; }
+.live-dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
+.danger-button { color: var(--danger); }
 
 .checklist { display: none !important; }
 .student-link { text-decoration: none; }

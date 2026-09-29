@@ -1,45 +1,38 @@
-MISE A JOUR FINALE VEILLE-ILI - 28 SEPTEMBRE 2026
+VEILLE-ILI - MISE A JOUR PUBLICATION EN DIRECT
 
-Cette livraison apporte quatre corrections principales :
-- des avatars coherents et visuellement uniques pour les 145 comptes ;
-- des illustrations strictement reliees au texte des publications ;
-- un outil enseignant pour creer un post, choisir son compte et produire un visuel ;
-- des reactions et des partages qui progressent selon l'anciennete du message.
+CE QUE CETTE VERSION AJOUTE
 
-METHODE CONSEILLEE POUR METTRE A JOUR GITHUB
+- L'enseignant lance une séance depuis le bouton "Séance en direct".
+- Il choisit n'importe quel compte, rédige un message et clique sur "Publier maintenant".
+- Il peut publier autant de messages qu'il le souhaite.
+- Les messages apparaissent immédiatement chez tous les élèves connectés, sans recharger la page.
+- Les publications les plus récentes remontent en haut du fil.
+- Les réactions d'un message publié à l'instant restent faibles et progressives.
+- La page élève ne donne accès ni au compositeur ni aux fonctions enseignantes.
 
-1. Decompressez ETAPE-1-RACINE.zip sur votre ordinateur.
-2. Sur GitHub, placez-vous a la racine du depot simulation-veille.
+MISE A JOUR GITHUB
+
+1. Décompressez MISE-A-JOUR-DIRECT-RACINE.zip.
+2. Sur GitHub, ouvrez le dépôt simulation-veille.
 3. Cliquez sur Add file, puis Upload files.
-4. Deposez le CONTENU du dossier decompresse, pas le fichier ZIP.
-5. Validez avec Commit changes.
-6. Ouvrez ensuite le dossier assets, puis le dossier avatars sur GitHub.
-7. Decompressez ETAPE-2A-AVATARS.zip et deposez ses fichiers dans ce dossier.
-8. Validez, puis recommencez avec ETAPE-2B-AVATARS.zip.
-9. Attendez le deploiement GitHub Pages, puis forcez l'actualisation avec Ctrl+F5.
+4. Déposez le CONTENU du dossier décompressé à la racine du dépôt.
+5. Acceptez le remplacement des fichiers portant le même nom.
+6. Validez avec Commit changes.
+7. Attendez une à deux minutes, puis rechargez le site avec Ctrl+F5.
 
-Ne supprimez pas le dossier assets/evidence : il contient les 277 illustrations.
+Les dossiers d'images existants n'ont pas besoin d'être renvoyés pour cette mise à jour.
 
-LIENS APRES DEPLOIEMENT
+CONFIGURATION UNIQUE DU DIRECT
 
-Page enseignant : https://agathematu.github.io/simulation-veille/
-Page eleve      : https://agathematu.github.io/simulation-veille/eleve.html
+Ouvrez CONFIGURATION-DIRECT.txt et suivez les étapes pour créer une petite base Firebase Realtime Database dédiée à l'exercice. Cette opération n'est faite qu'une fois.
 
-OUTIL ENSEIGNANT
+ENSUITE, A CHAQUE COURS
 
-Le bouton "Creer un post" permet de choisir un compte, generer un texte, choisir
-ou generer un visuel, previsualiser puis publier. Le visuel est produit localement
-a partir de la phototheque du scenario, sans envoyer de donnee vers un service tiers.
+1. Ouvrez la page enseignant index.html.
+2. Cliquez sur "Séance en direct".
+3. Collez l'adresse Firebase lors de la première utilisation.
+4. Cliquez sur "Démarrer la séance".
+5. Copiez le lien élève et transmettez-le à la classe.
+6. Cliquez sur "Créer un post" autant de fois que nécessaire.
 
-Les publications creees sont enregistrees dans le navigateur utilise. Elles sont
-donc visibles sur la page eleve ouverte dans le meme navigateur.
-
-Important : GitHub Pages est un hebergement statique. Sans serveur ni base de
-donnees, une publication creee sur l'ordinateur de l'enseignant n'apparait pas
-automatiquement sur les appareils des eleves. Le bouton d'export JSON permet de
-conserver les publications creees.
-
-Le fichier VEILLE-ILI-SITE-COMPLET-COHERENCE-ENSEIGNANT-V4.zip contient une copie
-complete du site en guise de sauvegarde. Son contenu depasse 100 fichiers : pour
-une mise a jour via l'interface web de GitHub, utilisez plutot les trois etapes
-ci-dessus.
+L'adresse Firebase et le code de séance sont mémorisés dans le navigateur de l'enseignant.

@@ -20132,9 +20132,20 @@ const els = {
   composeMediaSelect: document.querySelector("#composeMediaSelect"),
   composeUpload: document.querySelector("#composeUpload"),
   composePreview: document.querySelector("#composePreview"),
+  composeLiveHint: document.querySelector("#composeLiveHint"),
   generateComposeText: document.querySelector("#generateComposeText"),
   generateComposeVisual: document.querySelector("#generateComposeVisual"),
-  publishComposePost: document.querySelector("#publishComposePost")
+  publishComposePost: document.querySelector("#publishComposePost"),
+  liveSessionBtn: document.querySelector("#liveSessionBtn"),
+  liveClassStatus: document.querySelector("#liveClassStatus"),
+  liveDialog: document.querySelector("#liveDialog"),
+  liveDbUrl: document.querySelector("#liveDbUrl"),
+  liveRoomCode: document.querySelector("#liveRoomCode"),
+  liveStudentLink: document.querySelector("#liveStudentLink"),
+  liveDialogStatus: document.querySelector("#liveDialogStatus"),
+  startLiveSession: document.querySelector("#startLiveSession"),
+  stopLiveSession: document.querySelector("#stopLiveSession"),
+  copyStudentLiveLink: document.querySelector("#copyStudentLiveLink")
 };
 
 function hashSeed(input) {
@@ -20197,6 +20208,97 @@ function livePostDate(minute, duration, now = parisNow()) {
 function actorByHandle(scenario, handle) {
   return scenario.actors.find((actor) => actor.handle === handle) || scenario.actors[0];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -21155,6 +21257,20 @@ function renderFeed() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -21310,7 +21426,7 @@ function createLivePost(renderImmediately = true) {
   };
   post = normalizePostEngagement(post, liveDate);
   post.comments = buildComments(post);
-  state.posts = [post, ...state.posts].slice(0, 640);
+  state.posts = [post, ...state.posts];
   if (renderImmediately) {
     renderScenarioInfo();
     refreshLiveTimes();
@@ -21335,15 +21451,6 @@ function refreshLiveTimes() {
       time: formatTime(post.liveDate),
       relativeTime: formatRelativeTime(post.liveDate, now)
     }))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
-    .map((post) => normalizePostEngagement(post, now))
     .map((post) => normalizePostEngagement(post, now))
     .sort((a, b) => b.liveDate - a.liveDate);
   renderFeed();
@@ -21409,7 +21516,7 @@ function renderAnswerKey() {
 function loadScenario(id) {
   const scenario = state.scenarios.find((item) => item.id === id) || state.scenarios[0];
   state.scenario = structuredClone(scenario);
-  state.posts = [...restoreTeacherPosts(state.scenario), ...generatePosts(state.scenario)].sort((a, b) => b.liveDate - a.liveDate);
+  state.posts = mergeLivePosts([...restoreTeacherPosts(state.scenario), ...generatePosts(state.scenario)], state.scenario);
   state.flags.clear();
   state.query = "";
   if (els.searchInput) els.searchInput.value = "";
@@ -21499,7 +21606,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -21693,6 +21800,131 @@ function emptyTemplate() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function teacherStorageKey() {
   return `veille-ili:teacher-posts:${state.scenario?.id || "scenario"}`;
 }
@@ -21700,6 +21932,7 @@ function teacherStorageKey() {
 function serializeTeacherPost(post) {
   return {
     id: post.id,
+    scenarioId: state.scenario?.id || post.scenarioId || "",
     actor: post.actor.handle,
     content: post.content,
     suspect: Boolean(post.suspect),
@@ -21743,6 +21976,353 @@ function restoreTeacherPosts(scenario) {
   });
 }
 
+// VEILLE-ILI LIVE SYNC START
+const liveSync = {
+  enabled: false,
+  dbUrl: "",
+  room: "",
+  expiresAt: 0,
+  remotePosts: [],
+  signature: "",
+  timer: null,
+  stream: null,
+  reconnectTimer: null,
+  inFlight: false,
+  pollDelay: 15000
+};
+
+function isTeacherPage() {
+  return document.body.dataset.mode === "teacher";
+}
+
+function normalizeLiveDbUrl(value) {
+  const url = String(value || "").trim().replace(/\/+$/, "");
+  const isFirebase = /^https:\/\/[a-z0-9.-]+(?:firebasedatabase\.app|firebaseio\.com)$/i.test(url);
+  const isLocalTest = /^(?:http:\/\/)?(?:127\.0\.0\.1|localhost):\d+$/i.test(url)
+    && ["127.0.0.1", "localhost"].includes(window.location.hostname);
+  if (!isFirebase && !isLocalTest) {
+    throw new Error("Adresse Firebase Realtime Database invalide.");
+  }
+  return url;
+}
+
+function normalizeLiveRoom(value) {
+  const room = String(value || "").toUpperCase().replace(/[^A-Z0-9-]/g, "").slice(0, 28);
+  if (room.length < 6) throw new Error("Le code de séance doit contenir au moins 6 caractères.");
+  return room;
+}
+
+function createLiveRoomCode() {
+  const alphabet = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
+  const bytes = crypto.getRandomValues(new Uint8Array(7));
+  return `ILI-${[...bytes].map((byte) => alphabet[byte % alphabet.length]).join("")}`;
+}
+
+function encodeLiveValue(value) {
+  const bytes = new TextEncoder().encode(String(value));
+  let binary = "";
+  bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
+  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
+}
+
+function decodeLiveValue(value) {
+  const normalized = String(value || "").replace(/-/g, "+").replace(/_/g, "/");
+  const binary = atob(normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "="));
+  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
+  return new TextDecoder().decode(bytes);
+}
+
+function liveRoomEndpoint(path = "") {
+  const suffix = path ? `/${path}` : "";
+  return `${liveSync.dbUrl}/rooms/${encodeURIComponent(liveSync.room)}${suffix}.json`;
+}
+
+async function liveRequest(path = "", options = {}) {
+  if (!liveSync.dbUrl || !liveSync.room) throw new Error("Séance non configurée.");
+  const response = await fetch(liveRoomEndpoint(path), {
+    cache: "no-store",
+    ...options,
+    headers: { "Content-Type": "application/json", ...(options.headers || {}) }
+  });
+  if (!response.ok) throw new Error(`Connexion refusée (${response.status}). Vérifiez l'adresse et les règles Firebase.`);
+  if (response.status === 204) return null;
+  return response.json();
+}
+
+function buildStudentLiveUrl() {
+  if (!liveSync.dbUrl || !liveSync.room) return "";
+  const url = new URL("./eleve.html", window.location.href);
+  url.search = "";
+  url.hash = "";
+  url.searchParams.set("live", liveSync.room);
+  url.searchParams.set("db", encodeLiveValue(liveSync.dbUrl));
+  url.searchParams.set("scenario", state.scenario?.id || "");
+  return url.toString();
+}
+
+function setLiveStatus(kind, label) {
+  const status = els.liveClassStatus;
+  if (status) {
+    status.hidden = false;
+    status.dataset.kind = kind;
+    const text = status.querySelector("strong");
+    if (text) text.textContent = label;
+  }
+  if (els.liveDialogStatus) {
+    els.liveDialogStatus.dataset.kind = kind;
+    els.liveDialogStatus.textContent = label;
+  }
+  if (els.composeLiveHint) {
+    els.composeLiveHint.textContent = liveSync.enabled
+      ? `Diffusion immédiate dans la séance ${liveSync.room}`
+      : "Publication locale : démarrez une séance en direct pour la diffuser aux élèves.";
+  }
+}
+
+function saveLiveConfig(active = liveSync.enabled) {
+  if (!isTeacherPage()) return;
+  localStorage.setItem("veille-ili:live-config", JSON.stringify({
+    dbUrl: liveSync.dbUrl,
+    room: liveSync.room,
+    expiresAt: liveSync.expiresAt,
+    active
+  }));
+}
+
+function deserializeLivePost(raw, scenario) {
+  if (!raw || raw.scenarioId !== scenario.id) return null;
+  const actor = actorByHandle(scenario, raw.actor);
+  if (!actor) return null;
+  const now = parisNow();
+  const liveDate = new Date(raw.liveDate || now);
+  return normalizePostEngagement({
+    ...raw,
+    actor,
+    liveDate,
+    time: formatTime(liveDate),
+    relativeTime: formatRelativeTime(liveDate, now),
+    teacherCreated: true,
+    liveRemote: true,
+    comments: Array.isArray(raw.comments) ? raw.comments : []
+  }, now);
+}
+
+function mergeLivePosts(posts, scenario) {
+  const remote = liveSync.remotePosts.map((post) => deserializeLivePost(post, scenario)).filter(Boolean);
+  const unique = new Map([...posts, ...remote].map((post) => [post.id, post]));
+  return [...unique.values()].sort((a, b) => b.liveDate - a.liveDate);
+}
+
+function connectLiveStream() {
+  if (!liveSync.enabled || !liveSync.dbUrl || !liveSync.room) return;
+  if (liveSync.stream) liveSync.stream.close();
+  window.clearTimeout(liveSync.reconnectTimer);
+  try {
+    const stream = new EventSource(liveRoomEndpoint());
+    liveSync.stream = stream;
+    const refresh = () => {
+      liveSync.signature = "";
+      pollLiveRoom();
+    };
+    stream.addEventListener("put", refresh);
+    stream.addEventListener("patch", refresh);
+    stream.addEventListener("cancel", () => setLiveStatus("error", "Accès au direct refusé"));
+    stream.addEventListener("auth_revoked", () => setLiveStatus("error", "Accès au direct expiré"));
+    stream.onopen = () => setLiveStatus("connected", `Direct ${liveSync.room}`);
+    stream.onerror = () => {
+      stream.close();
+      if (liveSync.stream === stream) liveSync.stream = null;
+      if (liveSync.enabled) {
+        setLiveStatus("connecting", "Reconnexion au direct");
+        liveSync.reconnectTimer = window.setTimeout(connectLiveStream, 3500);
+      }
+    };
+  } catch (error) {
+    scheduleLivePoll(1800);
+  }
+}
+
+function scheduleLivePoll(delay = liveSync.pollDelay) {
+  window.clearTimeout(liveSync.timer);
+  if (liveSync.enabled) liveSync.timer = window.setTimeout(pollLiveRoom, delay);
+}
+
+async function pollLiveRoom() {
+  if (!liveSync.enabled || liveSync.inFlight) return;
+  liveSync.inFlight = true;
+  try {
+    const snapshot = await liveRequest();
+    const meta = snapshot?.meta || {};
+    if (meta.active === false) {
+      setLiveStatus("waiting", "Séance terminée");
+      scheduleLivePoll(4000);
+      return;
+    }
+    const remotePosts = Object.values(snapshot?.posts || {});
+    const signature = JSON.stringify({
+      scenarioId: meta.scenarioId || "",
+      ids: remotePosts.map((post) => `${post.id}:${post.liveDate}`).sort()
+    });
+    liveSync.remotePosts = remotePosts;
+    if (signature !== liveSync.signature) {
+      liveSync.signature = signature;
+      const nextScenario = state.scenarios.find((item) => item.id === meta.scenarioId);
+      if (nextScenario && state.scenario?.id !== nextScenario.id) {
+        if (els.scenarioSelect) els.scenarioSelect.value = nextScenario.id;
+        loadScenario(nextScenario.id);
+      } else if (state.scenario) {
+        const localPosts = state.posts.filter((post) => !post.liveRemote);
+        state.posts = mergeLivePosts(localPosts, state.scenario);
+        renderScenarioInfo();
+        renderFeed();
+      }
+    }
+    setLiveStatus("connected", `Direct ${liveSync.room}`);
+  } catch (error) {
+    setLiveStatus("error", "Direct déconnecté");
+  } finally {
+    liveSync.inFlight = false;
+    scheduleLivePoll();
+  }
+}
+
+async function announceLiveScenario() {
+  if (!isTeacherPage() || !liveSync.enabled || !state.scenario) return;
+  try {
+    await liveRequest("meta", {
+      method: "PATCH",
+      body: JSON.stringify({
+        scenarioId: state.scenario.id,
+        scenarioTitle: state.scenario.title,
+        updatedAt: new Date().toISOString(),
+        active: true
+      })
+    });
+  } catch (error) {
+    setLiveStatus("error", "Direct déconnecté");
+  }
+}
+
+async function publishLivePost(post) {
+  if (!isTeacherPage() || !liveSync.enabled) return;
+  const payload = { ...serializeTeacherPost(post), comments: post.comments || [] };
+  try {
+    await liveRequest(`posts/${post.id}`, { method: "PUT", body: JSON.stringify(payload) });
+    await announceLiveScenario();
+    setLiveStatus("connected", `Publié dans ${liveSync.room}`);
+  } catch (error) {
+    setLiveStatus("error", "Publication locale uniquement");
+    alert(`Le post est conservé localement, mais sa diffusion en direct a échoué : ${error.message}`);
+  }
+}
+
+async function deleteLivePost(postId) {
+  if (!isTeacherPage() || !liveSync.enabled) return;
+  try {
+    await liveRequest(`posts/${postId}`, { method: "DELETE" });
+  } catch (error) {
+    setLiveStatus("error", "Suppression distante impossible");
+  }
+}
+
+function fillLiveDialog() {
+  if (!els.liveDialog) return;
+  if (!liveSync.room) liveSync.room = createLiveRoomCode();
+  els.liveDbUrl.value = liveSync.dbUrl;
+  els.liveRoomCode.value = liveSync.room;
+  els.liveStudentLink.value = buildStudentLiveUrl();
+  setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? `Direct ${liveSync.room}` : "Séance hors ligne");
+}
+
+function openLiveDialog() {
+  fillLiveDialog();
+  els.liveDialog?.showModal();
+}
+
+async function startLiveSession() {
+  try {
+    liveSync.dbUrl = normalizeLiveDbUrl(els.liveDbUrl?.value);
+    liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
+    liveSync.enabled = true;
+    const meta = {
+      active: true,
+      scenarioId: state.scenario?.id || "",
+      scenarioTitle: state.scenario?.title || "",
+      startedAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      expiresAt: Date.now() + 12 * 60 * 60 * 1000
+    };
+    liveSync.expiresAt = meta.expiresAt;
+    await liveRequest("meta", { method: "PUT", body: JSON.stringify(meta) });
+    saveLiveConfig(true);
+    liveSync.signature = "";
+    els.liveStudentLink.value = buildStudentLiveUrl();
+    setLiveStatus("connected", `Direct ${liveSync.room}`);
+    connectLiveStream();
+    scheduleLivePoll(0);
+  } catch (error) {
+    liveSync.enabled = false;
+    setLiveStatus("error", "Connexion impossible");
+    alert(error.message);
+  }
+}
+
+async function stopLiveSession() {
+  if (liveSync.enabled) {
+    try {
+      await liveRequest("meta", { method: "PATCH", body: JSON.stringify({ active: false, updatedAt: new Date().toISOString() }) });
+    } catch (error) {
+      // La séance locale doit pouvoir être arrêtée même si le réseau est indisponible.
+    }
+  }
+  liveSync.enabled = false;
+  window.clearTimeout(liveSync.timer);
+  window.clearTimeout(liveSync.reconnectTimer);
+  if (liveSync.stream) liveSync.stream.close();
+  liveSync.stream = null;
+  saveLiveConfig(false);
+  setLiveStatus("waiting", "Séance hors ligne");
+}
+
+async function copyStudentLiveLink() {
+  const link = buildStudentLiveUrl();
+  if (!link) return;
+  els.liveStudentLink.value = link;
+  await navigator.clipboard.writeText(link);
+  setLiveStatus("connected", "Lien élève copié");
+}
+
+function initializeLiveSync() {
+  const params = new URLSearchParams(window.location.search);
+  if (isTeacherPage()) {
+    try {
+      const saved = JSON.parse(localStorage.getItem("veille-ili:live-config") || "{}");
+      liveSync.dbUrl = saved.dbUrl || "";
+      liveSync.expiresAt = Number(saved.expiresAt || 0);
+      liveSync.room = liveSync.expiresAt > Date.now() ? (saved.room || "") : "";
+      liveSync.enabled = Boolean(saved.active && liveSync.dbUrl && liveSync.room && liveSync.expiresAt > Date.now());
+    } catch (error) {
+      liveSync.enabled = false;
+    }
+  } else if (params.get("live") && params.get("db")) {
+    try {
+      liveSync.room = normalizeLiveRoom(params.get("live"));
+      liveSync.dbUrl = normalizeLiveDbUrl(decodeLiveValue(params.get("db")));
+      liveSync.enabled = true;
+    } catch (error) {
+      liveSync.enabled = false;
+    }
+  }
+  if (liveSync.enabled) {
+    setLiveStatus("connecting", "Connexion au direct");
+    connectLiveStream();
+    scheduleLivePoll(0);
+  } else if (isTeacherPage()) {
+    setLiveStatus("waiting", "Séance hors ligne");
+  }
+}
+// VEILLE-ILI LIVE SYNC END
+
 function selectedComposeActor() {
   return actorByHandle(state.scenario, els.composeActorSelect?.value);
 }
@@ -21783,6 +22363,11 @@ function openPostComposer() {
   els.composeUpload.value = "";
   state.composeVisual = null;
   updateComposePreview();
+  if (els.composeLiveHint) {
+    els.composeLiveHint.textContent = liveSync.enabled
+      ? `Diffusion immédiate dans la séance ${liveSync.room}`
+      : "Publication locale : démarrez une séance en direct pour la diffuser aux élèves.";
+  }
   els.composeDialog.showModal();
 }
 
@@ -21893,7 +22478,7 @@ function importComposeImage(file) {
   reader.readAsDataURL(file);
 }
 
-function publishComposePost() {
+async function publishComposePost() {
   const actor = selectedComposeActor();
   const content = els.composeText?.value.trim();
   if (!actor || !content) return;
@@ -21920,14 +22505,16 @@ function publishComposePost() {
     comments: []
   };
   post = normalizePostEngagement(post, liveDate);
-  state.posts = [post, ...state.posts].slice(0, 640);
+  state.posts = [post, ...state.posts];
   persistTeacherPosts();
   renderScenarioInfo();
   renderFeed();
   els.composeDialog.close();
+  await publishLivePost(post);
 }
 
 function deleteTeacherPost(postId) {
+  deleteLivePost(postId);
   state.posts = state.posts.filter((post) => post.id !== postId || !post.teacherCreated);
   persistTeacherPosts();
   renderScenarioInfo();
@@ -21935,7 +22522,7 @@ function deleteTeacherPost(postId) {
 }
 
 function bindEvents() {
-  if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
+  if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => { loadScenario(event.target.value); announceLiveScenario(); });
   if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
     renderFeed();
@@ -21955,6 +22542,10 @@ function bindEvents() {
   if (els.composeMediaSelect) els.composeMediaSelect.addEventListener("change", previewSelectedComposeMedia);
   if (els.composeUpload) els.composeUpload.addEventListener("change", (event) => importComposeImage(event.target.files[0]));
   if (els.publishComposePost) els.publishComposePost.addEventListener("click", publishComposePost);
+  if (els.liveSessionBtn) els.liveSessionBtn.addEventListener("click", openLiveDialog);
+  if (els.startLiveSession) els.startLiveSession.addEventListener("click", startLiveSession);
+  if (els.stopLiveSession) els.stopLiveSession.addEventListener("click", stopLiveSession);
+  if (els.copyStudentLiveLink) els.copyStudentLiveLink.addEventListener("click", copyStudentLiveLink);
   if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
@@ -21997,4 +22588,8 @@ function bindEvents() {
 
 renderScenarioOptions();
 bindEvents();
-loadScenario(builtInScenarios[0].id);
+// VEILLE-ILI BOOTSTRAP START
+const requestedScenario = new URLSearchParams(window.location.search).get("scenario");
+loadScenario(state.scenarios.some((item) => item.id === requestedScenario) ? requestedScenario : builtInScenarios[0].id);
+initializeLiveSync();
+// VEILLE-ILI BOOTSTRAP END

@@ -24,6 +24,7 @@
         <a class="text-button student-link" href="./eleve.html">Page élève</a>
         <button id="importBtn" class="icon-button" title="Importer un scénario JSON" aria-label="Importer un scénario JSON">↑</button>
         <button id="exportBtn" class="icon-button" title="Exporter le scénario actif" aria-label="Exporter le scénario actif">↓</button>
+        <button id="liveSessionBtn" class="text-button live-session-button"><span class="status-dot" aria-hidden="true"></span>Séance en direct</button>
         <button id="composePostBtn" class="primary-button">Créer un post</button>
         <button id="teacherToggle" class="text-button">Mode enseignant</button>
 
@@ -48,6 +49,7 @@
           <div><h2>Accueil</h2><span>Flux simulé · heure de Paris</span></div>
           <div class="feed-title-actions">
             <button id="refreshFeedBtn" class="icon-button refresh-feed-button" title="Actualiser le fil" aria-label="Actualiser le fil"><span aria-hidden="true">↻</span></button>
+            <div id="liveClassStatus" class="live-class-status" data-kind="waiting" hidden><span class="status-dot" aria-hidden="true"></span><strong>Séance hors ligne</strong></div>
             <span class="live-pill">LIVE</span>
           </div>
         </div>
@@ -126,7 +128,7 @@
     <dialog id="composeDialog" class="dialog compose-dialog">
       <form method="dialog" id="composeForm">
         <div class="compose-heading">
-          <div><h2>Créer une publication</h2><p class="helper">Publication ajoutée au scénario actif.</p></div>
+          <div><h2>Créer une publication</h2><p id="composeLiveHint" class="helper">Publication ajoutée au scénario actif.</p></div>
           <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
         </div>
         <div class="compose-grid">
@@ -157,8 +159,32 @@
         <div id="composePreview" class="compose-preview" hidden></div>
         <menu>
           <button value="cancel" class="text-button">Annuler</button>
-          <button type="button" id="publishComposePost" class="primary-button">Publier dans le fil</button>
+          <button type="button" id="publishComposePost" class="primary-button">Publier maintenant</button>
         </menu>
+      </form>
+    </dialog>
+    <dialog id="liveDialog" class="dialog live-dialog">
+      <form method="dialog">
+        <div class="compose-heading">
+          <div><h2>Séance en direct</h2><p id="liveDialogStatus" class="live-dialog-status" data-kind="waiting">Séance hors ligne</p></div>
+          <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
+        </div>
+        <label>Adresse Firebase Realtime Database
+          <input id="liveDbUrl" type="url" placeholder="https://votre-projet-default-rtdb.europe-west1.firebasedatabase.app" autocomplete="off" />
+        </label>
+        <div class="compose-grid">
+          <label>Code de séance
+            <input id="liveRoomCode" type="text" maxlength="28" autocomplete="off" />
+          </label>
+          <label>Lien à transmettre aux élèves
+            <input id="liveStudentLink" type="url" readonly />
+          </label>
+        </div>
+        <div class="live-dialog-actions">
+          <button type="button" id="copyStudentLiveLink" class="text-button">Copier le lien élève</button>
+          <button type="button" id="stopLiveSession" class="text-button danger-button">Arrêter la séance</button>
+          <button type="button" id="startLiveSession" class="primary-button">Démarrer la séance</button>
+        </div>
       </form>
     </dialog>
 

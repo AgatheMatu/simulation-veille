@@ -1,0 +1,50 @@
+CONFIGURATION UNIQUE DU MODE SEANCE EN DIRECT
+
+Le direct permet a l'enseignant de publier autant de messages qu'il le souhaite.
+Chaque publication apparait immediatement sur les appareils des eleves, sans
+actualisation manuelle et sans nouveau depot GitHub.
+
+PREPARATION FIREBASE - A FAIRE UNE SEULE FOIS
+
+1. Ouvrir https://console.firebase.google.com/ et creer un projet dedie a VEILLE-ILI.
+2. Dans Build, ouvrir Realtime Database puis choisir Creer une base de donnees.
+3. Choisir de preference une region europeenne.
+4. Dans l'onglet Regles de Realtime Database, remplacer les regles par celles-ci :
+
+{
+  "rules": {
+    "rooms": {
+      "$room": {
+        ".read": "data.child('meta').child('expiresAt').val() > now",
+        ".write": "(!data.exists() && newData.child('meta').child('expiresAt').val() > now) || data.child('meta').child('expiresAt').val() > now",
+        "meta": {
+          ".validate": "newData.hasChildren(['active', 'scenarioId', 'updatedAt', 'expiresAt'])"
+        },
+        "posts": {
+          "$post": {
+            ".validate": "newData.val() == null || (newData.hasChildren(['id', 'scenarioId', 'actor', 'content', 'liveDate']) && newData.child('content').isString() && newData.child('content').val().length <= 520)"
+          }
+        },
+        "$other": { ".validate": false }
+      }
+    }
+  }
+}
+
+5. Cliquer sur Publier.
+6. Copier l'adresse affichee en haut de l'onglet Donnees. Elle se termine par
+   firebasedatabase.app ou firebaseio.com.
+
+UTILISATION EN CLASSE
+
+1. Ouvrir la page enseignant VEILLE-ILI.
+2. Cliquer sur Seance en direct.
+3. Coller l'adresse Firebase. Elle sera memorisee sur cet ordinateur.
+4. Cliquer sur Demarrer la seance.
+5. Copier le lien eleve et le transmettre a la classe.
+6. Cliquer sur Creer un post, choisir le compte, rediger puis publier.
+
+La diffusion utilise le flux temps reel Firebase. Le message apparait dans les fils
+eleves des sa reception, sans recharger toute la page. Le code de seance expire au
+bout de douze heures. La base doit rester reservee a des contenus fictifs et ne doit
+contenir aucune donnee personnelle ou sensible.
