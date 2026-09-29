@@ -1267,6 +1267,8 @@ h3 {
 
 
 
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1576,6 +1578,20 @@ body {
 .live-dialog-status[data-kind="error"] { color: #b4232f; }
 .live-dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
 .danger-button { color: var(--danger); }
+
+.compose-dialog .compose-grid { grid-template-columns: minmax(0, 1fr); }
+.news-panel { overflow: hidden; padding: 0; }
+.news-panel .panel-heading { padding: 14px 16px 10px; }
+.sidebar-news article {
+  display: grid;
+  gap: 3px;
+  padding: 12px 16px;
+  border-top: 1px solid var(--line);
+}
+.sidebar-news article:hover { background: #f7f9f9; }
+.sidebar-news span,
+.sidebar-news small { color: var(--muted); font-size: 13px; }
+.sidebar-news strong { font-size: 15px; line-height: 1.25; }
 
 .checklist { display: none !important; }
 .student-link { text-decoration: none; }

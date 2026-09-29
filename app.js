@@ -6,7 +6,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales.",
     "timeWindow": "09:00-15:30",
     "location": "Orbite basse et d\u00e9bat budg\u00e9taire fictif",
-    "volume": 390,
+    "volume": 480,
     "seed": 2093314499,
     "trends": [
       {
@@ -107,6 +107,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -291,7 +316,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -301,7 +326,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -311,7 +336,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -321,7 +346,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -331,7 +356,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -341,7 +366,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -351,7 +376,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -361,7 +386,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -371,7 +396,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -381,7 +406,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -391,7 +416,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -401,7 +426,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -594,6 +619,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -1092,7 +1258,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : installer l'id\u00e9e d'une France irresponsable dans l'espace civil.",
     "timeWindow": "09:00-15:30",
     "location": "Trajectoire orbitale fictive au-dessus de l'Afrique",
-    "volume": 425,
+    "volume": 510,
     "seed": 2658575800,
     "trends": [
       {
@@ -1193,6 +1359,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -1377,7 +1568,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -1387,7 +1578,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -1397,7 +1588,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -1407,7 +1598,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -1417,7 +1608,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -1427,7 +1618,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -1437,7 +1628,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -1447,7 +1638,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -1457,7 +1648,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -1467,7 +1658,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -1477,7 +1668,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -1487,7 +1678,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -1680,6 +1871,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -2178,7 +2510,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration.",
     "timeWindow": "09:00-15:30",
     "location": "Sahel, zones mini\u00e8res et infrastructures fictives",
-    "volume": 460,
+    "volume": 540,
     "seed": 3777096181,
     "trends": [
       {
@@ -2279,6 +2611,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -2463,7 +2820,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -2473,7 +2830,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -2483,7 +2840,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -2493,7 +2850,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -2503,7 +2860,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -2513,7 +2870,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -2523,7 +2880,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -2533,7 +2890,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -2543,7 +2900,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -2553,7 +2910,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -2563,7 +2920,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -2573,7 +2930,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -2766,6 +3123,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -3264,7 +3762,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e.",
     "timeWindow": "09:00-15:30",
     "location": "M\u00e9tropole fictive touch\u00e9e par une inondation",
-    "volume": 495,
+    "volume": 570,
     "seed": 283672895,
     "trends": [
       {
@@ -3365,6 +3863,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -3549,7 +4072,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -3559,7 +4082,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -3569,7 +4092,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -3579,7 +4102,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -3589,7 +4112,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -3599,7 +4122,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -3609,7 +4132,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -3619,7 +4142,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -3629,7 +4152,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -3639,7 +4162,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -3649,7 +4172,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -3659,7 +4182,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -3852,6 +4375,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -4350,7 +5014,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : associer protection civile et d\u00e9rive autoritaire.",
     "timeWindow": "09:00-15:30",
     "location": "Ville fictive pendant un exercice de s\u00e9curisation",
-    "volume": 530,
+    "volume": 600,
     "seed": 669488287,
     "trends": [
       {
@@ -4451,6 +5115,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -4635,7 +5324,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -4645,7 +5334,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -4655,7 +5344,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -4665,7 +5354,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -4675,7 +5364,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -4685,7 +5374,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -4695,7 +5384,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -4705,7 +5394,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -4715,7 +5404,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -4725,7 +5414,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -4735,7 +5424,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -4745,7 +5434,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -4938,6 +5627,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -5436,7 +6266,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale.",
     "timeWindow": "09:00-15:30",
     "location": "Commune fictive voisine d'une base a\u00e9rienne",
-    "volume": 390,
+    "volume": 480,
     "seed": 4085369458,
     "trends": [
       {
@@ -5537,6 +6367,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -5721,7 +6576,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -5731,7 +6586,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -5741,7 +6596,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -5751,7 +6606,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -5761,7 +6616,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -5771,7 +6626,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -5781,7 +6636,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -5791,7 +6646,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -5801,7 +6656,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -5811,7 +6666,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -5821,7 +6676,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -5831,7 +6686,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -6024,6 +6879,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -6522,7 +7518,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires.",
     "timeWindow": "09:00-15:30",
     "location": "Zone ext\u00e9rieure fictive riche en ressources",
-    "volume": 425,
+    "volume": 510,
     "seed": 699142885,
     "trends": [
       {
@@ -6623,6 +7619,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -6807,7 +7828,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -6817,7 +7838,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -6827,7 +7848,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -6837,7 +7858,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -6847,7 +7868,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -6857,7 +7878,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -6867,7 +7888,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -6877,7 +7898,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -6887,7 +7908,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -6897,7 +7918,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -6907,7 +7928,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -6917,7 +7938,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -7110,6 +8131,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -7608,7 +8770,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique.",
     "timeWindow": "09:00-15:30",
     "location": "Zone instable fictive de Nara-Kolmi",
-    "volume": 460,
+    "volume": 540,
     "seed": 3941185283,
     "trends": [
       {
@@ -7709,6 +8871,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -7893,7 +9080,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -7903,7 +9090,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -7913,7 +9100,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -7923,7 +9110,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -7933,7 +9120,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -7943,7 +9130,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -7953,7 +9140,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -7963,7 +9150,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -7973,7 +9160,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -7983,7 +9170,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -7993,7 +9180,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -8003,7 +9190,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -8196,6 +9383,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -8694,7 +10022,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat.",
     "timeWindow": "09:00-15:30",
     "location": "Village fictif pr\u00e8s d'une zone de combat",
-    "volume": 495,
+    "volume": 570,
     "seed": 1826032749,
     "trends": [
       {
@@ -8795,6 +10123,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -8979,7 +10332,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -8989,7 +10342,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -8999,7 +10352,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -9009,7 +10362,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -9019,7 +10372,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -9029,7 +10382,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -9039,7 +10392,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -9049,7 +10402,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -9059,7 +10412,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -9069,7 +10422,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -9079,7 +10432,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -9089,7 +10442,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -9282,6 +10635,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -9780,7 +11274,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable.",
     "timeWindow": "09:00-15:30",
     "location": "Zone d\u00e9sertique fictive difficile \u00e0 g\u00e9olocaliser",
-    "volume": 530,
+    "volume": 600,
     "seed": 4045508031,
     "trends": [
       {
@@ -9881,6 +11375,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -10065,7 +11584,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -10075,7 +11594,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -10085,7 +11604,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -10095,7 +11614,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -10105,7 +11624,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -10115,7 +11634,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -10125,7 +11644,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -10135,7 +11654,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -10145,7 +11664,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -10155,7 +11674,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -10165,7 +11684,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -10175,7 +11694,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -10368,6 +11887,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -10866,7 +12526,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective.",
     "timeWindow": "09:00-15:30",
     "location": "Villages ruraux fictifs autour de points d'eau",
-    "volume": 390,
+    "volume": 480,
     "seed": 343143087,
     "trends": [
       {
@@ -10967,6 +12627,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -11151,7 +12836,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -11161,7 +12846,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -11171,7 +12856,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -11181,7 +12866,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -11191,7 +12876,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -11201,7 +12886,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -11211,7 +12896,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -11221,7 +12906,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -11231,7 +12916,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -11241,7 +12926,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -11251,7 +12936,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -11261,7 +12946,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -11454,6 +13139,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -11952,7 +13778,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises.",
     "timeWindow": "09:00-15:30",
     "location": "Pistes pastorales fictives du Sahel",
-    "volume": 425,
+    "volume": 510,
     "seed": 256541959,
     "trends": [
       {
@@ -12053,6 +13879,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -12237,7 +14088,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -12247,7 +14098,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -12257,7 +14108,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -12267,7 +14118,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -12277,7 +14128,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -12287,7 +14138,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -12297,7 +14148,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -12307,7 +14158,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -12317,7 +14168,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -12327,7 +14178,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -12337,7 +14188,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -12347,7 +14198,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -12540,6 +14391,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -13038,7 +15030,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future.",
     "timeWindow": "09:00-15:30",
     "location": "Capitale r\u00e9gionale fictive et routes d'\u00e9vacuation",
-    "volume": 460,
+    "volume": 540,
     "seed": 488356180,
     "trends": [
       {
@@ -13139,6 +15131,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -13323,7 +15340,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -13333,7 +15350,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -13343,7 +15360,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -13353,7 +15370,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -13363,7 +15380,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -13373,7 +15390,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -13383,7 +15400,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -13393,7 +15410,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -13403,7 +15420,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -13413,7 +15430,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -13423,7 +15440,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -13433,7 +15450,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -13626,6 +15643,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -14124,7 +16282,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame.",
     "timeWindow": "09:00-15:30",
     "location": "Fronti\u00e8re fictive et routes d\u00e9sertiques",
-    "volume": 495,
+    "volume": 570,
     "seed": 298962257,
     "trends": [
       {
@@ -14225,6 +16383,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -14409,7 +16592,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -14419,7 +16602,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -14429,7 +16612,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -14439,7 +16622,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -14449,7 +16632,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -14459,7 +16642,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -14469,7 +16652,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -14479,7 +16662,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -14489,7 +16672,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -14499,7 +16682,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -14509,7 +16692,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -14519,7 +16702,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -14712,6 +16895,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -15210,7 +17534,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie.",
     "timeWindow": "09:00-15:30",
     "location": "Communaut\u00e9s militaires et familles fictives",
-    "volume": 530,
+    "volume": 600,
     "seed": 2856402724,
     "trends": [
       {
@@ -15311,6 +17635,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -15495,7 +17844,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -15505,7 +17854,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -15515,7 +17864,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -15525,7 +17874,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -15535,7 +17884,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -15545,7 +17894,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -15555,7 +17904,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -15565,7 +17914,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -15575,7 +17924,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -15585,7 +17934,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -15595,7 +17944,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -15605,7 +17954,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -15798,6 +18147,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -16296,7 +18786,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion.",
     "timeWindow": "09:00-15:30",
     "location": "Cha\u00eene industrielle et conflits \u00e9trangers fictifs",
-    "volume": 390,
+    "volume": 480,
     "seed": 1107423687,
     "trends": [
       {
@@ -16397,6 +18887,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -16581,7 +19096,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -16591,7 +19106,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -16601,7 +19116,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -16611,7 +19126,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -16621,7 +19136,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -16631,7 +19146,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -16641,7 +19156,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -16651,7 +19166,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -16661,7 +19176,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -16671,7 +19186,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -16681,7 +19196,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -16691,7 +19206,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -16884,6 +19399,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -17382,7 +20038,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines.",
     "timeWindow": "09:00-15:30",
     "location": "Territoire ultramarin fictif et zone maritime associ\u00e9e",
-    "volume": 425,
+    "volume": 510,
     "seed": 1500350561,
     "trends": [
       {
@@ -17483,6 +20139,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -17667,7 +20348,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -17677,7 +20358,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -17687,7 +20368,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -17697,7 +20378,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -17707,7 +20388,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -17717,7 +20398,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -17727,7 +20408,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -17737,7 +20418,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -17747,7 +20428,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -17757,7 +20438,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -17767,7 +20448,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -17777,7 +20458,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -17970,6 +20651,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -18468,7 +21290,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte.",
     "timeWindow": "09:00-15:30",
     "location": "Exercice NRBC fictif pr\u00e8s d'une base",
-    "volume": 460,
+    "volume": 540,
     "seed": 2516786485,
     "trends": [
       {
@@ -18569,6 +21391,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -18753,7 +21600,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -18763,7 +21610,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -18773,7 +21620,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -18783,7 +21630,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -18793,7 +21640,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -18803,7 +21650,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -18813,7 +21660,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -18823,7 +21670,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -18833,7 +21680,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -18843,7 +21690,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -18853,7 +21700,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -18863,7 +21710,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -19056,6 +21903,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -19554,7 +22542,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : opposer patriotisme fran\u00e7ais et alliances militaires.",
     "timeWindow": "09:00-15:30",
     "location": "D\u00e9bat fictif sur une op\u00e9ration alli\u00e9e",
-    "volume": 495,
+    "volume": 570,
     "seed": 2340601679,
     "trends": [
       {
@@ -19655,6 +22643,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -19839,7 +22852,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -19849,7 +22862,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -19859,7 +22872,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -19869,7 +22882,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -19879,7 +22892,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -19889,7 +22902,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -19899,7 +22912,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -19909,7 +22922,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -19919,7 +22932,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -19929,7 +22942,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -19939,7 +22952,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -19949,7 +22962,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -20142,6 +23155,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -20640,7 +23794,7 @@ const builtInScenarios = [
     "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information.",
     "timeWindow": "09:00-15:30",
     "location": "Fil multi-crises fictif agr\u00e9geant plusieurs accusations",
-    "volume": 530,
+    "volume": 600,
     "seed": 116471542,
     "trends": [
       {
@@ -20741,6 +23895,31 @@ const builtInScenarios = [
       {
         "tag": "#VieLocale",
         "count": "10,9 k",
+        "daily": true
+      },
+      {
+        "tag": "#FortesChaleurs",
+        "count": "53,6 k",
+        "daily": true
+      },
+      {
+        "tag": "#S\u00e9cheresse2026",
+        "count": "34,1 k",
+        "daily": true
+      },
+      {
+        "tag": "#FeuxDeFor\u00eat",
+        "count": "31,8 k",
+        "daily": true
+      },
+      {
+        "tag": "#Prix\u00c0LaPompe",
+        "count": "27,5 k",
+        "daily": true
+      },
+      {
+        "tag": "#ServiceNational",
+        "count": "23,2 k",
         "daily": true
       }
     ],
@@ -20925,7 +24104,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
-        "avatar": "avatar_org_carbu_minute.jpg"
+        "avatar": "avatar_human_carbu_minute.jpg"
       },
       {
         "name": "M\u00e9t\u00e9o Fil",
@@ -20935,7 +24114,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_meteo_fil.jpg"
+        "avatar": "avatar_human_meteo_fil.jpg"
       },
       {
         "name": "Trafic Rail IDF",
@@ -20945,7 +24124,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
-        "avatar": "avatar_org_trafic_rail_idf.jpg"
+        "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
       {
         "name": "Panier Conso",
@@ -20955,7 +24134,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
-        "avatar": "avatar_org_panier_conso.jpg"
+        "avatar": "avatar_human_panier_conso.jpg"
       },
       {
         "name": "Actu Flash FR",
@@ -20965,7 +24144,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
-        "avatar": "avatar_org_actu_flash_fr.jpg"
+        "avatar": "avatar_human_actu_flash_fr.jpg"
       },
       {
         "name": "March\u00e9s \u00c9nergie",
@@ -20975,7 +24154,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
-        "avatar": "avatar_org_marches_energie.jpg"
+        "avatar": "avatar_human_marches_energie.jpg"
       },
       {
         "name": "Stade Direct",
@@ -20985,7 +24164,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
-        "avatar": "avatar_org_stade_direct.jpg"
+        "avatar": "avatar_human_stade_direct.jpg"
       },
       {
         "name": "Vie Locale",
@@ -20995,7 +24174,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
-        "avatar": "avatar_org_vie_locale.jpg"
+        "avatar": "avatar_human_vie_locale.jpg"
       },
       {
         "name": "Rumeur Radar",
@@ -21005,7 +24184,7 @@ const builtInScenarios = [
         "trust": "low",
         "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
-        "avatar": "avatar_org_rumeur_radar.jpg"
+        "avatar": "avatar_human_rumeur_radar.jpg"
       },
       {
         "name": "\u00c9co Matin",
@@ -21015,7 +24194,7 @@ const builtInScenarios = [
         "trust": "high",
         "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
-        "avatar": "avatar_org_eco_matin.jpg"
+        "avatar": "avatar_human_eco_matin.jpg"
       },
       {
         "name": "Classe Connect\u00e9e",
@@ -21025,7 +24204,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_classe_connectee.jpg"
+        "avatar": "avatar_human_classe_connectee.jpg"
       },
       {
         "name": "Sorties & \u00c9crans",
@@ -21035,7 +24214,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_sorties_ecrans.jpg"
+        "avatar": "avatar_human_sorties_ecrans.jpg"
       },
       {
         "name": "Sant\u00e9 Pratique",
@@ -21228,6 +24407,147 @@ const builtInScenarios = [
         "bio": "\u0412\u044b\u043c\u044b\u0448\u043b\u0435\u043d\u043d\u044b\u0439 \u0430\u043d\u0430\u043b\u0438\u0442\u0438\u0447\u0435\u0441\u043a\u0438\u0439 \u043a\u0430\u043d\u0430\u043b. \u0417\u0430\u043a\u0440\u044b\u0442\u044b\u0435 \u0438\u0441\u0442\u043e\u0447\u043d\u0438\u043a\u0438, \u0441\u0440\u043e\u0447\u043d\u044b\u0435 \u0441\u043e\u043e\u0431\u0449\u0435\u043d\u0438\u044f \u0438 \u043c\u0430\u0442\u0435\u0440\u0438\u0430\u043b\u044b \u043f\u043e\u0434\u043f\u0438\u0441\u0447\u0438\u043a\u043e\u0432.",
         "accountType": "adversarial",
         "avatar": "avatar_org_zarya_analitika.jpg"
+      },
+      {
+        "name": "Whalid le Berb\u00e8re",
+        "handle": "@whalid_berbere",
+        "verified": false,
+        "stance": "source",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 58400,
+        "dailyPosts": 19,
+        "bio": "Malien du Nord. Routes, villages, convois et nouvelles du terrain. Je publie ce que mes contacts m'envoient, parfois avant les r\u00e9dactions.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_whalid_berbere.jpg"
+      },
+      {
+        "name": "Le-Mamouth",
+        "handle": "@le_mamouth",
+        "verified": true,
+        "stance": "journalist",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 187000,
+        "dailyPosts": 11,
+        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "accountType": "field_source",
+        "avatar": "avatar_human_le_mamouth.jpg"
+      },
+      {
+        "name": "Hexagone Info",
+        "handle": "@hexagone_info",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 1850000,
+        "dailyPosts": 46,
+        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_hexagone_info.jpg"
+      },
+      {
+        "name": "Le Regard",
+        "handle": "@le_regard_fr",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 620000,
+        "dailyPosts": 24,
+        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_le_regard_fr.jpg"
+      },
+      {
+        "name": "World News Service",
+        "handle": "@world_news_service",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 4200000,
+        "dailyPosts": 58,
+        "bio": "Fictional international public-service newsroom. Breaking news, verified reporting and global analysis.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_world_news_service.jpg"
+      },
+      {
+        "name": "The Continental Post",
+        "handle": "@continental_post",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "en",
+        "languageLabel": "English",
+        "followers": 980000,
+        "dailyPosts": 31,
+        "bio": "Fictional international newspaper. Reporting, analysis and opinion from Europe, Africa and the Atlantic region.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_continental_post.jpg"
+      },
+      {
+        "name": "Die Tageslage",
+        "handle": "@tageslage_de",
+        "verified": true,
+        "stance": "media",
+        "trust": "high",
+        "language": "de",
+        "languageLabel": "Deutsch",
+        "followers": 730000,
+        "dailyPosts": 29,
+        "bio": "Fiktive deutsche Nachrichtenredaktion f\u00fcr Europa, Sicherheit, Wirtschaft und internationale Politik.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_tageslage_de.jpg"
+      },
+      {
+        "name": "Noticias Europa 24",
+        "handle": "@noticias_europa24",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "es",
+        "languageLabel": "Espa\u00f1ol",
+        "followers": 540000,
+        "dailyPosts": 34,
+        "bio": "Medio europeo ficticio en espa\u00f1ol. \u00daltima hora, pol\u00edtica, sociedad, econom\u00eda y verificaci\u00f3n.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_noticias_europa24.jpg"
+      },
+      {
+        "name": "\u0634\u0628\u0643\u0629 \u0627\u0644\u0645\u062f\u0627\u0631 \u0627\u0644\u0625\u062e\u0628\u0627\u0631\u064a\u0629",
+        "handle": "@almadar_news",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "language": "ar",
+        "languageLabel": "\u0627\u0644\u0639\u0631\u0628\u064a\u0629",
+        "followers": 2100000,
+        "dailyPosts": 52,
+        "bio": "\u0634\u0628\u0643\u0629 \u0625\u062e\u0628\u0627\u0631\u064a\u0629 \u062f\u0648\u0644\u064a\u0629 \u062e\u064a\u0627\u0644\u064a\u0629 \u062a\u0646\u0634\u0631 \u0627\u0644\u0623\u062e\u0628\u0627\u0631 \u0648\u0627\u0644\u062a\u062d\u0644\u064a\u0644\u0627\u062a \u0645\u0646 \u0623\u0648\u0631\u0648\u0628\u0627 \u0648\u0625\u0641\u0631\u064a\u0642\u064a\u0627 \u0648\u0627\u0644\u0634\u0631\u0642 \u0627\u0644\u0623\u0648\u0633\u0637.",
+        "accountType": "media_network",
+        "avatar": "avatar_org_almadar_news.jpg"
+      },
+      {
+        "name": "Chef d'\u00e9tat-major des arm\u00e9es",
+        "handle": "@cema_france",
+        "verified": true,
+        "stance": "official",
+        "trust": "high",
+        "language": "fr",
+        "languageLabel": "Fran\u00e7ais",
+        "followers": 468000,
+        "dailyPosts": 2,
+        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "accountType": "teacher_only",
+        "teacherOnly": true,
+        "avatar": "avatar_human_cema_france.jpg"
       }
     ],
     "normalTemplates": [
@@ -21722,7 +25042,7 @@ const builtInScenarios = [
 ];
 
 const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg","daily_fuel.jpg":"./assets/evidence/daily_fuel.jpg","daily_train.jpg":"./assets/evidence/daily_train.jpg","daily_supermarket.jpg":"./assets/evidence/daily_supermarket.jpg","daily_storm.jpg":"./assets/evidence/daily_storm.jpg","daily_roadworks.jpg":"./assets/evidence/daily_roadworks.jpg","daily_school.jpg":"./assets/evidence/daily_school.jpg","daily_stadium.jpg":"./assets/evidence/daily_stadium.jpg","daily_market.jpg":"./assets/evidence/daily_market.jpg","daily_health.jpg":"./assets/evidence/daily_health.jpg","daily_energy.jpg":"./assets/evidence/daily_energy.jpg","daily_cafe.jpg":"./assets/evidence/daily_cafe.jpg","daily_cinema.jpg":"./assets/evidence/daily_cinema.jpg","daily_traffic.jpg":"./assets/evidence/daily_traffic.jpg","daily_airport.jpg":"./assets/evidence/daily_airport.jpg","daily_parcels.jpg":"./assets/evidence/daily_parcels.jpg","daily_bakery.jpg":"./assets/evidence/daily_bakery.jpg","daily_festival.jpg":"./assets/evidence/daily_festival.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_org_chi_humanitaire.jpg":"./assets/avatars/avatar_org_chi_humanitaire.jpg","avatar_org_medecins_solidaires.jpg":"./assets/avatars/avatar_org_medecins_solidaires.jpg","avatar_org_global_relief_watch.jpg":"./assets/avatars/avatar_org_global_relief_watch.jpg","avatar_org_aide_sans_frontieres.jpg":"./assets/avatars/avatar_org_aide_sans_frontieres.jpg","avatar_org_vostok_novosti.jpg":"./assets/avatars/avatar_org_vostok_novosti.jpg","avatar_org_zarya_analitika.jpg":"./assets/avatars/avatar_org_zarya_analitika.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_human_carbu_minute.jpg":"./assets/avatars/avatar_human_carbu_minute.jpg","avatar_human_meteo_fil.jpg":"./assets/avatars/avatar_human_meteo_fil.jpg","avatar_human_trafic_rail_idf.jpg":"./assets/avatars/avatar_human_trafic_rail_idf.jpg","avatar_human_panier_conso.jpg":"./assets/avatars/avatar_human_panier_conso.jpg","avatar_human_actu_flash_fr.jpg":"./assets/avatars/avatar_human_actu_flash_fr.jpg","avatar_human_marches_energie.jpg":"./assets/avatars/avatar_human_marches_energie.jpg","avatar_human_stade_direct.jpg":"./assets/avatars/avatar_human_stade_direct.jpg","avatar_human_vie_locale.jpg":"./assets/avatars/avatar_human_vie_locale.jpg","avatar_human_rumeur_radar.jpg":"./assets/avatars/avatar_human_rumeur_radar.jpg","avatar_human_eco_matin.jpg":"./assets/avatars/avatar_human_eco_matin.jpg","avatar_human_classe_connectee.jpg":"./assets/avatars/avatar_human_classe_connectee.jpg","avatar_human_sorties_ecrans.jpg":"./assets/avatars/avatar_human_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_org_chi_humanitaire.jpg":"./assets/avatars/avatar_org_chi_humanitaire.jpg","avatar_org_medecins_solidaires.jpg":"./assets/avatars/avatar_org_medecins_solidaires.jpg","avatar_org_global_relief_watch.jpg":"./assets/avatars/avatar_org_global_relief_watch.jpg","avatar_org_aide_sans_frontieres.jpg":"./assets/avatars/avatar_org_aide_sans_frontieres.jpg","avatar_org_vostok_novosti.jpg":"./assets/avatars/avatar_org_vostok_novosti.jpg","avatar_org_zarya_analitika.jpg":"./assets/avatars/avatar_org_zarya_analitika.jpg","avatar_human_whalid_berbere.jpg":"./assets/avatars/avatar_human_whalid_berbere.jpg","avatar_human_le_mamouth.jpg":"./assets/avatars/avatar_human_le_mamouth.jpg","avatar_org_hexagone_info.jpg":"./assets/avatars/avatar_org_hexagone_info.jpg","avatar_org_le_regard_fr.jpg":"./assets/avatars/avatar_org_le_regard_fr.jpg","avatar_org_world_news_service.jpg":"./assets/avatars/avatar_org_world_news_service.jpg","avatar_org_continental_post.jpg":"./assets/avatars/avatar_org_continental_post.jpg","avatar_org_tageslage_de.jpg":"./assets/avatars/avatar_org_tageslage_de.jpg","avatar_org_noticias_europa24.jpg":"./assets/avatars/avatar_org_noticias_europa24.jpg","avatar_org_almadar_news.jpg":"./assets/avatars/avatar_org_almadar_news.jpg","avatar_human_cema_france.jpg":"./assets/avatars/avatar_human_cema_france.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -21767,7 +25087,6 @@ const els = {
   composePostBtn: document.querySelector("#composePostBtn"),
   composeDialog: document.querySelector("#composeDialog"),
   composeActorSelect: document.querySelector("#composeActorSelect"),
-  composeToneSelect: document.querySelector("#composeToneSelect"),
   composeText: document.querySelector("#composeText"),
   composeMediaSelect: document.querySelector("#composeMediaSelect"),
   composeUpload: document.querySelector("#composeUpload"),
@@ -22177,6 +25496,61 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
@@ -22193,9 +25567,29 @@ function isAdversarialActor(actor) {
   return actor?.accountType === "adversarial";
 }
 
+function isFieldSourceActor(actor) {
+  return actor?.accountType === "field_source";
+}
+
+function isMediaNetworkActor(actor) {
+  return actor?.accountType === "media_network";
+}
+
+function isTeacherOnlyActor(actor) {
+  return actor?.accountType === "teacher_only" || actor?.teacherOnly === true;
+}
+
 function accountLanguageLabel(actor) {
   if (actor?.languageLabel) return actor.languageLabel;
-  return { fr: "Français", en: "English", ru: "Русский", az: "Azərbaycanca" }[actor?.language] || "Français";
+  return {
+    fr: "Français",
+    en: "English",
+    ru: "Русский",
+    az: "Azərbaycanca",
+    de: "Deutsch",
+    es: "Español",
+    ar: "العربية"
+  }[actor?.language] || "Français";
 }
 
 function distractorPostContent(actor, random) {
@@ -22215,12 +25609,14 @@ function distractorPostContent(actor, random) {
     "@carbu_minute": [
       "Gazole très commenté ce matin : certains annoncent déjà une ruée, d'autres voient juste un ajustement local. Regardez les stations autour de vous avant de paniquer. #PrixDuGazole",
       "Plusieurs abonnés signalent des écarts de prix importants entre deux stations à moins de 8 km. Capture de ticket ou rien, sinon ça devient une légende urbaine.",
-      "Les aides carburant font repartir les intox : non, un message WhatsApp ne remplace pas une page officielle."
+      "Les aides carburant font repartir les intox : non, un message WhatsApp ne remplace pas une page officielle.",
+      "Le flux officiel des prix à la pompe est actualisé plusieurs fois par heure. Un ticket isolé ne décrit pas la situation nationale. #PrixÀLaPompe"
     ],
     "@meteo_fil": [
       "La chaleur tardive fatigue tout le monde, mais les cartes alarmistes sans source circulent beaucoup plus vite que les bulletins complets. #Météo",
       "Orages possibles ce soir sur une partie du pays. Ne transformons pas chaque ciel orange en catastrophe nationale.",
-      "Deux cartes météo virales ce matin, deux échelles différentes. Ça change complètement la lecture."
+      "Deux cartes météo virales ce matin, deux échelles différentes. Ça change complètement la lecture.",
+      "Après un épisode de chaleur remarquable pour septembre, la sécheresse entretient encore un danger de feux inhabituellement tardif. #FortesChaleurs #FeuxDeForêt"
     ],
     "@trafic_rail_idf": [
       "Retards en cascade sur plusieurs lignes. Les captures d'appli sont utiles, mais elles vieillissent vite : vérifiez l'heure avant de relayer. #TER",
@@ -22235,7 +25631,8 @@ function distractorPostContent(actor, random) {
     "@actu_flash_fr": [
       "Dernière minute : plusieurs sujets économiques et transports dominent déjà la matinée. Les confirmations arrivent plus lentement que les captures.",
       "On suit les annonces sur les carburants, les transports et la météo. Priorité aux sources primaires avant les commentaires à chaud.",
-      "Beaucoup de comptes mélangent faits, interprétations et humeur du moment. Prudence sur les titres trop définitifs."
+      "Beaucoup de comptes mélangent faits, interprétations et humeur du moment. Prudence sur les titres trop définitifs.",
+      "Le premier contingent du nouveau service national alimente les débats sur la jeunesse, la défense et le coût du dispositif. #ServiceNational"
     ],
     "@marches_energie": [
       "Le pétrole, le fret et le raffinage restent scrutés. Une variation de marché n'est pas automatiquement une preuve de crise imminente.",
@@ -22616,6 +26013,145 @@ function adversarialPostsForScenario(scenario, duration) {
   });
 }
 
+function fieldSourceActorsForScenario(scenario) {
+  const scenarioId = String(scenario.id || "");
+  return scenario.actors.filter((actor) => {
+    if (!isFieldSourceActor(actor)) return false;
+    if (actor.handle === "@whalid_berbere") return /opex|sahel|bus|viol|exaction|crise|base|outremer/.test(scenarioId);
+    return true;
+  });
+}
+
+function fieldSourcePostMessage(actor, scenario, random) {
+  const subject = String(scenario.title || "la situation en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  const uncertain = random() < 0.52;
+  const voices = {
+    "@whalid_berbere": uncertain ? [
+      "Un contact de passage affirme avoir vu un convoi quitter la piste de nuit, sans marquage visible. Je n'ai pas pu confirmer le nombre de véhicules ni leur destination.",
+      "On me transmet une photo présentée comme prise près de Gonni ce matin. Le relief ressemble au secteur, mais l'heure et le village restent à confirmer.",
+      "Trois messages parlent de tirs à l'ouest du village. Un chauffeur que je connais dit n'avoir rien entendu. Je publie les deux versions en attendant mieux."
+    ] : [
+      "La route secondaire est bien coupée au nord du village : deux chauffeurs et un commerçant me le confirment séparément. Le motif de la fermeture reste inconnu.",
+      "Le véhicule aperçu sur la piste n'appartient pas au convoi français cité par plusieurs comptes. Le numéro visible correspond à une société civile locale.",
+      "L'antenne relais fonctionne de nouveau depuis une heure. Les messages parlant d'une coupure militaire totale ne correspondent pas à ce que constatent mes contacts."
+    ],
+    "@le_mamouth": uncertain ? [
+      `Une note non authentifiée circule dans plusieurs rédactions au sujet de « ${subject} ». Deux formulations ne correspondent pas aux usages habituels de l'administration. Vérifications en cours.`,
+      "Selon une source proche du dossier, une réunion interministérielle aurait été avancée. Une seconde source conteste l'horaire. Je garde le conditionnel.",
+      "Un document présenté comme confidentiel fait beaucoup parler. Le fond est plausible, mais la pagination et la diffusion sont incohérentes."
+    ] : [
+      "Information recoupée auprès de deux sources distinctes : un point de situation a bien été demandé aux états-majors. Son contenu ne confirme pas les accusations virales.",
+      "La photographie publiée ce matin montre bien un matériel français, mais elle a été prise lors d'un exercice antérieur. La date est identifiable dans les données du fichier original.",
+      "Le démenti public ne dit pas tout : une enquête interne existe bien. Cela ne valide ni les chiffres ni les auteurs avancés sur les réseaux."
+    ]
+  };
+  return {
+    content: pick(voices[actor.handle] || [`Je vérifie plusieurs éléments concernant « ${subject} ». Rien ne permet encore une conclusion définitive.`], random),
+    suspect: uncertain
+  };
+}
+
+function fieldSourcePostsForScenario(scenario, duration) {
+  return fieldSourceActorsForScenario(scenario).map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:field-source`));
+    const message = fieldSourcePostMessage(actor, scenario, random);
+    const media = random() > 0.38
+      ? coherentMediaForPost(scenario.mediaLabels || [], message.content, actor, random, 2)
+      : null;
+    return {
+      id: `${scenario.id}-field-source-${index}`,
+      minute: duration * (0.55 + random() * 0.40),
+      actor: actor.handle,
+      content: message.content,
+      language: "fr",
+      suspect: message.suspect,
+      reason: "Source de terrain ou journalistique à recouper indépendamment.",
+      likes: Math.floor(1700 + random() * 34000),
+      reposts: Math.floor(600 + random() * 18000),
+      replies: Math.floor(180 + random() * 5600),
+      media
+    };
+  });
+}
+
+function mediaPostMessage(actor, scenario, random) {
+  const subject = String(scenario.title || "la situation en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  const messages = {
+    "@hexagone_info": [
+      { content: `DIRECT — Nos équipes vérifient les images liées à « ${subject} ». Plusieurs séquences circulent sans date ni localisation indépendamment confirmée.`, translation: "" },
+      { content: `Ce que l'on sait, ce que l'on ignore : les autorités confirment suivre le dossier « ${subject} », sans valider les récits les plus partagés.`, translation: "" }
+    ],
+    "@le_regard_fr": [
+      { content: `ÉDITORIAL — Sur « ${subject} », le silence institutionnel laisse le champ libre aux récits concurrents. Répondre vite ne dispense pas de répondre précisément.`, translation: "" },
+      { content: `La bataille des images autour de « ${subject} » révèle surtout une crise de confiance : chacun choisit désormais la version qui conforte son camp.`, translation: "" }
+    ],
+    "@world_news_service": [
+      { content: `BREAKING: Multiple accounts are circulating claims about “${subject}”. Independent confirmation remains limited and several images lack a verifiable date or location.`, translation: `DERNIÈRE MINUTE : plusieurs comptes diffusent des affirmations concernant « ${subject} ». Les confirmations indépendantes restent limitées et plusieurs images n'ont ni date ni lieu vérifiables.` },
+      { content: `What we know: officials are monitoring reports linked to “${subject}”, but the most widely shared casualty and attribution claims have not been independently verified.`, translation: `Ce que nous savons : les autorités suivent les informations liées à « ${subject} », mais les bilans et attributions les plus partagés n'ont pas été vérifiés indépendamment.` }
+    ],
+    "@continental_post": [
+      { content: `ANALYSIS: The debate over “${subject}” is now being shaped as much by political messaging as by evidence from the ground.`, translation: `ANALYSE : le débat sur « ${subject} » est désormais façonné autant par la communication politique que par les preuves disponibles sur le terrain.` },
+      { content: `A rush to assign blame over “${subject}” is outpacing the release of primary evidence. That gap is becoming the story.`, translation: `La course à l'attribution des responsabilités sur « ${subject} » va plus vite que la publication des preuves primaires. Ce décalage devient lui-même le sujet.` }
+    ],
+    "@tageslage_de": [
+      { content: `EILMELDUNG: Zu „${subject}“ kursieren widersprüchliche Angaben. Ort, Zeitpunkt und Urheberschaft mehrerer Aufnahmen sind weiterhin ungeklärt.`, translation: `DERNIÈRE MINUTE : des informations contradictoires circulent au sujet de « ${subject} ». Le lieu, la date et l'origine de plusieurs images restent inconnus.` },
+      { content: `Analyse: Im Fall „${subject}“ vermischen sich bestätigte Fakten, politische Reaktionen und nicht überprüfbare Augenzeugenberichte.`, translation: `Analyse : dans l'affaire « ${subject} », des faits confirmés, des réactions politiques et des témoignages invérifiables se mélangent.` }
+    ],
+    "@noticias_europa24": [
+      { content: `ÚLTIMA HORA: Circulan versiones contradictorias sobre «${subject}». Varias imágenes todavía no tienen fecha, lugar ni autor verificados.`, translation: `DERNIÈRE MINUTE : des versions contradictoires circulent sur « ${subject} ». Plusieurs images n'ont toujours ni date, ni lieu, ni auteur vérifiés.` },
+      { content: `ANÁLISIS: La presión política crece alrededor de «${subject}», mientras las pruebas primarias siguen siendo fragmentarias.`, translation: `ANALYSE : la pression politique augmente autour de « ${subject} », tandis que les preuves primaires restent fragmentaires.` }
+    ],
+    "@almadar_news": [
+      { content: `عاجل: تتداول حسابات متعددة روايات متضاربة بشأن «${subject}». ولم يتم التحقق بشكل مستقل من زمان ومكان عدد من الصور.`, translation: `URGENT : plusieurs comptes diffusent des récits contradictoires concernant « ${subject} ». La date et le lieu de plusieurs images n'ont pas été vérifiés indépendamment.` },
+      { content: `تحليل: تتسارع المواقف السياسية حول «${subject}» بينما لا تزال الأدلة الميدانية مجزأة ومحل خلاف.`, translation: `ANALYSE : les prises de position politiques s'accélèrent autour de « ${subject} », alors que les preuves de terrain restent fragmentaires et contestées.` }
+    ]
+  };
+  const message = pick(messages[actor.handle] || messages["@hexagone_info"], random);
+  return { ...message, language: actor.language || "fr", translationLanguage: "fr" };
+}
+
+function mediaPostsForScenario(scenario, duration) {
+  const actors = scenario.actors
+    .filter((actor) => isMediaNetworkActor(actor))
+    .sort((a, b) => hashSeed(`${scenario.id}:${a.handle}:media`) - hashSeed(`${scenario.id}:${b.handle}:media`))
+    .slice(0, 5);
+  return actors.map((actor, index) => {
+    const random = mulberry32(hashSeed(`${scenario.id}:${actor.handle}:media-post`));
+    const message = mediaPostMessage(actor, scenario, random);
+    return {
+      id: `${scenario.id}-media-${index}`,
+      minute: duration * (0.36 + random() * 0.61),
+      actor: actor.handle,
+      content: message.content,
+      language: message.language,
+      translation: message.translation,
+      translationLanguage: message.translationLanguage,
+      suspect: actor.trust !== "high" && random() < 0.32,
+      reason: "Traitement médiatique à distinguer des faits primaires et des commentaires éditoriaux.",
+      likes: Math.floor(2100 + random() * 38000),
+      reposts: Math.floor(700 + random() * 17000),
+      replies: Math.floor(220 + random() * 6200),
+      media: null
+    };
+  });
+}
+
+function officialMilitaryPostContent(scenario, random) {
+  const subject = String(scenario.title || "la situation en cours")
+    .replace(/^[^:]+:\s*/, "")
+    .replace(/[.!?]+$/, "");
+  return pick([
+    `Point de situation : les armées suivent les informations relatives à « ${subject} ». À cette heure, aucun élément ne permet de confirmer les affirmations les plus virales.`,
+    `Les images et déclarations circulant au sujet de « ${subject} » font l'objet de vérifications. Les faits établis seront communiqués par les canaux officiels.`,
+    `Nos forces poursuivent leur mission dans le respect du droit international et de la protection des populations. Toute allégation concernant « ${subject} » doit être examinée avec rigueur.`,
+    `Une enquête de commandement a été ouverte afin d'établir les faits liés à « ${subject} ». Aucune conclusion ne peut être tirée avant son achèvement.`
+  ], random);
+}
+
 function normalizedMatchText(value) {
   return String(value || "")
     .normalize("NFD")
@@ -22691,6 +26227,12 @@ function normalizePostEngagement(post, now = parisNow()) {
   const growth = Math.pow(ageMinutes, 0.82);
   const multiplier = isPoliticalActor(actor)
     ? 60
+    : isTeacherOnlyActor(actor)
+      ? 48
+      : isMediaNetworkActor(actor)
+        ? 14
+        : isFieldSourceActor(actor)
+          ? 9
     : post.suspect
       ? 16
       : post.distractor
@@ -22721,11 +26263,21 @@ function generatePosts(scenario) {
   const politicalPosts = politicalPostsForScenario(scenario, duration);
   const ngoPosts = ngoPostsForScenario(scenario, duration);
   const adversarialPosts = adversarialPostsForScenario(scenario, duration);
+  const fieldSourcePosts = fieldSourcePostsForScenario(scenario, duration);
+  const mediaPosts = mediaPostsForScenario(scenario, duration);
   const distractorActors = scenario.actors.filter((actor) => isDistractorActor(actor));
-  const regularActors = scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor) && !isNgoActor(actor) && !isAdversarialActor(actor));
+  const regularActors = scenario.actors.filter((actor) =>
+    !isPoliticalActor(actor)
+    && !isDistractorActor(actor)
+    && !isNgoActor(actor)
+    && !isAdversarialActor(actor)
+    && !isFieldSourceActor(actor)
+    && !isMediaNetworkActor(actor)
+    && !isTeacherOnlyActor(actor)
+  );
   const generated = [];
-  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length - ngoPosts.length - adversarialPosts.length);
-  const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.40) : 0;
+  const generatedCount = Math.max(0, volume - fixedPosts.length - politicalPosts.length - ngoPosts.length - adversarialPosts.length - fieldSourcePosts.length - mediaPosts.length);
+  const distractorTarget = distractorActors.length ? Math.floor(generatedCount * 0.46) : 0;
   const scenarioTarget = Math.max(0, generatedCount - distractorTarget);
   const scenarioTrends = scenario.trends.filter((trend) => !trend.daily);
 
@@ -22770,7 +26322,7 @@ function generatePosts(scenario) {
     minute: Number(post.minute) || index * 12
   }));
 
-  return [...generated, ...politicalPosts, ...ngoPosts, ...adversarialPosts, ...normalizedFixed]
+  return [...generated, ...politicalPosts, ...ngoPosts, ...adversarialPosts, ...fieldSourcePosts, ...mediaPosts, ...normalizedFixed]
     .map((post) => {
       const liveDate = livePostDate(post.minute, duration, now);
       return { ...post, liveDate };
@@ -22842,9 +26394,9 @@ function buildProfile(actor) {
   const official = actor.trust === "high" && actor.verified;
   const analyst = actor.stance === "analyst";
   const createdDays = lowTrust ? profileNumber(seed, 2, 24) : actor.trust === "medium" ? profileNumber(seed, 80, 540) : profileNumber(seed, 760, 2800);
-  const followers = lowTrust ? profileNumber(seed * 7, 420, 18200) : actor.trust === "medium" ? profileNumber(seed * 11, 1600, 42000) : profileNumber(seed * 13, 18000, 420000);
+  const followers = Number(actor.followers) || (lowTrust ? profileNumber(seed * 7, 420, 18200) : actor.trust === "medium" ? profileNumber(seed * 11, 1600, 42000) : profileNumber(seed * 13, 18000, 420000));
   const following = lowTrust ? profileNumber(seed * 17, 12, 148) : profileNumber(seed * 19, 180, 1200);
-  const dailyPosts = lowTrust ? profileNumber(seed * 23, 58, 210) : actor.trust === "medium" ? profileNumber(seed * 29, 8, 34) : profileNumber(seed * 31, 2, 18);
+  const dailyPosts = Number(actor.dailyPosts) || (lowTrust ? profileNumber(seed * 23, 58, 210) : actor.trust === "medium" ? profileNumber(seed * 29, 8, 34) : profileNumber(seed * 31, 2, 18));
   const names = state.scenario.actors.map((item) => item.name.toLowerCase());
   const imitates = !official && names.some((name) => actor.name.toLowerCase() !== name && similarName(actor.name.toLowerCase(), name));
 
@@ -23154,10 +26706,24 @@ function renderFeed() {
 
 
 
+
+
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
-  const allEligibleActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isNgoActor(actor) && !isAdversarialActor(actor) && actor.handle !== post.actor.handle);
+  const allEligibleActors = state.scenario.actors.filter((actor) =>
+    !isPoliticalActor(actor)
+    && !isNgoActor(actor)
+    && !isAdversarialActor(actor)
+    && !isMediaNetworkActor(actor)
+    && !isFieldSourceActor(actor)
+    && !isTeacherOnlyActor(actor)
+    && actor.handle !== post.actor.handle
+  );
   const themeActors = allEligibleActors.filter((actor) => !isDistractorActor(actor));
   const noiseActors = allEligibleActors.filter((actor) => isDistractorActor(actor));
   const eligibleActors = post.distractor ? noiseActors.concat(themeActors) : themeActors;
@@ -23239,9 +26805,8 @@ function renderPostTranslation(post) {
 }
 
 function renderPost(post) {
-  const flagged = state.flags.get(post.id);
   return `
-    <article class="post ${flagged ? "is-flagged" : ""} ${post.teacherCreated ? "teacher-created" : ""}" data-post-id="${escapeHtml(post.id)}">
+    <article class="post ${post.teacherCreated ? "teacher-created" : ""}" data-post-id="${escapeHtml(post.id)}">
       ${renderAvatarButton(post.actor, "avatar-feed")}
       <div class="post-body">
         <div class="post-head">
@@ -23260,13 +26825,7 @@ function renderPost(post) {
             <span>${formatNumber(post.reposts)} relais</span>
             <span>${formatNumber(post.likes)} réactions</span>
           </div>
-          <div class="post-actions">
-            <button class="action-button ${flagged ? "active" : ""}" data-action="flag">
-              ${flagged ? "Signalé" : "Signaler"}
-            </button>
-            <button class="action-button" data-action="annotate">Annoter</button>
-            ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<button class="action-button" data-action="delete-teacher">Supprimer</button>` : ""}
-          </div>
+          ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<div class="post-actions"><button class="action-button" data-action="delete-teacher">Supprimer</button></div>` : ""}
         </div>
         ${renderComments(post)}
       </div>
@@ -23296,7 +26855,15 @@ function createLivePost(renderImmediately = true) {
     return post;
   }
   const suspect = random() < 0.72;
-  const regularActors = state.scenario.actors.filter((actor) => !isPoliticalActor(actor) && !isDistractorActor(actor));
+  const regularActors = state.scenario.actors.filter((actor) =>
+    !isPoliticalActor(actor)
+    && !isDistractorActor(actor)
+    && !isNgoActor(actor)
+    && !isAdversarialActor(actor)
+    && !isFieldSourceActor(actor)
+    && !isMediaNetworkActor(actor)
+    && !isTeacherOnlyActor(actor)
+  );
   const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
   const actor = pick(candidates.length ? candidates : regularActors, random);
   const templates = suspect ? state.scenario.suspectTemplates : state.scenario.normalTemplates;
@@ -23362,32 +26929,7 @@ function formatNumber(value) {
 }
 
 function renderFlags() {
-  const flags = [...state.flags.values()];
-  const suspectIds = new Set(state.posts.filter((post) => post.suspect).map((post) => post.id));
-  const truePositiveCount = flags.filter((flag) => suspectIds.has(flag.postId)).length;
-  const coverage = suspectIds.size ? Math.round((truePositiveCount / suspectIds.size) * 100) : 0;
-
-  els.flaggedCount.textContent = String(flags.length);
-  els.confidenceScore.textContent = `${coverage}%`;
-
-  if (!flags.length) {
-    els.flagList.className = "flag-list empty";
-    els.flagList.textContent = "Aucun post signalé pour le moment.";
-    return;
-  }
-
-  els.flagList.className = "flag-list";
-  els.flagList.innerHTML = flags
-    .map((flag) => {
-      const post = state.posts.find((item) => item.id === flag.postId);
-      return `
-        <div class="flag-item">
-          <strong>${escapeHtml(post.actor.handle)} · ${escapeHtml(flag.reason)}</strong>
-          <span>${escapeHtml(flag.note || post.content.slice(0, 92))}</span>
-        </div>
-      `;
-    })
-    .join("");
+  // Les élèves transmettent leurs signalements hors de la simulation.
 }
 
 function renderAnswerKey() {
@@ -23411,6 +26953,7 @@ function renderAnswerKey() {
 function loadScenario(id) {
   const scenario = state.scenarios.find((item) => item.id === id) || state.scenarios[0];
   state.scenario = structuredClone(scenario);
+  if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
   state.posts = mergeLivePosts([...restoreTeacherPosts(state.scenario), ...generatePosts(state.scenario)], state.scenario);
   state.flags.clear();
   state.query = "";
@@ -23501,7 +27044,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -23541,6 +27084,42 @@ function emptyTemplate() {
     ]
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -24280,9 +27859,6 @@ function selectedComposeActor() {
 }
 
 function composeSuspect(actor) {
-  const tone = els.composeToneSelect?.value || "auto";
-  if (tone === "suspect") return true;
-  if (tone === "careful") return false;
   return actor?.trust === "low" || actor?.stance === "amplifier";
 }
 
@@ -24311,7 +27887,6 @@ function openPostComposer() {
     .map((media) => `<option value="${escapeHtml(media.asset || "")}">${escapeHtml(media.title || media.asset || "Illustration")}</option>`)
     .join("")}`;
   els.composeText.value = "";
-  els.composeToneSelect.value = "auto";
   els.composeUpload.value = "";
   state.composeVisual = null;
   updateComposePreview();
@@ -24330,12 +27905,18 @@ function generateComposeText() {
   const suspect = composeSuspect(actor);
   const media = composeSelectedMedia();
   let content = "";
-  if (isPoliticalActor(actor)) {
+  if (isTeacherOnlyActor(actor)) {
+    content = officialMilitaryPostContent(state.scenario, random);
+  } else if (isPoliticalActor(actor)) {
     content = politicalPostContent(actor, state.scenario, random);
   } else if (isAdversarialActor(actor)) {
     content = adversarialPostMessage(actor, state.scenario, random).content;
   } else if (isNgoActor(actor)) {
     content = ngoPostMessage(actor, state.scenario, random).content;
+  } else if (isFieldSourceActor(actor)) {
+    content = fieldSourcePostMessage(actor, state.scenario, random).content;
+  } else if (isMediaNetworkActor(actor)) {
+    content = mediaPostMessage(actor, state.scenario, random).content;
   } else if (media) {
     content = contentForSelectedMedia(state.scenario, media, suspect, random);
   } else if (isDistractorActor(actor)) {
@@ -24391,7 +27972,14 @@ async function generateComposeVisual() {
     if (!media && (state.scenario.mediaLabels || []).length) media = structuredClone(state.scenario.mediaLabels[0]);
     if (media?.asset) els.composeMediaSelect.value = media.asset;
   }
-  if (media && !isPoliticalActor(actor) && !isAdversarialActor(actor) && !isNgoActor(actor) && mediaMatchScore(media, els.composeText.value, actor) < 4) {
+  if (media
+      && !isPoliticalActor(actor)
+      && !isAdversarialActor(actor)
+      && !isNgoActor(actor)
+      && !isFieldSourceActor(actor)
+      && !isMediaNetworkActor(actor)
+      && !isTeacherOnlyActor(actor)
+      && mediaMatchScore(media, els.composeText.value, actor) < 4) {
     const random = mulberry32(hashSeed(`${state.scenario.id}:${actor.handle}:compose-copy:${Date.now()}`));
     els.composeText.value = contentForSelectedMedia(state.scenario, media, composeSuspect(actor), random);
   }
@@ -24450,7 +28038,7 @@ async function publishComposePost() {
     content,
     language: actor.language || "fr",
     suspect,
-    reason: suspect ? "Publication créée par l'enseignant avec une tonalité alarmiste." : "Publication créée par l'enseignant.",
+    reason: "Publication créée en direct par l'enseignant.",
     likes: 4 + Math.floor(Math.random() * 15),
     reposts: Math.floor(Math.random() * 5),
     replies: Math.floor(Math.random() * 4),
