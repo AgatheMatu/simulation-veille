@@ -1,4 +1,0 @@
-DEPOT GITHUB PAGES
-
-Envoyer a la racine du depot : index.html, eleve.html, styles.css, app.js, .nojekyll et assets.
-Ne pas envoyer le dossier parent ni le zip seul.
