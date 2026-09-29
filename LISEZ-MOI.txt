@@ -1,25 +1,45 @@
-MISE A JOUR VEILLE-ILI
+MISE A JOUR FINALE VEILLE-ILI - 28 SEPTEMBRE 2026
 
-Ce dossier contient uniquement la mise a jour "actualites et images".
-Il contient moins de 100 fichiers et peut etre depose en une seule fois sur GitHub.
+Cette livraison apporte quatre corrections principales :
+- des avatars coherents et visuellement uniques pour les 145 comptes ;
+- des illustrations strictement reliees au texte des publications ;
+- un outil enseignant pour creer un post, choisir son compte et produire un visuel ;
+- des reactions et des partages qui progressent selon l'anciennete du message.
 
-1. Ouvrez votre depot simulation-veille sur GitHub.
-2. Cliquez sur Add file, puis Upload files.
-3. Glissez dans la zone de depot les trois elements visibles dans ce dossier :
-   - app.js
-   - le dossier assets
-   - LISEZ-MOI.txt
-4. En bas de la page, cliquez sur Commit changes.
-5. Attendez environ deux minutes, puis actualisez :
-   https://agathematu.github.io/simulation-veille/
+METHODE CONSEILLEE POUR METTRE A JOUR GITHUB
 
-Important : ne glissez pas le fichier ZIP directement sur GitHub. Ouvrez-le d'abord,
-puis glissez son contenu. L'organisation des sous-dossiers assets/evidence et
-assets/avatars doit rester telle quelle.
+1. Decompressez ETAPE-1-RACINE.zip sur votre ordinateur.
+2. Sur GitHub, placez-vous a la racine du depot simulation-veille.
+3. Cliquez sur Add file, puis Upload files.
+4. Deposez le CONTENU du dossier decompresse, pas le fichier ZIP.
+5. Validez avec Commit changes.
+6. Ouvrez ensuite le dossier assets, puis le dossier avatars sur GitHub.
+7. Decompressez ETAPE-2A-AVATARS.zip et deposez ses fichiers dans ce dossier.
+8. Validez, puis recommencez avec ETAPE-2B-AVATARS.zip.
+9. Attendez le deploiement GitHub Pages, puis forcez l'actualisation avec Ctrl+F5.
 
-Contenu de cette mise a jour :
-- davantage de sujets de la vie quotidienne ;
-- 17 nouvelles photos documentaires ;
-- 24 avatars de comptes quotidiens ;
-- des publications parasites illustrees dans tous les scenarios ;
-- separation des tendances quotidiennes et des tendances liees a la crise.
+Ne supprimez pas le dossier assets/evidence : il contient les 277 illustrations.
+
+LIENS APRES DEPLOIEMENT
+
+Page enseignant : https://agathematu.github.io/simulation-veille/
+Page eleve      : https://agathematu.github.io/simulation-veille/eleve.html
+
+OUTIL ENSEIGNANT
+
+Le bouton "Creer un post" permet de choisir un compte, generer un texte, choisir
+ou generer un visuel, previsualiser puis publier. Le visuel est produit localement
+a partir de la phototheque du scenario, sans envoyer de donnee vers un service tiers.
+
+Les publications creees sont enregistrees dans le navigateur utilise. Elles sont
+donc visibles sur la page eleve ouverte dans le meme navigateur.
+
+Important : GitHub Pages est un hebergement statique. Sans serveur ni base de
+donnees, une publication creee sur l'ordinateur de l'enseignant n'apparait pas
+automatiquement sur les appareils des eleves. Le bouton d'export JSON permet de
+conserver les publications creees.
+
+Le fichier VEILLE-ILI-SITE-COMPLET-COHERENCE-ENSEIGNANT-V4.zip contient une copie
+complete du site en guise de sauvegarde. Son contenu depasse 100 fichiers : pour
+une mise a jour via l'interface web de GitHub, utilisez plutot les trois etapes
+ci-dessus.

@@ -31,67 +31,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -164,7 +180,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_espace_militarisat.jpg"
+        "avatar": "avatar_org_alerte_espace_militarisat.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -173,7 +189,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_01.jpg"
+        "avatar": "avatar_org_dossier_conf_01.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -182,7 +198,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_01.jpg"
+        "avatar": "avatar_org_leaks24_01.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -191,7 +207,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -455,7 +471,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -465,7 +481,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -485,7 +501,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -495,7 +511,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -1019,67 +1035,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -1152,7 +1184,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_espace_incident_or.jpg"
+        "avatar": "avatar_org_alerte_espace_incident_or.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -1161,7 +1193,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_02.jpg"
+        "avatar": "avatar_org_dossier_conf_02.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -1170,7 +1202,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_02.jpg"
+        "avatar": "avatar_org_leaks24_02.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -1179,7 +1211,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -1443,7 +1475,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -1453,7 +1485,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -1473,7 +1505,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -1483,7 +1515,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -2007,67 +2039,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -2140,7 +2188,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_espace_espionnage.jpg"
+        "avatar": "avatar_org_alerte_espace_espionnage.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -2149,7 +2197,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_03.jpg"
+        "avatar": "avatar_org_dossier_conf_03.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -2158,7 +2206,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_03.jpg"
+        "avatar": "avatar_org_leaks24_03.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -2167,7 +2215,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -2431,7 +2479,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -2441,7 +2489,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -2461,7 +2509,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -2471,7 +2519,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -2995,67 +3043,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -3128,7 +3192,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_crise_quartiers_ri.jpg"
+        "avatar": "avatar_org_alerte_crise_quartiers_ri.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -3137,7 +3201,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_04.jpg"
+        "avatar": "avatar_org_dossier_conf_04.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -3146,7 +3210,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_04.jpg"
+        "avatar": "avatar_org_leaks24_04.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -3155,7 +3219,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -3419,7 +3483,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -3429,7 +3493,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -3449,7 +3513,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -3459,7 +3523,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -3983,67 +4047,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -4116,7 +4196,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_crise_controle_mil.jpg"
+        "avatar": "avatar_org_alerte_crise_controle_mil.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -4125,7 +4205,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_05.jpg"
+        "avatar": "avatar_org_dossier_conf_05.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -4134,7 +4214,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_05.jpg"
+        "avatar": "avatar_org_leaks24_05.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -4143,7 +4223,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -4407,7 +4487,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -4417,7 +4497,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -4437,7 +4517,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -4447,7 +4527,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -4971,67 +5051,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -5104,7 +5200,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_base_contamination.jpg"
+        "avatar": "avatar_org_alerte_base_contamination.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -5113,7 +5209,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_06.jpg"
+        "avatar": "avatar_org_dossier_conf_06.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -5122,7 +5218,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_06.jpg"
+        "avatar": "avatar_org_leaks24_06.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -5131,7 +5227,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -5395,7 +5491,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -5405,7 +5501,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -5425,7 +5521,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -5435,7 +5531,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -5959,67 +6055,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -6092,7 +6204,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_opex_interets_econ.jpg"
+        "avatar": "avatar_org_alerte_opex_interets_econ.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -6101,7 +6213,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_07.jpg"
+        "avatar": "avatar_org_dossier_conf_07.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -6110,7 +6222,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_07.jpg"
+        "avatar": "avatar_org_leaks24_07.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -6119,7 +6231,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -6383,7 +6495,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -6393,7 +6505,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -6413,7 +6525,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -6423,7 +6535,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -6947,67 +7059,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -7080,7 +7208,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_opex_soutien_group.jpg"
+        "avatar": "avatar_org_alerte_opex_soutien_group.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -7089,7 +7217,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_08.jpg"
+        "avatar": "avatar_org_dossier_conf_08.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -7098,7 +7226,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_08.jpg"
+        "avatar": "avatar_org_leaks24_08.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -7107,7 +7235,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -7371,7 +7499,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -7381,7 +7509,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -7401,7 +7529,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -7411,7 +7539,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -7935,67 +8063,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -8068,7 +8212,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_opex_frappes_civil.jpg"
+        "avatar": "avatar_org_alerte_opex_frappes_civil.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -8077,7 +8221,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_09.jpg"
+        "avatar": "avatar_org_dossier_conf_09.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -8086,7 +8230,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_09.jpg"
+        "avatar": "avatar_org_leaks24_09.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -8095,7 +8239,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -8359,7 +8503,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -8369,7 +8513,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -8389,7 +8533,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -8399,7 +8543,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -8923,67 +9067,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -9056,7 +9216,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_sahel_charnier_des.jpg"
+        "avatar": "avatar_org_alerte_sahel_charnier_des.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -9065,7 +9225,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_10.jpg"
+        "avatar": "avatar_org_dossier_conf_10.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -9074,7 +9234,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_10.jpg"
+        "avatar": "avatar_org_leaks24_10.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -9083,7 +9243,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -9347,7 +9507,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -9357,7 +9517,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -9377,7 +9537,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -9387,7 +9547,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -9911,67 +10071,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -10044,7 +10220,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_sahel_puits_empois.jpg"
+        "avatar": "avatar_org_alerte_sahel_puits_empois.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -10053,7 +10229,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_11.jpg"
+        "avatar": "avatar_org_dossier_conf_11.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -10062,7 +10238,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_11.jpg"
+        "avatar": "avatar_org_leaks24_11.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -10071,7 +10247,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -10335,7 +10511,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -10345,7 +10521,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -10365,7 +10541,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -10375,7 +10551,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -10899,67 +11075,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -11032,7 +11224,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_sahel_drones_berge.jpg"
+        "avatar": "avatar_org_alerte_sahel_drones_berge.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -11041,7 +11233,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_12.jpg"
+        "avatar": "avatar_org_dossier_conf_12.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -11050,7 +11242,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_12.jpg"
+        "avatar": "avatar_org_leaks24_12.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -11059,7 +11251,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -11323,7 +11515,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -11333,7 +11525,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -11353,7 +11545,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -11363,7 +11555,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -11887,67 +12079,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -12020,7 +12228,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_sahel_auxiliaires.jpg"
+        "avatar": "avatar_org_alerte_sahel_auxiliaires.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -12029,7 +12237,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_13.jpg"
+        "avatar": "avatar_org_dossier_conf_13.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -12038,7 +12246,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_13.jpg"
+        "avatar": "avatar_org_leaks24_13.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -12047,7 +12255,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -12311,7 +12519,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -12321,7 +12529,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -12341,7 +12549,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -12351,7 +12559,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -12875,67 +13083,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -13008,7 +13232,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_sahel_retour_terro.jpg"
+        "avatar": "avatar_org_alerte_sahel_retour_terro.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -13017,7 +13241,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_14.jpg"
+        "avatar": "avatar_org_dossier_conf_14.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -13026,7 +13250,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_14.jpg"
+        "avatar": "avatar_org_leaks24_14.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -13035,7 +13259,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -13299,7 +13523,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -13309,7 +13533,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -13329,7 +13553,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -13339,7 +13563,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -13863,67 +14087,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -13996,7 +14236,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_recrutement_soldat.jpg"
+        "avatar": "avatar_org_alerte_recrutement_soldat.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -14005,7 +14245,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_15.jpg"
+        "avatar": "avatar_org_dossier_conf_15.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -14014,7 +14254,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_15.jpg"
+        "avatar": "avatar_org_leaks24_15.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -14023,7 +14263,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -14287,7 +14527,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -14297,7 +14537,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -14317,7 +14557,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -14327,7 +14567,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -14851,67 +15091,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -14984,7 +15240,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_industrie_armes_ci.jpg"
+        "avatar": "avatar_org_alerte_industrie_armes_ci.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -14993,7 +15249,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_16.jpg"
+        "avatar": "avatar_org_dossier_conf_16.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -15002,7 +15258,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_16.jpg"
+        "avatar": "avatar_org_leaks24_16.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -15011,7 +15267,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -15275,7 +15531,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -15285,7 +15541,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -15305,7 +15561,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -15315,7 +15571,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -15839,67 +16095,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -15972,7 +16244,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_outremer_militaris.jpg"
+        "avatar": "avatar_org_alerte_outremer_militaris.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -15981,7 +16253,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_17.jpg"
+        "avatar": "avatar_org_dossier_conf_17.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -15990,7 +16262,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_17.jpg"
+        "avatar": "avatar_org_leaks24_17.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -15999,7 +16271,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -16263,7 +16535,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -16273,7 +16545,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -16293,7 +16565,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -16303,7 +16575,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -16827,67 +17099,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -16960,7 +17248,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_nrbc_cobayes.jpg"
+        "avatar": "avatar_org_alerte_nrbc_cobayes.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -16969,7 +17257,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_18.jpg"
+        "avatar": "avatar_org_dossier_conf_18.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -16978,7 +17266,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_18.jpg"
+        "avatar": "avatar_org_leaks24_18.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -16987,7 +17275,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -17251,7 +17539,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -17261,7 +17549,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -17281,7 +17569,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -17291,7 +17579,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -17815,67 +18103,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -17948,7 +18252,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_otan_souverainete.jpg"
+        "avatar": "avatar_org_alerte_otan_souverainete.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -17957,7 +18261,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_19.jpg"
+        "avatar": "avatar_org_dossier_conf_19.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -17966,7 +18270,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_19.jpg"
+        "avatar": "avatar_org_leaks24_19.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -17975,7 +18279,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -18239,7 +18543,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -18249,7 +18553,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -18269,7 +18573,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -18279,7 +18583,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -18803,67 +19107,83 @@ const builtInScenarios = [
       },
       {
         "tag": "#Carburants",
-        "count": "68,2 k"
+        "count": "68,2 k",
+        "daily": true
       },
       {
         "tag": "#PrixDuGazole",
-        "count": "41,7 k"
+        "count": "41,7 k",
+        "daily": true
       },
       {
         "tag": "#M\u00e9t\u00e9o",
-        "count": "37,4 k"
+        "count": "37,4 k",
+        "daily": true
       },
       {
         "tag": "#TER",
-        "count": "24,9 k"
+        "count": "24,9 k",
+        "daily": true
       },
       {
         "tag": "#PouvoirDAchat",
-        "count": "22,6 k"
+        "count": "22,6 k",
+        "daily": true
       },
       {
         "tag": "#Rentr\u00e9e",
-        "count": "18,8 k"
+        "count": "18,8 k",
+        "daily": true
       },
       {
         "tag": "#Foot",
-        "count": "17,1 k"
+        "count": "17,1 k",
+        "daily": true
       },
       {
         "tag": "#Circulation",
-        "count": "29,4 k"
+        "count": "29,4 k",
+        "daily": true
       },
       {
         "tag": "#Sant\u00e9",
-        "count": "21,8 k"
+        "count": "21,8 k",
+        "daily": true
       },
       {
         "tag": "#Logement",
-        "count": "19,6 k"
+        "count": "19,6 k",
+        "daily": true
       },
       {
         "tag": "#A\u00e9roport",
-        "count": "16,9 k"
+        "count": "16,9 k",
+        "daily": true
       },
       {
         "tag": "#\u00c9cole",
-        "count": "15,7 k"
+        "count": "15,7 k",
+        "daily": true
       },
       {
         "tag": "#Emploi",
-        "count": "14,2 k"
+        "count": "14,2 k",
+        "daily": true
       },
       {
         "tag": "#Livraisons",
-        "count": "12,8 k"
+        "count": "12,8 k",
+        "daily": true
       },
       {
         "tag": "#Cin\u00e9ma",
-        "count": "11,3 k"
+        "count": "11,3 k",
+        "daily": true
       },
       {
         "tag": "#VieLocale",
-        "count": "10,9 k"
+        "count": "10,9 k",
+        "daily": true
       }
     ],
     "clues": [
@@ -18936,7 +19256,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
-        "avatar": "avatar_human_alerte_transversal_france.jpg"
+        "avatar": "avatar_org_alerte_transversal_france.jpg"
       },
       {
         "name": "Dossier Confidentiel",
@@ -18945,7 +19265,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Compte de r\u00e9v\u00e9lations suppos\u00e9es. Utilise captures, fuites et documents inv\u00e9rifiables.",
-        "avatar": "avatar_human_dossier_conf_20.jpg"
+        "avatar": "avatar_org_dossier_conf_20.jpg"
       },
       {
         "name": "Canal Leaks 24",
@@ -18954,7 +19274,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
-        "avatar": "avatar_human_leaks24_20.jpg"
+        "avatar": "avatar_org_leaks24_20.jpg"
       },
       {
         "name": "Voix du Peuple News",
@@ -18963,7 +19283,7 @@ const builtInScenarios = [
         "stance": "amplifier",
         "trust": "low",
         "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
-        "avatar": "avatar_human_voixdupeuple_news.jpg"
+        "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
         "name": "Global Intel FR",
@@ -19227,7 +19547,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
-        "avatar": "avatar_org_cuisine_du_jour.jpg"
+        "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
       {
         "name": "V\u00e9lo Ville",
@@ -19237,7 +19557,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
-        "avatar": "avatar_org_velo_ville.jpg"
+        "avatar": "avatar_human_velo_ville.jpg"
       },
       {
         "name": "Agenda Municipal",
@@ -19257,7 +19577,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
-        "avatar": "avatar_org_maison_travaux.jpg"
+        "avatar": "avatar_human_maison_travaux.jpg"
       },
       {
         "name": "Fil des Parents",
@@ -19267,7 +19587,7 @@ const builtInScenarios = [
         "trust": "medium",
         "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
-        "avatar": "avatar_org_fil_des_parents.jpg"
+        "avatar": "avatar_human_fil_des_parents.jpg"
       }
     ],
     "normalTemplates": [
@@ -19762,7 +20082,7 @@ const builtInScenarios = [
 ];
 
 const evidenceAssets = {"espace-militarisation-civils_01.jpg":"./assets/evidence/espace-militarisation-civils_01.jpg","espace-militarisation-civils_02.jpg":"./assets/evidence/espace-militarisation-civils_02.jpg","espace-militarisation-civils_03.jpg":"./assets/evidence/espace-militarisation-civils_03.jpg","espace-militarisation-civils_04.jpg":"./assets/evidence/espace-militarisation-civils_04.jpg","espace-militarisation-civils_05.jpg":"./assets/evidence/espace-militarisation-civils_05.jpg","espace-militarisation-civils_06.jpg":"./assets/evidence/espace-militarisation-civils_06.jpg","espace-militarisation-civils_07.jpg":"./assets/evidence/espace-militarisation-civils_07.jpg","espace-militarisation-civils_08.jpg":"./assets/evidence/espace-militarisation-civils_08.jpg","espace-militarisation-civils_09.jpg":"./assets/evidence/espace-militarisation-civils_09.jpg","espace-incident-orbital_01.jpg":"./assets/evidence/espace-incident-orbital_01.jpg","espace-incident-orbital_02.jpg":"./assets/evidence/espace-incident-orbital_02.jpg","espace-incident-orbital_03.jpg":"./assets/evidence/espace-incident-orbital_03.jpg","espace-incident-orbital_04.jpg":"./assets/evidence/espace-incident-orbital_04.jpg","espace-incident-orbital_05.jpg":"./assets/evidence/espace-incident-orbital_05.jpg","espace-incident-orbital_06.jpg":"./assets/evidence/espace-incident-orbital_06.jpg","espace-incident-orbital_07.jpg":"./assets/evidence/espace-incident-orbital_07.jpg","espace-incident-orbital_08.jpg":"./assets/evidence/espace-incident-orbital_08.jpg","espace-incident-orbital_09.jpg":"./assets/evidence/espace-incident-orbital_09.jpg","espace-espionnage-afrique_01.jpg":"./assets/evidence/espace-espionnage-afrique_01.jpg","espace-espionnage-afrique_02.jpg":"./assets/evidence/espace-espionnage-afrique_02.jpg","espace-espionnage-afrique_03.jpg":"./assets/evidence/espace-espionnage-afrique_03.jpg","espace-espionnage-afrique_04.jpg":"./assets/evidence/espace-espionnage-afrique_04.jpg","espace-espionnage-afrique_05.jpg":"./assets/evidence/espace-espionnage-afrique_05.jpg","espace-espionnage-afrique_06.jpg":"./assets/evidence/espace-espionnage-afrique_06.jpg","espace-espionnage-afrique_07.jpg":"./assets/evidence/espace-espionnage-afrique_07.jpg","espace-espionnage-afrique_08.jpg":"./assets/evidence/espace-espionnage-afrique_08.jpg","espace-espionnage-afrique_09.jpg":"./assets/evidence/espace-espionnage-afrique_09.jpg","crise-quartiers-riches_01.jpg":"./assets/evidence/crise-quartiers-riches_01.jpg","crise-quartiers-riches_02.jpg":"./assets/evidence/crise-quartiers-riches_02.jpg","crise-quartiers-riches_03.jpg":"./assets/evidence/crise-quartiers-riches_03.jpg","crise-quartiers-riches_04.jpg":"./assets/evidence/crise-quartiers-riches_04.jpg","crise-quartiers-riches_05.jpg":"./assets/evidence/crise-quartiers-riches_05.jpg","crise-quartiers-riches_06.jpg":"./assets/evidence/crise-quartiers-riches_06.jpg","crise-quartiers-riches_07.jpg":"./assets/evidence/crise-quartiers-riches_07.jpg","crise-quartiers-riches_08.jpg":"./assets/evidence/crise-quartiers-riches_08.jpg","crise-quartiers-riches_09.jpg":"./assets/evidence/crise-quartiers-riches_09.jpg","crise-controle-militaire_01.jpg":"./assets/evidence/crise-controle-militaire_01.jpg","crise-controle-militaire_02.jpg":"./assets/evidence/crise-controle-militaire_02.jpg","crise-controle-militaire_03.jpg":"./assets/evidence/crise-controle-militaire_03.jpg","crise-controle-militaire_04.jpg":"./assets/evidence/crise-controle-militaire_04.jpg","crise-controle-militaire_05.jpg":"./assets/evidence/crise-controle-militaire_05.jpg","crise-controle-militaire_06.jpg":"./assets/evidence/crise-controle-militaire_06.jpg","crise-controle-militaire_07.jpg":"./assets/evidence/crise-controle-militaire_07.jpg","crise-controle-militaire_08.jpg":"./assets/evidence/crise-controle-militaire_08.jpg","crise-controle-militaire_09.jpg":"./assets/evidence/crise-controle-militaire_09.jpg","base-contamination-eau_01.jpg":"./assets/evidence/base-contamination-eau_01.jpg","base-contamination-eau_02.jpg":"./assets/evidence/base-contamination-eau_02.jpg","base-contamination-eau_03.jpg":"./assets/evidence/base-contamination-eau_03.jpg","base-contamination-eau_04.jpg":"./assets/evidence/base-contamination-eau_04.jpg","base-contamination-eau_05.jpg":"./assets/evidence/base-contamination-eau_05.jpg","base-contamination-eau_06.jpg":"./assets/evidence/base-contamination-eau_06.jpg","base-contamination-eau_07.jpg":"./assets/evidence/base-contamination-eau_07.jpg","base-contamination-eau_08.jpg":"./assets/evidence/base-contamination-eau_08.jpg","base-contamination-eau_09.jpg":"./assets/evidence/base-contamination-eau_09.jpg","opex-interets-economiques_01.jpg":"./assets/evidence/opex-interets-economiques_01.jpg","opex-interets-economiques_02.jpg":"./assets/evidence/opex-interets-economiques_02.jpg","opex-interets-economiques_03.jpg":"./assets/evidence/opex-interets-economiques_03.jpg","opex-interets-economiques_04.jpg":"./assets/evidence/opex-interets-economiques_04.jpg","opex-interets-economiques_05.jpg":"./assets/evidence/opex-interets-economiques_05.jpg","opex-interets-economiques_06.jpg":"./assets/evidence/opex-interets-economiques_06.jpg","opex-interets-economiques_07.jpg":"./assets/evidence/opex-interets-economiques_07.jpg","opex-interets-economiques_08.jpg":"./assets/evidence/opex-interets-economiques_08.jpg","opex-interets-economiques_09.jpg":"./assets/evidence/opex-interets-economiques_09.jpg","opex-soutien-groupe-arme_01.jpg":"./assets/evidence/opex-soutien-groupe-arme_01.jpg","opex-soutien-groupe-arme_02.jpg":"./assets/evidence/opex-soutien-groupe-arme_02.jpg","opex-soutien-groupe-arme_03.jpg":"./assets/evidence/opex-soutien-groupe-arme_03.jpg","opex-soutien-groupe-arme_04.jpg":"./assets/evidence/opex-soutien-groupe-arme_04.jpg","opex-soutien-groupe-arme_05.jpg":"./assets/evidence/opex-soutien-groupe-arme_05.jpg","opex-soutien-groupe-arme_06.jpg":"./assets/evidence/opex-soutien-groupe-arme_06.jpg","opex-soutien-groupe-arme_07.jpg":"./assets/evidence/opex-soutien-groupe-arme_07.jpg","opex-soutien-groupe-arme_08.jpg":"./assets/evidence/opex-soutien-groupe-arme_08.jpg","opex-soutien-groupe-arme_09.jpg":"./assets/evidence/opex-soutien-groupe-arme_09.jpg","opex-frappes-civils_01.jpg":"./assets/evidence/opex-frappes-civils_01.jpg","opex-frappes-civils_02.jpg":"./assets/evidence/opex-frappes-civils_02.jpg","opex-frappes-civils_03.jpg":"./assets/evidence/opex-frappes-civils_03.jpg","opex-frappes-civils_04.jpg":"./assets/evidence/opex-frappes-civils_04.jpg","opex-frappes-civils_05.jpg":"./assets/evidence/opex-frappes-civils_05.jpg","opex-frappes-civils_06.jpg":"./assets/evidence/opex-frappes-civils_06.jpg","opex-frappes-civils_07.jpg":"./assets/evidence/opex-frappes-civils_07.jpg","opex-frappes-civils_08.jpg":"./assets/evidence/opex-frappes-civils_08.jpg","opex-frappes-civils_09.jpg":"./assets/evidence/opex-frappes-civils_09.jpg","sahel-charnier-desert_01.jpg":"./assets/evidence/sahel-charnier-desert_01.jpg","sahel-charnier-desert_02.jpg":"./assets/evidence/sahel-charnier-desert_02.jpg","sahel-charnier-desert_03.jpg":"./assets/evidence/sahel-charnier-desert_03.jpg","sahel-charnier-desert_04.jpg":"./assets/evidence/sahel-charnier-desert_04.jpg","sahel-charnier-desert_05.jpg":"./assets/evidence/sahel-charnier-desert_05.jpg","sahel-charnier-desert_06.jpg":"./assets/evidence/sahel-charnier-desert_06.jpg","sahel-charnier-desert_07.jpg":"./assets/evidence/sahel-charnier-desert_07.jpg","sahel-charnier-desert_08.jpg":"./assets/evidence/sahel-charnier-desert_08.jpg","sahel-charnier-desert_09.jpg":"./assets/evidence/sahel-charnier-desert_09.jpg","sahel-puits-empoisonnes_01.jpg":"./assets/evidence/sahel-puits-empoisonnes_01.jpg","sahel-puits-empoisonnes_02.jpg":"./assets/evidence/sahel-puits-empoisonnes_02.jpg","sahel-puits-empoisonnes_03.jpg":"./assets/evidence/sahel-puits-empoisonnes_03.jpg","sahel-puits-empoisonnes_04.jpg":"./assets/evidence/sahel-puits-empoisonnes_04.jpg","sahel-puits-empoisonnes_05.jpg":"./assets/evidence/sahel-puits-empoisonnes_05.jpg","sahel-puits-empoisonnes_06.jpg":"./assets/evidence/sahel-puits-empoisonnes_06.jpg","sahel-puits-empoisonnes_07.jpg":"./assets/evidence/sahel-puits-empoisonnes_07.jpg","sahel-puits-empoisonnes_08.jpg":"./assets/evidence/sahel-puits-empoisonnes_08.jpg","sahel-puits-empoisonnes_09.jpg":"./assets/evidence/sahel-puits-empoisonnes_09.jpg","sahel-drones-bergers_01.jpg":"./assets/evidence/sahel-drones-bergers_01.jpg","sahel-drones-bergers_02.jpg":"./assets/evidence/sahel-drones-bergers_02.jpg","sahel-drones-bergers_03.jpg":"./assets/evidence/sahel-drones-bergers_03.jpg","sahel-drones-bergers_04.jpg":"./assets/evidence/sahel-drones-bergers_04.jpg","sahel-drones-bergers_05.jpg":"./assets/evidence/sahel-drones-bergers_05.jpg","sahel-drones-bergers_06.jpg":"./assets/evidence/sahel-drones-bergers_06.jpg","sahel-drones-bergers_07.jpg":"./assets/evidence/sahel-drones-bergers_07.jpg","sahel-drones-bergers_08.jpg":"./assets/evidence/sahel-drones-bergers_08.jpg","sahel-drones-bergers_09.jpg":"./assets/evidence/sahel-drones-bergers_09.jpg","sahel-auxiliaires-abandonnes_01.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_01.jpg","sahel-auxiliaires-abandonnes_02.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_02.jpg","sahel-auxiliaires-abandonnes_03.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_03.jpg","sahel-auxiliaires-abandonnes_04.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_04.jpg","sahel-auxiliaires-abandonnes_05.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_05.jpg","sahel-auxiliaires-abandonnes_06.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_06.jpg","sahel-auxiliaires-abandonnes_07.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_07.jpg","sahel-auxiliaires-abandonnes_08.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_08.jpg","sahel-auxiliaires-abandonnes_09.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_09.jpg","sahel-retour-terroristes_01.jpg":"./assets/evidence/sahel-retour-terroristes_01.jpg","sahel-retour-terroristes_02.jpg":"./assets/evidence/sahel-retour-terroristes_02.jpg","sahel-retour-terroristes_03.jpg":"./assets/evidence/sahel-retour-terroristes_03.jpg","sahel-retour-terroristes_04.jpg":"./assets/evidence/sahel-retour-terroristes_04.jpg","sahel-retour-terroristes_05.jpg":"./assets/evidence/sahel-retour-terroristes_05.jpg","sahel-retour-terroristes_06.jpg":"./assets/evidence/sahel-retour-terroristes_06.jpg","sahel-retour-terroristes_07.jpg":"./assets/evidence/sahel-retour-terroristes_07.jpg","sahel-retour-terroristes_08.jpg":"./assets/evidence/sahel-retour-terroristes_08.jpg","sahel-retour-terroristes_09.jpg":"./assets/evidence/sahel-retour-terroristes_09.jpg","recrutement-soldats-sacrifies_01.jpg":"./assets/evidence/recrutement-soldats-sacrifies_01.jpg","recrutement-soldats-sacrifies_02.jpg":"./assets/evidence/recrutement-soldats-sacrifies_02.jpg","recrutement-soldats-sacrifies_03.jpg":"./assets/evidence/recrutement-soldats-sacrifies_03.jpg","recrutement-soldats-sacrifies_04.jpg":"./assets/evidence/recrutement-soldats-sacrifies_04.jpg","recrutement-soldats-sacrifies_05.jpg":"./assets/evidence/recrutement-soldats-sacrifies_05.jpg","recrutement-soldats-sacrifies_06.jpg":"./assets/evidence/recrutement-soldats-sacrifies_06.jpg","recrutement-soldats-sacrifies_07.jpg":"./assets/evidence/recrutement-soldats-sacrifies_07.jpg","recrutement-soldats-sacrifies_08.jpg":"./assets/evidence/recrutement-soldats-sacrifies_08.jpg","recrutement-soldats-sacrifies_09.jpg":"./assets/evidence/recrutement-soldats-sacrifies_09.jpg","industrie-armes-civils_01.jpg":"./assets/evidence/industrie-armes-civils_01.jpg","industrie-armes-civils_02.jpg":"./assets/evidence/industrie-armes-civils_02.jpg","industrie-armes-civils_03.jpg":"./assets/evidence/industrie-armes-civils_03.jpg","industrie-armes-civils_04.jpg":"./assets/evidence/industrie-armes-civils_04.jpg","industrie-armes-civils_05.jpg":"./assets/evidence/industrie-armes-civils_05.jpg","industrie-armes-civils_06.jpg":"./assets/evidence/industrie-armes-civils_06.jpg","industrie-armes-civils_07.jpg":"./assets/evidence/industrie-armes-civils_07.jpg","industrie-armes-civils_08.jpg":"./assets/evidence/industrie-armes-civils_08.jpg","industrie-armes-civils_09.jpg":"./assets/evidence/industrie-armes-civils_09.jpg","outremer-militarisation_01.jpg":"./assets/evidence/outremer-militarisation_01.jpg","outremer-militarisation_02.jpg":"./assets/evidence/outremer-militarisation_02.jpg","outremer-militarisation_03.jpg":"./assets/evidence/outremer-militarisation_03.jpg","outremer-militarisation_04.jpg":"./assets/evidence/outremer-militarisation_04.jpg","outremer-militarisation_05.jpg":"./assets/evidence/outremer-militarisation_05.jpg","outremer-militarisation_06.jpg":"./assets/evidence/outremer-militarisation_06.jpg","outremer-militarisation_07.jpg":"./assets/evidence/outremer-militarisation_07.jpg","outremer-militarisation_08.jpg":"./assets/evidence/outremer-militarisation_08.jpg","outremer-militarisation_09.jpg":"./assets/evidence/outremer-militarisation_09.jpg","nrbc-cobayes_01.jpg":"./assets/evidence/nrbc-cobayes_01.jpg","nrbc-cobayes_02.jpg":"./assets/evidence/nrbc-cobayes_02.jpg","nrbc-cobayes_03.jpg":"./assets/evidence/nrbc-cobayes_03.jpg","nrbc-cobayes_04.jpg":"./assets/evidence/nrbc-cobayes_04.jpg","nrbc-cobayes_05.jpg":"./assets/evidence/nrbc-cobayes_05.jpg","nrbc-cobayes_06.jpg":"./assets/evidence/nrbc-cobayes_06.jpg","nrbc-cobayes_07.jpg":"./assets/evidence/nrbc-cobayes_07.jpg","nrbc-cobayes_08.jpg":"./assets/evidence/nrbc-cobayes_08.jpg","nrbc-cobayes_09.jpg":"./assets/evidence/nrbc-cobayes_09.jpg","otan-souverainete-washington_01.jpg":"./assets/evidence/otan-souverainete-washington_01.jpg","otan-souverainete-washington_02.jpg":"./assets/evidence/otan-souverainete-washington_02.jpg","otan-souverainete-washington_03.jpg":"./assets/evidence/otan-souverainete-washington_03.jpg","otan-souverainete-washington_04.jpg":"./assets/evidence/otan-souverainete-washington_04.jpg","otan-souverainete-washington_05.jpg":"./assets/evidence/otan-souverainete-washington_05.jpg","otan-souverainete-washington_06.jpg":"./assets/evidence/otan-souverainete-washington_06.jpg","otan-souverainete-washington_07.jpg":"./assets/evidence/otan-souverainete-washington_07.jpg","otan-souverainete-washington_08.jpg":"./assets/evidence/otan-souverainete-washington_08.jpg","otan-souverainete-washington_09.jpg":"./assets/evidence/otan-souverainete-washington_09.jpg","transversal-france-ment_01.jpg":"./assets/evidence/transversal-france-ment_01.jpg","transversal-france-ment_02.jpg":"./assets/evidence/transversal-france-ment_02.jpg","transversal-france-ment_03.jpg":"./assets/evidence/transversal-france-ment_03.jpg","transversal-france-ment_04.jpg":"./assets/evidence/transversal-france-ment_04.jpg","transversal-france-ment_05.jpg":"./assets/evidence/transversal-france-ment_05.jpg","transversal-france-ment_06.jpg":"./assets/evidence/transversal-france-ment_06.jpg","transversal-france-ment_07.jpg":"./assets/evidence/transversal-france-ment_07.jpg","transversal-france-ment_08.jpg":"./assets/evidence/transversal-france-ment_08.jpg","transversal-france-ment_09.jpg":"./assets/evidence/transversal-france-ment_09.jpg","espace-militarisation-civils_10.jpg":"./assets/evidence/espace-militarisation-civils_10.jpg","espace-incident-orbital_10.jpg":"./assets/evidence/espace-incident-orbital_10.jpg","espace-espionnage-afrique_10.jpg":"./assets/evidence/espace-espionnage-afrique_10.jpg","crise-quartiers-riches_10.jpg":"./assets/evidence/crise-quartiers-riches_10.jpg","crise-controle-militaire_10.jpg":"./assets/evidence/crise-controle-militaire_10.jpg","base-contamination-eau_10.jpg":"./assets/evidence/base-contamination-eau_10.jpg","opex-interets-economiques_10.jpg":"./assets/evidence/opex-interets-economiques_10.jpg","opex-soutien-groupe-arme_10.jpg":"./assets/evidence/opex-soutien-groupe-arme_10.jpg","opex-frappes-civils_10.jpg":"./assets/evidence/opex-frappes-civils_10.jpg","sahel-charnier-desert_10.jpg":"./assets/evidence/sahel-charnier-desert_10.jpg","sahel-puits-empoisonnes_10.jpg":"./assets/evidence/sahel-puits-empoisonnes_10.jpg","sahel-drones-bergers_10.jpg":"./assets/evidence/sahel-drones-bergers_10.jpg","sahel-auxiliaires-abandonnes_10.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_10.jpg","sahel-retour-terroristes_10.jpg":"./assets/evidence/sahel-retour-terroristes_10.jpg","recrutement-soldats-sacrifies_10.jpg":"./assets/evidence/recrutement-soldats-sacrifies_10.jpg","industrie-armes-civils_10.jpg":"./assets/evidence/industrie-armes-civils_10.jpg","outremer-militarisation_10.jpg":"./assets/evidence/outremer-militarisation_10.jpg","nrbc-cobayes_10.jpg":"./assets/evidence/nrbc-cobayes_10.jpg","otan-souverainete-washington_10.jpg":"./assets/evidence/otan-souverainete-washington_10.jpg","transversal-france-ment_10.jpg":"./assets/evidence/transversal-france-ment_10.jpg","espace-militarisation-civils_11.jpg":"./assets/evidence/espace-militarisation-civils_11.jpg","espace-incident-orbital_11.jpg":"./assets/evidence/espace-incident-orbital_11.jpg","espace-espionnage-afrique_11.jpg":"./assets/evidence/espace-espionnage-afrique_11.jpg","crise-quartiers-riches_11.jpg":"./assets/evidence/crise-quartiers-riches_11.jpg","crise-controle-militaire_11.jpg":"./assets/evidence/crise-controle-militaire_11.jpg","base-contamination-eau_11.jpg":"./assets/evidence/base-contamination-eau_11.jpg","opex-interets-economiques_11.jpg":"./assets/evidence/opex-interets-economiques_11.jpg","opex-soutien-groupe-arme_11.jpg":"./assets/evidence/opex-soutien-groupe-arme_11.jpg","opex-frappes-civils_11.jpg":"./assets/evidence/opex-frappes-civils_11.jpg","sahel-charnier-desert_11.jpg":"./assets/evidence/sahel-charnier-desert_11.jpg","sahel-puits-empoisonnes_11.jpg":"./assets/evidence/sahel-puits-empoisonnes_11.jpg","sahel-drones-bergers_11.jpg":"./assets/evidence/sahel-drones-bergers_11.jpg","sahel-auxiliaires-abandonnes_11.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_11.jpg","sahel-retour-terroristes_11.jpg":"./assets/evidence/sahel-retour-terroristes_11.jpg","recrutement-soldats-sacrifies_11.jpg":"./assets/evidence/recrutement-soldats-sacrifies_11.jpg","industrie-armes-civils_11.jpg":"./assets/evidence/industrie-armes-civils_11.jpg","outremer-militarisation_11.jpg":"./assets/evidence/outremer-militarisation_11.jpg","nrbc-cobayes_11.jpg":"./assets/evidence/nrbc-cobayes_11.jpg","otan-souverainete-washington_11.jpg":"./assets/evidence/otan-souverainete-washington_11.jpg","transversal-france-ment_11.jpg":"./assets/evidence/transversal-france-ment_11.jpg","espace-militarisation-civils_12.jpg":"./assets/evidence/espace-militarisation-civils_12.jpg","espace-incident-orbital_12.jpg":"./assets/evidence/espace-incident-orbital_12.jpg","espace-espionnage-afrique_12.jpg":"./assets/evidence/espace-espionnage-afrique_12.jpg","crise-quartiers-riches_12.jpg":"./assets/evidence/crise-quartiers-riches_12.jpg","crise-controle-militaire_12.jpg":"./assets/evidence/crise-controle-militaire_12.jpg","base-contamination-eau_12.jpg":"./assets/evidence/base-contamination-eau_12.jpg","opex-interets-economiques_12.jpg":"./assets/evidence/opex-interets-economiques_12.jpg","opex-soutien-groupe-arme_12.jpg":"./assets/evidence/opex-soutien-groupe-arme_12.jpg","opex-frappes-civils_12.jpg":"./assets/evidence/opex-frappes-civils_12.jpg","sahel-charnier-desert_12.jpg":"./assets/evidence/sahel-charnier-desert_12.jpg","sahel-puits-empoisonnes_12.jpg":"./assets/evidence/sahel-puits-empoisonnes_12.jpg","sahel-drones-bergers_12.jpg":"./assets/evidence/sahel-drones-bergers_12.jpg","sahel-auxiliaires-abandonnes_12.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_12.jpg","sahel-retour-terroristes_12.jpg":"./assets/evidence/sahel-retour-terroristes_12.jpg","recrutement-soldats-sacrifies_12.jpg":"./assets/evidence/recrutement-soldats-sacrifies_12.jpg","industrie-armes-civils_12.jpg":"./assets/evidence/industrie-armes-civils_12.jpg","outremer-militarisation_12.jpg":"./assets/evidence/outremer-militarisation_12.jpg","nrbc-cobayes_12.jpg":"./assets/evidence/nrbc-cobayes_12.jpg","otan-souverainete-washington_12.jpg":"./assets/evidence/otan-souverainete-washington_12.jpg","transversal-france-ment_12.jpg":"./assets/evidence/transversal-france-ment_12.jpg","espace-militarisation-civils_13.jpg":"./assets/evidence/espace-militarisation-civils_13.jpg","espace-incident-orbital_13.jpg":"./assets/evidence/espace-incident-orbital_13.jpg","espace-espionnage-afrique_13.jpg":"./assets/evidence/espace-espionnage-afrique_13.jpg","crise-quartiers-riches_13.jpg":"./assets/evidence/crise-quartiers-riches_13.jpg","crise-controle-militaire_13.jpg":"./assets/evidence/crise-controle-militaire_13.jpg","base-contamination-eau_13.jpg":"./assets/evidence/base-contamination-eau_13.jpg","opex-interets-economiques_13.jpg":"./assets/evidence/opex-interets-economiques_13.jpg","opex-soutien-groupe-arme_13.jpg":"./assets/evidence/opex-soutien-groupe-arme_13.jpg","opex-frappes-civils_13.jpg":"./assets/evidence/opex-frappes-civils_13.jpg","sahel-charnier-desert_13.jpg":"./assets/evidence/sahel-charnier-desert_13.jpg","sahel-puits-empoisonnes_13.jpg":"./assets/evidence/sahel-puits-empoisonnes_13.jpg","sahel-drones-bergers_13.jpg":"./assets/evidence/sahel-drones-bergers_13.jpg","sahel-auxiliaires-abandonnes_13.jpg":"./assets/evidence/sahel-auxiliaires-abandonnes_13.jpg","sahel-retour-terroristes_13.jpg":"./assets/evidence/sahel-retour-terroristes_13.jpg","recrutement-soldats-sacrifies_13.jpg":"./assets/evidence/recrutement-soldats-sacrifies_13.jpg","industrie-armes-civils_13.jpg":"./assets/evidence/industrie-armes-civils_13.jpg","outremer-militarisation_13.jpg":"./assets/evidence/outremer-militarisation_13.jpg","nrbc-cobayes_13.jpg":"./assets/evidence/nrbc-cobayes_13.jpg","otan-souverainete-washington_13.jpg":"./assets/evidence/otan-souverainete-washington_13.jpg","transversal-france-ment_13.jpg":"./assets/evidence/transversal-france-ment_13.jpg","daily_fuel.jpg":"./assets/evidence/daily_fuel.jpg","daily_train.jpg":"./assets/evidence/daily_train.jpg","daily_supermarket.jpg":"./assets/evidence/daily_supermarket.jpg","daily_storm.jpg":"./assets/evidence/daily_storm.jpg","daily_roadworks.jpg":"./assets/evidence/daily_roadworks.jpg","daily_school.jpg":"./assets/evidence/daily_school.jpg","daily_stadium.jpg":"./assets/evidence/daily_stadium.jpg","daily_market.jpg":"./assets/evidence/daily_market.jpg","daily_health.jpg":"./assets/evidence/daily_health.jpg","daily_energy.jpg":"./assets/evidence/daily_energy.jpg","daily_cafe.jpg":"./assets/evidence/daily_cafe.jpg","daily_cinema.jpg":"./assets/evidence/daily_cinema.jpg","daily_traffic.jpg":"./assets/evidence/daily_traffic.jpg","daily_airport.jpg":"./assets/evidence/daily_airport.jpg","daily_parcels.jpg":"./assets/evidence/daily_parcels.jpg","daily_bakery.jpg":"./assets/evidence/daily_bakery.jpg","daily_festival.jpg":"./assets/evidence/daily_festival.jpg"};
-const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_human_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_human_alerte_espace_militarisat.jpg","avatar_human_dossier_conf_01.jpg":"./assets/avatars/avatar_human_dossier_conf_01.jpg","avatar_human_leaks24_01.jpg":"./assets/avatars/avatar_human_leaks24_01.jpg","avatar_human_voixdupeuple_news.jpg":"./assets/avatars/avatar_human_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_org_cuisine_du_jour.jpg":"./assets/avatars/avatar_org_cuisine_du_jour.jpg","avatar_org_velo_ville.jpg":"./assets/avatars/avatar_org_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_org_maison_travaux.jpg":"./assets/avatars/avatar_org_maison_travaux.jpg","avatar_org_fil_des_parents.jpg":"./assets/avatars/avatar_org_fil_des_parents.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_human_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_human_alerte_espace_incident_or.jpg","avatar_human_dossier_conf_02.jpg":"./assets/avatars/avatar_human_dossier_conf_02.jpg","avatar_human_leaks24_02.jpg":"./assets/avatars/avatar_human_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_human_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_human_alerte_espace_espionnage.jpg","avatar_human_dossier_conf_03.jpg":"./assets/avatars/avatar_human_dossier_conf_03.jpg","avatar_human_leaks24_03.jpg":"./assets/avatars/avatar_human_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_human_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_alerte_crise_quartiers_ri.jpg","avatar_human_dossier_conf_04.jpg":"./assets/avatars/avatar_human_dossier_conf_04.jpg","avatar_human_leaks24_04.jpg":"./assets/avatars/avatar_human_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_human_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_human_alerte_crise_controle_mil.jpg","avatar_human_dossier_conf_05.jpg":"./assets/avatars/avatar_human_dossier_conf_05.jpg","avatar_human_leaks24_05.jpg":"./assets/avatars/avatar_human_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_human_alerte_base_contamination.jpg":"./assets/avatars/avatar_human_alerte_base_contamination.jpg","avatar_human_dossier_conf_06.jpg":"./assets/avatars/avatar_human_dossier_conf_06.jpg","avatar_human_leaks24_06.jpg":"./assets/avatars/avatar_human_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_human_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_human_alerte_opex_interets_econ.jpg","avatar_human_dossier_conf_07.jpg":"./assets/avatars/avatar_human_dossier_conf_07.jpg","avatar_human_leaks24_07.jpg":"./assets/avatars/avatar_human_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_human_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_human_alerte_opex_soutien_group.jpg","avatar_human_dossier_conf_08.jpg":"./assets/avatars/avatar_human_dossier_conf_08.jpg","avatar_human_leaks24_08.jpg":"./assets/avatars/avatar_human_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_human_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_alerte_opex_frappes_civil.jpg","avatar_human_dossier_conf_09.jpg":"./assets/avatars/avatar_human_dossier_conf_09.jpg","avatar_human_leaks24_09.jpg":"./assets/avatars/avatar_human_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_human_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_alerte_sahel_charnier_des.jpg","avatar_human_dossier_conf_10.jpg":"./assets/avatars/avatar_human_dossier_conf_10.jpg","avatar_human_leaks24_10.jpg":"./assets/avatars/avatar_human_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_human_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_alerte_sahel_puits_empois.jpg","avatar_human_dossier_conf_11.jpg":"./assets/avatars/avatar_human_dossier_conf_11.jpg","avatar_human_leaks24_11.jpg":"./assets/avatars/avatar_human_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_human_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_alerte_sahel_drones_berge.jpg","avatar_human_dossier_conf_12.jpg":"./assets/avatars/avatar_human_dossier_conf_12.jpg","avatar_human_leaks24_12.jpg":"./assets/avatars/avatar_human_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_human_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_alerte_sahel_auxiliaires.jpg","avatar_human_dossier_conf_13.jpg":"./assets/avatars/avatar_human_dossier_conf_13.jpg","avatar_human_leaks24_13.jpg":"./assets/avatars/avatar_human_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_human_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_alerte_sahel_retour_terro.jpg","avatar_human_dossier_conf_14.jpg":"./assets/avatars/avatar_human_dossier_conf_14.jpg","avatar_human_leaks24_14.jpg":"./assets/avatars/avatar_human_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_human_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_human_alerte_recrutement_soldat.jpg","avatar_human_dossier_conf_15.jpg":"./assets/avatars/avatar_human_dossier_conf_15.jpg","avatar_human_leaks24_15.jpg":"./assets/avatars/avatar_human_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_human_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_alerte_industrie_armes_ci.jpg","avatar_human_dossier_conf_16.jpg":"./assets/avatars/avatar_human_dossier_conf_16.jpg","avatar_human_leaks24_16.jpg":"./assets/avatars/avatar_human_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_human_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_human_alerte_outremer_militaris.jpg","avatar_human_dossier_conf_17.jpg":"./assets/avatars/avatar_human_dossier_conf_17.jpg","avatar_human_leaks24_17.jpg":"./assets/avatars/avatar_human_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_human_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_alerte_nrbc_cobayes.jpg","avatar_human_dossier_conf_18.jpg":"./assets/avatars/avatar_human_dossier_conf_18.jpg","avatar_human_leaks24_18.jpg":"./assets/avatars/avatar_human_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_human_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_human_alerte_otan_souverainete.jpg","avatar_human_dossier_conf_19.jpg":"./assets/avatars/avatar_human_dossier_conf_19.jpg","avatar_human_leaks24_19.jpg":"./assets/avatars/avatar_human_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_human_alerte_transversal_france.jpg":"./assets/avatars/avatar_human_alerte_transversal_france.jpg","avatar_human_dossier_conf_20.jpg":"./assets/avatars/avatar_human_dossier_conf_20.jpg","avatar_human_leaks24_20.jpg":"./assets/avatars/avatar_human_leaks24_20.jpg"};
+const avatarAssets = {"avatar_org_canal_officiel_espace.jpg":"./assets/avatars/avatar_org_canal_officiel_espace.jpg","avatar_org_agence_horizon.jpg":"./assets/avatars/avatar_org_agence_horizon.jpg","avatar_org_verif_images.jpg":"./assets/avatars/avatar_org_verif_images.jpg","avatar_org_osint_methodes.jpg":"./assets/avatars/avatar_org_osint_methodes.jpg","avatar_human_temoin_espace_militarisat.jpg":"./assets/avatars/avatar_human_temoin_espace_militarisat.jpg","avatar_org_observatoire_civil_01.jpg":"./assets/avatars/avatar_org_observatoire_civil_01.jpg","avatar_org_alerte_espace_militarisat.jpg":"./assets/avatars/avatar_org_alerte_espace_militarisat.jpg","avatar_org_dossier_conf_01.jpg":"./assets/avatars/avatar_org_dossier_conf_01.jpg","avatar_org_leaks24_01.jpg":"./assets/avatars/avatar_org_leaks24_01.jpg","avatar_org_voixdupeuple_news.jpg":"./assets/avatars/avatar_org_voixdupeuple_news.jpg","avatar_org_globalintel_fr.jpg":"./assets/avatars/avatar_org_globalintel_fr.jpg","avatar_political_donald_tromp.jpg":"./assets/avatars/avatar_political_donald_tromp.jpg","avatar_political_vladmir_poutin.jpg":"./assets/avatars/avatar_political_vladmir_poutin.jpg","avatar_political_ilhan_aliyef.jpg":"./assets/avatars/avatar_political_ilhan_aliyef.jpg","avatar_political_ursula_von_der_lyen.jpg":"./assets/avatars/avatar_political_ursula_von_der_lyen.jpg","avatar_political_jordane_bardelle.jpg":"./assets/avatars/avatar_political_jordane_bardelle.jpg","avatar_org_carbu_minute.jpg":"./assets/avatars/avatar_org_carbu_minute.jpg","avatar_org_meteo_fil.jpg":"./assets/avatars/avatar_org_meteo_fil.jpg","avatar_org_trafic_rail_idf.jpg":"./assets/avatars/avatar_org_trafic_rail_idf.jpg","avatar_org_panier_conso.jpg":"./assets/avatars/avatar_org_panier_conso.jpg","avatar_org_actu_flash_fr.jpg":"./assets/avatars/avatar_org_actu_flash_fr.jpg","avatar_org_marches_energie.jpg":"./assets/avatars/avatar_org_marches_energie.jpg","avatar_org_stade_direct.jpg":"./assets/avatars/avatar_org_stade_direct.jpg","avatar_org_vie_locale.jpg":"./assets/avatars/avatar_org_vie_locale.jpg","avatar_org_rumeur_radar.jpg":"./assets/avatars/avatar_org_rumeur_radar.jpg","avatar_org_eco_matin.jpg":"./assets/avatars/avatar_org_eco_matin.jpg","avatar_org_classe_connectee.jpg":"./assets/avatars/avatar_org_classe_connectee.jpg","avatar_org_sorties_ecrans.jpg":"./assets/avatars/avatar_org_sorties_ecrans.jpg","avatar_org_sante_pratique.jpg":"./assets/avatars/avatar_org_sante_pratique.jpg","avatar_org_route_bouchons.jpg":"./assets/avatars/avatar_org_route_bouchons.jpg","avatar_org_aeroport_minute.jpg":"./assets/avatars/avatar_org_aeroport_minute.jpg","avatar_org_colis_services.jpg":"./assets/avatars/avatar_org_colis_services.jpg","avatar_org_logement_clair.jpg":"./assets/avatars/avatar_org_logement_clair.jpg","avatar_org_conso_numerique.jpg":"./assets/avatars/avatar_org_conso_numerique.jpg","avatar_org_emploi_regions.jpg":"./assets/avatars/avatar_org_emploi_regions.jpg","avatar_human_cuisine_du_jour.jpg":"./assets/avatars/avatar_human_cuisine_du_jour.jpg","avatar_human_velo_ville.jpg":"./assets/avatars/avatar_human_velo_ville.jpg","avatar_org_agenda_municipal.jpg":"./assets/avatars/avatar_org_agenda_municipal.jpg","avatar_human_maison_travaux.jpg":"./assets/avatars/avatar_human_maison_travaux.jpg","avatar_human_fil_des_parents.jpg":"./assets/avatars/avatar_human_fil_des_parents.jpg","avatar_human_temoin_espace_incident_or.jpg":"./assets/avatars/avatar_human_temoin_espace_incident_or.jpg","avatar_org_observatoire_civil_02.jpg":"./assets/avatars/avatar_org_observatoire_civil_02.jpg","avatar_org_alerte_espace_incident_or.jpg":"./assets/avatars/avatar_org_alerte_espace_incident_or.jpg","avatar_org_dossier_conf_02.jpg":"./assets/avatars/avatar_org_dossier_conf_02.jpg","avatar_org_leaks24_02.jpg":"./assets/avatars/avatar_org_leaks24_02.jpg","avatar_human_temoin_espace_espionnage.jpg":"./assets/avatars/avatar_human_temoin_espace_espionnage.jpg","avatar_org_observatoire_civil_03.jpg":"./assets/avatars/avatar_org_observatoire_civil_03.jpg","avatar_org_alerte_espace_espionnage.jpg":"./assets/avatars/avatar_org_alerte_espace_espionnage.jpg","avatar_org_dossier_conf_03.jpg":"./assets/avatars/avatar_org_dossier_conf_03.jpg","avatar_org_leaks24_03.jpg":"./assets/avatars/avatar_org_leaks24_03.jpg","avatar_org_canal_officiel_crise.jpg":"./assets/avatars/avatar_org_canal_officiel_crise.jpg","avatar_human_temoin_crise_quartiers_ri.jpg":"./assets/avatars/avatar_human_temoin_crise_quartiers_ri.jpg","avatar_org_observatoire_civil_04.jpg":"./assets/avatars/avatar_org_observatoire_civil_04.jpg","avatar_org_alerte_crise_quartiers_ri.jpg":"./assets/avatars/avatar_org_alerte_crise_quartiers_ri.jpg","avatar_org_dossier_conf_04.jpg":"./assets/avatars/avatar_org_dossier_conf_04.jpg","avatar_org_leaks24_04.jpg":"./assets/avatars/avatar_org_leaks24_04.jpg","avatar_human_temoin_crise_controle_mil.jpg":"./assets/avatars/avatar_human_temoin_crise_controle_mil.jpg","avatar_org_observatoire_civil_05.jpg":"./assets/avatars/avatar_org_observatoire_civil_05.jpg","avatar_org_alerte_crise_controle_mil.jpg":"./assets/avatars/avatar_org_alerte_crise_controle_mil.jpg","avatar_org_dossier_conf_05.jpg":"./assets/avatars/avatar_org_dossier_conf_05.jpg","avatar_org_leaks24_05.jpg":"./assets/avatars/avatar_org_leaks24_05.jpg","avatar_org_canal_officiel_base.jpg":"./assets/avatars/avatar_org_canal_officiel_base.jpg","avatar_human_temoin_base_contamination.jpg":"./assets/avatars/avatar_human_temoin_base_contamination.jpg","avatar_org_observatoire_civil_06.jpg":"./assets/avatars/avatar_org_observatoire_civil_06.jpg","avatar_org_alerte_base_contamination.jpg":"./assets/avatars/avatar_org_alerte_base_contamination.jpg","avatar_org_dossier_conf_06.jpg":"./assets/avatars/avatar_org_dossier_conf_06.jpg","avatar_org_leaks24_06.jpg":"./assets/avatars/avatar_org_leaks24_06.jpg","avatar_org_canal_officiel_opex.jpg":"./assets/avatars/avatar_org_canal_officiel_opex.jpg","avatar_human_temoin_opex_interets_econ.jpg":"./assets/avatars/avatar_human_temoin_opex_interets_econ.jpg","avatar_org_observatoire_civil_07.jpg":"./assets/avatars/avatar_org_observatoire_civil_07.jpg","avatar_org_alerte_opex_interets_econ.jpg":"./assets/avatars/avatar_org_alerte_opex_interets_econ.jpg","avatar_org_dossier_conf_07.jpg":"./assets/avatars/avatar_org_dossier_conf_07.jpg","avatar_org_leaks24_07.jpg":"./assets/avatars/avatar_org_leaks24_07.jpg","avatar_human_temoin_opex_soutien_group.jpg":"./assets/avatars/avatar_human_temoin_opex_soutien_group.jpg","avatar_org_observatoire_civil_08.jpg":"./assets/avatars/avatar_org_observatoire_civil_08.jpg","avatar_org_alerte_opex_soutien_group.jpg":"./assets/avatars/avatar_org_alerte_opex_soutien_group.jpg","avatar_org_dossier_conf_08.jpg":"./assets/avatars/avatar_org_dossier_conf_08.jpg","avatar_org_leaks24_08.jpg":"./assets/avatars/avatar_org_leaks24_08.jpg","avatar_human_temoin_opex_frappes_civil.jpg":"./assets/avatars/avatar_human_temoin_opex_frappes_civil.jpg","avatar_org_observatoire_civil_09.jpg":"./assets/avatars/avatar_org_observatoire_civil_09.jpg","avatar_org_alerte_opex_frappes_civil.jpg":"./assets/avatars/avatar_org_alerte_opex_frappes_civil.jpg","avatar_org_dossier_conf_09.jpg":"./assets/avatars/avatar_org_dossier_conf_09.jpg","avatar_org_leaks24_09.jpg":"./assets/avatars/avatar_org_leaks24_09.jpg","avatar_org_canal_officiel_sahel.jpg":"./assets/avatars/avatar_org_canal_officiel_sahel.jpg","avatar_human_temoin_sahel_charnier_des.jpg":"./assets/avatars/avatar_human_temoin_sahel_charnier_des.jpg","avatar_org_observatoire_civil_10.jpg":"./assets/avatars/avatar_org_observatoire_civil_10.jpg","avatar_org_alerte_sahel_charnier_des.jpg":"./assets/avatars/avatar_org_alerte_sahel_charnier_des.jpg","avatar_org_dossier_conf_10.jpg":"./assets/avatars/avatar_org_dossier_conf_10.jpg","avatar_org_leaks24_10.jpg":"./assets/avatars/avatar_org_leaks24_10.jpg","avatar_human_temoin_sahel_puits_empois.jpg":"./assets/avatars/avatar_human_temoin_sahel_puits_empois.jpg","avatar_org_observatoire_civil_11.jpg":"./assets/avatars/avatar_org_observatoire_civil_11.jpg","avatar_org_alerte_sahel_puits_empois.jpg":"./assets/avatars/avatar_org_alerte_sahel_puits_empois.jpg","avatar_org_dossier_conf_11.jpg":"./assets/avatars/avatar_org_dossier_conf_11.jpg","avatar_org_leaks24_11.jpg":"./assets/avatars/avatar_org_leaks24_11.jpg","avatar_human_temoin_sahel_drones_berge.jpg":"./assets/avatars/avatar_human_temoin_sahel_drones_berge.jpg","avatar_org_observatoire_civil_12.jpg":"./assets/avatars/avatar_org_observatoire_civil_12.jpg","avatar_org_alerte_sahel_drones_berge.jpg":"./assets/avatars/avatar_org_alerte_sahel_drones_berge.jpg","avatar_org_dossier_conf_12.jpg":"./assets/avatars/avatar_org_dossier_conf_12.jpg","avatar_org_leaks24_12.jpg":"./assets/avatars/avatar_org_leaks24_12.jpg","avatar_human_temoin_sahel_auxiliaires.jpg":"./assets/avatars/avatar_human_temoin_sahel_auxiliaires.jpg","avatar_org_observatoire_civil_13.jpg":"./assets/avatars/avatar_org_observatoire_civil_13.jpg","avatar_org_alerte_sahel_auxiliaires.jpg":"./assets/avatars/avatar_org_alerte_sahel_auxiliaires.jpg","avatar_org_dossier_conf_13.jpg":"./assets/avatars/avatar_org_dossier_conf_13.jpg","avatar_org_leaks24_13.jpg":"./assets/avatars/avatar_org_leaks24_13.jpg","avatar_human_temoin_sahel_retour_terro.jpg":"./assets/avatars/avatar_human_temoin_sahel_retour_terro.jpg","avatar_org_observatoire_civil_14.jpg":"./assets/avatars/avatar_org_observatoire_civil_14.jpg","avatar_org_alerte_sahel_retour_terro.jpg":"./assets/avatars/avatar_org_alerte_sahel_retour_terro.jpg","avatar_org_dossier_conf_14.jpg":"./assets/avatars/avatar_org_dossier_conf_14.jpg","avatar_org_leaks24_14.jpg":"./assets/avatars/avatar_org_leaks24_14.jpg","avatar_org_canal_officiel_recrutement.jpg":"./assets/avatars/avatar_org_canal_officiel_recrutement.jpg","avatar_human_temoin_recrutement_soldat.jpg":"./assets/avatars/avatar_human_temoin_recrutement_soldat.jpg","avatar_org_observatoire_civil_15.jpg":"./assets/avatars/avatar_org_observatoire_civil_15.jpg","avatar_org_alerte_recrutement_soldat.jpg":"./assets/avatars/avatar_org_alerte_recrutement_soldat.jpg","avatar_org_dossier_conf_15.jpg":"./assets/avatars/avatar_org_dossier_conf_15.jpg","avatar_org_leaks24_15.jpg":"./assets/avatars/avatar_org_leaks24_15.jpg","avatar_org_canal_officiel_industrie.jpg":"./assets/avatars/avatar_org_canal_officiel_industrie.jpg","avatar_human_temoin_industrie_armes_ci.jpg":"./assets/avatars/avatar_human_temoin_industrie_armes_ci.jpg","avatar_org_observatoire_civil_16.jpg":"./assets/avatars/avatar_org_observatoire_civil_16.jpg","avatar_org_alerte_industrie_armes_ci.jpg":"./assets/avatars/avatar_org_alerte_industrie_armes_ci.jpg","avatar_org_dossier_conf_16.jpg":"./assets/avatars/avatar_org_dossier_conf_16.jpg","avatar_org_leaks24_16.jpg":"./assets/avatars/avatar_org_leaks24_16.jpg","avatar_org_canal_officiel_outremer.jpg":"./assets/avatars/avatar_org_canal_officiel_outremer.jpg","avatar_human_temoin_outremer_militaris.jpg":"./assets/avatars/avatar_human_temoin_outremer_militaris.jpg","avatar_org_observatoire_civil_17.jpg":"./assets/avatars/avatar_org_observatoire_civil_17.jpg","avatar_org_alerte_outremer_militaris.jpg":"./assets/avatars/avatar_org_alerte_outremer_militaris.jpg","avatar_org_dossier_conf_17.jpg":"./assets/avatars/avatar_org_dossier_conf_17.jpg","avatar_org_leaks24_17.jpg":"./assets/avatars/avatar_org_leaks24_17.jpg","avatar_org_canal_officiel_nrbc.jpg":"./assets/avatars/avatar_org_canal_officiel_nrbc.jpg","avatar_human_temoin_nrbc_cobayes.jpg":"./assets/avatars/avatar_human_temoin_nrbc_cobayes.jpg","avatar_org_observatoire_civil_18.jpg":"./assets/avatars/avatar_org_observatoire_civil_18.jpg","avatar_org_alerte_nrbc_cobayes.jpg":"./assets/avatars/avatar_org_alerte_nrbc_cobayes.jpg","avatar_org_dossier_conf_18.jpg":"./assets/avatars/avatar_org_dossier_conf_18.jpg","avatar_org_leaks24_18.jpg":"./assets/avatars/avatar_org_leaks24_18.jpg","avatar_org_canal_officiel_otan.jpg":"./assets/avatars/avatar_org_canal_officiel_otan.jpg","avatar_human_temoin_otan_souverainete.jpg":"./assets/avatars/avatar_human_temoin_otan_souverainete.jpg","avatar_org_observatoire_civil_19.jpg":"./assets/avatars/avatar_org_observatoire_civil_19.jpg","avatar_org_alerte_otan_souverainete.jpg":"./assets/avatars/avatar_org_alerte_otan_souverainete.jpg","avatar_org_dossier_conf_19.jpg":"./assets/avatars/avatar_org_dossier_conf_19.jpg","avatar_org_leaks24_19.jpg":"./assets/avatars/avatar_org_leaks24_19.jpg","avatar_org_canal_officiel_transversal.jpg":"./assets/avatars/avatar_org_canal_officiel_transversal.jpg","avatar_human_temoin_transversal_france.jpg":"./assets/avatars/avatar_human_temoin_transversal_france.jpg","avatar_org_observatoire_civil_20.jpg":"./assets/avatars/avatar_org_observatoire_civil_20.jpg","avatar_org_alerte_transversal_france.jpg":"./assets/avatars/avatar_org_alerte_transversal_france.jpg","avatar_org_dossier_conf_20.jpg":"./assets/avatars/avatar_org_dossier_conf_20.jpg","avatar_org_leaks24_20.jpg":"./assets/avatars/avatar_org_leaks24_20.jpg"};
 const appLogo = "./assets/branding/hawk-logo.png";
 
 const state = {
@@ -19803,7 +20123,18 @@ const els = {
   answerKey: document.querySelector("#answerKey"),
   applyScenario: document.querySelector("#applyScenario"),
   copyTemplate: document.querySelector("#copyTemplate"),
-  refreshFeedBtn: document.querySelector("#refreshFeedBtn")
+  refreshFeedBtn: document.querySelector("#refreshFeedBtn"),
+  composePostBtn: document.querySelector("#composePostBtn"),
+  composeDialog: document.querySelector("#composeDialog"),
+  composeActorSelect: document.querySelector("#composeActorSelect"),
+  composeToneSelect: document.querySelector("#composeToneSelect"),
+  composeText: document.querySelector("#composeText"),
+  composeMediaSelect: document.querySelector("#composeMediaSelect"),
+  composeUpload: document.querySelector("#composeUpload"),
+  composePreview: document.querySelector("#composePreview"),
+  generateComposeText: document.querySelector("#generateComposeText"),
+  generateComposeVisual: document.querySelector("#generateComposeVisual"),
+  publishComposePost: document.querySelector("#publishComposePost")
 };
 
 function hashSeed(input) {
@@ -19859,14 +20190,146 @@ function formatRelativeTime(date, now = parisNow()) {
 }
 
 function livePostDate(minute, duration, now = parisNow()) {
-  const spread = Math.max(duration, minute + 20);
-  const ageMinutes = Math.max(0, spread - minute);
+  const ageMinutes = Math.max(0, duration - Number(minute || 0));
   return new Date(now.getTime() - ageMinutes * 60000);
 }
 
 function actorByHandle(scenario, handle) {
   return scenario.actors.find((actor) => actor.handle === handle) || scenario.actors[0];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -20059,29 +20522,51 @@ function distractorPostContent(actor, random) {
   return pick(byHandle[actor.handle] || general, random);
 }
 
-function distractorMediaForScenario(scenario, actor, index, random) {
+function distractorMediaForScenario(scenario, actor, index, random, content) {
   const pool = scenario.dailyMedia || [];
   if (!pool.length || random() < 0.28) return null;
-  const targeted = pool.filter((media) => (media.handles || []).includes(actor.handle));
-  const candidates = targeted.length ? targeted : pool;
-  return candidates[(index + hashSeed(actor.handle || "daily")) % candidates.length];
+  const allowedAssets = {
+    "@carbu_minute": ["daily_fuel.jpg"],
+    "@meteo_fil": ["daily_storm.jpg"],
+    "@trafic_rail_idf": ["daily_train.jpg"],
+    "@panier_conso": ["daily_supermarket.jpg", "daily_market.jpg"],
+    "@marches_energie": ["daily_fuel.jpg", "daily_energy.jpg"],
+    "@stade_direct": ["daily_stadium.jpg"],
+    "@vie_locale": ["daily_market.jpg", "daily_roadworks.jpg"],
+    "@eco_matin": ["daily_energy.jpg", "daily_supermarket.jpg"],
+    "@classe_connectee": ["daily_school.jpg"],
+    "@sorties_ecrans": ["daily_cinema.jpg", "daily_festival.jpg"],
+    "@sante_pratique": ["daily_health.jpg"],
+    "@route_bouchons": ["daily_traffic.jpg", "daily_roadworks.jpg"],
+    "@aeroport_minute": ["daily_airport.jpg"],
+    "@colis_services": ["daily_parcels.jpg"],
+    "@logement_clair": ["daily_energy.jpg"],
+    "@cuisine_du_jour": ["daily_market.jpg", "daily_bakery.jpg"],
+    "@agenda_municipal": ["daily_market.jpg", "daily_roadworks.jpg", "daily_festival.jpg"],
+    "@maison_travaux": ["daily_roadworks.jpg"],
+    "@fil_des_parents": ["daily_school.jpg"]
+  }[actor.handle] || [];
+  if (!allowedAssets.length) return null;
+  const candidates = pool.filter((media) => allowedAssets.includes(media.asset));
+  return coherentMediaForPost(candidates, content, actor, random, 6);
 }
 
 function distractorPostForScenario(scenario, actor, index, duration, random) {
   const burst = actor.trust === "low" ? 2.8 + random() * 8 : actor.trust === "high" ? 0.6 + random() * 1.4 : 0.9 + random() * 3.8;
-  const minute = Math.floor(random() * duration);
+  const minute = random() * duration;
+  const content = distractorPostContent(actor, random);
   return {
     id: `${scenario.id || "scenario"}-noise-${index}`,
     minute,
     actor: actor.handle,
-    content: distractorPostContent(actor, random),
+    content,
     suspect: false,
     distractor: true,
     reason: "",
     likes: Math.floor((18 + random() * 2400) * burst),
     reposts: Math.floor((4 + random() * 900) * burst),
     replies: Math.floor((2 + random() * 260) * burst),
-    media: distractorMediaForScenario(scenario, actor, index, random)
+    media: distractorMediaForScenario(scenario, actor, index, random, content)
   };
 }
 
@@ -20144,7 +20629,7 @@ function politicalPostsForScenario(scenario, duration) {
     }[actor.handle] || [18000, 6000, 2400];
     return {
       id: `${scenario.id}-political-${actor.persona || index}`,
-      minute: Math.floor(duration * (0.68 + random() * 0.29)),
+      minute: duration * (0.68 + random() * 0.29),
       actor: actor.handle,
       content: politicalPostContent(actor, scenario, random),
       suspect,
@@ -20155,6 +20640,102 @@ function politicalPostsForScenario(scenario, duration) {
       media: null
     };
   });
+}
+
+function normalizedMatchText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[̀-ͯ]/g, "")
+    .toLowerCase();
+}
+
+function mediaMatchScore(media, content, actor) {
+  const message = normalizedMatchText(content);
+  const description = normalizedMatchText(`${media?.title || ""} ${media?.caption || ""} ${media?.asset || ""}`);
+  if (!description) return 0;
+  let score = 0;
+  const meaningfulWords = message.split(/[^a-z0-9]+/).filter((word) => word.length >= 5);
+  meaningfulWords.forEach((word) => {
+    if (description.includes(word)) score += 2;
+  });
+  const semanticGroups = [
+    [["hopital", "sante", "soin", "pharmacie", "medical", "cabinet"], ["hopital", "sante", "medical", "attente"]],
+    [["satellite", "orbite", "spatial", "espace"], ["satellite", "orbite", "spatial", "espace", "controle"]],
+    [["train", "ter", "gare", "quai", "rail"], ["train", "gare", "quai", "rail"]],
+    [["carburant", "gazole", "essence", "station"], ["fuel", "carburant", "station", "energie"]],
+    [["pluie", "orage", "meteo", "inond"], ["storm", "pluie", "meteo"]],
+    [["ecole", "cantine", "classe", "ent"], ["school", "ecole", "classe"]],
+    [["cinema", "film", "bande-annonce", "ecrans"], ["cinema", "ecrans"]],
+    [["match", "stade", "supporter", "foot"], ["stadium", "stade", "sport"]],
+    [["aeroport", "vol", "bagage"], ["airport", "aeroport"]],
+    [["colis", "livraison", "relais"], ["parcels", "colis", "livraison"]],
+    [["boulangerie", "farine", "pain"], ["bakery", "boulangerie"]],
+    [["marche", "panier", "prix", "courses"], ["market", "supermarket", "marche", "courses"]],
+    [["travaux", "chantier", "rond-point", "route barree"], ["roadworks", "travaux"]],
+    [["trafic", "bouchon", "rocade", "vehicule"], ["traffic", "embouteillage"]],
+    [["energie", "chauffage", "facture", "carburant", "gazole", "petrole"], ["energy", "energie", "facture", "consommation", "fuel", "station"]],
+    [["festival", "concert", "sortie"], ["festival", "sortie"]]
+  ];
+  semanticGroups.forEach(([messageTerms, mediaTerms]) => {
+    if (messageTerms.some((term) => message.includes(term)) && mediaTerms.some((term) => description.includes(term))) score += 8;
+  });
+  if ((media?.handles || []).includes(actor?.handle)) score += 1;
+  return score;
+}
+
+function coherentMediaForPost(pool, content, actor, random, minimumScore = 4) {
+  const ranked = (pool || [])
+    .map((media) => ({ media, score: mediaMatchScore(media, content, actor) }))
+    .sort((a, b) => b.score - a.score);
+  if (!ranked.length || ranked[0].score < minimumScore) return null;
+  const best = ranked.filter((item) => item.score >= ranked[0].score - 1);
+  return structuredClone(pick(best, random).media);
+}
+
+function contentForSelectedMedia(scenario, media, suspect, random) {
+  const subject = String(scenario.title || "la situation en cours").replace(/^[^:]+:\s*/, "").replace(/[.!?]+$/, "");
+  const title = String(media?.title || "ce visuel");
+  const suspectVersions = [
+    `Cette image présentée comme « ${title} » confirmerait que ${subject}. Les autorités doivent répondre maintenant.`,
+    `NOUVEAU VISUEL : « ${title} ». D'après nos sources, cela confirmerait que ${subject}. Faites circuler avant suppression.`,
+    `Regardez « ${title} » : les détails visibles concordent avec l'affirmation selon laquelle ${subject}. Le silence officiel devient intenable.`
+  ];
+  const carefulVersions = [
+    `Cette image est présentée comme « ${title} ». Avant de la relier à l'affirmation selon laquelle ${subject}, il faut vérifier sa date, son lieu et sa source.`,
+    `Le visuel « ${title} » circule beaucoup. Il illustre le sujet, mais ne suffit pas à démontrer que ${subject}.`,
+    `À propos de « ${title} » : recherche de la publication d'origine en cours avant toute conclusion sur l'affirmation selon laquelle ${subject}.`
+  ];
+  return pick(suspect ? suspectVersions : carefulVersions, random);
+}
+
+function normalizePostEngagement(post, now = parisNow()) {
+  const actor = post.actor || {};
+  const targetLikes = Number(post._targetLikes ?? post.likes) || 0;
+  const targetReposts = Number(post._targetReposts ?? post.reposts) || 0;
+  const targetReplies = Number(post._targetReplies ?? post.replies) || 0;
+  const ageMinutes = Math.max(0, Math.floor((now - post.liveDate) / 60000));
+  const growth = Math.pow(ageMinutes, 0.82);
+  const multiplier = isPoliticalActor(actor)
+    ? 60
+    : post.suspect
+      ? 16
+      : post.distractor
+        ? (actor.trust === "low" ? 6 : 3)
+        : (actor.verified ? 4 : 2);
+  const caps = {
+    likes: Math.ceil(multiplier * (8 + 22 * growth)),
+    reposts: Math.ceil(multiplier * (2 + 6 * growth)),
+    replies: Math.ceil(multiplier * (1 + 3 * growth))
+  };
+  return {
+    ...post,
+    _targetLikes: targetLikes,
+    _targetReposts: targetReposts,
+    _targetReplies: targetReplies,
+    likes: Math.min(Math.max(0, targetLikes), caps.likes),
+    reposts: Math.min(Math.max(0, targetReposts), caps.reposts),
+    replies: Math.min(Math.max(0, targetReplies), caps.replies)
+  };
 }
 
 function generatePosts(scenario) {
@@ -20178,9 +20759,11 @@ function generatePosts(scenario) {
     const candidates = regularActors.filter((actor) => suspect ? actor.trust === "low" : actor.trust !== "low");
     const actor = pick(candidates.length ? candidates : regularActors, random);
     const templates = suspect ? scenario.suspectTemplates : scenario.normalTemplates;
-    const minute = Math.floor(random() * duration);
+    const minute = random() * duration;
     const trend = pick(scenarioTrends.length ? scenarioTrends : scenario.trends, random).tag;
     const hasMedia = random() > (suspect ? 0.10 : 0.48);
+    const media = hasMedia && (scenario.mediaLabels || []).length ? structuredClone(pick(scenario.mediaLabels, random)) : null;
+    const baseContent = pick(templates, random);
     const spike = suspect ? 18 + random() * 26 : actor.trust === "high" ? 0.55 + random() * 0.9 : 1.2 + random() * 2.4;
     const likes = Math.floor((20 + random() * 560) * spike);
     const reposts = Math.floor((6 + random() * 260) * spike);
@@ -20190,13 +20773,13 @@ function generatePosts(scenario) {
       id: `${scenario.id || "scenario"}-gen-${i}`,
       minute,
       actor: actor.handle,
-      content: `${pick(templates, random)} ${random() > 0.62 ? trend : ""}`.trim(),
+      content: `${media ? contentForSelectedMedia(scenario, media, suspect, random) : baseContent} ${random() > 0.62 ? trend : ""}`.trim(),
       suspect,
       reason: suspect ? inferReason(actor, hasMedia) : "",
       likes,
       reposts,
       replies,
-      media: hasMedia ? pick(scenario.mediaLabels || [], random) : null
+      media
     });
   }
 
@@ -20219,13 +20802,13 @@ function generatePosts(scenario) {
     .sort((a, b) => b.liveDate - a.liveDate)
     .map((post, index) => {
       const actor = actorByHandle(scenario, post.actor);
-      return {
+      return normalizePostEngagement({
         ...post,
         index: index + 1,
         time: formatTime(post.liveDate),
         relativeTime: formatRelativeTime(post.liveDate, now),
         actor
-      };
+      }, now);
     });
 }
 
@@ -20398,7 +20981,7 @@ function escapeHtml(value) {
 function renderMedia(media, post) {
   if (!media) return "";
   const asset = media.asset || defaultEvidenceAsset(media, post);
-  const src = evidenceAssets[asset];
+  const src = media.dataUrl || evidenceAssets[asset];
   if (!src) return "";
 
   return `
@@ -20550,6 +21133,28 @@ function renderFeed() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -20585,20 +21190,25 @@ function buildComments(post) {
     "Ça peut être grave, justement il faut vérifier proprement."
   ];
   const templates = post.distractor ? everydayComments : post.suspect ? suspectComments.concat(carefulComments) : carefulComments.concat(suspectComments.slice(0, 2));
-  const count = post.distractor ? 2 + Math.floor(random() * 4) : post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
+  const desiredCount = post.distractor ? 2 + Math.floor(random() * 4) : post.suspect ? 5 + Math.floor(random() * 3) : 3 + Math.floor(random() * 2);
+  const ageMinutes = Math.max(0, Math.floor((parisNow() - post.liveDate) / 60000));
+  const ageLimit = ageMinutes < 1 ? 0 : ageMinutes < 3 ? 1 : ageMinutes < 10 ? 2 : ageMinutes < 30 ? 4 : 7;
+  const count = Math.min(desiredCount, ageLimit, Math.max(0, Number(post.replies) || 0));
+  const likeCap = Math.max(1, Math.floor((Number(post.likes) || 0) * 0.12));
   return Array.from({ length: count }, (_, index) => {
     const actor = pool.length ? pool[Math.floor(random() * pool.length)] : allEligibleActors[0] || post.actor;
     return {
       id: `${post.id}-comment-${index}`,
       actor,
       content: templates[Math.floor(random() * templates.length)],
-      likes: Math.floor((post.suspect ? 40 : 8) + random() * (post.suspect ? 1800 : 240))
+      likes: Math.min(likeCap, Math.floor(1 + random() * likeCap))
     };
   });
 }
 
 function renderComments(post) {
   const comments = post.comments || buildComments(post);
+  if (!comments.length) return "";
   return `
     <div class="comment-thread">
       ${comments.map((comment) => `
@@ -20621,7 +21231,7 @@ function renderComments(post) {
 function renderPost(post) {
   const flagged = state.flags.get(post.id);
   return `
-    <article class="post ${flagged ? "is-flagged" : ""}" data-post-id="${escapeHtml(post.id)}">
+    <article class="post ${flagged ? "is-flagged" : ""} ${post.teacherCreated ? "teacher-created" : ""}" data-post-id="${escapeHtml(post.id)}">
       ${renderAvatarButton(post.actor, "avatar-feed")}
       <div class="post-body">
         <div class="post-head">
@@ -20629,6 +21239,7 @@ function renderPost(post) {
           ${post.actor.verified ? `<span class="badge" title="Compte vérifié">&#10003;</span>` : ""}
           <span class="handle">${escapeHtml(post.actor.handle)}</span>
           <span class="time">· ${escapeHtml(post.relativeTime)} · ${escapeHtml(post.time)}</span>
+          ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<span class="teacher-post-label">Créé par l'enseignant</span>` : ""}
         </div>
         <p class="post-content">${linkify(escapeHtml(post.content))}</p>
         ${renderMedia(post.media, post)}
@@ -20643,6 +21254,7 @@ function renderPost(post) {
               ${flagged ? "Signalé" : "Signaler"}
             </button>
             <button class="action-button" data-action="annotate">Annoter</button>
+            ${post.teacherCreated && document.body.dataset.mode === "teacher" ? `<button class="action-button" data-action="delete-teacher">Supprimer</button>` : ""}
           </div>
         </div>
         ${renderComments(post)}
@@ -20663,6 +21275,7 @@ function createLivePost(renderImmediately = true) {
     post.liveDate = liveDate;
     post.time = formatTime(liveDate);
     post.relativeTime = "à l'instant";
+    Object.assign(post, normalizePostEngagement(post, liveDate));
     post.comments = buildComments(post);
     state.posts = [post, ...state.posts].slice(0, 640);
     if (renderImmediately) {
@@ -20679,21 +21292,23 @@ function createLivePost(renderImmediately = true) {
   const mediaPool = state.scenario.mediaLabels || [];
   const scenarioTrends = state.scenario.trends.filter((item) => !item.daily);
   const trend = pick(scenarioTrends.length ? scenarioTrends : state.scenario.trends, random).tag;
-  const post = {
+  const media = mediaPool.length && random() > (suspect ? 0.12 : 0.55) ? structuredClone(pick(mediaPool, random)) : null;
+  let post = {
     id: `${state.scenario.id}-live-${Date.now()}-${Math.floor(random() * 9999)}`,
     minute: scenarioDurationMinutes(state.scenario),
     actor,
-    content: `${pick(templates, random)} ${random() > 0.36 ? trend : ""}`.trim(),
+    content: `${media ? contentForSelectedMedia(state.scenario, media, suspect, random) : pick(templates, random)} ${random() > 0.36 ? trend : ""}`.trim(),
     suspect,
     reason: suspect ? inferReason(actor, true) : "",
     likes: suspect ? Math.floor(18000 + random() * 160000) : Math.floor(120 + random() * 2400),
     reposts: suspect ? Math.floor(9000 + random() * 88000) : Math.floor(40 + random() * 1000),
     replies: suspect ? Math.floor(2400 + random() * 24000) : Math.floor(12 + random() * 500),
-    media: mediaPool.length && random() > (suspect ? 0.12 : 0.55) ? structuredClone(pick(mediaPool, random)) : null,
+    media,
     liveDate,
     time: formatTime(liveDate),
     relativeTime: "à l'instant"
   };
+  post = normalizePostEngagement(post, liveDate);
   post.comments = buildComments(post);
   state.posts = [post, ...state.posts].slice(0, 640);
   if (renderImmediately) {
@@ -20720,6 +21335,16 @@ function refreshLiveTimes() {
       time: formatTime(post.liveDate),
       relativeTime: formatRelativeTime(post.liveDate, now)
     }))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
+    .map((post) => normalizePostEngagement(post, now))
     .sort((a, b) => b.liveDate - a.liveDate);
   renderFeed();
   renderFlags();
@@ -20784,7 +21409,7 @@ function renderAnswerKey() {
 function loadScenario(id) {
   const scenario = state.scenarios.find((item) => item.id === id) || state.scenarios[0];
   state.scenario = structuredClone(scenario);
-  state.posts = generatePosts(state.scenario);
+  state.posts = [...restoreTeacherPosts(state.scenario), ...generatePosts(state.scenario)].sort((a, b) => b.liveDate - a.liveDate);
   state.flags.clear();
   state.query = "";
   if (els.searchInput) els.searchInput.value = "";
@@ -20829,10 +21454,12 @@ function saveAnnotation() {
 }
 
 function exportScenario() {
-  const blob = new Blob([JSON.stringify(state.scenario, null, 2)], { type: "application/json" });
+  const teacherPosts = state.posts.filter((post) => post.teacherCreated).map(serializeTeacherPost);
+  const payload = { ...state.scenario, teacherPosts };
+  const blob = new Blob([JSON.stringify(payload, null, 2)], { type: "application/json" });
   const link = document.createElement("a");
   link.href = URL.createObjectURL(blob);
-  link.download = `${state.scenario.id || "scenario"}-simuveille.json`;
+  link.download = `${state.scenario.id || "scenario"}-veille-ili.json`;
   link.click();
   URL.revokeObjectURL(link.href);
 }
@@ -20872,7 +21499,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -20913,6 +21540,400 @@ function emptyTemplate() {
   };
 }
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+function teacherStorageKey() {
+  return `veille-ili:teacher-posts:${state.scenario?.id || "scenario"}`;
+}
+
+function serializeTeacherPost(post) {
+  return {
+    id: post.id,
+    actor: post.actor.handle,
+    content: post.content,
+    suspect: Boolean(post.suspect),
+    reason: post.reason || "",
+    likes: Number(post.likes) || 0,
+    reposts: Number(post.reposts) || 0,
+    replies: Number(post.replies) || 0,
+    media: post.media || null,
+    liveDate: post.liveDate.toISOString(),
+    teacherCreated: true
+  };
+}
+
+function persistTeacherPosts() {
+  if (!state.scenario) return;
+  const posts = state.posts.filter((post) => post.teacherCreated).map(serializeTeacherPost);
+  localStorage.setItem(teacherStorageKey(), JSON.stringify(posts));
+}
+
+function restoreTeacherPosts(scenario) {
+  let localPosts = [];
+  try {
+    localPosts = JSON.parse(localStorage.getItem(`veille-ili:teacher-posts:${scenario.id}`) || "[]");
+  } catch (error) {
+    localPosts = [];
+  }
+  const importedPosts = Array.isArray(scenario.teacherPosts) ? scenario.teacherPosts : [];
+  const unique = new Map([...importedPosts, ...localPosts].map((post) => [post.id, post]));
+  const now = parisNow();
+  return [...unique.values()].map((post) => {
+    const liveDate = new Date(post.liveDate || now);
+    const actor = actorByHandle(scenario, post.actor);
+    return normalizePostEngagement({
+      ...post,
+      actor,
+      liveDate,
+      time: formatTime(liveDate),
+      relativeTime: formatRelativeTime(liveDate, now),
+      teacherCreated: true
+    }, now);
+  });
+}
+
+function selectedComposeActor() {
+  return actorByHandle(state.scenario, els.composeActorSelect?.value);
+}
+
+function composeSuspect(actor) {
+  const tone = els.composeToneSelect?.value || "auto";
+  if (tone === "suspect") return true;
+  if (tone === "careful") return false;
+  return actor?.trust === "low" || actor?.stance === "amplifier";
+}
+
+function composeSelectedMedia() {
+  const asset = els.composeMediaSelect?.value || "";
+  return (state.scenario?.mediaLabels || []).find((media) => media.asset === asset) || null;
+}
+
+function updateComposePreview(src = "") {
+  if (!els.composePreview) return;
+  if (!src) {
+    els.composePreview.hidden = true;
+    els.composePreview.innerHTML = "";
+    return;
+  }
+  els.composePreview.hidden = false;
+  els.composePreview.innerHTML = `<img src="${src}" alt="Aperçu du visuel" />`;
+}
+
+function openPostComposer() {
+  if (!state.scenario || !els.composeDialog) return;
+  els.composeActorSelect.innerHTML = state.scenario.actors
+    .map((actor) => `<option value="${escapeHtml(actor.handle)}">${escapeHtml(actor.name)} · ${escapeHtml(actor.handle)}</option>`)
+    .join("");
+  els.composeMediaSelect.innerHTML = `<option value="">Sans illustration</option>${(state.scenario.mediaLabels || [])
+    .map((media) => `<option value="${escapeHtml(media.asset || "")}">${escapeHtml(media.title || media.asset || "Illustration")}</option>`)
+    .join("")}`;
+  els.composeText.value = "";
+  els.composeToneSelect.value = "auto";
+  els.composeUpload.value = "";
+  state.composeVisual = null;
+  updateComposePreview();
+  els.composeDialog.showModal();
+}
+
+function generateComposeText() {
+  const actor = selectedComposeActor();
+  if (!actor) return;
+  const random = mulberry32(hashSeed(`${state.scenario.id}:${actor.handle}:${Date.now()}`));
+  const suspect = composeSuspect(actor);
+  const media = composeSelectedMedia();
+  let content = "";
+  if (media) {
+    content = contentForSelectedMedia(state.scenario, media, suspect, random);
+  } else if (isPoliticalActor(actor)) {
+    content = politicalPostContent(actor, state.scenario, random);
+  } else if (isDistractorActor(actor)) {
+    content = distractorPostContent(actor, random);
+  } else {
+    const templates = suspect ? state.scenario.suspectTemplates : state.scenario.normalTemplates;
+    content = pick(templates, random);
+  }
+  els.composeText.value = content;
+}
+
+function previewSelectedComposeMedia() {
+  state.composeVisual = null;
+  const media = composeSelectedMedia();
+  updateComposePreview(media?.asset ? evidenceAssets[media.asset] : "");
+}
+
+function drawImageCover(context, image, width, height) {
+  const scale = Math.max(width / image.width, height / image.height);
+  const drawWidth = image.width * scale;
+  const drawHeight = image.height * scale;
+  context.drawImage(image, (width - drawWidth) / 2, (height - drawHeight) / 2, drawWidth, drawHeight);
+}
+
+function wrapCanvasText(context, text, x, y, maxWidth, lineHeight, maxLines) {
+  const words = String(text).split(/\s+/);
+  const lines = [];
+  let line = "";
+  words.forEach((word) => {
+    const test = line ? `${line} ${word}` : word;
+    if (context.measureText(test).width > maxWidth && line) {
+      lines.push(line);
+      line = word;
+    } else {
+      line = test;
+    }
+  });
+  if (line) lines.push(line);
+  lines.slice(0, maxLines).forEach((item, index) => {
+    const suffix = index === maxLines - 1 && lines.length > maxLines ? "…" : "";
+    context.fillText(`${item}${suffix}`, x, y + index * lineHeight);
+  });
+}
+
+async function generateComposeVisual() {
+  const actor = selectedComposeActor();
+  if (!actor) return;
+  if (!els.composeText.value.trim()) generateComposeText();
+  let media = composeSelectedMedia();
+  if (!media) {
+    const random = mulberry32(hashSeed(`${state.scenario.id}:compose-media:${Date.now()}`));
+    media = coherentMediaForPost(state.scenario.mediaLabels || [], els.composeText.value, actor, random, 2);
+    if (!media && (state.scenario.mediaLabels || []).length) media = structuredClone(state.scenario.mediaLabels[0]);
+    if (media?.asset) els.composeMediaSelect.value = media.asset;
+  }
+  if (media && mediaMatchScore(media, els.composeText.value, actor) < 4) {
+    const random = mulberry32(hashSeed(`${state.scenario.id}:${actor.handle}:compose-copy:${Date.now()}`));
+    els.composeText.value = contentForSelectedMedia(state.scenario, media, composeSuspect(actor), random);
+  }
+  const src = media?.asset ? evidenceAssets[media.asset] : "";
+  if (!src) return;
+  const image = new Image();
+  image.src = src;
+  await image.decode();
+  const canvas = document.createElement("canvas");
+  canvas.width = 1200;
+  canvas.height = 675;
+  const context = canvas.getContext("2d");
+  drawImageCover(context, image, canvas.width, canvas.height);
+  const gradient = context.createLinearGradient(0, 300, 0, 675);
+  gradient.addColorStop(0, "rgba(0,0,0,0)");
+  gradient.addColorStop(1, "rgba(0,0,0,.9)");
+  context.fillStyle = gradient;
+  context.fillRect(0, 0, canvas.width, canvas.height);
+  context.fillStyle = "#ffffff";
+  context.font = "700 34px Arial";
+  context.fillText(actor.name, 56, 500);
+  context.font = "24px Arial";
+  context.fillStyle = "rgba(255,255,255,.82)";
+  context.fillText(actor.handle, 56, 538);
+  context.font = "700 31px Arial";
+  context.fillStyle = "#ffffff";
+  wrapCanvasText(context, els.composeText.value.trim(), 56, 588, 1088, 38, 2);
+  state.composeVisual = canvas.toDataURL("image/jpeg", 0.86);
+  updateComposePreview(state.composeVisual);
+}
+
+function importComposeImage(file) {
+  if (!file) return;
+  const reader = new FileReader();
+  reader.addEventListener("load", () => {
+    state.composeVisual = String(reader.result || "");
+    els.composeMediaSelect.value = "";
+    updateComposePreview(state.composeVisual);
+  });
+  reader.readAsDataURL(file);
+}
+
+function publishComposePost() {
+  const actor = selectedComposeActor();
+  const content = els.composeText?.value.trim();
+  if (!actor || !content) return;
+  const liveDate = parisNow();
+  const suspect = composeSuspect(actor);
+  const selectedMedia = composeSelectedMedia();
+  const media = state.composeVisual
+    ? { kind: "photo", title: "Visuel créé par l'enseignant", caption: "", dataUrl: state.composeVisual, trace: "fr" }
+    : selectedMedia ? structuredClone(selectedMedia) : null;
+  let post = {
+    id: `${state.scenario.id}-teacher-${Date.now()}`,
+    actor,
+    content,
+    suspect,
+    reason: suspect ? "Publication créée par l'enseignant avec une tonalité alarmiste." : "Publication créée par l'enseignant.",
+    likes: 4 + Math.floor(Math.random() * 15),
+    reposts: Math.floor(Math.random() * 5),
+    replies: Math.floor(Math.random() * 4),
+    media,
+    liveDate,
+    time: formatTime(liveDate),
+    relativeTime: "à l'instant",
+    teacherCreated: true,
+    comments: []
+  };
+  post = normalizePostEngagement(post, liveDate);
+  state.posts = [post, ...state.posts].slice(0, 640);
+  persistTeacherPosts();
+  renderScenarioInfo();
+  renderFeed();
+  els.composeDialog.close();
+}
+
+function deleteTeacherPost(postId) {
+  state.posts = state.posts.filter((post) => post.id !== postId || !post.teacherCreated);
+  persistTeacherPosts();
+  renderScenarioInfo();
+  renderFeed();
+}
+
 function bindEvents() {
   if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => loadScenario(event.target.value));
   if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
@@ -20928,6 +21949,12 @@ function bindEvents() {
     });
   });
   if (els.refreshFeedBtn) els.refreshFeedBtn.addEventListener("click", refreshFeedManually);
+  if (els.composePostBtn) els.composePostBtn.addEventListener("click", openPostComposer);
+  if (els.generateComposeText) els.generateComposeText.addEventListener("click", generateComposeText);
+  if (els.generateComposeVisual) els.generateComposeVisual.addEventListener("click", generateComposeVisual);
+  if (els.composeMediaSelect) els.composeMediaSelect.addEventListener("change", previewSelectedComposeMedia);
+  if (els.composeUpload) els.composeUpload.addEventListener("change", (event) => importComposeImage(event.target.files[0]));
+  if (els.publishComposePost) els.publishComposePost.addEventListener("click", publishComposePost);
   if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
@@ -20936,6 +21963,7 @@ function bindEvents() {
     if (button.dataset.action === "profile") openProfile(button.dataset.handle);
     if (button.dataset.action === "flag") toggleFlag(post.dataset.postId);
     if (button.dataset.action === "annotate") openAnnotation(post.dataset.postId);
+    if (button.dataset.action === "delete-teacher") deleteTeacherPost(post.dataset.postId);
   });
   if (els.clearFlags) els.clearFlags.addEventListener("click", () => {
     state.flags.clear();

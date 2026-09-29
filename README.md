@@ -1,3 +1,5 @@
+# VEILLE-ILI
+
 **VEILLE-ILI** est une simulation pédagogique de réseau social destinée à l'entraînement à la veille informationnelle et à l'analyse de l'information.
 
 L'interface reproduit les principaux usages d'un fil d'actualité : publications, profils, commentaires, tendances, images, niveaux d'engagement et arrivée de nouveaux messages. Les contenus mélangent informations utiles, prises de position, rumeurs, réactions émotionnelles et sujets sans rapport direct avec le scénario. L'objectif est de placer les élèves dans un environnement dense, proche des conditions réelles de veille.

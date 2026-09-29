@@ -1242,6 +1242,21 @@ h3 {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1439,6 +1454,46 @@ body {
   font-size: 12px;
 }
 
+.compose-dialog { width: min(720px, calc(100vw - 32px)); }
+.compose-dialog form { display: grid; gap: 14px; }
+.compose-heading {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 16px;
+}
+.compose-heading h2, .compose-heading p { margin: 0; }
+.compose-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(180px, .45fr);
+  gap: 12px;
+}
+.compose-dialog label { display: grid; gap: 6px; font-weight: 700; }
+.compose-dialog select,
+.compose-dialog textarea,
+.compose-dialog input[type="file"] {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid var(--line-strong);
+  border-radius: 8px;
+  background: #fff;
+  color: var(--text);
+  font: inherit;
+  padding: 10px 12px;
+}
+.compose-dialog textarea { resize: vertical; line-height: 1.4; }
+.compose-actions { display: flex; flex-wrap: wrap; gap: 8px; }
+.compose-preview {
+  overflow: hidden;
+  border: 1px solid var(--line-strong);
+  border-radius: 12px;
+  background: #0f1419;
+}
+.compose-preview img { display: block; width: 100%; aspect-ratio: 16 / 9; object-fit: cover; }
+.compose-dialog menu { display: flex; justify-content: flex-end; gap: 8px; margin: 0; padding: 0; }
+.teacher-created { box-shadow: inset 3px 0 0 var(--blue); }
+.teacher-post-label { color: var(--blue); font-size: 12px; font-weight: 700; }
+
 .checklist { display: none !important; }
 .student-link { text-decoration: none; }
 
@@ -1453,4 +1508,7 @@ body[data-mode="student"] .student-link {
   .layout { grid-template-columns: minmax(0, 1fr); }
   .left-panel, .right-panel { position: static; }
   .feed-shell { border-left: 0; border-right: 0; }
+}
+@media (max-width: 680px) {
+  .compose-grid { grid-template-columns: 1fr; }
 }

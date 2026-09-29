@@ -24,6 +24,7 @@
         <a class="text-button student-link" href="./eleve.html">Page élève</a>
         <button id="importBtn" class="icon-button" title="Importer un scénario JSON" aria-label="Importer un scénario JSON">↑</button>
         <button id="exportBtn" class="icon-button" title="Exporter le scénario actif" aria-label="Exporter le scénario actif">↓</button>
+        <button id="composePostBtn" class="primary-button">Créer un post</button>
         <button id="teacherToggle" class="text-button">Mode enseignant</button>
 
       </div>
@@ -119,6 +120,44 @@
           <button value="cancel" class="text-button">Fermer</button>
           <button type="button" id="copyTemplate" class="text-button">Créer un modèle vide</button>
           <button type="button" id="applyScenario" class="primary-button">Appliquer le JSON</button>
+        </menu>
+      </form>
+    </dialog>
+    <dialog id="composeDialog" class="dialog compose-dialog">
+      <form method="dialog" id="composeForm">
+        <div class="compose-heading">
+          <div><h2>Créer une publication</h2><p class="helper">Publication ajoutée au scénario actif.</p></div>
+          <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
+        </div>
+        <div class="compose-grid">
+          <label>Compte
+            <select id="composeActorSelect"></select>
+          </label>
+          <label>Tonalité
+            <select id="composeToneSelect">
+              <option value="auto">Selon le compte</option>
+              <option value="careful">Prudente</option>
+              <option value="suspect">Alarmiste</option>
+            </select>
+          </label>
+        </div>
+        <label>Message
+          <textarea id="composeText" rows="5" maxlength="520" placeholder="Rédiger ou générer la publication..."></textarea>
+        </label>
+        <div class="compose-actions">
+          <button type="button" id="generateComposeText" class="text-button">Générer le texte</button>
+          <button type="button" id="generateComposeVisual" class="text-button">Générer un visuel</button>
+        </div>
+        <label>Illustration du scénario
+          <select id="composeMediaSelect"><option value="">Sans illustration</option></select>
+        </label>
+        <label class="upload-control">Importer une image
+          <input id="composeUpload" type="file" accept="image/jpeg,image/png,image/webp" />
+        </label>
+        <div id="composePreview" class="compose-preview" hidden></div>
+        <menu>
+          <button value="cancel" class="text-button">Annuler</button>
+          <button type="button" id="publishComposePost" class="primary-button">Publier dans le fil</button>
         </menu>
       </form>
     </dialog>
