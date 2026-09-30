@@ -1,15 +1,13 @@
-MISE A JOUR VEILLE-ILI - BOTS, CHINE ET DESIGN
+CORRECTION DEFINITIVE DE L'AVATAR VELO VILLE
 
-Ce paquet ne contient que les fichiers modifies et les nouveaux avatars.
-
-1. Ouvrez votre depot GitHub simulation-veille.
+1. Ouvrez le depot GitHub simulation-veille.
 2. Cliquez sur Add file, puis Upload files.
-3. Deposez le CONTENU de ce dossier a la racine du depot.
-4. Acceptez le remplacement de index.html, eleve.html, app.js, styles.css et README.md.
-5. Verifiez que le dossier assets/avatars est bien conserve.
+3. Deposez tout le contenu de ce dossier a la racine du depot.
+4. Acceptez le remplacement de index.html, eleve.html, app.js et styles.css.
+5. Verifiez que le nouveau fichier suivant apparait bien dans assets/avatars :
+   avatar_human_velo_ville_v2.jpg
 6. Validez avec Commit changes.
 
-GitHub Pages met generalement une a deux minutes a publier la mise a jour.
-
-Important : ne supprimez pas le reste du dossier assets deja en ligne. Ce paquet
-ajoute ou remplace uniquement les avatars necessaires a cette mise a jour.
+Le nouveau nom de fichier force GitHub et le navigateur a abandonner l'ancien
+avatar conserve en cache. Attendez ensuite une a deux minutes avant de rouvrir
+la page.
