@@ -1,34 +1,36 @@
-VEILLE-ILI - MISE À JOUR « ÉLECTION PRÉSIDENTIELLE FRANÇAISE 2027 »
+VEILLE-ILI - CORRECTION DU SCENARIO PRESIDENTIELLE 2027
 
-Cette archive remplace la version qui mentionnait par erreur une présidentielle en 2024.
+Cette livraison remplace le precedent paquet du scenario presidentiel.
 
-INSTALLATION SUR GITHUB
+CHRONOLOGIE CORRIGEE
 
-1. Décompressez l’archive ZIP.
-2. Ouvrez le dépôt GitHub simulation-veille.
-3. À la racine du dépôt, choisissez Add file > Upload files.
-4. Glissez tout le contenu du dossier décompressé, y compris le dossier assets.
-5. Validez avec Commit changes.
-6. Attendez que le déploiement github-pages soit vert, puis rechargez le site avec Ctrl + F5.
+- La simulation se deroule en octobre 2026.
+- L'election presidentielle de 2027 est encore a venir.
+- Aucun vote, depouillement ou resultat electoral n'est presente comme ayant deja eu lieu.
+- Le scenario traite de candidatures pressenties, de parrainages, de sondages,
+  de pre-campagne, de faux documents, de contenus synthetiques et d'operations
+  d'influence destinees a diviser la societe avant le scrutin.
 
-IMPORTANT
+MISE A JOUR SUR GITHUB
 
-- Les fichiers index.html, eleve.html, app.js et styles.css doivent remplacer leurs anciennes versions.
-- Les 13 images elections-presidentielles-2027 doivent être ajoutées dans assets/evidence.
-- Ne supprimez pas les autres images déjà présentes dans assets/evidence.
-- Les anciennes images elections-presidentielles-2024 ne seront plus utilisées ; leur présence résiduelle sur GitHub n’empêche pas le fonctionnement du site.
-- Le fichier .nojekyll doit rester à la racine du dépôt.
+1. Ouvrez votre depot GitHub simulation-veille.
+2. Deposez tout le contenu de ce dossier a la racine du depot.
+3. Acceptez le remplacement des fichiers qui portent deja le meme nom.
+4. Validez la modification, puis attendez le redeploiement de GitHub Pages.
 
-CONTENU DE LA CORRECTION
+Les fichiers index.html, eleve.html, app.js et styles.css remplacent les anciennes
+versions. Les 13 fichiers nommes elections-presidentielles-2027_01.jpg a
+elections-presidentielles-2027_13.jpg remplacent les anciens visuels du scenario.
 
-- Le scénario 2024 est supprimé de la liste.
-- Nouveau scénario prospectif « Élection présidentielle française 2027 ».
-- 720 publications simulées et 13 illustrations avec métadonnées EXIF pédagogiques.
-- Faux résultats, faux documents, contenu audio synthétique et vidéos sorties de leur contexte.
-- Réseaux fictifs russophones, azerbaïdjanais et relais locaux coordonnés.
-- Narratifs cherchant à opposer villes et campagnes, générations, catégories sociales, métropole et outre-mer.
-- Actualités ordinaires conservées dans le fil afin de maintenir un fort brouillard informationnel.
+Il n'est pas necessaire de supprimer les images des autres scenarios. Les anciens
+fichiers relatifs a 2024 ne sont plus utilises par l'application et peuvent rester
+dans le depot sans perturber la simulation.
 
-CADRE PÉDAGOGIQUE
+CONTENU DU PAQUET
 
-Tous les résultats, incidents, comptes et propos politiques du scénario sont fictifs. Les métadonnées étrangères sont des indices techniques simulés et ne constituent jamais, à elles seules, une preuve d’attribution.
+- Page enseignant et page eleve
+- Application complete mise a jour
+- Feuille de style
+- Logos VEILLE-ILI et Ecole de l'air et de l'espace
+- 13 illustrations dediees a la pre-campagne d'octobre 2026
+- Fichier .nojekyll pour GitHub Pages
