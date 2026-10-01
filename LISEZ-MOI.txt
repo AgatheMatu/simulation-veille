@@ -1,6 +1,6 @@
-VEILLE-ILI - MISE À JOUR « ÉLECTIONS PRÉSIDENTIELLES 2024 »
+VEILLE-ILI - MISE À JOUR « ÉLECTION PRÉSIDENTIELLE FRANÇAISE 2027 »
 
-Cette archive contient uniquement les fichiers nécessaires à la mise à jour du site.
+Cette archive remplace la version qui mentionnait par erreur une présidentielle en 2024.
 
 INSTALLATION SUR GITHUB
 
@@ -13,19 +13,22 @@ INSTALLATION SUR GITHUB
 
 IMPORTANT
 
-- Ne supprimez pas le dossier assets/evidence déjà présent sur GitHub.
-- Les 13 nouvelles images doivent s’ajouter aux anciennes images.
 - Les fichiers index.html, eleve.html, app.js et styles.css doivent remplacer leurs anciennes versions.
+- Les 13 images elections-presidentielles-2027 doivent être ajoutées dans assets/evidence.
+- Ne supprimez pas les autres images déjà présentes dans assets/evidence.
+- Les anciennes images elections-presidentielles-2024 ne seront plus utilisées ; leur présence résiduelle sur GitHub n’empêche pas le fonctionnement du site.
 - Le fichier .nojekyll doit rester à la racine du dépôt.
 
-CONTENU DE LA MISE À JOUR
+CONTENU DE LA CORRECTION
 
-- Nouveau scénario « Élections présidentielles 2024 » dans la liste déroulante.
-- 720 publications simulées : résultats, participation, rumeurs, prises de parole politiques, médias, vérifications, bots, ingérences étrangères et informations du quotidien.
-- 13 illustrations propres au scénario, avec métadonnées EXIF pédagogiques simulées.
-- Profils politiques fictifs et parodiques, clairement distincts de personnes réelles.
-- Réactions et partages adaptés à l’ancienneté de chaque publication.
+- Le scénario 2024 est supprimé de la liste.
+- Nouveau scénario prospectif « Élection présidentielle française 2027 ».
+- 720 publications simulées et 13 illustrations avec métadonnées EXIF pédagogiques.
+- Faux résultats, faux documents, contenu audio synthétique et vidéos sorties de leur contexte.
+- Réseaux fictifs russophones, azerbaïdjanais et relais locaux coordonnés.
+- Narratifs cherchant à opposer villes et campagnes, générations, catégories sociales, métropole et outre-mer.
+- Actualités ordinaires conservées dans le fil afin de maintenir un fort brouillard informationnel.
 
 CADRE PÉDAGOGIQUE
 
-Le scénario est une uchronie entièrement fictive : la France n’a pas organisé d’élection présidentielle en 2024. Les comptes, déclarations, résultats et incidents présentés dans la simulation ne sont pas authentiques.
+Tous les résultats, incidents, comptes et propos politiques du scénario sont fictifs. Les métadonnées étrangères sont des indices techniques simulés et ne constituent jamais, à elles seules, une preuve d’attribution.
