@@ -1,13 +1,31 @@
-CORRECTION DEFINITIVE DE L'AVATAR VELO VILLE
+VEILLE-ILI - MISE À JOUR « ÉLECTIONS PRÉSIDENTIELLES 2024 »
 
-1. Ouvrez le depot GitHub simulation-veille.
-2. Cliquez sur Add file, puis Upload files.
-3. Deposez tout le contenu de ce dossier a la racine du depot.
-4. Acceptez le remplacement de index.html, eleve.html, app.js et styles.css.
-5. Verifiez que le nouveau fichier suivant apparait bien dans assets/avatars :
-   avatar_human_velo_ville_v2.jpg
-6. Validez avec Commit changes.
+Cette archive contient uniquement les fichiers nécessaires à la mise à jour du site.
 
-Le nouveau nom de fichier force GitHub et le navigateur a abandonner l'ancien
-avatar conserve en cache. Attendez ensuite une a deux minutes avant de rouvrir
-la page.
+INSTALLATION SUR GITHUB
+
+1. Décompressez l’archive ZIP.
+2. Ouvrez le dépôt GitHub simulation-veille.
+3. À la racine du dépôt, choisissez Add file > Upload files.
+4. Glissez tout le contenu du dossier décompressé, y compris le dossier assets.
+5. Validez avec Commit changes.
+6. Attendez que le déploiement github-pages soit vert, puis rechargez le site avec Ctrl + F5.
+
+IMPORTANT
+
+- Ne supprimez pas le dossier assets/evidence déjà présent sur GitHub.
+- Les 13 nouvelles images doivent s’ajouter aux anciennes images.
+- Les fichiers index.html, eleve.html, app.js et styles.css doivent remplacer leurs anciennes versions.
+- Le fichier .nojekyll doit rester à la racine du dépôt.
+
+CONTENU DE LA MISE À JOUR
+
+- Nouveau scénario « Élections présidentielles 2024 » dans la liste déroulante.
+- 720 publications simulées : résultats, participation, rumeurs, prises de parole politiques, médias, vérifications, bots, ingérences étrangères et informations du quotidien.
+- 13 illustrations propres au scénario, avec métadonnées EXIF pédagogiques simulées.
+- Profils politiques fictifs et parodiques, clairement distincts de personnes réelles.
+- Réactions et partages adaptés à l’ancienneté de chaque publication.
+
+CADRE PÉDAGOGIQUE
+
+Le scénario est une uchronie entièrement fictive : la France n’a pas organisé d’élection présidentielle en 2024. Les comptes, déclarations, résultats et incidents présentés dans la simulation ne sont pas authentiques.
