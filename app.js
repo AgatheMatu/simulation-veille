@@ -1,11 +1,11 @@
 const builtInScenarios = [
   {
     "id": "espace-militarisation-civils",
-    "title": "Espace : la France militariserait l'espace au d\u00e9triment des civils",
-    "briefing": "Simulation p\u00e9dagogique : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales.",
+    "title": "Espace: la France militariserait l'espace au d\u00e9triment des civils",
+    "briefing": "Simulation p\u00e9dagogique: la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales.",
     "timeWindow": "09:00-15:30",
-    "location": "Orbite basse et d\u00e9bat budg\u00e9taire fictif",
+    "location": "Orbite basse et d\u00e9bat budg\u00e9taire ",
     "volume": 480,
     "seed": 2093314499,
     "trends": [
@@ -136,12 +136,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites.",
-      "Acteurs plausibles : puissance spatiale concurrente, r\u00e9seau anti-OTAN et comptes souverainistes instrumentalis\u00e9s.",
-      "Publics vis\u00e9s : jeunes, \u00e9tudiants, publics anti-guerre et citoyens sensibles aux d\u00e9penses sociales.",
-      "D\u00e9clencheur fictif : une photo de salle de contr\u00f4le et un graphique budg\u00e9taire non sourc\u00e9.",
-      "Point de vigilance : distinguer programmes civils, capacit\u00e9s d\u00e9fensives, documents budg\u00e9taires et interpr\u00e9tations militantes.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites.",
+      "Acteurs plausibles: puissance spatiale concurrente, r\u00e9seau anti-OTAN et comptes souverainistes instrumentalis\u00e9s.",
+      "Publics vis\u00e9s: jeunes, \u00e9tudiants, publics anti-guerre et citoyens sensibles aux d\u00e9penses sociales.",
+      "D\u00e9clencheur: une photo de salle de contr\u00f4le et un graphique budg\u00e9taire non sourc\u00e9.",
+      "Point de vigilance: distinguer programmes civils, capacit\u00e9s d\u00e9fensives, documents budg\u00e9taires et interpr\u00e9tations militantes.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -150,7 +150,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_espace.jpg"
       },
       {
@@ -159,7 +159,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -168,7 +168,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -177,7 +177,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -186,7 +186,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_espace_militarisat.jpg"
       },
       {
@@ -195,7 +195,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_01.jpg"
       },
       {
@@ -204,7 +204,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_espace_militarisat.jpg"
       },
       {
@@ -222,7 +222,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_01.jpg"
       },
       {
@@ -231,7 +231,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -240,7 +240,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -249,7 +249,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -262,7 +262,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -275,7 +275,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -288,7 +288,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -301,7 +301,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -314,7 +314,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -324,7 +324,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -334,7 +334,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -344,7 +344,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -354,7 +354,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -364,7 +364,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -374,7 +374,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -384,7 +384,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -394,7 +394,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -404,7 +404,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -414,7 +414,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -424,7 +424,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -434,7 +434,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -444,7 +444,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -454,7 +454,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -464,7 +464,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -474,7 +474,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -484,7 +484,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -494,7 +494,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -504,7 +504,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -514,7 +514,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -524,7 +524,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -534,7 +534,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -544,7 +544,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -556,7 +556,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -568,7 +568,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -592,7 +592,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -644,7 +644,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -658,7 +658,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -672,7 +672,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -756,7 +756,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -936,25 +936,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : distinguer programmes civils, capacit\u00e9s d\u00e9fensives, documents budg\u00e9taires et interpr\u00e9tations militantes. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: distinguer programmes civils, capacit\u00e9s d\u00e9fensives, documents budg\u00e9taires et interpr\u00e9tations militantes. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur une photo de salle de contr\u00f4le et un graphique budg\u00e9taire non sourc\u00e9. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Pendant que les h\u00f4pitaux manquent de moyens, Paris financerait des satellites militaires. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Pendant que les h\u00f4pitaux manquent de moyens, Paris financerait des satellites militaires. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -1065,7 +1067,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_espace_militarisat",
-        "content": "EXCLUSIF : la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
+        "content": "EXCLUSIF: la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspaceMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 29700,
@@ -1117,7 +1119,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_01",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que la France transformerait l'espace en champ de bataille sous couvert de prot\u00e9ger ses satellites. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 34800,
@@ -1170,7 +1172,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: d\u00e9l\u00e9gitimer le Commandement de l'Espace et opposer s\u00e9curit\u00e9 nationale et d\u00e9penses sociales. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2609,
         "reposts": 1307,
@@ -1187,7 +1189,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3110,
         "reposts": 1707,
@@ -1425,11 +1427,11 @@ const builtInScenarios = [
   },
   {
     "id": "espace-incident-orbital",
-    "title": "Espace : un satellite fran\u00e7ais aurait provoqu\u00e9 un incident orbital",
-    "briefing": "Simulation p\u00e9dagogique : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : installer l'id\u00e9e d'une France irresponsable dans l'espace civil.",
+    "title": "Espace: un satellite fran\u00e7ais aurait provoqu\u00e9 un incident orbital",
+    "briefing": "Simulation p\u00e9dagogique: un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: installer l'id\u00e9e d'une France irresponsable dans l'espace civil.",
     "timeWindow": "09:00-15:30",
-    "location": "Trajectoire orbitale fictive au-dessus de l'Afrique",
+    "location": "Trajectoire orbitale au-dessus de l'Afrique",
     "volume": 510,
     "seed": 2658575800,
     "trends": [
@@ -1560,12 +1562,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains.",
-      "Acteurs plausibles : \u00c9tat concurrent dans le spatial, m\u00e9dia proxy et collectif pseudo-scientifique.",
-      "Publics vis\u00e9s : ONG, journalistes environnement, \u00e9tudiants ing\u00e9nieurs et pays partenaires.",
-      "D\u00e9clencheur fictif : un faux graphique de trajectoire pr\u00e9sent\u00e9 comme une fuite d'agence europ\u00e9enne.",
-      "Point de vigilance : contr\u00f4ler la source du graphique, les horaires orbitaux, les unit\u00e9s et l'existence du document original.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains.",
+      "Acteurs plausibles: \u00c9tat concurrent dans le spatial, m\u00e9dia proxy et collectif pseudo-scientifique.",
+      "Publics vis\u00e9s: ONG, journalistes environnement, \u00e9tudiants ing\u00e9nieurs et pays partenaires.",
+      "D\u00e9clencheur: un faux graphique de trajectoire pr\u00e9sent\u00e9 comme une fuite d'agence europ\u00e9enne.",
+      "Point de vigilance: contr\u00f4ler la source du graphique, les horaires orbitaux, les unit\u00e9s et l'existence du document original.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -1574,7 +1576,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_espace.jpg"
       },
       {
@@ -1583,7 +1585,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -1592,7 +1594,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -1601,7 +1603,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -1610,7 +1612,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_espace_incident_or.jpg"
       },
       {
@@ -1619,7 +1621,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_02.jpg"
       },
       {
@@ -1628,7 +1630,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_espace_incident_or.jpg"
       },
       {
@@ -1646,7 +1648,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_02.jpg"
       },
       {
@@ -1655,7 +1657,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -1664,7 +1666,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -1673,7 +1675,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -1686,7 +1688,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -1699,7 +1701,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -1712,7 +1714,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -1725,7 +1727,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -1738,7 +1740,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -1748,7 +1750,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -1758,7 +1760,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -1768,7 +1770,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -1778,7 +1780,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -1788,7 +1790,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -1798,7 +1800,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -1808,7 +1810,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -1818,7 +1820,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -1828,7 +1830,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -1838,7 +1840,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -1848,7 +1850,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -1858,7 +1860,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -1868,7 +1870,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -1878,7 +1880,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -1888,7 +1890,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -1898,7 +1900,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -1908,7 +1910,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -1918,7 +1920,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -1928,7 +1930,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -1938,7 +1940,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -1948,7 +1950,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -1958,7 +1960,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -1968,7 +1970,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -1980,7 +1982,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -1992,7 +1994,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -2016,7 +2018,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -2068,7 +2070,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -2082,7 +2084,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -2096,7 +2098,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -2180,7 +2182,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -2360,25 +2362,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : contr\u00f4ler la source du graphique, les horaires orbitaux, les unit\u00e9s et l'existence du document original. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: contr\u00f4ler la source du graphique, les horaires orbitaux, les unit\u00e9s et l'existence du document original. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur un faux graphique de trajectoire pr\u00e9sent\u00e9 comme une fuite d'agence europ\u00e9enne. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais installer l'id\u00e9e d'une France irresponsable dans l'espace civil ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Paris aurait cach\u00e9 un incident qui menace la m\u00e9t\u00e9o, l'agriculture et l'aide humanitaire. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Paris aurait cach\u00e9 un incident qui menace la m\u00e9t\u00e9o, l'agriculture et l'aide humanitaire. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -2489,7 +2493,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_espace_incident_or",
-        "content": "EXCLUSIF : un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
+        "content": "EXCLUSIF: un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #IncidentOrbital",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 30600,
@@ -2541,7 +2545,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_02",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que un satellite militaire fran\u00e7ais aurait fr\u00f4l\u00e9 un satellite m\u00e9t\u00e9o utilis\u00e9 par plusieurs pays africains. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 35700,
@@ -2594,7 +2598,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: installer l'id\u00e9e d'une France irresponsable dans l'espace civil. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2618,
         "reposts": 1314,
@@ -2611,7 +2615,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3120,
         "reposts": 1714,
@@ -2849,11 +2853,11 @@ const builtInScenarios = [
   },
   {
     "id": "espace-espionnage-afrique",
-    "title": "Espace : les satellites fran\u00e7ais espionneraient l'Afrique",
-    "briefing": "Simulation p\u00e9dagogique : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration.",
+    "title": "Espace: les satellites fran\u00e7ais espionneraient l'Afrique",
+    "briefing": "Simulation p\u00e9dagogique: des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration.",
     "timeWindow": "09:00-15:30",
-    "location": "Sahel, zones mini\u00e8res et infrastructures fictives",
+    "location": "Sahel, zones mini\u00e8res et infrastructures ",
     "volume": 540,
     "seed": 3777096181,
     "trends": [
@@ -2984,12 +2988,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines.",
-      "Acteurs plausibles : r\u00e9gime de transition hostile, puissance ext\u00e9rieure concurrente et relais panafricanistes instrumentalis\u00e9s.",
-      "Publics vis\u00e9s : jeunesse africaine urbaine, \u00e9tudiants, m\u00e9dias locaux et diaspora.",
-      "D\u00e9clencheur fictif : des cartes satellite annot\u00e9es et des captures de contr\u00f4le sorties de leur contexte.",
-      "Point de vigilance : chercher la premi\u00e8re publication, la r\u00e9solution r\u00e9elle des images et les usages civils/militaires des satellites.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines.",
+      "Acteurs plausibles: r\u00e9gime de transition hostile, puissance ext\u00e9rieure concurrente et relais panafricanistes instrumentalis\u00e9s.",
+      "Publics vis\u00e9s: jeunesse africaine urbaine, \u00e9tudiants, m\u00e9dias locaux et diaspora.",
+      "D\u00e9clencheur: des cartes satellite annot\u00e9es et des captures de contr\u00f4le sorties de leur contexte.",
+      "Point de vigilance: chercher la premi\u00e8re publication, la r\u00e9solution r\u00e9elle des images et les usages civils/militaires des satellites.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -2998,7 +3002,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_espace.jpg"
       },
       {
@@ -3007,7 +3011,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -3016,7 +3020,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -3025,7 +3029,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -3034,7 +3038,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_espace_espionnage.jpg"
       },
       {
@@ -3043,7 +3047,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_03.jpg"
       },
       {
@@ -3052,7 +3056,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_espace_espionnage.jpg"
       },
       {
@@ -3070,7 +3074,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_03.jpg"
       },
       {
@@ -3079,7 +3083,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -3088,7 +3092,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -3097,7 +3101,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -3110,7 +3114,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -3123,7 +3127,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -3136,7 +3140,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -3149,7 +3153,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -3162,7 +3166,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -3172,7 +3176,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -3182,7 +3186,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -3192,7 +3196,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -3202,7 +3206,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -3212,7 +3216,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -3222,7 +3226,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -3232,7 +3236,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -3242,7 +3246,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -3252,7 +3256,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -3262,7 +3266,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -3272,7 +3276,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -3282,7 +3286,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -3292,7 +3296,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -3302,7 +3306,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -3312,7 +3316,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -3322,7 +3326,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -3332,7 +3336,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -3342,7 +3346,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -3352,7 +3356,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -3362,7 +3366,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -3372,7 +3376,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -3382,7 +3386,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -3392,7 +3396,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -3404,7 +3408,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -3416,7 +3420,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -3440,7 +3444,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -3492,7 +3496,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -3506,7 +3510,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -3520,7 +3524,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -3604,7 +3608,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -3784,25 +3788,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : chercher la premi\u00e8re publication, la r\u00e9solution r\u00e9elle des images et les usages civils/militaires des satellites. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: chercher la premi\u00e8re publication, la r\u00e9solution r\u00e9elle des images et les usages civils/militaires des satellites. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur des cartes satellite annot\u00e9es et des captures de contr\u00f4le sorties de leur contexte. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : La France aurait quitt\u00e9 certains pays au sol mais continuerait de les surveiller depuis l'espace. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: La France aurait quitt\u00e9 certains pays au sol mais continuerait de les surveiller depuis l'espace. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -3913,7 +3919,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_espace_espionnage_",
-        "content": "EXCLUSIF : des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
+        "content": "EXCLUSIF: des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EspionnageSpatial",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 31500,
@@ -3965,7 +3971,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_03",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des satellites militaires fran\u00e7ais surveilleraient les ressources, les mouvements politiques et les infrastructures africaines. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 36600,
@@ -4018,7 +4024,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: nourrir l'accusation de n\u00e9ocolonialisme et fragiliser la coop\u00e9ration. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2627,
         "reposts": 1321,
@@ -4035,7 +4041,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3130,
         "reposts": 1721,
@@ -4273,11 +4279,11 @@ const builtInScenarios = [
   },
   {
     "id": "crise-quartiers-riches",
-    "title": "Crise civile : l'arm\u00e9e prot\u00e9gerait les quartiers riches",
-    "briefing": "Simulation p\u00e9dagogique : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e.",
+    "title": "Crise civile: l'arm\u00e9e prot\u00e9gerait les quartiers riches",
+    "briefing": "Simulation p\u00e9dagogique: les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e.",
     "timeWindow": "09:00-15:30",
-    "location": "M\u00e9tropole fictive touch\u00e9e par une inondation",
+    "location": "M\u00e9tropole touch\u00e9e par une inondation",
     "volume": 570,
     "seed": 283672895,
     "trends": [
@@ -4408,12 +4414,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers.",
-      "Acteurs plausibles : r\u00e9seaux contestataires internes et acteurs \u00e9trangers exploitant la d\u00e9fiance envers l'\u00c9tat.",
-      "Publics vis\u00e9s : population locale sinistr\u00e9e, \u00e9lus, m\u00e9dias r\u00e9gionaux et familles de militaires.",
-      "D\u00e9clencheur fictif : photos d'anciens v\u00e9hicules militaires et t\u00e9moignages anonymes g\u00e9olocalis\u00e9s approximativement.",
-      "Point de vigilance : comparer les horaires d'intervention, les zones r\u00e9ellement touch\u00e9es et les sources de terrain.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers.",
+      "Acteurs plausibles: r\u00e9seaux contestataires internes et acteurs \u00e9trangers exploitant la d\u00e9fiance envers l'\u00c9tat.",
+      "Publics vis\u00e9s: population locale sinistr\u00e9e, \u00e9lus, m\u00e9dias r\u00e9gionaux et familles de militaires.",
+      "D\u00e9clencheur: photos d'anciens v\u00e9hicules militaires et t\u00e9moignages anonymes g\u00e9olocalis\u00e9s approximativement.",
+      "Point de vigilance: comparer les horaires d'intervention, les zones r\u00e9ellement touch\u00e9es et les sources de terrain.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -4422,7 +4428,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_crise.jpg"
       },
       {
@@ -4431,7 +4437,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -4440,7 +4446,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -4449,7 +4455,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -4458,7 +4464,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_crise_quartiers_ri.jpg"
       },
       {
@@ -4467,7 +4473,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_04.jpg"
       },
       {
@@ -4476,7 +4482,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_crise_quartiers_ri.jpg"
       },
       {
@@ -4494,7 +4500,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_04.jpg"
       },
       {
@@ -4503,7 +4509,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -4512,7 +4518,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -4521,7 +4527,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -4534,7 +4540,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -4547,7 +4553,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -4560,7 +4566,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -4573,7 +4579,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -4586,7 +4592,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -4596,7 +4602,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -4606,7 +4612,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -4616,7 +4622,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -4626,7 +4632,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -4636,7 +4642,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -4646,7 +4652,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -4656,7 +4662,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -4666,7 +4672,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -4676,7 +4682,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -4686,7 +4692,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -4696,7 +4702,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -4706,7 +4712,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -4716,7 +4722,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -4726,7 +4732,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -4736,7 +4742,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -4746,7 +4752,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -4756,7 +4762,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -4766,7 +4772,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -4776,7 +4782,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -4786,7 +4792,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -4796,7 +4802,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -4806,7 +4812,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -4816,7 +4822,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -4828,7 +4834,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -4840,7 +4846,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -4864,7 +4870,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -4916,7 +4922,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -4930,7 +4936,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -4944,7 +4950,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -5028,7 +5034,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -5208,25 +5214,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : comparer les horaires d'intervention, les zones r\u00e9ellement touch\u00e9es et les sources de terrain. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: comparer les horaires d'intervention, les zones r\u00e9ellement touch\u00e9es et les sources de terrain. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur photos d'anciens v\u00e9hicules militaires et t\u00e9moignages anonymes g\u00e9olocalis\u00e9s approximativement. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : On nous a oubli\u00e9s pendant que les beaux quartiers recevaient l'aide. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: On nous a oubli\u00e9s pendant que les beaux quartiers recevaient l'aide. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -5337,7 +5345,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_crise_quartiers_ri",
-        "content": "EXCLUSIF : les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
+        "content": "EXCLUSIF: les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #QuartiersOublies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 32400,
@@ -5389,7 +5397,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_04",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les militaires auraient prioris\u00e9 les zones ais\u00e9es et abandonn\u00e9 les autres quartiers. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 37500,
@@ -5442,7 +5450,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: transformer une op\u00e9ration de soutien en accusation politique contre l'arm\u00e9e. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2636,
         "reposts": 1328,
@@ -5459,7 +5467,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3140,
         "reposts": 1728,
@@ -5697,11 +5705,11 @@ const builtInScenarios = [
   },
   {
     "id": "crise-controle-militaire",
-    "title": "Crise civile : l'arm\u00e9e pr\u00e9parerait un contr\u00f4le permanent",
-    "briefing": "Simulation p\u00e9dagogique : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : associer protection civile et d\u00e9rive autoritaire.",
+    "title": "Crise civile: l'arm\u00e9e pr\u00e9parerait un contr\u00f4le permanent",
+    "briefing": "Simulation p\u00e9dagogique: les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: associer protection civile et d\u00e9rive autoritaire.",
     "timeWindow": "09:00-15:30",
-    "location": "Ville fictive pendant un exercice de s\u00e9curisation",
+    "location": "Ville pendant un exercice de s\u00e9curisation",
     "volume": 600,
     "seed": 669488287,
     "trends": [
@@ -5832,12 +5840,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire.",
-      "Acteurs plausibles : milieux complotistes, extr\u00eames politiques et acteurs \u00e9trangers amplifiant la d\u00e9fiance.",
-      "Publics vis\u00e9s : citoyens m\u00e9fiants, jeunes sur les r\u00e9seaux et militants anti-syst\u00e8me.",
-      "D\u00e9clencheur fictif : vid\u00e9os de patrouilles r\u00e9elles mais dat\u00e9es d'un exercice annonc\u00e9 publiquement.",
-      "Point de vigilance : v\u00e9rifier l'existence de l'exercice, le cadre l\u00e9gal, les dates et les lieux pr\u00e9cis.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire.",
+      "Acteurs plausibles: milieux complotistes, extr\u00eames politiques et acteurs \u00e9trangers amplifiant la d\u00e9fiance.",
+      "Publics vis\u00e9s: citoyens m\u00e9fiants, jeunes sur les r\u00e9seaux et militants anti-syst\u00e8me.",
+      "D\u00e9clencheur: vid\u00e9os de patrouilles r\u00e9elles mais dat\u00e9es d'un exercice annonc\u00e9 publiquement.",
+      "Point de vigilance: v\u00e9rifier l'existence de l'exercice, le cadre l\u00e9gal, les dates et les lieux pr\u00e9cis.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -5846,7 +5854,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_crise.jpg"
       },
       {
@@ -5855,7 +5863,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -5864,7 +5872,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -5873,7 +5881,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -5882,7 +5890,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_crise_controle_mil.jpg"
       },
       {
@@ -5891,7 +5899,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_05.jpg"
       },
       {
@@ -5900,7 +5908,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_crise_controle_mil.jpg"
       },
       {
@@ -5918,7 +5926,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_05.jpg"
       },
       {
@@ -5927,7 +5935,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -5936,7 +5944,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -5945,7 +5953,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -5958,7 +5966,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -5971,7 +5979,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -5984,7 +5992,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -5997,7 +6005,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -6010,7 +6018,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -6020,7 +6028,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -6030,7 +6038,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -6040,7 +6048,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -6050,7 +6058,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -6060,7 +6068,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -6070,7 +6078,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -6080,7 +6088,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -6090,7 +6098,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -6100,7 +6108,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -6110,7 +6118,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -6120,7 +6128,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -6130,7 +6138,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -6140,7 +6148,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -6150,7 +6158,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -6160,7 +6168,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -6170,7 +6178,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -6180,7 +6188,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -6190,7 +6198,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -6200,7 +6208,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -6210,7 +6218,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -6220,7 +6228,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -6230,7 +6238,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -6240,7 +6248,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -6252,7 +6260,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -6264,7 +6272,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -6288,7 +6296,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -6340,7 +6348,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -6354,7 +6362,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -6368,7 +6376,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -6452,7 +6460,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -6632,25 +6640,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : v\u00e9rifier l'existence de l'exercice, le cadre l\u00e9gal, les dates et les lieux pr\u00e9cis. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: v\u00e9rifier l'existence de l'exercice, le cadre l\u00e9gal, les dates et les lieux pr\u00e9cis. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur vid\u00e9os de patrouilles r\u00e9elles mais dat\u00e9es d'un exercice annonc\u00e9 publiquement. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais associer protection civile et d\u00e9rive autoritaire ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Apr\u00e8s les cam\u00e9ras, les drones et les patrouilles, demain les militaires devant chaque mairie. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : associer protection civile et d\u00e9rive autoritaire. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Apr\u00e8s les cam\u00e9ras, les drones et les patrouilles, demain les militaires devant chaque mairie. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: associer protection civile et d\u00e9rive autoritaire. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -6761,7 +6771,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_crise_controle_mil",
-        "content": "EXCLUSIF : les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
+        "content": "EXCLUSIF: les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ControleMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 33300,
@@ -6813,7 +6823,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_05",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les op\u00e9rations de protection seraient une r\u00e9p\u00e9tition g\u00e9n\u00e9rale pour installer un contr\u00f4le militaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 38400,
@@ -6866,7 +6876,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : associer protection civile et d\u00e9rive autoritaire. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: associer protection civile et d\u00e9rive autoritaire. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2645,
         "reposts": 1335,
@@ -6883,7 +6893,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3150,
         "reposts": 1735,
@@ -7121,11 +7131,11 @@ const builtInScenarios = [
   },
   {
     "id": "base-contamination-eau",
-    "title": "Protection de la population : une base aurait contamin\u00e9 l'eau",
-    "briefing": "Simulation p\u00e9dagogique : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale.",
+    "title": "Protection de la population: une base aurait contamin\u00e9 l'eau",
+    "briefing": "Simulation p\u00e9dagogique: une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale.",
     "timeWindow": "09:00-15:30",
-    "location": "Commune fictive voisine d'une base a\u00e9rienne",
+    "location": "Commune voisine d'une base a\u00e9rienne",
     "volume": 480,
     "seed": 4085369458,
     "trends": [
@@ -7256,12 +7266,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire.",
-      "Acteurs plausibles : r\u00e9seau militant radical, concurrent politique local ou acteur \u00e9tranger amplifiant une inqui\u00e9tude plausible.",
-      "Publics vis\u00e9s : riverains, associations \u00e9cologistes, \u00e9lus locaux et parents d'\u00e9l\u00e8ves.",
-      "D\u00e9clencheur fictif : analyses partielles, cartes de pollution non dat\u00e9es et photos de bouteilles d'eau stock\u00e9es.",
-      "Point de vigilance : recouper analyses officielles, laboratoires, p\u00e9rim\u00e8tres, dates de pr\u00e9l\u00e8vement et historique industriel.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire.",
+      "Acteurs plausibles: r\u00e9seau militant radical, concurrent politique local ou acteur \u00e9tranger amplifiant une inqui\u00e9tude plausible.",
+      "Publics vis\u00e9s: riverains, associations \u00e9cologistes, \u00e9lus locaux et parents d'\u00e9l\u00e8ves.",
+      "D\u00e9clencheur: analyses partielles, cartes de pollution non dat\u00e9es et photos de bouteilles d'eau stock\u00e9es.",
+      "Point de vigilance: recouper analyses officielles, laboratoires, p\u00e9rim\u00e8tres, dates de pr\u00e9l\u00e8vement et historique industriel.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -7270,7 +7280,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_base.jpg"
       },
       {
@@ -7279,7 +7289,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -7288,7 +7298,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -7297,7 +7307,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -7306,7 +7316,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_base_contamination.jpg"
       },
       {
@@ -7315,7 +7325,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_06.jpg"
       },
       {
@@ -7324,7 +7334,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_base_contamination.jpg"
       },
       {
@@ -7342,7 +7352,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_06.jpg"
       },
       {
@@ -7351,7 +7361,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -7360,7 +7370,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -7369,7 +7379,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -7382,7 +7392,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -7395,7 +7405,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -7408,7 +7418,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -7421,7 +7431,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -7434,7 +7444,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -7444,7 +7454,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -7454,7 +7464,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -7464,7 +7474,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -7474,7 +7484,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -7484,7 +7494,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -7494,7 +7504,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -7504,7 +7514,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -7514,7 +7524,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -7524,7 +7534,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -7534,7 +7544,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -7544,7 +7554,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -7554,7 +7564,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -7564,7 +7574,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -7574,7 +7584,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -7584,7 +7594,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -7594,7 +7604,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -7604,7 +7614,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -7614,7 +7624,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -7624,7 +7634,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -7634,7 +7644,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -7644,7 +7654,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -7654,7 +7664,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -7664,7 +7674,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -7676,7 +7686,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -7688,7 +7698,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -7712,7 +7722,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -7764,7 +7774,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -7778,7 +7788,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -7792,7 +7802,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -7876,7 +7886,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -8056,25 +8066,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : recouper analyses officielles, laboratoires, p\u00e9rim\u00e8tres, dates de pr\u00e9l\u00e8vement et historique industriel. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: recouper analyses officielles, laboratoires, p\u00e9rim\u00e8tres, dates de pr\u00e9l\u00e8vement et historique industriel. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur analyses partielles, cartes de pollution non dat\u00e9es et photos de bouteilles d'eau stock\u00e9es. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : L'arm\u00e9e prot\u00e9gerait son image avant la sant\u00e9 des riverains. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: L'arm\u00e9e prot\u00e9gerait son image avant la sant\u00e9 des riverains. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -8185,7 +8197,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_base_contamination",
-        "content": "EXCLUSIF : une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
+        "content": "EXCLUSIF: une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #EauPolluee",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 34200,
@@ -8237,7 +8249,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_06",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que une base militaire aurait contamin\u00e9 l'eau potable et fait pression pour \u00e9touffer l'affaire. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 39300,
@@ -8290,7 +8302,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: faire basculer une pr\u00e9occupation environnementale l\u00e9gitime vers une accusation globale. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2654,
         "reposts": 1342,
@@ -8307,7 +8319,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3160,
         "reposts": 1742,
@@ -8545,11 +8557,11 @@ const builtInScenarios = [
   },
   {
     "id": "opex-interets-economiques",
-    "title": "OPEX : les op\u00e9rations serviraient les int\u00e9r\u00eats \u00e9conomiques",
-    "briefing": "Simulation p\u00e9dagogique : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires.",
+    "title": "OPEX: les op\u00e9rations serviraient les int\u00e9r\u00eats \u00e9conomiques",
+    "briefing": "Simulation p\u00e9dagogique: les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires.",
     "timeWindow": "09:00-15:30",
-    "location": "Zone ext\u00e9rieure fictive riche en ressources",
+    "location": "Zone ext\u00e9rieure riche en ressources",
     "volume": 510,
     "seed": 699142885,
     "trends": [
@@ -8680,12 +8692,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats.",
-      "Acteurs plausibles : \u00c9tat concurrent, r\u00e9seau anti-fran\u00e7ais, groupes arm\u00e9s locaux et influenceurs politiques.",
-      "Publics vis\u00e9s : opinions africaines, ONG, journalistes et opinion fran\u00e7aise fatigu\u00e9e des engagements ext\u00e9rieurs.",
-      "D\u00e9clencheur fictif : cartes de routes mini\u00e8res et montages entre convois, ports et contrats.",
-      "Point de vigilance : s\u00e9parer faits \u00e9conomiques, pr\u00e9sence militaire, calendrier des contrats et raccourcis narratifs.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats.",
+      "Acteurs plausibles: \u00c9tat concurrent, r\u00e9seau anti-fran\u00e7ais, groupes arm\u00e9s locaux et influenceurs politiques.",
+      "Publics vis\u00e9s: opinions africaines, ONG, journalistes et opinion fran\u00e7aise fatigu\u00e9e des engagements ext\u00e9rieurs.",
+      "D\u00e9clencheur: cartes de routes mini\u00e8res et montages entre convois, ports et contrats.",
+      "Point de vigilance: s\u00e9parer faits \u00e9conomiques, pr\u00e9sence militaire, calendrier des contrats et raccourcis narratifs.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -8694,7 +8706,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_opex.jpg"
       },
       {
@@ -8703,7 +8715,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -8712,7 +8724,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -8721,7 +8733,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -8730,7 +8742,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_opex_interets_econ.jpg"
       },
       {
@@ -8739,7 +8751,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_07.jpg"
       },
       {
@@ -8748,7 +8760,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_opex_interets_econ.jpg"
       },
       {
@@ -8766,7 +8778,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_07.jpg"
       },
       {
@@ -8775,7 +8787,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -8784,7 +8796,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -8793,7 +8805,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -8806,7 +8818,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -8819,7 +8831,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -8832,7 +8844,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -8845,7 +8857,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -8858,7 +8870,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -8868,7 +8880,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -8878,7 +8890,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -8888,7 +8900,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -8898,7 +8910,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -8908,7 +8920,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -8918,7 +8930,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -8928,7 +8940,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -8938,7 +8950,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -8948,7 +8960,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -8958,7 +8970,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -8968,7 +8980,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -8978,7 +8990,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -8988,7 +9000,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -8998,7 +9010,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -9008,7 +9020,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -9018,7 +9030,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -9028,7 +9040,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -9038,7 +9050,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -9048,7 +9060,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -9058,7 +9070,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -9068,7 +9080,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -9078,7 +9090,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -9088,7 +9100,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -9100,7 +9112,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -9112,7 +9124,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -9136,7 +9148,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -9188,7 +9200,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -9202,7 +9214,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -9216,7 +9228,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -9300,7 +9312,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -9480,25 +9492,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : s\u00e9parer faits \u00e9conomiques, pr\u00e9sence militaire, calendrier des contrats et raccourcis narratifs. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: s\u00e9parer faits \u00e9conomiques, pr\u00e9sence militaire, calendrier des contrats et raccourcis narratifs. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur cartes de routes mini\u00e8res et montages entre convois, ports et contrats. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Les soldats parlent de protection, les minist\u00e8res parleraient de contrats. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Les soldats parlent de protection, les minist\u00e8res parleraient de contrats. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -9609,7 +9623,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_opex_interets_econ",
-        "content": "EXCLUSIF : les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
+        "content": "EXCLUSIF: les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OPEXBusiness",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 35100,
@@ -9661,7 +9675,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_07",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les interventions fran\u00e7aises ne viseraient pas la s\u00e9curit\u00e9 mais les ressources et les contrats. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 40200,
@@ -9714,7 +9728,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: d\u00e9l\u00e9gitimer toute pr\u00e9sence fran\u00e7aise et salir l'image des militaires. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2663,
         "reposts": 1349,
@@ -9731,7 +9745,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3170,
         "reposts": 1749,
@@ -9969,11 +9983,11 @@ const builtInScenarios = [
   },
   {
     "id": "opex-soutien-groupe-arme",
-    "title": "OPEX : la France soutiendrait secr\u00e8tement un groupe arm\u00e9",
-    "briefing": "Simulation p\u00e9dagogique : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique.",
+    "title": "OPEX: la France soutiendrait secr\u00e8tement un groupe arm\u00e9",
+    "briefing": "Simulation p\u00e9dagogique: des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique.",
     "timeWindow": "09:00-15:30",
-    "location": "Zone instable fictive de Nara-Kolmi",
+    "location": "Zone instable de Nara-Kolmi",
     "volume": 540,
     "seed": 3941185283,
     "trends": [
@@ -10104,12 +10118,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale.",
-      "Acteurs plausibles : groupe arm\u00e9 rival, pouvoir local cherchant un bouc \u00e9missaire et acteur \u00e9tranger concurrent.",
-      "Publics vis\u00e9s : populations locales, forces partenaires, journalistes internationaux et familles de victimes.",
-      "D\u00e9clencheur fictif : un pr\u00e9tendu document confidentiel mal r\u00e9dig\u00e9 mais viral.",
-      "Point de vigilance : chercher l'origine du document, les incoh\u00e9rences de style, les lieux et les signatures.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale.",
+      "Acteurs plausibles: groupe arm\u00e9 rival, pouvoir local cherchant un bouc \u00e9missaire et acteur \u00e9tranger concurrent.",
+      "Publics vis\u00e9s: populations locales, forces partenaires, journalistes internationaux et familles de victimes.",
+      "D\u00e9clencheur: un pr\u00e9tendu document confidentiel mal r\u00e9dig\u00e9 mais viral.",
+      "Point de vigilance: chercher l'origine du document, les incoh\u00e9rences de style, les lieux et les signatures.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -10118,7 +10132,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_opex.jpg"
       },
       {
@@ -10127,7 +10141,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -10136,7 +10150,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -10145,7 +10159,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -10154,7 +10168,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_opex_soutien_group.jpg"
       },
       {
@@ -10163,7 +10177,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_08.jpg"
       },
       {
@@ -10172,7 +10186,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_opex_soutien_group.jpg"
       },
       {
@@ -10190,7 +10204,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_08.jpg"
       },
       {
@@ -10199,7 +10213,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -10208,7 +10222,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -10217,7 +10231,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -10230,7 +10244,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -10243,7 +10257,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -10256,7 +10270,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -10269,7 +10283,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -10282,7 +10296,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -10292,7 +10306,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -10302,7 +10316,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -10312,7 +10326,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -10322,7 +10336,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -10332,7 +10346,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -10342,7 +10356,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -10352,7 +10366,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -10362,7 +10376,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -10372,7 +10386,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -10382,7 +10396,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -10392,7 +10406,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -10402,7 +10416,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -10412,7 +10426,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -10422,7 +10436,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -10432,7 +10446,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -10442,7 +10456,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -10452,7 +10466,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -10462,7 +10476,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -10472,7 +10486,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -10482,7 +10496,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -10492,7 +10506,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -10502,7 +10516,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -10512,7 +10526,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -10524,7 +10538,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -10536,7 +10550,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -10560,7 +10574,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -10612,7 +10626,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -10626,7 +10640,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -10640,7 +10654,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -10724,7 +10738,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -10904,25 +10918,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : chercher l'origine du document, les incoh\u00e9rences de style, les lieux et les signatures. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: chercher l'origine du document, les incoh\u00e9rences de style, les lieux et les signatures. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur un pr\u00e9tendu document confidentiel mal r\u00e9dig\u00e9 mais viral. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Paris combattrait officiellement la violence tout en n\u00e9gociant avec certains groupes. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Paris combattrait officiellement la violence tout en n\u00e9gociant avec certains groupes. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -11033,7 +11049,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_opex_soutien_group",
-        "content": "EXCLUSIF : des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
+        "content": "EXCLUSIF: des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AccordSecret",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 36000,
@@ -11085,7 +11101,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_08",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des forces fran\u00e7aises auraient pass\u00e9 un accord secret avec une milice locale. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 41100,
@@ -11138,7 +11154,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: semer le doute chez les partenaires et provoquer une r\u00e9action diplomatique. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2672,
         "reposts": 1356,
@@ -11155,7 +11171,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3180,
         "reposts": 1756,
@@ -11393,11 +11409,11 @@ const builtInScenarios = [
   },
   {
     "id": "opex-frappes-civils",
-    "title": "OPEX : des frappes fran\u00e7aises auraient vis\u00e9 des civils",
-    "briefing": "Simulation p\u00e9dagogique : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat.",
+    "title": "OPEX: des frappes fran\u00e7aises auraient vis\u00e9 des civils",
+    "briefing": "Simulation p\u00e9dagogique: des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat.",
     "timeWindow": "09:00-15:30",
-    "location": "Village fictif pr\u00e8s d'une zone de combat",
+    "location": "Village pr\u00e8s d'une zone de combat",
     "volume": 570,
     "seed": 1826032749,
     "trends": [
@@ -11528,12 +11544,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente.",
-      "Acteurs plausibles : groupe terroriste, r\u00e9seau de propagande hostile et \u00c9tat concurrent.",
-      "Publics vis\u00e9s : opinion fran\u00e7aise, familles de militaires, m\u00e9dias internationaux et ONG.",
-      "D\u00e9clencheur fictif : images anciennes ou prises dans un autre pays r\u00e9attribu\u00e9es \u00e0 l'op\u00e9ration.",
-      "Point de vigilance : contr\u00f4ler date, m\u00e9t\u00e9o, relief, premi\u00e8re publication, source primaire et chronologie officielle.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente.",
+      "Acteurs plausibles: groupe terroriste, r\u00e9seau de propagande hostile et \u00c9tat concurrent.",
+      "Publics vis\u00e9s: opinion fran\u00e7aise, familles de militaires, m\u00e9dias internationaux et ONG.",
+      "D\u00e9clencheur: images anciennes ou prises dans un autre pays r\u00e9attribu\u00e9es \u00e0 l'op\u00e9ration.",
+      "Point de vigilance: contr\u00f4ler date, m\u00e9t\u00e9o, relief, premi\u00e8re publication, source primaire et chronologie officielle.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -11542,7 +11558,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_opex.jpg"
       },
       {
@@ -11551,7 +11567,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -11560,7 +11576,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -11569,7 +11585,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -11578,7 +11594,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_opex_frappes_civil.jpg"
       },
       {
@@ -11587,7 +11603,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_09.jpg"
       },
       {
@@ -11596,7 +11612,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_opex_frappes_civil.jpg"
       },
       {
@@ -11614,7 +11630,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_09.jpg"
       },
       {
@@ -11623,7 +11639,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -11632,7 +11648,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -11641,7 +11657,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -11654,7 +11670,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -11667,7 +11683,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -11680,7 +11696,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -11693,7 +11709,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -11706,7 +11722,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -11716,7 +11732,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -11726,7 +11742,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -11736,7 +11752,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -11746,7 +11762,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -11756,7 +11772,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -11766,7 +11782,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -11776,7 +11792,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -11786,7 +11802,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -11796,7 +11812,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -11806,7 +11822,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -11816,7 +11832,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -11826,7 +11842,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -11836,7 +11852,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -11846,7 +11862,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -11856,7 +11872,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -11866,7 +11882,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -11876,7 +11892,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -11886,7 +11902,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -11896,7 +11912,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -11906,7 +11922,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -11916,7 +11932,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -11926,7 +11942,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -11936,7 +11952,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -11948,7 +11964,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -11960,7 +11976,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -11984,7 +12000,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -12036,7 +12052,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -12050,7 +12066,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -12064,7 +12080,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -12148,7 +12164,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -12328,25 +12344,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : contr\u00f4ler date, m\u00e9t\u00e9o, relief, premi\u00e8re publication, source primaire et chronologie officielle. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: contr\u00f4ler date, m\u00e9t\u00e9o, relief, premi\u00e8re publication, source primaire et chronologie officielle. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur images anciennes ou prises dans un autre pays r\u00e9attribu\u00e9es \u00e0 l'op\u00e9ration. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Paris parle de terroristes neutralis\u00e9s, les villageois parleraient d'enfants tu\u00e9s. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Paris parle de terroristes neutralis\u00e9s, les villageois parleraient d'enfants tu\u00e9s. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -12457,7 +12475,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_opex_frappes_civil",
-        "content": "EXCLUSIF : des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
+        "content": "EXCLUSIF: des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #VictimesCiviles",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 36900,
@@ -12509,7 +12527,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_09",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des images de victimes civiles seraient attribu\u00e9es \u00e0 une op\u00e9ration fran\u00e7aise r\u00e9cente. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 42000,
@@ -12562,7 +12580,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: transformer une op\u00e9ration militaire en scandale moral imm\u00e9diat. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2681,
         "reposts": 1363,
@@ -12579,7 +12597,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3190,
         "reposts": 1763,
@@ -12817,11 +12835,11 @@ const builtInScenarios = [
   },
   {
     "id": "sahel-charnier-desert",
-    "title": "Sahel : un charnier d\u00e9sertique serait attribu\u00e9 aux forces fran\u00e7aises",
-    "briefing": "Simulation p\u00e9dagogique : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable.",
+    "title": "Sahel: un charnier d\u00e9sertique serait attribu\u00e9 aux forces fran\u00e7aises",
+    "briefing": "Simulation p\u00e9dagogique: une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable.",
     "timeWindow": "09:00-15:30",
-    "location": "Zone d\u00e9sertique fictive difficile \u00e0 g\u00e9olocaliser",
+    "location": "Zone d\u00e9sertique difficile \u00e0 g\u00e9olocaliser",
     "volume": 600,
     "seed": 4045508031,
     "trends": [
@@ -12952,12 +12970,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration.",
-      "Acteurs plausibles : groupe arm\u00e9 sah\u00e9lien, m\u00e9dia proxy \u00e9tranger et r\u00e9gime justifiant sa rupture avec Paris.",
-      "Publics vis\u00e9s : jeunesse sah\u00e9lienne, diaspora, ONG, m\u00e9dias internationaux et opinion fran\u00e7aise.",
-      "D\u00e9clencheur fictif : vid\u00e9o floue, traces au sol et r\u00e9cits anonymes impossibles \u00e0 dater rapidement.",
-      "Point de vigilance : g\u00e9olocaliser le terrain, comparer ombres, v\u00e9hicules, m\u00e9t\u00e9o, archives et sources ind\u00e9pendantes.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration.",
+      "Acteurs plausibles: groupe arm\u00e9 sah\u00e9lien, m\u00e9dia proxy \u00e9tranger et r\u00e9gime justifiant sa rupture avec Paris.",
+      "Publics vis\u00e9s: jeunesse sah\u00e9lienne, diaspora, ONG, m\u00e9dias internationaux et opinion fran\u00e7aise.",
+      "D\u00e9clencheur: vid\u00e9o floue, traces au sol et r\u00e9cits anonymes impossibles \u00e0 dater rapidement.",
+      "Point de vigilance: g\u00e9olocaliser le terrain, comparer ombres, v\u00e9hicules, m\u00e9t\u00e9o, archives et sources ind\u00e9pendantes.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -12966,7 +12984,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_sahel.jpg"
       },
       {
@@ -12975,7 +12993,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -12984,7 +13002,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -12993,7 +13011,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -13002,7 +13020,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_sahel_charnier_des.jpg"
       },
       {
@@ -13011,7 +13029,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_10.jpg"
       },
       {
@@ -13020,7 +13038,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_sahel_charnier_des.jpg"
       },
       {
@@ -13038,7 +13056,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_10.jpg"
       },
       {
@@ -13047,7 +13065,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -13056,7 +13074,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -13065,7 +13083,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -13078,7 +13096,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -13091,7 +13109,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -13104,7 +13122,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -13117,7 +13135,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -13130,7 +13148,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -13140,7 +13158,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -13150,7 +13168,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -13160,7 +13178,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -13170,7 +13188,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -13180,7 +13198,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -13190,7 +13208,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -13200,7 +13218,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -13210,7 +13228,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -13220,7 +13238,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -13230,7 +13248,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -13240,7 +13258,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -13250,7 +13268,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -13260,7 +13278,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -13270,7 +13288,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -13280,7 +13298,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -13290,7 +13308,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -13300,7 +13318,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -13310,7 +13328,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -13320,7 +13338,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -13330,7 +13348,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -13340,7 +13358,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -13350,7 +13368,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -13360,7 +13378,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -13372,7 +13390,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -13384,7 +13402,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -13408,7 +13426,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -13460,7 +13478,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -13474,7 +13492,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -13488,7 +13506,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -13572,7 +13590,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -13752,25 +13770,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : g\u00e9olocaliser le terrain, comparer ombres, v\u00e9hicules, m\u00e9t\u00e9o, archives et sources ind\u00e9pendantes. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: g\u00e9olocaliser le terrain, comparer ombres, v\u00e9hicules, m\u00e9t\u00e9o, archives et sources ind\u00e9pendantes. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur vid\u00e9o floue, traces au sol et r\u00e9cits anonymes impossibles \u00e0 dater rapidement. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Le d\u00e9sert cacherait les preuves d'un pass\u00e9 op\u00e9rationnel violent. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Le d\u00e9sert cacherait les preuves d'un pass\u00e9 op\u00e9rationnel violent. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -13881,7 +13901,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_sahel_charnier_des",
-        "content": "EXCLUSIF : une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
+        "content": "EXCLUSIF: une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CharnierSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 37800,
@@ -13933,7 +13953,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_10",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que une vid\u00e9o montrerait des civils ex\u00e9cut\u00e9s par des forces fran\u00e7aises lors d'une ancienne op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 42900,
@@ -13986,7 +14006,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: r\u00e9\u00e9crire le pass\u00e9 op\u00e9rationnel fran\u00e7ais et installer une accusation durable. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2690,
         "reposts": 1370,
@@ -14003,7 +14023,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3200,
         "reposts": 1770,
@@ -14241,11 +14261,11 @@ const builtInScenarios = [
   },
   {
     "id": "sahel-puits-empoisonnes",
-    "title": "Sahel : la France aurait empoisonn\u00e9 des puits",
-    "briefing": "Simulation p\u00e9dagogique : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective.",
+    "title": "Sahel: la France aurait empoisonn\u00e9 des puits",
+    "briefing": "Simulation p\u00e9dagogique: des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective.",
     "timeWindow": "09:00-15:30",
-    "location": "Villages ruraux fictifs autour de points d'eau",
+    "location": "Villages ruraux autour de points d'eau",
     "volume": 480,
     "seed": 343143087,
     "trends": [
@@ -14376,12 +14396,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages.",
-      "Acteurs plausibles : groupes jihadistes, r\u00e9seaux anti-fran\u00e7ais et autorit\u00e9 locale hostile.",
-      "Publics vis\u00e9s : populations rurales, \u00e9leveurs, communaut\u00e9s nomades et ONG humanitaires.",
-      "D\u00e9clencheur fictif : photos de puits, flacons de test et t\u00e9moignages \u00e9motionnels non dat\u00e9s.",
-      "Point de vigilance : v\u00e9rifier analyses d'eau, cha\u00eene de pr\u00e9l\u00e8vement, sources m\u00e9dicales et acc\u00e8s au terrain.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages.",
+      "Acteurs plausibles: groupes jihadistes, r\u00e9seaux anti-fran\u00e7ais et autorit\u00e9 locale hostile.",
+      "Publics vis\u00e9s: populations rurales, \u00e9leveurs, communaut\u00e9s nomades et ONG humanitaires.",
+      "D\u00e9clencheur: photos de puits, flacons de test et t\u00e9moignages \u00e9motionnels non dat\u00e9s.",
+      "Point de vigilance: v\u00e9rifier analyses d'eau, cha\u00eene de pr\u00e9l\u00e8vement, sources m\u00e9dicales et acc\u00e8s au terrain.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -14390,7 +14410,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_sahel.jpg"
       },
       {
@@ -14399,7 +14419,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -14408,7 +14428,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -14417,7 +14437,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -14426,7 +14446,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_sahel_puits_empois.jpg"
       },
       {
@@ -14435,7 +14455,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_11.jpg"
       },
       {
@@ -14444,7 +14464,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_sahel_puits_empois.jpg"
       },
       {
@@ -14462,7 +14482,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_11.jpg"
       },
       {
@@ -14471,7 +14491,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -14480,7 +14500,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -14489,7 +14509,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -14502,7 +14522,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -14515,7 +14535,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -14528,7 +14548,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -14541,7 +14561,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -14554,7 +14574,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -14564,7 +14584,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -14574,7 +14594,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -14584,7 +14604,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -14594,7 +14614,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -14604,7 +14624,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -14614,7 +14634,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -14624,7 +14644,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -14634,7 +14654,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -14644,7 +14664,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -14654,7 +14674,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -14664,7 +14684,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -14674,7 +14694,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -14684,7 +14704,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -14694,7 +14714,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -14704,7 +14724,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -14714,7 +14734,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -14724,7 +14744,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -14734,7 +14754,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -14744,7 +14764,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -14754,7 +14774,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -14764,7 +14784,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -14774,7 +14794,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -14784,7 +14804,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -14796,7 +14816,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -14808,7 +14828,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -14832,7 +14852,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -14884,7 +14904,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -14898,7 +14918,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -14912,7 +14932,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -14996,7 +15016,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -15176,25 +15196,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : v\u00e9rifier analyses d'eau, cha\u00eene de pr\u00e9l\u00e8vement, sources m\u00e9dicales et acc\u00e8s au terrain. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: v\u00e9rifier analyses d'eau, cha\u00eene de pr\u00e9l\u00e8vement, sources m\u00e9dicales et acc\u00e8s au terrain. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur photos de puits, flacons de test et t\u00e9moignages \u00e9motionnels non dat\u00e9s. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : L'eau, le b\u00e9tail et les enfants malades seraient les preuves d'une punition collective. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: L'eau, le b\u00e9tail et les enfants malades seraient les preuves d'une punition collective. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -15305,7 +15327,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_sahel_puits_empois",
-        "content": "EXCLUSIF : des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
+        "content": "EXCLUSIF: des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #PuitsEmpoisonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 38700,
@@ -15357,7 +15379,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_11",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des militaires fran\u00e7ais auraient rendu des puits inutilisables pour punir des villages. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 43800,
@@ -15410,7 +15432,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: pr\u00e9senter l'arm\u00e9e fran\u00e7aise comme une force de punition collective. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2699,
         "reposts": 1377,
@@ -15427,7 +15449,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3210,
         "reposts": 1777,
@@ -15665,11 +15687,11 @@ const builtInScenarios = [
   },
   {
     "id": "sahel-drones-bergers",
-    "title": "Sahel : des drones fran\u00e7ais auraient cibl\u00e9 des bergers",
-    "briefing": "Simulation p\u00e9dagogique : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises.",
+    "title": "Sahel: des drones fran\u00e7ais auraient cibl\u00e9 des bergers",
+    "briefing": "Simulation p\u00e9dagogique: une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises.",
     "timeWindow": "09:00-15:30",
-    "location": "Pistes pastorales fictives du Sahel",
+    "location": "Pistes pastorales du Sahel",
     "volume": 510,
     "seed": 256541959,
     "trends": [
@@ -15800,12 +15822,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants.",
-      "Acteurs plausibles : groupe arm\u00e9 local, relais militants et m\u00e9dia \u00e9tranger anti-occidental.",
-      "Publics vis\u00e9s : communaut\u00e9s rurales, jeunes africains connect\u00e9s, ONG et journalistes d\u00e9fense.",
-      "D\u00e9clencheur fictif : vid\u00e9o de poussi\u00e8re, carte de p\u00e2turage et t\u00e9moignages repris sans v\u00e9rification.",
-      "Point de vigilance : croiser trajectoires, images a\u00e9riennes, t\u00e9moins, heure solaire, relief et source de la vid\u00e9o.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants.",
+      "Acteurs plausibles: groupe arm\u00e9 local, relais militants et m\u00e9dia \u00e9tranger anti-occidental.",
+      "Publics vis\u00e9s: communaut\u00e9s rurales, jeunes africains connect\u00e9s, ONG et journalistes d\u00e9fense.",
+      "D\u00e9clencheur: vid\u00e9o de poussi\u00e8re, carte de p\u00e2turage et t\u00e9moignages repris sans v\u00e9rification.",
+      "Point de vigilance: croiser trajectoires, images a\u00e9riennes, t\u00e9moins, heure solaire, relief et source de la vid\u00e9o.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -15814,7 +15836,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_sahel.jpg"
       },
       {
@@ -15823,7 +15845,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -15832,7 +15854,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -15841,7 +15863,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -15850,7 +15872,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_sahel_drones_berge.jpg"
       },
       {
@@ -15859,7 +15881,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_12.jpg"
       },
       {
@@ -15868,7 +15890,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_sahel_drones_berge.jpg"
       },
       {
@@ -15886,7 +15908,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_12.jpg"
       },
       {
@@ -15895,7 +15917,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -15904,7 +15926,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -15913,7 +15935,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -15926,7 +15948,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -15939,7 +15961,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -15952,7 +15974,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -15965,7 +15987,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -15978,7 +16000,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -15988,7 +16010,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -15998,7 +16020,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -16008,7 +16030,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -16018,7 +16040,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -16028,7 +16050,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -16038,7 +16060,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -16048,7 +16070,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -16058,7 +16080,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -16068,7 +16090,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -16078,7 +16100,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -16088,7 +16110,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -16098,7 +16120,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -16108,7 +16130,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -16118,7 +16140,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -16128,7 +16150,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -16138,7 +16160,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -16148,7 +16170,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -16158,7 +16180,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -16168,7 +16190,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -16178,7 +16200,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -16188,7 +16210,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -16198,7 +16220,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -16208,7 +16230,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -16220,7 +16242,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -16232,7 +16254,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -16256,7 +16278,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -16308,7 +16330,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -16322,7 +16344,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -16336,7 +16358,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -16420,7 +16442,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -16600,25 +16622,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : croiser trajectoires, images a\u00e9riennes, t\u00e9moins, heure solaire, relief et source de la vid\u00e9o. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: croiser trajectoires, images a\u00e9riennes, t\u00e9moins, heure solaire, relief et source de la vid\u00e9o. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur vid\u00e9o de poussi\u00e8re, carte de p\u00e2turage et t\u00e9moignages repris sans v\u00e9rification. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Leurs capteurs modernes ne les emp\u00eacheraient pas de tuer des innocents. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Leurs capteurs modernes ne les emp\u00eacheraient pas de tuer des innocents. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -16729,7 +16753,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_sahel_drones_berge",
-        "content": "EXCLUSIF : une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
+        "content": "EXCLUSIF: une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #DronesAuSahel",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 39600,
@@ -16781,7 +16805,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_12",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que une frappe de drone fran\u00e7aise aurait touch\u00e9 des bergers confondus avec des combattants. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 44700,
@@ -16834,7 +16858,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: attaquer l'image de pr\u00e9cision technologique des arm\u00e9es fran\u00e7aises. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2708,
         "reposts": 1384,
@@ -16851,7 +16875,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3220,
         "reposts": 1784,
@@ -17089,11 +17113,11 @@ const builtInScenarios = [
   },
   {
     "id": "sahel-auxiliaires-abandonnes",
-    "title": "Sahel : les Fran\u00e7ais auraient abandonn\u00e9 leurs auxiliaires locaux",
-    "briefing": "Simulation p\u00e9dagogique : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future.",
+    "title": "Sahel: les Fran\u00e7ais auraient abandonn\u00e9 leurs auxiliaires locaux",
+    "briefing": "Simulation p\u00e9dagogique: des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future.",
     "timeWindow": "09:00-15:30",
-    "location": "Capitale r\u00e9gionale fictive et routes d'\u00e9vacuation",
+    "location": "Capitale r\u00e9gionale et routes d'\u00e9vacuation",
     "volume": 540,
     "seed": 488356180,
     "trends": [
@@ -17224,12 +17248,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection.",
-      "Acteurs plausibles : r\u00e9seaux politiques locaux, groupes arm\u00e9s et activistes sinc\u00e8res amplifi\u00e9s par des acteurs hostiles.",
-      "Publics vis\u00e9s : anciens partenaires locaux, familles, militaires fran\u00e7ais et opinion publique fran\u00e7aise.",
-      "D\u00e9clencheur fictif : listes de noms flout\u00e9es, messages d'urgence et photos de grilles ferm\u00e9es.",
-      "Point de vigilance : distinguer cas individuels r\u00e9els, documents manipul\u00e9s, d\u00e9lais administratifs et rumeurs coordonn\u00e9es.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection.",
+      "Acteurs plausibles: r\u00e9seaux politiques locaux, groupes arm\u00e9s et activistes sinc\u00e8res amplifi\u00e9s par des acteurs hostiles.",
+      "Publics vis\u00e9s: anciens partenaires locaux, familles, militaires fran\u00e7ais et opinion publique fran\u00e7aise.",
+      "D\u00e9clencheur: listes de noms flout\u00e9es, messages d'urgence et photos de grilles ferm\u00e9es.",
+      "Point de vigilance: distinguer cas individuels r\u00e9els, documents manipul\u00e9s, d\u00e9lais administratifs et rumeurs coordonn\u00e9es.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -17238,7 +17262,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_sahel.jpg"
       },
       {
@@ -17247,7 +17271,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -17256,7 +17280,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -17265,7 +17289,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -17274,7 +17298,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_sahel_auxiliaires.jpg"
       },
       {
@@ -17283,7 +17307,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_13.jpg"
       },
       {
@@ -17292,7 +17316,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_sahel_auxiliaires.jpg"
       },
       {
@@ -17310,7 +17334,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_13.jpg"
       },
       {
@@ -17319,7 +17343,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -17328,7 +17352,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -17337,7 +17361,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -17350,7 +17374,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -17363,7 +17387,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -17376,7 +17400,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -17389,7 +17413,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -17402,7 +17426,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -17412,7 +17436,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -17422,7 +17446,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -17432,7 +17456,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -17442,7 +17466,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -17452,7 +17476,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -17462,7 +17486,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -17472,7 +17496,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -17482,7 +17506,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -17492,7 +17516,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -17502,7 +17526,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -17512,7 +17536,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -17522,7 +17546,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -17532,7 +17556,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -17542,7 +17566,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -17552,7 +17576,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -17562,7 +17586,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -17572,7 +17596,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -17582,7 +17606,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -17592,7 +17616,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -17602,7 +17626,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -17612,7 +17636,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -17622,7 +17646,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -17632,7 +17656,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -17644,7 +17668,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -17656,7 +17680,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -17680,7 +17704,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -17732,7 +17756,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -17746,7 +17770,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -17760,7 +17784,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -17844,7 +17868,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -18024,25 +18048,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : distinguer cas individuels r\u00e9els, documents manipul\u00e9s, d\u00e9lais administratifs et rumeurs coordonn\u00e9es. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: distinguer cas individuels r\u00e9els, documents manipul\u00e9s, d\u00e9lais administratifs et rumeurs coordonn\u00e9es. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur listes de noms flout\u00e9es, messages d'urgence et photos de grilles ferm\u00e9es. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Travailler avec la France, ce serait \u00eatre utilis\u00e9 puis abandonn\u00e9. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Travailler avec la France, ce serait \u00eatre utilis\u00e9 puis abandonn\u00e9. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -18153,7 +18179,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_sahel_auxiliaires_",
-        "content": "EXCLUSIF : des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
+        "content": "EXCLUSIF: des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #AuxiliairesAbandonnes",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 40500,
@@ -18205,7 +18231,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_13",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des interpr\u00e8tes, guides ou partenaires locaux auraient \u00e9t\u00e9 laiss\u00e9s sans protection. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 45600,
@@ -18258,7 +18284,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: d\u00e9truire l'image de loyaut\u00e9 et d\u00e9courager toute coop\u00e9ration future. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2717,
         "reposts": 1391,
@@ -18275,7 +18301,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3230,
         "reposts": 1791,
@@ -18513,11 +18539,11 @@ const builtInScenarios = [
   },
   {
     "id": "sahel-retour-terroristes",
-    "title": "Sahel : la France organiserait le retour de terroristes",
-    "briefing": "Simulation p\u00e9dagogique : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame.",
+    "title": "Sahel: la France organiserait le retour de terroristes",
+    "briefing": "Simulation p\u00e9dagogique: la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame.",
     "timeWindow": "09:00-15:30",
-    "location": "Fronti\u00e8re fictive et routes d\u00e9sertiques",
+    "location": "Fronti\u00e8re et routes d\u00e9sertiques",
     "volume": 570,
     "seed": 298962257,
     "trends": [
@@ -18648,12 +18674,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9.",
-      "Acteurs plausibles : r\u00e9gime hostile, puissance concurrente et influenceurs anti-fran\u00e7ais.",
-      "Publics vis\u00e9s : jeunesse urbaine, opinions africaines, m\u00e9dias panafricains et diaspora.",
-      "D\u00e9clencheur fictif : cartes de mouvements, photos de phares nocturnes et messages intercept\u00e9s inv\u00e9rifiables.",
-      "Point de vigilance : distinguer corr\u00e9lation, co\u00efncidence, absence de preuve et accusation strat\u00e9gique.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9.",
+      "Acteurs plausibles: r\u00e9gime hostile, puissance concurrente et influenceurs anti-fran\u00e7ais.",
+      "Publics vis\u00e9s: jeunesse urbaine, opinions africaines, m\u00e9dias panafricains et diaspora.",
+      "D\u00e9clencheur: cartes de mouvements, photos de phares nocturnes et messages intercept\u00e9s inv\u00e9rifiables.",
+      "Point de vigilance: distinguer corr\u00e9lation, co\u00efncidence, absence de preuve et accusation strat\u00e9gique.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -18662,7 +18688,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_sahel.jpg"
       },
       {
@@ -18671,7 +18697,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -18680,7 +18706,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -18689,7 +18715,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -18698,7 +18724,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_sahel_retour_terro.jpg"
       },
       {
@@ -18707,7 +18733,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_14.jpg"
       },
       {
@@ -18716,7 +18742,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_sahel_retour_terro.jpg"
       },
       {
@@ -18734,7 +18760,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_14.jpg"
       },
       {
@@ -18743,7 +18769,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -18752,7 +18778,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -18761,7 +18787,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -18774,7 +18800,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -18787,7 +18813,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -18800,7 +18826,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -18813,7 +18839,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -18826,7 +18852,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -18836,7 +18862,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -18846,7 +18872,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -18856,7 +18882,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -18866,7 +18892,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -18876,7 +18902,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -18886,7 +18912,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -18896,7 +18922,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -18906,7 +18932,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -18916,7 +18942,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -18926,7 +18952,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -18936,7 +18962,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -18946,7 +18972,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -18956,7 +18982,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -18966,7 +18992,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -18976,7 +19002,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -18986,7 +19012,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -18996,7 +19022,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -19006,7 +19032,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -19016,7 +19042,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -19026,7 +19052,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -19036,7 +19062,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -19046,7 +19072,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -19056,7 +19082,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -19068,7 +19094,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -19080,7 +19106,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -19104,7 +19130,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -19156,7 +19182,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -19170,7 +19196,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -19184,7 +19210,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -19268,7 +19294,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -19448,25 +19474,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : distinguer corr\u00e9lation, co\u00efncidence, absence de preuve et accusation strat\u00e9gique. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: distinguer corr\u00e9lation, co\u00efncidence, absence de preuve et accusation strat\u00e9gique. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur cartes de mouvements, photos de phares nocturnes et messages intercept\u00e9s inv\u00e9rifiables. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Ils ne combattent pas le terrorisme, ils l'entretiendraient. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Ils ne combattent pas le terrorisme, ils l'entretiendraient. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -19577,7 +19605,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_sahel_retour_terro",
-        "content": "EXCLUSIF : la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
+        "content": "EXCLUSIF: la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #TerrorismeEntretenu",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 41400,
@@ -19629,7 +19657,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_14",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que la France laisserait circuler des groupes arm\u00e9s pour maintenir l'instabilit\u00e9. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 46500,
@@ -19682,7 +19710,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: retourner le discours s\u00e9curitaire fran\u00e7ais contre lui-m\u00eame. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2726,
         "reposts": 1398,
@@ -19699,7 +19727,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3240,
         "reposts": 1798,
@@ -19937,11 +19965,11 @@ const builtInScenarios = [
   },
   {
     "id": "recrutement-soldats-sacrifies",
-    "title": "Recrutement : les soldats fran\u00e7ais seraient sacrifi\u00e9s pour des causes perdues",
-    "briefing": "Simulation p\u00e9dagogique : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie.",
+    "title": "Recrutement: les soldats fran\u00e7ais seraient sacrifi\u00e9s pour des causes perdues",
+    "briefing": "Simulation p\u00e9dagogique: des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie.",
     "timeWindow": "09:00-15:30",
-    "location": "Communaut\u00e9s militaires et familles fictives",
+    "location": "Communaut\u00e9s militaires et familles ",
     "volume": 600,
     "seed": 2856402724,
     "trends": [
@@ -20072,12 +20100,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues.",
-      "Acteurs plausibles : acteur \u00e9tranger hostile, r\u00e9seau antimilitariste radical et comptes ciblant les familles.",
-      "Publics vis\u00e9s : jeunes susceptibles de s'engager, familles de militaires, anciens et r\u00e9servistes.",
-      "D\u00e9clencheur fictif : t\u00e9moignages anonymes, photos de mat\u00e9riel et r\u00e9cits \u00e9motionnels de familles.",
-      "Point de vigilance : s\u00e9parer souffrance r\u00e9elle, cas individuels, chiffres non sourc\u00e9s et strat\u00e9gie de d\u00e9couragement.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues.",
+      "Acteurs plausibles: acteur \u00e9tranger hostile, r\u00e9seau antimilitariste radical et comptes ciblant les familles.",
+      "Publics vis\u00e9s: jeunes susceptibles de s'engager, familles de militaires, anciens et r\u00e9servistes.",
+      "D\u00e9clencheur: t\u00e9moignages anonymes, photos de mat\u00e9riel et r\u00e9cits \u00e9motionnels de familles.",
+      "Point de vigilance: s\u00e9parer souffrance r\u00e9elle, cas individuels, chiffres non sourc\u00e9s et strat\u00e9gie de d\u00e9couragement.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -20086,7 +20114,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_recrutement.jpg"
       },
       {
@@ -20095,7 +20123,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -20104,7 +20132,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -20113,7 +20141,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -20122,7 +20150,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_recrutement_soldat.jpg"
       },
       {
@@ -20131,7 +20159,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_15.jpg"
       },
       {
@@ -20140,7 +20168,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_recrutement_soldat.jpg"
       },
       {
@@ -20158,7 +20186,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_15.jpg"
       },
       {
@@ -20167,7 +20195,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -20176,7 +20204,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -20185,7 +20213,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -20198,7 +20226,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -20211,7 +20239,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -20224,7 +20252,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -20237,7 +20265,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -20250,7 +20278,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -20260,7 +20288,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -20270,7 +20298,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -20280,7 +20308,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -20290,7 +20318,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -20300,7 +20328,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -20310,7 +20338,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -20320,7 +20348,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -20330,7 +20358,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -20340,7 +20368,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -20350,7 +20378,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -20360,7 +20388,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -20370,7 +20398,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -20380,7 +20408,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -20390,7 +20418,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -20400,7 +20428,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -20410,7 +20438,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -20420,7 +20448,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -20430,7 +20458,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -20440,7 +20468,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -20450,7 +20478,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -20460,7 +20488,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -20470,7 +20498,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -20480,7 +20508,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -20492,7 +20520,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -20504,7 +20532,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -20528,7 +20556,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -20580,7 +20608,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -20594,7 +20622,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -20608,7 +20636,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -20692,7 +20720,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -20872,25 +20900,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : s\u00e9parer souffrance r\u00e9elle, cas individuels, chiffres non sourc\u00e9s et strat\u00e9gie de d\u00e9couragement. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: s\u00e9parer souffrance r\u00e9elle, cas individuels, chiffres non sourc\u00e9s et strat\u00e9gie de d\u00e9couragement. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur t\u00e9moignages anonymes, photos de mat\u00e9riel et r\u00e9cits \u00e9motionnels de familles. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : On vous appelle h\u00e9ros quand vous partez, on vous oublie quand vous revenez. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: On vous appelle h\u00e9ros quand vous partez, on vous oublie quand vous revenez. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -21001,7 +21031,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_recrutement_soldat",
-        "content": "EXCLUSIF : des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
+        "content": "EXCLUSIF: des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SoldatsSacrifies",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 42300,
@@ -21053,7 +21083,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_15",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que des militaires seraient envoy\u00e9s dans des missions inutiles, mal \u00e9quip\u00e9s et politiquement floues. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 47400,
@@ -21106,7 +21136,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: atteindre le moral, le recrutement et la confiance dans la hi\u00e9rarchie. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2735,
         "reposts": 1405,
@@ -21123,7 +21153,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3250,
         "reposts": 1805,
@@ -21361,11 +21391,11 @@ const builtInScenarios = [
   },
   {
     "id": "industrie-armes-civils",
-    "title": "Industrie de d\u00e9fense : les armes fran\u00e7aises tueraient des civils partout",
-    "briefing": "Simulation p\u00e9dagogique : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion.",
+    "title": "Industrie de d\u00e9fense: les armes fran\u00e7aises tueraient des civils partout",
+    "briefing": "Simulation p\u00e9dagogique: la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion.",
     "timeWindow": "09:00-15:30",
-    "location": "Cha\u00eene industrielle et conflits \u00e9trangers fictifs",
+    "location": "Cha\u00eene industrielle et conflits \u00e9trangers ",
     "volume": 480,
     "seed": 1107423687,
     "trends": [
@@ -21496,12 +21526,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement.",
-      "Acteurs plausibles : ONG radicalis\u00e9e, concurrent industriel, \u00c9tat rival et r\u00e9seau militant manipul\u00e9.",
-      "Publics vis\u00e9s : \u00e9tudiants, \u00e9lus, journalistes \u00e9conomiques et salari\u00e9s de l'industrie de d\u00e9fense.",
-      "D\u00e9clencheur fictif : m\u00e9lange de vrais d\u00e9bats, images de conflits \u00e9trangers et accusations non v\u00e9rifi\u00e9es.",
-      "Point de vigilance : identifier armes, dates, utilisateurs finaux, licences, sources et contexte juridique.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement.",
+      "Acteurs plausibles: ONG radicalis\u00e9e, concurrent industriel, \u00c9tat rival et r\u00e9seau militant manipul\u00e9.",
+      "Publics vis\u00e9s: \u00e9tudiants, \u00e9lus, journalistes \u00e9conomiques et salari\u00e9s de l'industrie de d\u00e9fense.",
+      "D\u00e9clencheur: m\u00e9lange de vrais d\u00e9bats, images de conflits \u00e9trangers et accusations non v\u00e9rifi\u00e9es.",
+      "Point de vigilance: identifier armes, dates, utilisateurs finaux, licences, sources et contexte juridique.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -21510,7 +21540,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_industrie.jpg"
       },
       {
@@ -21519,7 +21549,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -21528,7 +21558,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -21537,7 +21567,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -21546,7 +21576,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_industrie_armes_ci.jpg"
       },
       {
@@ -21555,7 +21585,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_16.jpg"
       },
       {
@@ -21564,7 +21594,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_industrie_armes_ci.jpg"
       },
       {
@@ -21582,7 +21612,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_16.jpg"
       },
       {
@@ -21591,7 +21621,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -21600,7 +21630,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -21609,7 +21639,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -21622,7 +21652,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -21635,7 +21665,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -21648,7 +21678,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -21661,7 +21691,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -21674,7 +21704,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -21684,7 +21714,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -21694,7 +21724,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -21704,7 +21734,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -21714,7 +21744,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -21724,7 +21754,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -21734,7 +21764,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -21744,7 +21774,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -21754,7 +21784,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -21764,7 +21794,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -21774,7 +21804,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -21784,7 +21814,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -21794,7 +21824,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -21804,7 +21834,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -21814,7 +21844,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -21824,7 +21854,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -21834,7 +21864,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -21844,7 +21874,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -21854,7 +21884,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -21864,7 +21894,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -21874,7 +21904,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -21884,7 +21914,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -21894,7 +21924,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -21904,7 +21934,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -21916,7 +21946,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -21928,7 +21958,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -21952,7 +21982,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -22004,7 +22034,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -22018,7 +22048,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -22032,7 +22062,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -22116,7 +22146,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -22296,25 +22326,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : identifier armes, dates, utilisateurs finaux, licences, sources et contexte juridique. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: identifier armes, dates, utilisateurs finaux, licences, sources et contexte juridique. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur m\u00e9lange de vrais d\u00e9bats, images de conflits \u00e9trangers et accusations non v\u00e9rifi\u00e9es. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Made in France, used against civilians. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Made in France, used against civilians. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -22425,7 +22457,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_industrie_armes_ci",
-        "content": "EXCLUSIF : la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
+        "content": "EXCLUSIF: la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #MadeInFrance",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 43200,
@@ -22477,7 +22509,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_16",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que la France serait complice syst\u00e9matique de crimes de guerre via ses exportations d'armement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 48300,
@@ -22530,7 +22562,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: fragiliser la BITD fran\u00e7aise, peser sur les contrats et diviser l'opinion. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2744,
         "reposts": 1412,
@@ -22547,7 +22579,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3260,
         "reposts": 1812,
@@ -22785,11 +22817,11 @@ const builtInScenarios = [
   },
   {
     "id": "outremer-militarisation",
-    "title": "Outre-mer : Paris militariserait les territoires contre leurs habitants",
-    "briefing": "Simulation p\u00e9dagogique : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines.",
+    "title": "Outre-mer: Paris militariserait les territoires contre leurs habitants",
+    "briefing": "Simulation p\u00e9dagogique: les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines.",
     "timeWindow": "09:00-15:30",
-    "location": "Territoire ultramarin fictif et zone maritime associ\u00e9e",
+    "location": "Territoire ultramarin et zone maritime associ\u00e9e",
     "volume": 510,
     "seed": 1500350561,
     "trends": [
@@ -22920,12 +22952,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris.",
-      "Acteurs plausibles : r\u00e9seaux s\u00e9paratistes, acteurs \u00e9trangers int\u00e9ress\u00e9s par les zones maritimes et influenceurs anti-\u00c9tat.",
-      "Publics vis\u00e9s : jeunesse ultramarine, diasporas, \u00e9lus locaux et associations.",
-      "D\u00e9clencheur fictif : images de patrouilles, cartes maritimes et sc\u00e8nes de secours sorties de leur contexte.",
-      "Point de vigilance : distinguer souverainet\u00e9, secours, pr\u00e9sence permanente, missions r\u00e9elles et perception locale.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris.",
+      "Acteurs plausibles: r\u00e9seaux s\u00e9paratistes, acteurs \u00e9trangers int\u00e9ress\u00e9s par les zones maritimes et influenceurs anti-\u00c9tat.",
+      "Publics vis\u00e9s: jeunesse ultramarine, diasporas, \u00e9lus locaux et associations.",
+      "D\u00e9clencheur: images de patrouilles, cartes maritimes et sc\u00e8nes de secours sorties de leur contexte.",
+      "Point de vigilance: distinguer souverainet\u00e9, secours, pr\u00e9sence permanente, missions r\u00e9elles et perception locale.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -22934,7 +22966,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_outremer.jpg"
       },
       {
@@ -22943,7 +22975,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -22952,7 +22984,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -22961,7 +22993,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -22970,7 +23002,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_outremer_militaris.jpg"
       },
       {
@@ -22979,7 +23011,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_17.jpg"
       },
       {
@@ -22988,7 +23020,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_outremer_militaris.jpg"
       },
       {
@@ -23006,7 +23038,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_17.jpg"
       },
       {
@@ -23015,7 +23047,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -23024,7 +23056,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -23033,7 +23065,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -23046,7 +23078,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -23059,7 +23091,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -23072,7 +23104,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -23085,7 +23117,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -23098,7 +23130,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -23108,7 +23140,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -23118,7 +23150,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -23128,7 +23160,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -23138,7 +23170,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -23148,7 +23180,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -23158,7 +23190,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -23168,7 +23200,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -23178,7 +23210,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -23188,7 +23220,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -23198,7 +23230,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -23208,7 +23240,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -23218,7 +23250,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -23228,7 +23260,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -23238,7 +23270,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -23248,7 +23280,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -23258,7 +23290,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -23268,7 +23300,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -23278,7 +23310,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -23288,7 +23320,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -23298,7 +23330,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -23308,7 +23340,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -23318,7 +23350,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -23328,7 +23360,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -23340,7 +23372,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -23352,7 +23384,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -23376,7 +23408,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -23428,7 +23460,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -23442,7 +23474,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -23456,7 +23488,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -23540,7 +23572,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -23720,25 +23752,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : distinguer souverainet\u00e9, secours, pr\u00e9sence permanente, missions r\u00e9elles et perception locale. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: distinguer souverainet\u00e9, secours, pr\u00e9sence permanente, missions r\u00e9elles et perception locale. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur images de patrouilles, cartes maritimes et sc\u00e8nes de secours sorties de leur contexte. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Quand il faut prot\u00e9ger les habitants, personne ; quand il faut prot\u00e9ger Paris, les militaires arrivent. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Quand il faut prot\u00e9ger les habitants, personne; quand il faut prot\u00e9ger Paris, les militaires arrivent. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -23849,7 +23883,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_outremer_militaris",
-        "content": "EXCLUSIF : les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
+        "content": "EXCLUSIF: les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #OutreMerSousControle",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 44100,
@@ -23901,7 +23935,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_17",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les forces arm\u00e9es verrouilleraient les territoires pour d\u00e9fendre les int\u00e9r\u00eats de Paris. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 49200,
@@ -23954,7 +23988,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: cr\u00e9er une fracture entre arm\u00e9es et populations ultramarines. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2753,
         "reposts": 1419,
@@ -23971,7 +24005,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3270,
         "reposts": 1819,
@@ -24209,11 +24243,11 @@ const builtInScenarios = [
   },
   {
     "id": "nrbc-cobayes",
-    "title": "Crise sanitaire : l'arm\u00e9e testerait des proc\u00e9dures NRBC sur la population",
-    "briefing": "Simulation p\u00e9dagogique : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte.",
+    "title": "Crise sanitaire: l'arm\u00e9e testerait des proc\u00e9dures NRBC sur la population",
+    "briefing": "Simulation p\u00e9dagogique: les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte.",
     "timeWindow": "09:00-15:30",
-    "location": "Exercice NRBC fictif pr\u00e8s d'une base",
+    "location": "Exercice NRBC pr\u00e8s d'une base",
     "volume": 540,
     "seed": 2516786485,
     "trends": [
@@ -24344,12 +24378,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement.",
-      "Acteurs plausibles : milieux complotistes, r\u00e9seaux anti-vaccins et acteurs \u00e9trangers amplifiant la d\u00e9fiance sanitaire.",
-      "Publics vis\u00e9s : parents, soignants, habitants proches d'une base et communaut\u00e9s m\u00e9fiantes.",
-      "D\u00e9clencheur fictif : photos de tenues de protection, barri\u00e8res et avis d'exercice recadr\u00e9s.",
-      "Point de vigilance : v\u00e9rifier cadre d'exercice, participants, objectifs, arr\u00eat\u00e9s publics et dates des images.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement.",
+      "Acteurs plausibles: milieux complotistes, r\u00e9seaux anti-vaccins et acteurs \u00e9trangers amplifiant la d\u00e9fiance sanitaire.",
+      "Publics vis\u00e9s: parents, soignants, habitants proches d'une base et communaut\u00e9s m\u00e9fiantes.",
+      "D\u00e9clencheur: photos de tenues de protection, barri\u00e8res et avis d'exercice recadr\u00e9s.",
+      "Point de vigilance: v\u00e9rifier cadre d'exercice, participants, objectifs, arr\u00eat\u00e9s publics et dates des images.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -24358,7 +24392,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_nrbc.jpg"
       },
       {
@@ -24367,7 +24401,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -24376,7 +24410,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -24385,7 +24419,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -24394,7 +24428,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_nrbc_cobayes.jpg"
       },
       {
@@ -24403,7 +24437,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_18.jpg"
       },
       {
@@ -24412,7 +24446,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_nrbc_cobayes.jpg"
       },
       {
@@ -24430,7 +24464,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_18.jpg"
       },
       {
@@ -24439,7 +24473,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -24448,7 +24482,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -24457,7 +24491,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -24470,7 +24504,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -24483,7 +24517,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -24496,7 +24530,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -24509,7 +24543,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -24522,7 +24556,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -24532,7 +24566,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -24542,7 +24576,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -24552,7 +24586,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -24562,7 +24596,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -24572,7 +24606,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -24582,7 +24616,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -24592,7 +24626,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -24602,7 +24636,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -24612,7 +24646,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -24622,7 +24656,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -24632,7 +24666,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -24642,7 +24676,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -24652,7 +24686,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -24662,7 +24696,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -24672,7 +24706,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -24682,7 +24716,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -24692,7 +24726,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -24702,7 +24736,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -24712,7 +24746,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -24722,7 +24756,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -24732,7 +24766,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -24742,7 +24776,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -24752,7 +24786,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -24764,7 +24798,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -24776,7 +24810,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -24800,7 +24834,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -24852,7 +24886,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -24866,7 +24900,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -24880,7 +24914,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -24964,7 +24998,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -25144,25 +25178,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : v\u00e9rifier cadre d'exercice, participants, objectifs, arr\u00eat\u00e9s publics et dates des images. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: v\u00e9rifier cadre d'exercice, participants, objectifs, arr\u00eat\u00e9s publics et dates des images. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur photos de tenues de protection, barri\u00e8res et avis d'exercice recadr\u00e9s. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : Ils appellent \u00e7a un exercice, mais nous serions les cobayes. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: Ils appellent \u00e7a un exercice, mais nous serions les cobayes. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -25273,7 +25309,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_nrbc_cobayes",
-        "content": "EXCLUSIF : les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
+        "content": "EXCLUSIF: les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #CobayesNRBC",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 45000,
@@ -25325,7 +25361,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_18",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les militaires testeraient confinement, d\u00e9contamination ou contr\u00f4le sur des civils sans consentement. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 50100,
@@ -25378,7 +25414,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: associer d\u00e9fense, sant\u00e9 et exp\u00e9rimentation pour rendre toute communication suspecte. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2762,
         "reposts": 1426,
@@ -25395,7 +25431,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3280,
         "reposts": 1826,
@@ -25633,11 +25669,11 @@ const builtInScenarios = [
   },
   {
     "id": "otan-souverainete-washington",
-    "title": "Europe / OTAN : la France ob\u00e9irait \u00e0 Washington",
-    "briefing": "Simulation p\u00e9dagogique : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : opposer patriotisme fran\u00e7ais et alliances militaires.",
+    "title": "Europe / OTAN: la France ob\u00e9irait \u00e0 Washington",
+    "briefing": "Simulation p\u00e9dagogique: les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: opposer patriotisme fran\u00e7ais et alliances militaires.",
     "timeWindow": "09:00-15:30",
-    "location": "D\u00e9bat fictif sur une op\u00e9ration alli\u00e9e",
+    "location": "D\u00e9bat sur une op\u00e9ration alli\u00e9e",
     "volume": 570,
     "seed": 2340601679,
     "trends": [
@@ -25768,12 +25804,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis.",
-      "Acteurs plausibles : puissance anti-OTAN, relais souverainistes et influenceurs g\u00e9opolitiques.",
-      "Publics vis\u00e9s : milieux souverainistes, jeunes officiers et opinion m\u00e9fiante envers l'OTAN.",
-      "D\u00e9clencheur fictif : cartes d'exercices alli\u00e9s, photos de r\u00e9unions et montages de fl\u00e8ches transatlantiques.",
-      "Point de vigilance : distinguer commandement national, coordination alli\u00e9e, exercice, d\u00e9cision politique et propagande.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis.",
+      "Acteurs plausibles: puissance anti-OTAN, relais souverainistes et influenceurs g\u00e9opolitiques.",
+      "Publics vis\u00e9s: milieux souverainistes, jeunes officiers et opinion m\u00e9fiante envers l'OTAN.",
+      "D\u00e9clencheur: cartes d'exercices alli\u00e9s, photos de r\u00e9unions et montages de fl\u00e8ches transatlantiques.",
+      "Point de vigilance: distinguer commandement national, coordination alli\u00e9e, exercice, d\u00e9cision politique et propagande.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -25782,7 +25818,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_otan.jpg"
       },
       {
@@ -25791,7 +25827,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -25800,7 +25836,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -25809,7 +25845,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -25818,7 +25854,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_otan_souverainete.jpg"
       },
       {
@@ -25827,7 +25863,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_19.jpg"
       },
       {
@@ -25836,7 +25872,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_otan_souverainete.jpg"
       },
       {
@@ -25854,7 +25890,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_19.jpg"
       },
       {
@@ -25863,7 +25899,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -25872,7 +25908,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -25881,7 +25917,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -25894,7 +25930,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -25907,7 +25943,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -25920,7 +25956,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -25933,7 +25969,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -25946,7 +25982,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -25956,7 +25992,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -25966,7 +26002,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -25976,7 +26012,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -25986,7 +26022,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -25996,7 +26032,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -26006,7 +26042,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -26016,7 +26052,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -26026,7 +26062,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -26036,7 +26072,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -26046,7 +26082,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -26056,7 +26092,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -26066,7 +26102,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -26076,7 +26112,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -26086,7 +26122,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -26096,7 +26132,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -26106,7 +26142,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -26116,7 +26152,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -26126,7 +26162,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -26136,7 +26172,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -26146,7 +26182,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -26156,7 +26192,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -26166,7 +26202,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -26176,7 +26212,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -26188,7 +26224,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -26200,7 +26236,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -26224,7 +26260,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -26276,7 +26312,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -26290,7 +26326,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -26304,7 +26340,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -26388,7 +26424,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -26568,25 +26604,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : distinguer commandement national, coordination alli\u00e9e, exercice, d\u00e9cision politique et propagande. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: distinguer commandement national, coordination alli\u00e9e, exercice, d\u00e9cision politique et propagande. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur cartes d'exercices alli\u00e9s, photos de r\u00e9unions et montages de fl\u00e8ches transatlantiques. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais opposer patriotisme fran\u00e7ais et alliances militaires ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : La France parle d'ind\u00e9pendance strat\u00e9gique mais agirait comme sous-traitant militaire. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : opposer patriotisme fran\u00e7ais et alliances militaires. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: La France parle d'ind\u00e9pendance strat\u00e9gique mais agirait comme sous-traitant militaire. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: opposer patriotisme fran\u00e7ais et alliances militaires. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -26697,7 +26735,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_otan_souverainete_",
-        "content": "EXCLUSIF : les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
+        "content": "EXCLUSIF: les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #SouveraineteMilitaire",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 45900,
@@ -26749,7 +26787,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_19",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que les forces fran\u00e7aises ne d\u00e9cideraient plus de leurs engagements et ob\u00e9iraient \u00e0 l'OTAN ou aux \u00c9tats-Unis. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 51000,
@@ -26802,7 +26840,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : opposer patriotisme fran\u00e7ais et alliances militaires. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: opposer patriotisme fran\u00e7ais et alliances militaires. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2771,
         "reposts": 1433,
@@ -26819,7 +26857,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3290,
         "reposts": 1833,
@@ -27057,11 +27095,11 @@ const builtInScenarios = [
   },
   {
     "id": "transversal-france-ment",
-    "title": "Transversal : la France mentirait toujours apr\u00e8s ses op\u00e9rations",
-    "briefing": "Simulation p\u00e9dagogique : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques fictifs et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
-    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es : installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information.",
+    "title": "Transversal: la France mentirait toujours apr\u00e8s ses op\u00e9rations",
+    "briefing": "Simulation p\u00e9dagogique: l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Le fil m\u00e9lange publications prudentes, images fortes, faux documents, comptes politiques et relais coordonn\u00e9s. Les \u00e9l\u00e8ves doivent rep\u00e9rer une attaque informationnelle sans supposer qu'un message viral est vrai parce qu'il est spectaculaire.",
+    "objective": "Identifier le narratif, les comptes amplificateurs, les visuels d\u00e9tourn\u00e9s, les m\u00e9tadonn\u00e9es suspectes et les cons\u00e9quences recherch\u00e9es: installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information.",
     "timeWindow": "09:00-15:30",
-    "location": "Fil multi-crises fictif agr\u00e9geant plusieurs accusations",
+    "location": "Fil multi-crises agr\u00e9geant plusieurs accusations",
     "volume": 600,
     "seed": 116471542,
     "trends": [
@@ -27192,12 +27230,12 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Narratif central : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration.",
-      "Acteurs plausibles : coalition informelle d'\u00c9tat hostile, relais militants, m\u00e9dias d'influence et comptes opportunistes.",
-      "Publics vis\u00e9s : grand public, journalistes, \u00e9l\u00e8ves, familles et partenaires \u00e9trangers.",
-      "D\u00e9clencheur fictif : agr\u00e9gation d'incident spatial, pollution, civils tu\u00e9s, crise civile et faux lanceurs d'alerte.",
-      "Point de vigilance : cartographier les narratifs, rep\u00e9rer les comptes pivots, s\u00e9parer les dossiers et v\u00e9rifier les sources primaires.",
-      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ : ce sont des indices \u00e0 recouper, pas des preuves automatiques."
+      "Narratif central: l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration.",
+      "Acteurs plausibles: coalition informelle d'\u00c9tat hostile, relais militants, m\u00e9dias d'influence et comptes opportunistes.",
+      "Publics vis\u00e9s: grand public, journalistes, \u00e9l\u00e8ves, familles et partenaires \u00e9trangers.",
+      "D\u00e9clencheur: agr\u00e9gation d'incident spatial, pollution, civils tu\u00e9s, crise civile et faux lanceurs d'alerte.",
+      "Point de vigilance: cartographier les narratifs, rep\u00e9rer les comptes pivots, s\u00e9parer les dossiers et v\u00e9rifier les sources primaires.",
+      "Certains visuels contiennent des m\u00e9tadonn\u00e9es simul\u00e9es ru_RU ou az_AZ: ce sont des indices \u00e0 recouper, pas des preuves automatiques."
     ],
     "actors": [
       {
@@ -27206,7 +27244,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Canal institutionnel fictif. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
+        "bio": "Canal institutionnel. Publie des communiqu\u00e9s prudents, dat\u00e9s et v\u00e9rifiables.",
         "avatar": "avatar_org_canal_officiel_transversal.jpg"
       },
       {
@@ -27215,7 +27253,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste. V\u00e9rification, terrain et contexte.",
         "avatar": "avatar_org_agence_horizon.jpg"
       },
       {
@@ -27224,7 +27262,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte fictif sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
+        "bio": "Compte sp\u00e9cialis\u00e9 dans la g\u00e9olocalisation, les m\u00e9tadonn\u00e9es et la premi\u00e8re publication.",
         "avatar": "avatar_org_verif_images.jpg"
       },
       {
@@ -27233,7 +27271,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "high",
-        "bio": "Compte p\u00e9dagogique fictif. Explique les limites des cartes, images et captures virales.",
+        "bio": "Compte p\u00e9dagogique. Explique les limites des cartes, images et captures virales.",
         "avatar": "avatar_org_osint_methodes.jpg"
       },
       {
@@ -27242,7 +27280,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte local fictif. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
+        "bio": "Compte local. T\u00e9moignages et questions utiles, \u00e0 recouper avec d'autres sources.",
         "avatar": "avatar_human_temoin_transversal_france.jpg"
       },
       {
@@ -27251,7 +27289,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Collectif fictif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
+        "bio": "Collectif. Recueille t\u00e9moignages et demandes d'enqu\u00eate, avec prudence variable selon les posts.",
         "avatar": "avatar_org_observatoire_civil_20.jpg"
       },
       {
@@ -27260,7 +27298,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte d'alerte fictif cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
+        "bio": "Compte d'alerte cr\u00e9\u00e9 r\u00e9cemment. Publie beaucoup, souvent sans source primaire.",
         "avatar": "avatar_org_alerte_transversal_france.jpg"
       },
       {
@@ -27278,7 +27316,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Canal relais fictif. Revendique des sources priv\u00e9es et pousse au partage rapide.",
+        "bio": "Canal relais. Revendique des sources priv\u00e9es et pousse au partage rapide.",
         "avatar": "avatar_org_leaks24_20.jpg"
       },
       {
@@ -27287,7 +27325,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "M\u00e9dia alternatif fictif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
+        "bio": "M\u00e9dia alternatif. Ton \u00e9motionnel, titres tr\u00e8s affirmatifs et reprises de contenus priv\u00e9s.",
         "avatar": "avatar_org_voixdupeuple_news.jpg"
       },
       {
@@ -27296,7 +27334,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte OSINT fictif. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
+        "bio": "Compte OSINT. M\u00e9lange parfois bonnes questions et conclusions trop rapides.",
         "avatar": "avatar_org_globalintel_fr.jpg"
       },
       {
@@ -27305,7 +27343,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
+        "bio": "Pr\u00e9sident d'Am\u00e9ria. Compte parodique : ton offensif, sarcasmes, rapport de force commercial et diplomatie transactionnelle.",
         "avatar": "avatar_political_donald_tromp.jpg",
         "accountType": "political",
         "persona": "tromp",
@@ -27318,7 +27356,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
+        "bio": "Pr\u00e9sident de la F\u00e9d\u00e9ration de Ruvie. Communication rare, froide et institutionnelle, centr\u00e9e sur les contradictions occidentales.",
         "avatar": "avatar_political_vladmir_poutin.jpg",
         "accountType": "political",
         "persona": "poutin",
@@ -27331,7 +27369,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
+        "bio": "Pr\u00e9sident d'Az\u00e9rane. Prises de parole diplomatiques ax\u00e9es sur la souverainet\u00e9 et la d\u00e9nonciation des le\u00e7ons venues de Paris.",
         "avatar": "avatar_political_ilhan_aliyef.jpg",
         "accountType": "political",
         "persona": "aliyef",
@@ -27344,7 +27382,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "medium",
-        "bio": "Pr\u00e9sidente fictive de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
+        "bio": "Pr\u00e9sidente de la Commission europ\u00e9enne. Ton institutionnel, prudent et coordonn\u00e9 avec les \u00c9tats membres.",
         "avatar": "avatar_political_ursula_von_der_lyen.jpg",
         "accountType": "political",
         "persona": "von-der-lyen",
@@ -27357,7 +27395,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "avatar": "avatar_political_jordane_bardelle.jpg",
         "accountType": "political",
         "persona": "bardelle",
@@ -27370,7 +27408,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -27380,7 +27418,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -27390,7 +27428,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -27400,7 +27438,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -27410,7 +27448,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -27420,7 +27458,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -27430,7 +27468,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -27440,7 +27478,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux: routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -27450,7 +27488,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -27460,7 +27498,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -27470,7 +27508,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -27480,7 +27518,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -27490,7 +27528,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -27500,7 +27538,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -27510,7 +27548,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -27520,7 +27558,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -27530,7 +27568,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -27540,7 +27578,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -27550,7 +27588,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -27560,7 +27598,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -27570,7 +27608,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -27580,7 +27618,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal: travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -27590,7 +27628,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -27600,7 +27638,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -27612,7 +27650,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge: civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -27624,7 +27662,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -27648,7 +27686,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -27700,7 +27738,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -27714,7 +27752,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -27728,7 +27766,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -27812,7 +27850,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -27992,25 +28030,27 @@ const builtInScenarios = [
     ],
     "normalTemplates": [
       "Le narratif affirme que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Pour l'instant, il faut s\u00e9parer accusation, indice et preuve v\u00e9rifiable.",
-      "Point de m\u00e9thode : cartographier les narratifs, rep\u00e9rer les comptes pivots, s\u00e9parer les dossiers et v\u00e9rifier les sources primaires. Une image spectaculaire ne suffit pas \u00e0 conclure.",
+      "Point de m\u00e9thode: cartographier les narratifs, rep\u00e9rer les comptes pivots, s\u00e9parer les dossiers et v\u00e9rifier les sources primaires. Une image spectaculaire ne suffit pas \u00e0 conclure.",
       "Le d\u00e9clencheur annonc\u00e9 repose sur agr\u00e9gation d'incident spatial, pollution, civils tu\u00e9s, crise civile et faux lanceurs d'alerte. Je cherche la premi\u00e8re publication et une source primaire.",
       "Des cons\u00e9quences sont possibles, mais installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information ne se d\u00e9montre pas avec une capture isol\u00e9e.",
       "La viralit\u00e9 indique qu'un sujet prend, pas qu'il est vrai. Il faut recouper compte, date, lieu et cha\u00eene de diffusion.",
       "Je vois plusieurs comptes r\u00e9cents reprendre les m\u00eames mots. \u00c7a peut signaler une coordination ou un simple effet de reprise.",
       "Attention \u00e0 ne pas confondre d\u00e9bat l\u00e9gitime, critique politique et op\u00e9ration d'influence.",
       "Les m\u00e9tadonn\u00e9es donnent des indices sur la cha\u00eene de diffusion, mais elles ne prouvent pas seules l'attribution.",
+      "Plus le volume augmente, plus il faut ralentir la v\u00e9rification: origine, date, lieu, source primaire, puis seulement interpr\u00e9tation.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "PREUVE TOTALE : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
-      "Tout confirme le sc\u00e9nario : L'objectif n'est pas une seule histoire, mais l'id\u00e9e que tout est suspect. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
-      "Document interne re\u00e7u en priv\u00e9 : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Aucun besoin d'attendre une enqu\u00eate.",
-      "M\u00eame des responsables \u00e9trangers le disent maintenant : installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Le silence officiel est un aveu.",
+      "PREUVE TOTALE: l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les m\u00e9dias vont enterrer l'affaire, partagez avant suppression.",
+      "Tout confirme le sc\u00e9nario: L'objectif n'est pas une seule histoire, mais l'id\u00e9e que tout est suspect. Ceux qui demandent des sources prot\u00e8gent la version officielle.",
+      "Document interne re\u00e7u en priv\u00e9: l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Aucun besoin d'attendre une enqu\u00eate.",
+      "M\u00eame des responsables \u00e9trangers le disent maintenant: installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Le silence officiel est un aveu.",
       "Les v\u00e9rificateurs arrivent toujours trop tard. Si l'image choque, c'est qu'elle montre la v\u00e9rit\u00e9 que le pouvoir cache.",
       "Nos sources locales confirment tout, mais elles ne peuvent pas parler publiquement. Faites circuler massivement.",
       "On reconna\u00eet clairement la sc\u00e8ne sur l'image. Les d\u00e9tails techniques ne servent qu'\u00e0 noyer le scandale.",
-      "La m\u00eame information sort de plusieurs comptes : impossible que ce soit faux.",
+      "La m\u00eame information sort de plusieurs comptes: impossible que ce soit faux.",
+      "La rumeur devient impossible \u00e0 contr\u00f4ler: captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main.",
       "Les fact-checkers minimisent pendant que les grands comptes \u00e9trangers r\u00e9agissent. Si tout le monde en parle, c'est que la v\u00e9rit\u00e9 sort.",
       "La rumeur devient impossible \u00e0 contr\u00f4ler : captures, cartes, t\u00e9moins et fuites disent la m\u00eame chose. Les autorit\u00e9s ont perdu la main."
     ],
@@ -28121,7 +28161,7 @@ const builtInScenarios = [
       {
         "minute": 26,
         "actor": "@alerte_transversal_france",
-        "content": "EXCLUSIF : l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
+        "content": "EXCLUSIF: l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les preuves circulent d\u00e9j\u00e0, mais les autorit\u00e9s gagnent du temps. #ToutEstCache",
         "suspect": true,
         "reason": "Affirmation d\u00e9finitive, source absente et appel implicite au relais avant v\u00e9rification.",
         "likes": 46800,
@@ -28173,7 +28213,7 @@ const builtInScenarios = [
       {
         "minute": 74,
         "actor": "@leaks24_20",
-        "content": "Fuite re\u00e7ue cette nuit : tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
+        "content": "Fuite re\u00e7ue cette nuit: tout prouve que l'arm\u00e9e fran\u00e7aise aurait une culture du secret et du mensonge apr\u00e8s chaque op\u00e9ration. Les noms complets arrivent bient\u00f4t.",
         "suspect": true,
         "reason": "Fuite inv\u00e9rifiable, promesse de preuves futures et pression temporelle.",
         "likes": 51900,
@@ -28226,7 +28266,7 @@ const builtInScenarios = [
       {
         "minute": 143,
         "actor": "@agence_horizon",
-        "content": "Cons\u00e9quence possible \u00e0 surveiller : installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Mais cela ne valide pas automatiquement le narratif viral.",
+        "content": "Cons\u00e9quence possible \u00e0 surveiller: installer un climat g\u00e9n\u00e9ral de doute plut\u00f4t qu'imposer une seule fausse information. Mais cela ne valide pas automatiquement le narratif viral.",
         "suspect": false,
         "likes": 2780,
         "reposts": 1440,
@@ -28243,7 +28283,7 @@ const builtInScenarios = [
       {
         "minute": 178,
         "actor": "@verif_images",
-        "content": "Synth\u00e8se provisoire : plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
+        "content": "Synth\u00e8se provisoire: plusieurs images sont int\u00e9ressantes, mais aucune ne suffit seule. Il faut remonter la cha\u00eene de publication et comparer les m\u00e9tadonn\u00e9es.",
         "suspect": false,
         "likes": 3300,
         "reposts": 1840,
@@ -28482,10 +28522,10 @@ const builtInScenarios = [
   {
     "id": "elections-presidentielles-2027",
     "title": "\u00c9lection pr\u00e9sidentielle fran\u00e7aise 2027",
-    "briefing": "Simulation prospective enti\u00e8rement fictive situ\u00e9e en octobre 2026, plusieurs mois avant l'\u00e9lection pr\u00e9sidentielle fran\u00e7aise de 2027. Le fil m\u00eale candidatures pressenties, recherche de parrainages, sondages, d\u00e9bats sur le pouvoir d'achat, r\u00e9actions politiques, faux documents, vid\u00e9os sorties de leur contexte et contenus synth\u00e9tiques. Des r\u00e9seaux coordonn\u00e9s cherchent d\u00e9j\u00e0 \u00e0 opposer villes et campagnes, g\u00e9n\u00e9rations, cat\u00e9gories sociales, m\u00e9tropole et outre-mer afin d'affaiblir la confiance collective avant m\u00eame l'ouverture de la campagne officielle. Les publications ordinaires continuent afin de reproduire un v\u00e9ritable brouillard informationnel.",
+    "briefing": "Simulation prospective enti\u00e8rement situ\u00e9e en octobre 2026, plusieurs mois avant l'\u00e9lection pr\u00e9sidentielle fran\u00e7aise de 2027. Le fil m\u00eale candidatures pressenties, recherche de parrainages, sondages, d\u00e9bats sur le pouvoir d'achat, r\u00e9actions politiques, faux documents, vid\u00e9os sorties de leur contexte et contenus synth\u00e9tiques. Des r\u00e9seaux coordonn\u00e9s cherchent d\u00e9j\u00e0 \u00e0 opposer villes et campagnes, g\u00e9n\u00e9rations, cat\u00e9gories sociales, m\u00e9tropole et outre-mer afin d'affaiblir la confiance collective avant m\u00eame l'ouverture de la campagne officielle. Les publications ordinaires continuent afin de reproduire un v\u00e9ritable brouillard informationnel.",
     "objective": "\u00c9tablir une chronologie fiable, distinguer sondage, d\u00e9claration, rumeur, t\u00e9moignage local et manipulation, puis identifier les op\u00e9rations qui cherchent d\u00e8s octobre 2026 \u00e0 fausser le d\u00e9bat de 2027, discr\u00e9diter l'\u00c9lys\u00e9e, dresser des groupes de Fran\u00e7ais les uns contre les autres et installer durablement le doute avant le scrutin.",
     "timeWindow": "07:45-23:45",
-    "location": "France, octobre 2026, et environnement num\u00e9rique fictif",
+    "location": "France, octobre 2026, et environnement num\u00e9rique ",
     "volume": 720,
     "seed": 202704251,
     "trends": [
@@ -28652,7 +28692,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 612000,
         "dailyPosts": 8,
-        "bio": "Autorit\u00e9 \u00e9lectorale fictive. Calendrier, r\u00e8gles de candidature, parrainages, financement et pr\u00e9paration du scrutin de 2027.",
+        "bio": "Autorit\u00e9 \u00e9lectorale. Calendrier, r\u00e8gles de candidature, parrainages, financement et pr\u00e9paration du scrutin de 2027.",
         "accountType": "official",
         "avatar": "avatar_org_commission_scrutin.jpg"
       },
@@ -28664,7 +28704,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 948000,
         "dailyPosts": 12,
-        "bio": "Compte institutionnel fictif consacr\u00e9 \u00e0 l'organisation mat\u00e9rielle des scrutins et aux communiqu\u00e9s du minist\u00e8re de l'Int\u00e9rieur.",
+        "bio": "Compte institutionnel consacr\u00e9 \u00e0 l'organisation mat\u00e9rielle des scrutins et aux communiqu\u00e9s du minist\u00e8re de l'Int\u00e9rieur.",
         "accountType": "official",
         "avatar": "avatar_org_interieur_elections.jpg"
       },
@@ -28676,7 +28716,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 2350000,
         "dailyPosts": 74,
-        "bio": "R\u00e9daction nationale fictive. Politique, soci\u00e9t\u00e9, \u00e9conomie et directs \u00e9lectoraux avec corrections horodat\u00e9es.",
+        "bio": "R\u00e9daction nationale. Politique, soci\u00e9t\u00e9, \u00e9conomie et directs \u00e9lectoraux avec corrections horodat\u00e9es.",
         "accountType": "media_network",
         "avatar": "avatar_org_france_agora.jpg"
       },
@@ -28688,7 +28728,7 @@ const builtInScenarios = [
         "trust": "medium",
         "followers": 812000,
         "dailyPosts": 29,
-        "bio": "Quotidien fran\u00e7ais fictif. Reportages, \u00e9ditoriaux, analyses politiques et suivi des institutions.",
+        "bio": "Quotidien fran\u00e7ais. Reportages, \u00e9ditoriaux, analyses politiques et suivi des institutions.",
         "accountType": "media_network",
         "avatar": "avatar_org_courrier_public.jpg"
       },
@@ -28700,7 +28740,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 286000,
         "dailyPosts": 31,
-        "bio": "Cellule fictive de v\u00e9rification pr\u00e9\u00e9lectorale : sondages, images, d\u00e9clarations, cartes, parrainages et faux documents.",
+        "bio": "Cellule de v\u00e9rification pr\u00e9\u00e9lectorale : sondages, images, d\u00e9clarations, cartes, parrainages et faux documents.",
         "accountType": "fact_checker",
         "avatar": "avatar_org_verif_scrutin.jpg"
       },
@@ -28712,7 +28752,7 @@ const builtInScenarios = [
         "trust": "medium",
         "followers": 49600,
         "dailyPosts": 43,
-        "bio": "Compte fictif de visualisation pr\u00e9\u00e9lectorale. Agr\u00e8ge sondages, candidatures pressenties et d\u00e9bats publics, avec une prudence variable.",
+        "bio": "Compte de visualisation pr\u00e9\u00e9lectorale. Agr\u00e8ge sondages, candidatures pressenties et d\u00e9bats publics, avec une prudence variable.",
         "accountType": "analyst",
         "avatar": "avatar_org_datavote_2027.jpg"
       },
@@ -28724,7 +28764,7 @@ const builtInScenarios = [
         "trust": "medium",
         "followers": 1840,
         "dailyPosts": 7,
-        "bio": "\u00c9lu municipal fictif en r\u00e9gion parisienne. Parle de parrainages et de d\u00e9bats locaux sans disposer d'une vision nationale.",
+        "bio": "\u00c9lu municipal en r\u00e9gion parisienne. Parle de parrainages et de d\u00e9bats locaux sans disposer d'une vision nationale.",
         "accountType": "citizen",
         "avatar": "avatar_human_elu_local92.jpg"
       },
@@ -28784,7 +28824,7 @@ const builtInScenarios = [
         "following": 311,
         "dailyPosts": 97,
         "created": "Inscrit en juillet 2026",
-        "bio": "Compte fictif de r\u00e9v\u00e9lations politiques. Documents internes, messages supprim\u00e9s et confidences anonymes.",
+        "bio": "Compte de r\u00e9v\u00e9lations politiques. Documents internes, messages supprim\u00e9s et confidences anonymes.",
         "accountType": "alternative_media",
         "originTrace": "az",
         "avatar": "avatar_org_coulisses_elysee.jpg"
@@ -28846,7 +28886,7 @@ const builtInScenarios = [
         "dailyPosts": 4,
         "accountType": "political",
         "persona": "lepennec",
-        "bio": "Pr\u00e9sidente fictive d'un parti national fran\u00e7ais. Communication solennelle, critique des institutions et demandes de transparence sur le scrutin.",
+        "bio": "Pr\u00e9sidente d'un parti national fran\u00e7ais. Communication solennelle, critique des institutions et demandes de transparence sur le scrutin.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_marine_lepennec.jpg"
@@ -28861,7 +28901,7 @@ const builtInScenarios = [
         "dailyPosts": 7,
         "accountType": "political",
         "persona": "melenchant",
-        "bio": "Fondateur fictif d'un mouvement de gauche fran\u00e7ais. Ton combatif, r\u00e9f\u00e9rences au peuple, aux institutions et \u00e0 la souverainet\u00e9 du vote.",
+        "bio": "Fondateur d'un mouvement de gauche fran\u00e7ais. Ton combatif, r\u00e9f\u00e9rences au peuple, aux institutions et \u00e0 la souverainet\u00e9 du vote.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_jl_melenchant.jpg"
@@ -28876,7 +28916,7 @@ const builtInScenarios = [
         "dailyPosts": 3,
         "accountType": "political",
         "persona": "attel",
-        "bio": "Ancien Premier ministre fictif et dirigeant du bloc central. Communication rapide, institutionnelle et centr\u00e9e sur la stabilit\u00e9 d\u00e9mocratique.",
+        "bio": "Ancien Premier ministre et dirigeant du bloc central. Communication rapide, institutionnelle et centr\u00e9e sur la stabilit\u00e9 d\u00e9mocratique.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_gabriel_attel.jpg"
@@ -28891,7 +28931,7 @@ const builtInScenarios = [
         "dailyPosts": 6,
         "accountType": "political",
         "persona": "zemmourre",
-        "bio": "Pr\u00e9sident fictif d'un parti de droite identitaire. Ton pol\u00e9mique, formules tranchantes et mise en cause fr\u00e9quente du syst\u00e8me politique.",
+        "bio": "Pr\u00e9sident d'un parti de droite identitaire. Ton pol\u00e9mique, formules tranchantes et mise en cause fr\u00e9quente du syst\u00e8me politique.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_eric_zemmourre.jpg"
@@ -28906,7 +28946,7 @@ const builtInScenarios = [
         "dailyPosts": 9,
         "accountType": "political",
         "persona": "roussot",
-        "bio": "D\u00e9put\u00e9e \u00e9cologiste fictive. Prises de position sur la d\u00e9mocratie, les libert\u00e9s publiques et la responsabilit\u00e9 des plateformes.",
+        "bio": "D\u00e9put\u00e9e \u00e9cologiste. Prises de position sur la d\u00e9mocratie, les libert\u00e9s publiques et la responsabilit\u00e9 des plateformes.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_sandrine_roussot.jpg"
@@ -28921,7 +28961,7 @@ const builtInScenarios = [
         "dailyPosts": 5,
         "accountType": "political",
         "persona": "bardelle",
-        "bio": "Pr\u00e9sident fictif d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
+        "bio": "Pr\u00e9sident d'un grand parti national fran\u00e7ais et d\u00e9put\u00e9 europ\u00e9en. Ton politique direct, demandes d'explications et mise en cause du gouvernement.",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
         "avatar": "avatar_political_jordane_bardelle.jpg"
@@ -28932,7 +28972,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -28942,7 +28982,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -28952,7 +28992,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -28962,7 +29002,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -28972,7 +29012,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -28982,7 +29022,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -28992,7 +29032,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -29002,7 +29042,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -29012,7 +29052,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -29022,7 +29062,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -29032,7 +29072,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -29042,7 +29082,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -29052,7 +29092,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -29062,7 +29102,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -29072,7 +29112,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -29082,7 +29122,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -29092,7 +29132,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -29102,7 +29142,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -29112,7 +29152,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -29122,7 +29162,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -29132,7 +29172,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -29142,7 +29182,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -29152,7 +29192,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -29162,7 +29202,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -29200,7 +29240,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -29214,7 +29254,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -29228,7 +29268,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -29426,7 +29466,7 @@ const builtInScenarios = [
       {
         "kind": "video",
         "title": "Entretien politique t\u00e9l\u00e9vis\u00e9",
-        "caption": "Responsable politique fictif interrog\u00e9 plusieurs mois avant le scrutin.",
+        "caption": "Responsable politique interrog\u00e9 plusieurs mois avant le scrutin.",
         "asset": "elections-presidentielles-2027_03.jpg",
         "trace": "fr"
       },
@@ -29468,7 +29508,7 @@ const builtInScenarios = [
       {
         "kind": "osint",
         "title": "Cellule d'influence num\u00e9rique",
-        "caption": "\u00c9crans de comptes coordonn\u00e9s associ\u00e9s \u00e0 une campagne d'amplification fictive.",
+        "caption": "\u00c9crans de comptes coordonn\u00e9s associ\u00e9s \u00e0 une campagne d'amplification.",
         "asset": "elections-presidentielles-2027_09.jpg",
         "trace": "ru"
       },
@@ -29482,7 +29522,7 @@ const builtInScenarios = [
       {
         "kind": "photo",
         "title": "Recherche de parrainages",
-        "caption": "Rencontre fictive entre un candidat potentiel et des \u00e9lus locaux.",
+        "caption": "Rencontre entre un candidat potentiel et des \u00e9lus locaux.",
         "asset": "elections-presidentielles-2027_11.jpg",
         "trace": "fr"
       },
@@ -29577,7 +29617,7 @@ const builtInScenarios = [
         "media": {
           "kind": "osint",
           "title": "Cellule d'influence num\u00e9rique",
-          "caption": "\u00c9crans de comptes coordonn\u00e9s associ\u00e9s \u00e0 une campagne d'amplification fictive.",
+          "caption": "\u00c9crans de comptes coordonn\u00e9s associ\u00e9s \u00e0 une campagne d'amplification.",
           "asset": "elections-presidentielles-2027_09.jpg",
           "trace": "ru"
         }
@@ -29643,7 +29683,7 @@ const builtInScenarios = [
         "content": "\u0417\u0430 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u043e \u043c\u0435\u0441\u044f\u0446\u0435\u0432 \u0434\u043e \u0432\u044b\u0431\u043e\u0440\u043e\u0432 \u0424\u0440\u0430\u043d\u0446\u0438\u044f \u0443\u0436\u0435 \u0440\u0430\u0441\u043a\u043e\u043b\u043e\u0442\u0430: \u0441\u0435\u043b\u044c\u0441\u043a\u0438\u0435 \u0440\u0430\u0439\u043e\u043d\u044b \u0438 \u0433\u043e\u0440\u043e\u0434\u0430 \u043e\u0431\u0432\u0438\u043d\u044f\u044e\u0442 \u0434\u0440\u0443\u0433 \u0434\u0440\u0443\u0433\u0430, \u0430 \u0415\u043b\u0438\u0441\u0435\u0439\u0441\u043a\u0438\u0439 \u0434\u0432\u043e\u0440\u0435\u0446 \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u0438\u0440\u0443\u0435\u0442 \u043a\u0430\u043c\u043f\u0430\u043d\u0438\u044e.",
         "language": "ru",
         "translation": "Plusieurs mois avant l'\u00e9lection, la France serait d\u00e9j\u00e0 divis\u00e9e : les territoires ruraux et les villes s'accusent mutuellement tandis que l'\u00c9lys\u00e9e contr\u00f4lerait la campagne.",
-        "reason": "M\u00e9dia d'influence fictif pr\u00e9sentant des rumeurs pr\u00e9\u00e9lectorales comme une fracture nationale d\u00e9j\u00e0 \u00e9tablie.",
+        "reason": "M\u00e9dia d'influence pr\u00e9sentant des rumeurs pr\u00e9\u00e9lectorales comme une fracture nationale d\u00e9j\u00e0 \u00e9tablie.",
         "likes": 59600,
         "reposts": 41800,
         "replies": 12960,
@@ -29685,7 +29725,7 @@ const builtInScenarios = [
         "media": {
           "kind": "photo",
           "title": "Recherche de parrainages",
-          "caption": "Rencontre fictive entre un candidat potentiel et des \u00e9lus locaux.",
+          "caption": "Rencontre entre un candidat potentiel et des \u00e9lus locaux.",
           "asset": "elections-presidentielles-2027_11.jpg",
           "trace": "fr"
         }
@@ -29702,7 +29742,7 @@ const builtInScenarios = [
         "media": {
           "kind": "video",
           "title": "Entretien politique t\u00e9l\u00e9vis\u00e9",
-          "caption": "Responsable politique fictif interrog\u00e9 plusieurs mois avant le scrutin.",
+          "caption": "Responsable politique interrog\u00e9 plusieurs mois avant le scrutin.",
           "asset": "elections-presidentielles-2027_03.jpg",
           "trace": "fr"
         }
@@ -29754,7 +29794,7 @@ const builtInScenarios = [
         "media": {
           "kind": "photo",
           "title": "Recherche de parrainages",
-          "caption": "Rencontre fictive entre un candidat potentiel et des \u00e9lus locaux.",
+          "caption": "Rencontre entre un candidat potentiel et des \u00e9lus locaux.",
           "asset": "elections-presidentielles-2027_11.jpg",
           "trace": "fr"
         }
@@ -30078,11 +30118,11 @@ const builtInScenarios = [
   },
   {
     "id": "deir-ez-zor-convoi-francais",
-    "title": "RedLand : convoi fran\u00e7ais fictif dans la r\u00e9gion de Deir ez-Zor",
-    "briefing": "Simulation p\u00e9dagogique enti\u00e8rement fictive. Une patrouille et un convoi arm\u00e9 fran\u00e7ais participent, dans une zone inspir\u00e9e de la r\u00e9gion de Deir ez-Zor, \u00e0 une mission multinationale de lutte contre une organisation terroriste fictive. Le fil commence pendant le d\u00e9placement, sans publier de route, d'horaire, de position ou d'unit\u00e9 r\u00e9elle. Des messages affirment que plusieurs attaques seraient en cours au sud, que le convoi aurait \u00e9t\u00e9 pris pour cible ou qu'une op\u00e9ration plus vaste serait dissimul\u00e9e. T\u00e9moignages locaux, images anciennes, fausses captures, informations humanitaires et sujets du quotidien se m\u00e9langent en temps r\u00e9el.",
+    "title": "REDLAND : convoi fran\u00e7ais dans la r\u00e9gion de Deir ez-Zor",
+    "briefing": "Une patrouille et un convoi arm\u00e9 fran\u00e7ais participent, dans la r\u00e9gion de Deir ez-Zor en REDLAND, \u00e0 une mission multinationale de lutte contre le terrorisme. Le fil commence pendant le d\u00e9placement, sans publier de route, d'horaire, de position ou d'unit\u00e9. Des messages affirment que plusieurs attaques seraient en cours au sud, que le convoi aurait \u00e9t\u00e9 pris pour cible ou qu'une op\u00e9ration plus vaste serait dissimul\u00e9e. T\u00e9moignages locaux, images anciennes, captures non authentifi\u00e9es, informations humanitaires et sujets du quotidien se m\u00e9langent en temps r\u00e9el.",
     "objective": "\u00c9tablir ce qui est confirm\u00e9 sans reconstituer ni diffuser une position op\u00e9rationnelle : distinguer observation locale, fuite authentique mais ancienne, rumeur coordonn\u00e9e, image recycl\u00e9e et communication officielle ; \u00e9valuer le risque cr\u00e9\u00e9 par la publication d'indices sur un convoi en mouvement.",
     "timeWindow": "05:30-19:30",
-    "location": "Zone fictive inspir\u00e9e de la r\u00e9gion de Deir ez-Zor, RedLand",
+    "location": "R\u00e9gion de Deir ez-Zor, REDLAND",
     "volume": 690,
     "seed": 2026101507,
     "trends": [
@@ -30225,7 +30265,7 @@ const builtInScenarios = [
       }
     ],
     "clues": [
-      "Tout le sc\u00e9nario est fictif : aucun itin\u00e9raire, horaire, num\u00e9ro d'unit\u00e9 ou position r\u00e9elle n'est repr\u00e9sent\u00e9.",
+      "Aucun itin\u00e9raire, horaire, num\u00e9ro d'unit\u00e9 ou point de passage pr\u00e9cis n'est communiqu\u00e9 dans le fil.",
       "Une observation de v\u00e9hicules peut \u00eatre exacte sans confirmer leur destination, leur mission ni leur position actuelle.",
       "La formule 'attaques en cours au sud' circule d'abord sans lieu, auteur, heure ni cible identifiables.",
       "Une image ancienne de fum\u00e9e et une \u00e9pave sans date sont reprises comme si elles montraient une embuscade du jour.",
@@ -30245,7 +30285,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 428000,
         "dailyPosts": 4,
-        "bio": "Compte militaire fictif r\u00e9serv\u00e9 \u00e0 l'animation enseignante. Informations g\u00e9n\u00e9rales sur une mission simul\u00e9e de lutte contre le terrorisme au Levant.",
+        "bio": "Compte officiel des forces fran\u00e7aises engag\u00e9es au Levant. Informations g\u00e9n\u00e9rales sur la mission de lutte contre le terrorisme.",
         "accountType": "official",
         "teacherOnly": true,
         "avatar": "avatar_org_forces_fr_levant.jpg"
@@ -30258,7 +30298,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 714000,
         "dailyPosts": 8,
-        "bio": "Compte officiel fictif de la coalition. Communiqu\u00e9s g\u00e9n\u00e9raux, s\u00e9curit\u00e9 des populations et lutte contre une organisation terroriste fictive.",
+        "bio": "Compte officiel de la coalition. Communiqu\u00e9s g\u00e9n\u00e9raux, s\u00e9curit\u00e9 des populations et lutte contre les groupes terroristes.",
         "accountType": "official",
         "avatar": "avatar_org_coalition_situation.jpg"
       },
@@ -30270,7 +30310,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 186000,
         "dailyPosts": 24,
-        "bio": "Collectif fictif d'analyse de sources ouvertes. Recoupe images, chronologies et d\u00e9clarations publiques sans publier de positions op\u00e9rationnelles.",
+        "bio": "Collectif ind\u00e9pendant d'analyse de sources ouvertes. Recoupe images, chronologies et d\u00e9clarations publiques sans publier de positions op\u00e9rationnelles.",
         "accountType": "fact_checker",
         "avatar": "avatar_org_observatoire_euphrate.jpg"
       },
@@ -30282,7 +30322,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 93400,
         "dailyPosts": 31,
-        "bio": "Cellule fictive de v\u00e9rification consacr\u00e9e aux images, t\u00e9moignages et rumeurs circulant au Levant.",
+        "bio": "Cellule de v\u00e9rification consacr\u00e9e aux images, t\u00e9moignages et rumeurs circulant au Levant.",
         "accountType": "fact_checker",
         "avatar": "avatar_org_verif_levant.jpg"
       },
@@ -30294,7 +30334,7 @@ const builtInScenarios = [
         "trust": "medium",
         "followers": 312000,
         "dailyPosts": 57,
-        "bio": "M\u00e9dia local fictif en arabe et en fran\u00e7ais. Vie quotidienne, circulation, s\u00e9curit\u00e9 et corrections horodat\u00e9es.",
+        "bio": "M\u00e9dia local en arabe et en fran\u00e7ais. Vie quotidienne, circulation, s\u00e9curit\u00e9 et corrections horodat\u00e9es.",
         "accountType": "media_network",
         "language": "ar",
         "languageLabel": "Arabe",
@@ -30308,7 +30348,7 @@ const builtInScenarios = [
         "trust": "high",
         "followers": 241000,
         "dailyPosts": 16,
-        "bio": "Organisation humanitaire fictive. Informations sur les soins, les d\u00e9placements civils et l'acc\u00e8s \u00e0 l'aide.",
+        "bio": "Organisation humanitaire. Informations sur les soins, les d\u00e9placements civils et l'acc\u00e8s \u00e0 l'aide.",
         "accountType": "ngo",
         "avatar": "avatar_org_secours_euphrate.jpg"
       },
@@ -30321,7 +30361,7 @@ const builtInScenarios = [
         "followers": 12600,
         "following": 611,
         "dailyPosts": 22,
-        "bio": "Photographe et t\u00e9moin local fictif. Publie parfois des observations utiles, parfois des informations re\u00e7ues sans confirmation.",
+        "bio": "Photographe et t\u00e9moin local. Publie parfois des observations utiles, parfois des informations re\u00e7ues sans confirmation.",
         "accountType": "citizen",
         "avatar": "avatar_human_karim_alsharq.jpg"
       },
@@ -30349,7 +30389,7 @@ const builtInScenarios = [
         "following": 3481,
         "dailyPosts": 397,
         "created": "Inscrit en octobre 2026",
-        "bio": "Compte d'alerte fictif. Re\u00e7oit des messages priv\u00e9s et republie imm\u00e9diatement les informations du sud.",
+        "bio": "Compte d'alerte r\u00e9gional. Re\u00e7oit des messages priv\u00e9s et republie imm\u00e9diatement les informations du sud.",
         "accountType": "bot_relay",
         "botScope": "global",
         "originTrace": "ru",
@@ -30376,7 +30416,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
+        "bio": "Compte de suivi des prix carburants, stations, files d'attente et aides annonc\u00e9es. M\u00e9lange t\u00e9moignages locaux et reprises de presse.",
         "accountType": "distractor",
         "avatar": "avatar_human_carbu_minute.jpg"
       },
@@ -30386,7 +30426,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
+        "bio": "Compte m\u00e9t\u00e9o et vie quotidienne. Publie alertes locales, cartes simplifi\u00e9es et retours d'abonn\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_meteo_fil.jpg"
       },
@@ -30396,7 +30436,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
+        "bio": "Compte de veille transports. Retards, incidents, captures d'applications et t\u00e9moignages d'usagers.",
         "accountType": "distractor",
         "avatar": "avatar_human_trafic_rail_idf.jpg"
       },
@@ -30406,7 +30446,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
+        "bio": "Compte consommation et pouvoir d'achat. Compare prix, factures, promotions et ressentis de terrain.",
         "accountType": "distractor",
         "avatar": "avatar_human_panier_conso.jpg"
       },
@@ -30416,7 +30456,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "media",
         "trust": "medium",
-        "bio": "M\u00e9dia g\u00e9n\u00e9raliste fictif, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
+        "bio": "M\u00e9dia g\u00e9n\u00e9raliste, tr\u00e8s rapide. Titres courts, reprises d'agences et corrections fr\u00e9quentes.",
         "accountType": "distractor",
         "avatar": "avatar_human_actu_flash_fr.jpg"
       },
@@ -30426,7 +30466,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
+        "bio": "Compte sur \u00e9nergie, p\u00e9trole, \u00e9lectricit\u00e9 et fret. Donne des chiffres \u00e0 surveiller, parfois trop vite interpr\u00e9t\u00e9s.",
         "accountType": "distractor",
         "avatar": "avatar_human_marches_energie.jpg"
       },
@@ -30436,7 +30476,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
+        "bio": "Compte sport et r\u00e9actions en direct. Scores, arbitrage, rumeurs de vestiaire et emballements de supporters.",
         "accountType": "distractor",
         "avatar": "avatar_human_stade_direct.jpg"
       },
@@ -30446,7 +30486,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
+        "bio": "Compte de signalements locaux : routes, sir\u00e8nes, fermetures, march\u00e9s, \u00e9coles et petites alertes de quartier.",
         "accountType": "distractor",
         "avatar": "avatar_human_vie_locale.jpg"
       },
@@ -30456,7 +30496,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "amplifier",
         "trust": "low",
-        "bio": "Compte fictif qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
+        "bio": "Compte qui reprend les sujets chauds sans toujours distinguer t\u00e9moignage, rumeur et information confirm\u00e9e.",
         "accountType": "distractor",
         "avatar": "avatar_human_rumeur_radar.jpg"
       },
@@ -30466,7 +30506,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia \u00e9conomique fictif. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
+        "bio": "M\u00e9dia \u00e9conomique. Suit budget, prix, entreprises, transports et \u00e9nergie avec un ton factuel.",
         "accountType": "distractor",
         "avatar": "avatar_human_eco_matin.jpg"
       },
@@ -30476,7 +30516,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
+        "bio": "Compte sur la vie scolaire, ENT, cantine, examens, t\u00e9l\u00e9phones et petites gal\u00e8res num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_human_classe_connectee.jpg"
       },
@@ -30486,7 +30526,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
+        "bio": "Compte culture, cin\u00e9ma, concerts, s\u00e9ries et \u00e9v\u00e9nements locaux. Beaucoup de r\u00e9actions, peu d'enjeux politiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_sorties_ecrans.jpg"
       },
@@ -30496,7 +30536,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "Compte fictif d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
+        "bio": "Compte d'information pratique sur l'acc\u00e8s aux soins, les pharmacies, les rendez-vous et la pr\u00e9vention.",
         "accountType": "distractor",
         "avatar": "avatar_org_sante_pratique.jpg"
       },
@@ -30506,7 +30546,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
+        "bio": "Compte consacr\u00e9 au trafic routier, aux travaux, aux accidents et aux itin\u00e9raires alternatifs.",
         "accountType": "distractor",
         "avatar": "avatar_org_route_bouchons.jpg"
       },
@@ -30516,7 +30556,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
+        "bio": "Compte de suivi des vols, files d'attente, bagages et perturbations dans les a\u00e9roports.",
         "accountType": "distractor",
         "avatar": "avatar_org_aeroport_minute.jpg"
       },
@@ -30526,7 +30566,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
+        "bio": "Compte sur les livraisons, points relais, d\u00e9marches et services de proximit\u00e9.",
         "accountType": "distractor",
         "avatar": "avatar_org_colis_services.jpg"
       },
@@ -30536,7 +30576,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "analyst",
         "trust": "medium",
-        "bio": "Compte fictif sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
+        "bio": "Compte sur les loyers, l'\u00e9nergie, les charges, les travaux et les aides au logement.",
         "accountType": "distractor",
         "avatar": "avatar_org_logement_clair.jpg"
       },
@@ -30546,7 +30586,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "news",
         "trust": "medium",
-        "bio": "Compte fictif sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
+        "bio": "Compte sur les pannes d'applications, abonnements, arnaques, t\u00e9l\u00e9phones et usages num\u00e9riques.",
         "accountType": "distractor",
         "avatar": "avatar_org_conso_numerique.jpg"
       },
@@ -30556,7 +30596,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "media",
         "trust": "high",
-        "bio": "M\u00e9dia fictif sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
+        "bio": "M\u00e9dia sur l'emploi, les recrutements, les formations et la vie \u00e9conomique r\u00e9gionale.",
         "accountType": "distractor",
         "avatar": "avatar_org_emploi_regions.jpg"
       },
@@ -30566,7 +30606,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
+        "bio": "Compte de cuisine, prix des aliments, march\u00e9s, recettes et bonnes adresses locales.",
         "accountType": "distractor",
         "avatar": "avatar_human_cuisine_du_jour.jpg"
       },
@@ -30576,7 +30616,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
+        "bio": "Compte sur les pistes cyclables, les d\u00e9placements urbains et les incidents du quotidien.",
         "accountType": "distractor",
         "avatar": "avatar_human_velo_ville_v2.jpg"
       },
@@ -30586,7 +30626,7 @@ const builtInScenarios = [
         "verified": true,
         "stance": "official",
         "trust": "high",
-        "bio": "Compte municipal fictif : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
+        "bio": "Compte municipal : travaux, \u00e9coles, march\u00e9s, \u00e9v\u00e9nements, \u00e9quipements et d\u00e9marches locales.",
         "accountType": "distractor",
         "avatar": "avatar_org_agenda_municipal.jpg"
       },
@@ -30596,7 +30636,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
+        "bio": "Compte d'entraide sur les r\u00e9parations, devis, copropri\u00e9t\u00e9s et petits travaux domestiques.",
         "accountType": "distractor",
         "avatar": "avatar_human_maison_travaux.jpg"
       },
@@ -30606,7 +30646,7 @@ const builtInScenarios = [
         "verified": false,
         "stance": "citizen",
         "trust": "medium",
-        "bio": "Compte fictif de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
+        "bio": "Compte de discussions sur l'\u00e9cole, les transports, les activit\u00e9s et l'organisation familiale.",
         "accountType": "distractor",
         "avatar": "avatar_human_fil_des_parents.jpg"
       },
@@ -30618,7 +30658,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "Organisation humanitaire internationale fictive, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
+        "bio": "Organisation humanitaire internationale, inspir\u00e9e des missions de protection de la Croix-Rouge : civils, bless\u00e9s, d\u00e9tenus et droit international humanitaire.",
         "accountType": "ngo",
         "avatar": "avatar_org_chi_humanitaire.jpg"
       },
@@ -30630,7 +30670,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG m\u00e9dicale fictive. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
+        "bio": "ONG m\u00e9dicale. \u00c9quipes de soins d'urgence, h\u00f4pitaux de campagne et t\u00e9moignages m\u00e9dicaux v\u00e9rifi\u00e9s dans les zones de crise.",
         "accountType": "ngo",
         "avatar": "avatar_org_medecins_solidaires.jpg"
       },
@@ -30654,7 +30694,7 @@ const builtInScenarios = [
         "trust": "high",
         "language": "fr",
         "languageLabel": "Fran\u00e7ais",
-        "bio": "ONG humanitaire fictive. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
+        "bio": "ONG humanitaire. Logistique d'urgence, eau, abris et assistance aux populations d\u00e9plac\u00e9es, avec priorit\u00e9 donn\u00e9e aux faits de terrain.",
         "accountType": "ngo",
         "avatar": "avatar_org_aide_sans_frontieres.jpg"
       },
@@ -30706,7 +30746,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 187000,
         "dailyPosts": 11,
-        "bio": "Journaliste d'investigation fictif, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
+        "bio": "Journaliste d'investigation, d\u00e9fense et affaires publiques. Documents, indiscr\u00e9tions et alertes re\u00e7ues de sources institutionnelles ou de terrain.",
         "accountType": "field_source",
         "avatar": "avatar_human_le_mamouth.jpg"
       },
@@ -30720,7 +30760,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 1850000,
         "dailyPosts": 46,
-        "bio": "R\u00e9daction fran\u00e7aise fictive d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
+        "bio": "R\u00e9daction fran\u00e7aise d'information continue. Direct, terrain, politique, \u00e9conomie et international.",
         "accountType": "media_network",
         "avatar": "avatar_org_hexagone_info.jpg"
       },
@@ -30734,7 +30774,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 620000,
         "dailyPosts": 24,
-        "bio": "M\u00e9dia d'opinion fictif. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
+        "bio": "M\u00e9dia d'opinion. Enqu\u00eates, \u00e9ditoriaux et d\u00e9bats sur la vie publique fran\u00e7aise et les relations internationales.",
         "accountType": "media_network",
         "avatar": "avatar_org_le_regard_fr.jpg"
       },
@@ -30818,7 +30858,7 @@ const builtInScenarios = [
         "languageLabel": "Fran\u00e7ais",
         "followers": 468000,
         "dailyPosts": 2,
-        "bio": "Compte institutionnel fictif du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
+        "bio": "Compte institutionnel du chef d'\u00e9tat-major des arm\u00e9es fran\u00e7aises. R\u00e9serv\u00e9 \u00e0 l'animation de la simulation par l'enseignant.",
         "accountType": "teacher_only",
         "teacherOnly": true,
         "avatar": "avatar_human_cema_france.jpg"
@@ -31002,7 +31042,7 @@ const builtInScenarios = [
       "Le march\u00e9 reste ouvert et les axes civils observ\u00e9s ici ne sont pas bloqu\u00e9s. Cette observation locale ne d\u00e9crit pas toute la r\u00e9gion.",
       "Une fum\u00e9e \u00e0 l'horizon peut avoir plusieurs causes. Je conserve l'incertitude tant qu'aucune source ind\u00e9pendante ne documente l'\u00e9v\u00e9nement.",
       "Le fichier original est absent et la capture a d\u00e9j\u00e0 \u00e9t\u00e9 recompress\u00e9e. Sa date de prise de vue ne peut pas \u00eatre confirm\u00e9e.",
-      "Le communiqu\u00e9 confirme une mission antiterroriste fictive, pas les rumeurs sur une embuscade ni les positions publi\u00e9es par des comptes anonymes.",
+      "Le communiqu\u00e9 confirme une mission antiterroriste, pas les rumeurs sur une embuscade ni les positions publi\u00e9es par des comptes anonymes.",
       "Diffuser une route suppos\u00e9e peut exposer des personnes m\u00eame lorsque l'information est inexacte. Je ne relaie aucun rep\u00e8re op\u00e9rationnel.",
       "Des camions humanitaires attendent dans la zone, mais rien ne d\u00e9montre que leur arr\u00eat soit li\u00e9 au convoi fran\u00e7ais.",
       "Cette \u00e9pave appara\u00eet dans des archives plus anciennes ; elle ne documente pas une attaque survenue aujourd'hui.",
@@ -31028,14 +31068,14 @@ const builtInScenarios = [
       {
         "kind": "photo",
         "title": "Convoi \u00e0 l'aube",
-        "caption": "Convoi blind\u00e9 fictif photographi\u00e9 sur une route d\u00e9sertique sans rep\u00e8re exploitable.",
+        "caption": "Convoi blind\u00e9 photographi\u00e9 sur une route d\u00e9sertique sans rep\u00e8re exploitable.",
         "asset": "deir-ez-zor-convoi-francais_01.jpg",
         "trace": "fr"
       },
       {
         "kind": "photo",
         "title": "Patrouille pr\u00e8s d'une localit\u00e9",
-        "caption": "V\u00e9hicules fictifs immobilis\u00e9s pr\u00e8s d'une zone habit\u00e9e, sans unit\u00e9 identifiable.",
+        "caption": "V\u00e9hicules immobilis\u00e9s pr\u00e8s d'une zone habit\u00e9e, sans unit\u00e9 identifiable.",
         "asset": "deir-ez-zor-convoi-francais_02.jpg",
         "trace": "fr"
       },
@@ -31049,7 +31089,7 @@ const builtInScenarios = [
       {
         "kind": "photo",
         "title": "\u00c9change au point de contr\u00f4le",
-        "caption": "Discussion entre une patrouille fictive et des repr\u00e9sentants locaux.",
+        "caption": "Discussion entre une patrouille et des repr\u00e9sentants locaux.",
         "asset": "deir-ez-zor-convoi-francais_04.jpg",
         "trace": "fr"
       },
@@ -31084,21 +31124,21 @@ const builtInScenarios = [
       {
         "kind": "photo",
         "title": "Convoi humanitaire immobilis\u00e9",
-        "caption": "Camions d'aide en attente, sans lien \u00e9tabli avec la patrouille fran\u00e7aise fictive.",
+        "caption": "Camions d'aide en attente, sans lien \u00e9tabli avec la patrouille fran\u00e7aise.",
         "asset": "deir-ez-zor-convoi-francais_09.jpg",
         "trace": "fr"
       },
       {
         "kind": "photo",
         "title": "Reporter examinant des traces",
-        "caption": "Journaliste fictif comparant le terrain, la lumi\u00e8re et les traces visibles.",
+        "caption": "Journaliste comparant le terrain, la lumi\u00e8re et les traces visibles.",
         "asset": "deir-ez-zor-convoi-francais_10.jpg",
         "trace": "fr"
       },
       {
         "kind": "osint",
         "title": "Cellule de v\u00e9rification",
-        "caption": "\u00c9quipe fictive recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
+        "caption": "\u00c9quipe recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
         "asset": "deir-ez-zor-convoi-francais_11.jpg",
         "trace": "fr"
       },
@@ -31123,7 +31163,7 @@ const builtInScenarios = [
         "minute": 12,
         "actor": "@coalition_situation",
         "suspect": false,
-        "content": "Une patrouille multinationale fictive poursuit une mission de lutte contre une organisation terroriste simul\u00e9e dans la r\u00e9gion. Aucun itin\u00e9raire, horaire ou point de passage ne sera communiqu\u00e9.",
+        "content": "Une patrouille multinationale poursuit une mission de lutte contre le terrorisme dans la r\u00e9gion. Aucun itin\u00e9raire, horaire ou point de passage ne sera communiqu\u00e9.",
         "likes": 1180,
         "reposts": 326,
         "replies": 104
@@ -31168,7 +31208,7 @@ const builtInScenarios = [
         "minute": 103,
         "actor": "@verif_levant",
         "suspect": false,
-        "content": "La photo de fum\u00e9e associ\u00e9e \u00e0 l'alerte du sud ne contient aucun rep\u00e8re v\u00e9rifiable. Des versions identiques circulaient d\u00e9j\u00e0 avant le d\u00e9part du convoi fictif.",
+        "content": "La photo de fum\u00e9e associ\u00e9e \u00e0 l'alerte du sud ne contient aucun rep\u00e8re v\u00e9rifiable. Des versions identiques circulaient d\u00e9j\u00e0 avant le d\u00e9part du convoi.",
         "likes": 1470,
         "reposts": 552,
         "replies": 238,
@@ -31186,7 +31226,7 @@ const builtInScenarios = [
         "actor": "@levant_confidentiel",
         "suspect": true,
         "content": "FUITE : ce document prouverait que la patrouille n'est qu'une diversion pour une op\u00e9ration secr\u00e8te au sud. Les coordonn\u00e9es ont \u00e9t\u00e9 masqu\u00e9es pour prot\u00e9ger notre source.",
-        "reason": "Pr\u00e9tendue fuite sans document original, auteur ni cha\u00eene de conservation ; pr\u00e9cision simul\u00e9e destin\u00e9e \u00e0 cr\u00e9dibiliser le r\u00e9cit.",
+        "reason": "Pr\u00e9tendue fuite sans document original, auteur ni cha\u00eene de conservation ; pr\u00e9cision artificielle destin\u00e9e \u00e0 cr\u00e9dibiliser le r\u00e9cit.",
         "likes": 53700,
         "reposts": 38100,
         "replies": 11500,
@@ -31240,7 +31280,7 @@ const builtInScenarios = [
         "minute": 248,
         "actor": "@observatoire_euphrate",
         "suspect": false,
-        "content": "L'\u00e9pave virale appara\u00eet dans une archive ant\u00e9rieure \u00e0 l'exercice. Son environnement ne correspond pas aux images du convoi fictif publi\u00e9es ce matin.",
+        "content": "L'\u00e9pave virale appara\u00eet dans une archive ant\u00e9rieure. Son environnement ne correspond pas aux images du convoi publi\u00e9es ce matin.",
         "likes": 2130,
         "reposts": 811,
         "replies": 329,
@@ -31264,7 +31304,7 @@ const builtInScenarios = [
         "media": {
           "kind": "photo",
           "title": "Convoi humanitaire immobilis\u00e9",
-          "caption": "Camions d'aide en attente, sans lien \u00e9tabli avec la patrouille fran\u00e7aise fictive.",
+          "caption": "Camions d'aide en attente, sans lien \u00e9tabli avec la patrouille fran\u00e7aise.",
           "asset": "deir-ez-zor-convoi-francais_09.jpg",
           "trace": "fr"
         }
@@ -31299,7 +31339,7 @@ const builtInScenarios = [
         "media": {
           "kind": "osint",
           "title": "Cellule de v\u00e9rification",
-          "caption": "\u00c9quipe fictive recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
+          "caption": "\u00c9quipe recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
           "asset": "deir-ez-zor-convoi-francais_11.jpg",
           "trace": "fr"
         }
@@ -31312,7 +31352,7 @@ const builtInScenarios = [
         "content": "\u0424\u0440\u0430\u043d\u0446\u0443\u0437\u0441\u043a\u0430\u044f \u043a\u043e\u043b\u043e\u043d\u043d\u0430 \u0441\u043a\u0440\u044b\u0432\u0430\u0435\u0442 \u043f\u043e\u0442\u0435\u0440\u0438 \u043f\u043e\u0441\u043b\u0435 \u043d\u0435\u0441\u043a\u043e\u043b\u044c\u043a\u0438\u0445 \u0430\u0442\u0430\u043a \u043a \u044e\u0433\u0443 \u043e\u0442 \u0414\u0435\u0439\u0440-\u044d\u0437-\u0417\u043e\u0440\u0430. \u041c\u043e\u043b\u0447\u0430\u043d\u0438\u0435 \u041f\u0430\u0440\u0438\u0436\u0430 \u043f\u043e\u0434\u0442\u0432\u0435\u0440\u0436\u0434\u0430\u0435\u0442 \u043f\u0440\u043e\u0432\u0430\u043b \u043e\u043f\u0435\u0440\u0430\u0446\u0438\u0438.",
         "language": "ru",
         "translation": "Le convoi fran\u00e7ais cacherait des pertes apr\u00e8s plusieurs attaques au sud de Deir ez-Zor. Le silence de Paris confirmerait l'\u00e9chec de l'op\u00e9ration.",
-        "reason": "Le m\u00e9dia d'influence fictif transforme des rumeurs non localis\u00e9es en pertes \u00e9tablies et interpr\u00e8te l'absence de r\u00e9action imm\u00e9diate comme une preuve.",
+        "reason": "Le m\u00e9dia d'influence transforme des rumeurs non localis\u00e9es en pertes \u00e9tablies et interpr\u00e8te l'absence de r\u00e9action imm\u00e9diate comme une preuve.",
         "likes": 65600,
         "reposts": 45800,
         "replies": 14440,
@@ -31371,7 +31411,7 @@ const builtInScenarios = [
         "media": {
           "kind": "photo",
           "title": "Reporter examinant des traces",
-          "caption": "Journaliste fictif comparant le terrain, la lumi\u00e8re et les traces visibles.",
+          "caption": "Journaliste comparant le terrain, la lumi\u00e8re et les traces visibles.",
           "asset": "deir-ez-zor-convoi-francais_10.jpg",
           "trace": "fr"
         }
@@ -31381,7 +31421,7 @@ const builtInScenarios = [
         "minute": 601,
         "actor": "@coalition_situation",
         "suspect": false,
-        "content": "La patrouille fictive a termin\u00e9 la phase pr\u00e9vue de sa mission. Aucun \u00e9l\u00e9ment ne confirme les pertes fran\u00e7aises ou les trois embuscades annonc\u00e9es sur les r\u00e9seaux.",
+        "content": "La patrouille a termin\u00e9 la phase pr\u00e9vue de sa mission. Aucun \u00e9l\u00e9ment ne confirme les pertes fran\u00e7aises ou les trois embuscades annonc\u00e9es sur les r\u00e9seaux.",
         "likes": 5200,
         "reposts": 2180,
         "replies": 900
@@ -31409,7 +31449,7 @@ const builtInScenarios = [
         "media": {
           "kind": "osint",
           "title": "Cellule de v\u00e9rification",
-          "caption": "\u00c9quipe fictive recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
+          "caption": "\u00c9quipe recoupant plusieurs images attribu\u00e9es au secteur de Deir ez-Zor.",
           "asset": "deir-ez-zor-convoi-francais_11.jpg",
           "trace": "fr"
         }
@@ -31771,6 +31811,162 @@ function livePostDate(minute, duration, now = parisNow()) {
 function actorByHandle(scenario, handle) {
   return scenario.actors.find((actor) => actor.handle === handle) || scenario.actors[0];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -33858,7 +34054,7 @@ function renderScenarioInfo() {
   els.postCount.textContent = `${state.posts.length} posts`;
   els.scenarioMeta.innerHTML = [
     ["Objectif", scenario.objective],
-    ["Lieu fictif", scenario.location || "Non précisé"],
+    ["Lieu", scenario.location || "Non précisé"],
     ["Fil simulé", `dernières ${Math.round(scenarioDurationMinutes(scenario) / 60)} h · heure de Paris`]
   ]
     .map(([label, value]) => `<div class="meta-row"><span>${escapeHtml(label)}</span><strong>${escapeHtml(value)}</strong></div>`)
@@ -33886,6 +34082,18 @@ function renderFeed() {
     ? posts.map(renderPost).join("")
     : `<div class="panel"><p class="brief">Aucun post ne correspond au filtre actif.</p></div>`;
 }
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -34337,7 +34545,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -34350,7 +34558,7 @@ function emptyTemplate() {
     briefing: "Décris ici la situation fictive à analyser.",
     objective: "Décris ce que les élèves doivent repérer.",
     timeWindow: "08:00-12:00",
-    location: "Lieu fictif",
+    location: "Lieu",
     volume: 100,
     seed: 12345,
     trends: [{ tag: "#MotCle", count: "1,2 k" }],
@@ -34377,6 +34585,78 @@ function emptyTemplate() {
     ]
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

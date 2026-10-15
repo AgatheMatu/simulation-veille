@@ -11,6 +11,6 @@ Ce dossier contient uniquement les fichiers a ajouter ou remplacer dans votre de
 Ne supprimez pas les anciens dossiers assets : les autres scenarios les utilisent encore.
 
 Le nouveau scenario s'appelle :
-RedLand : convoi francais fictif dans la region de Deir ez-Zor
+REDLAND : convoi francais dans la region de Deir ez-Zor
 
-Il comprend un fil de 690 publications simulees, 13 nouveaux visuels, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Toutes les positions, unites, routes et heures operationnelles sont fictives.
+Il comprend un fil de 690 publications simulees, 13 nouveaux visuels, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Aucun itineraire, horaire, numero d'unite ou point de passage precis n'est communique dans le fil.
