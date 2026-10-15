@@ -15,4 +15,6 @@ REDLAND : convoi francais dans la region de Deir ez-Zor
 
 Il comprend un fil de 690 publications simulees, 17 nouveaux visuels, dont quatre images liees a une rumeur de prise d'otages, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Aucun itineraire, horaire, numero d'unite ou point de passage precis n'est communique dans le fil.
 
-La page enseignant permet de creer autant de publications que souhaite. Le bouton Creer un post ouvre maintenant le formulaire sans ralentissement, puis la publication apparait immediatement en haut du fil. Les autres publications restent disponibles progressivement avec le bouton Afficher 72 publications supplementaires.
+La page enseignant permet de creer autant de publications que souhaite. Le bouton Creer un post ouvre maintenant le formulaire sans ralentissement, puis la publication apparait immediatement en haut du fil. Si le message est vide, le bouton Publier genere automatiquement un texte avant de publier. Les publications avec un visuel restent fonctionnelles meme lorsque le stockage du navigateur est presque plein. Les autres publications restent disponibles progressivement avec le bouton Afficher 72 publications supplementaires.
+
+IMPORTANT : remplacez bien les anciens fichiers app.js, index.html, eleve.html et styles.css. Apres le redeploiement, actualisez la page avec Ctrl+F5 pour ne pas conserver une ancienne version en cache.

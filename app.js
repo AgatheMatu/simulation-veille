@@ -33003,6 +33003,45 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
@@ -34425,6 +34464,9 @@ function renderFeed() {
 
 
 
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -34763,7 +34805,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -35496,6 +35538,24 @@ function emptyTemplate() {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function teacherStorageKey() {
   return `veille-ili:teacher-posts:${state.scenario?.id || "scenario"}`;
 }
@@ -35521,9 +35581,26 @@ function serializeTeacherPost(post) {
 }
 
 function persistTeacherPosts() {
-  if (!state.scenario) return;
+  if (!state.scenario) return false;
   const posts = state.posts.filter((post) => post.teacherCreated).map(serializeTeacherPost);
-  localStorage.setItem(teacherStorageKey(), JSON.stringify(posts));
+  try {
+    localStorage.setItem(teacherStorageKey(), JSON.stringify(posts));
+    return true;
+  } catch (error) {
+    const compactPosts = posts.slice(0, 120).map((post) => ({
+      ...post,
+      media: post.media?.dataUrl
+        ? { ...post.media, dataUrl: "", storageLimited: true }
+        : post.media
+    }));
+    try {
+      localStorage.setItem(teacherStorageKey(), JSON.stringify(compactPosts));
+      return "compact";
+    } catch (storageError) {
+      console.warn("Publication visible pour la séance, mais stockage local indisponible.", storageError);
+      return false;
+    }
+  }
 }
 
 function restoreTeacherPosts(scenario) {
@@ -36072,38 +36149,63 @@ function importComposeImage(file) {
 
 async function publishComposePost() {
   const actor = selectedComposeActor();
+  if (!actor) return;
+  if (!els.composeText?.value.trim()) generateComposeText();
   const content = els.composeText?.value.trim();
-  if (!actor || !content) return;
-  const liveDate = parisNow();
-  const suspect = composeSuspect(actor);
-  const selectedMedia = composeSelectedMedia();
-  const media = state.composeVisual
-    ? { kind: "photo", title: "Visuel créé par l'enseignant", caption: "", dataUrl: state.composeVisual, trace: "fr" }
-    : selectedMedia ? structuredClone(selectedMedia) : null;
-  let post = {
-    id: `${state.scenario.id}-teacher-${Date.now()}`,
-    actor,
-    content,
-    language: actor.language || "fr",
-    suspect,
-    reason: "Publication créée en direct par l'enseignant.",
-    likes: 4 + Math.floor(Math.random() * 15),
-    reposts: Math.floor(Math.random() * 5),
-    replies: Math.floor(Math.random() * 4),
-    media,
-    liveDate,
-    time: formatTime(liveDate),
-    relativeTime: "à l'instant",
-    teacherCreated: true,
-    comments: []
-  };
-  post = normalizePostEngagement(post, liveDate);
-  state.posts = [post, ...state.posts];
-  persistTeacherPosts();
-  renderScenarioInfo();
-  renderFeed();
-  els.composeDialog.close();
-  await publishLivePost(post);
+  if (!content) {
+    if (els.composeLiveHint) els.composeLiveHint.textContent = "Ajoutez un message avant de publier.";
+    els.composeText?.focus();
+    return;
+  }
+  const publishButton = els.publishComposePost;
+  const originalLabel = publishButton?.textContent || "Publier maintenant";
+  if (publishButton) {
+    publishButton.disabled = true;
+    publishButton.textContent = "Publication…";
+  }
+  try {
+    const liveDate = parisNow();
+    const suspect = composeSuspect(actor);
+    const selectedMedia = composeSelectedMedia();
+    const media = state.composeVisual
+      ? { kind: "photo", title: "Visuel créé par l'enseignant", caption: "", dataUrl: state.composeVisual, trace: "fr" }
+      : selectedMedia ? structuredClone(selectedMedia) : null;
+    let post = {
+      id: `${state.scenario.id}-teacher-${Date.now()}`,
+      actor,
+      content,
+      language: actor.language || "fr",
+      suspect,
+      reason: "Publication créée en direct par l'enseignant.",
+      likes: 4 + Math.floor(Math.random() * 15),
+      reposts: Math.floor(Math.random() * 5),
+      replies: Math.floor(Math.random() * 4),
+      media,
+      liveDate,
+      time: formatTime(liveDate),
+      relativeTime: "à l'instant",
+      teacherCreated: true,
+      comments: []
+    };
+    post = normalizePostEngagement(post, liveDate);
+    state.posts = [post, ...state.posts];
+    persistTeacherPosts();
+    renderScenarioInfo();
+    renderFeed();
+    els.composeDialog.close();
+    publishLivePost(post).catch((error) => {
+      console.warn("Publication locale réussie, diffusion en direct indisponible.", error);
+      setLiveStatus("error", "Publication locale uniquement");
+    });
+  } catch (error) {
+    console.error("Impossible de publier", error);
+    if (els.composeLiveHint) els.composeLiveHint.textContent = "La publication a échoué. Réessayez sans image ou actualisez la page.";
+  } finally {
+    if (publishButton) {
+      publishButton.disabled = false;
+      publishButton.textContent = originalLabel;
+    }
+  }
 }
 
 function deleteTeacherPost(postId) {
