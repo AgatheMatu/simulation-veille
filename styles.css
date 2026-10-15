@@ -1284,6 +1284,9 @@ h3 {
 
 
 
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1954,6 +1957,25 @@ body {
   margin-top: 12px;
   padding-left: 10px;
   border-left-color: #dce6ee;
+}
+
+.feed-load-more {
+  display: grid;
+  justify-items: center;
+  gap: 7px;
+  padding: 18px;
+  border-bottom: 1px solid var(--line);
+  background: #fff;
+}
+
+.feed-load-more .text-button {
+  color: var(--blue);
+  font-weight: 700;
+}
+
+.feed-load-more span {
+  color: var(--muted);
+  font-size: 12px;
 }
 
 .news-panel { background: #f7f9fb !important; }

@@ -13,4 +13,6 @@ Ne supprimez pas les anciens dossiers assets : les autres scenarios les utilisen
 Le nouveau scenario s'appelle :
 REDLAND : convoi francais dans la region de Deir ez-Zor
 
-Il comprend un fil de 690 publications simulees, 13 nouveaux visuels, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Aucun itineraire, horaire, numero d'unite ou point de passage precis n'est communique dans le fil.
+Il comprend un fil de 690 publications simulees, 17 nouveaux visuels, dont quatre images liees a une rumeur de prise d'otages, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Aucun itineraire, horaire, numero d'unite ou point de passage precis n'est communique dans le fil.
+
+La page enseignant permet de creer autant de publications que souhaite. Le bouton Creer un post ouvre maintenant le formulaire sans ralentissement, puis la publication apparait immediatement en haut du fil. Les autres publications restent disponibles progressivement avec le bouton Afficher 72 publications supplementaires.
