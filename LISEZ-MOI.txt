@@ -1,36 +1,16 @@
-VEILLE-ILI - CORRECTION DU SCENARIO PRESIDENTIELLE 2027
+MISE A JOUR VEILLE-ILI - SCENARIO DEIR EZ-ZOR
 
-Cette livraison remplace le precedent paquet du scenario presidentiel.
-
-CHRONOLOGIE CORRIGEE
-
-- La simulation se deroule en octobre 2026.
-- L'election presidentielle de 2027 est encore a venir.
-- Aucun vote, depouillement ou resultat electoral n'est presente comme ayant deja eu lieu.
-- Le scenario traite de candidatures pressenties, de parrainages, de sondages,
-  de pre-campagne, de faux documents, de contenus synthetiques et d'operations
-  d'influence destinees a diviser la societe avant le scrutin.
-
-MISE A JOUR SUR GITHUB
+Ce dossier contient uniquement les fichiers a ajouter ou remplacer dans votre depot GitHub.
 
 1. Ouvrez votre depot GitHub simulation-veille.
-2. Deposez tout le contenu de ce dossier a la racine du depot.
-3. Acceptez le remplacement des fichiers qui portent deja le meme nom.
-4. Validez la modification, puis attendez le redeploiement de GitHub Pages.
+2. Cliquez sur Add file, puis Upload files.
+3. Deposez tout le contenu de ce dossier a la racine du depot.
+4. Lorsque GitHub demande confirmation, acceptez le remplacement de app.js, index.html, eleve.html et styles.css.
+5. Validez avec Commit changes, puis attendez une ou deux minutes le redeploiement GitHub Pages.
 
-Les fichiers index.html, eleve.html, app.js et styles.css remplacent les anciennes
-versions. Les 13 fichiers nommes elections-presidentielles-2027_01.jpg a
-elections-presidentielles-2027_13.jpg remplacent les anciens visuels du scenario.
+Ne supprimez pas les anciens dossiers assets : les autres scenarios les utilisent encore.
 
-Il n'est pas necessaire de supprimer les images des autres scenarios. Les anciens
-fichiers relatifs a 2024 ne sont plus utilises par l'application et peuvent rester
-dans le depot sans perturber la simulation.
+Le nouveau scenario s'appelle :
+Syrie : convoi francais fictif dans la region de Deir ez-Zor
 
-CONTENU DU PAQUET
-
-- Page enseignant et page eleve
-- Application complete mise a jour
-- Feuille de style
-- Logos VEILLE-ILI et Ecole de l'air et de l'espace
-- 13 illustrations dediees a la pre-campagne d'octobre 2026
-- Fichier .nojekyll pour GitHub Pages
+Il comprend un fil de 690 publications simulees, 13 nouveaux visuels, des comptes officiels, medias locaux, temoins, ONG, fact-checkers, bots et relais d'influence. Toutes les positions, unites, routes et heures operationnelles sont fictives.
