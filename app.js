@@ -30078,11 +30078,11 @@ const builtInScenarios = [
   },
   {
     "id": "deir-ez-zor-convoi-francais",
-    "title": "Syrie : convoi fran\u00e7ais fictif dans la r\u00e9gion de Deir ez-Zor",
+    "title": "RedLand : convoi fran\u00e7ais fictif dans la r\u00e9gion de Deir ez-Zor",
     "briefing": "Simulation p\u00e9dagogique enti\u00e8rement fictive. Une patrouille et un convoi arm\u00e9 fran\u00e7ais participent, dans une zone inspir\u00e9e de la r\u00e9gion de Deir ez-Zor, \u00e0 une mission multinationale de lutte contre une organisation terroriste fictive. Le fil commence pendant le d\u00e9placement, sans publier de route, d'horaire, de position ou d'unit\u00e9 r\u00e9elle. Des messages affirment que plusieurs attaques seraient en cours au sud, que le convoi aurait \u00e9t\u00e9 pris pour cible ou qu'une op\u00e9ration plus vaste serait dissimul\u00e9e. T\u00e9moignages locaux, images anciennes, fausses captures, informations humanitaires et sujets du quotidien se m\u00e9langent en temps r\u00e9el.",
     "objective": "\u00c9tablir ce qui est confirm\u00e9 sans reconstituer ni diffuser une position op\u00e9rationnelle : distinguer observation locale, fuite authentique mais ancienne, rumeur coordonn\u00e9e, image recycl\u00e9e et communication officielle ; \u00e9valuer le risque cr\u00e9\u00e9 par la publication d'indices sur un convoi en mouvement.",
     "timeWindow": "05:30-19:30",
-    "location": "Zone fictive inspir\u00e9e de la r\u00e9gion de Deir ez-Zor, Syrie",
+    "location": "Zone fictive inspir\u00e9e de la r\u00e9gion de Deir ez-Zor, RedLand",
     "volume": 690,
     "seed": 2026101507,
     "trends": [
@@ -32577,6 +32577,45 @@ function actorByHandle(scenario, handle) {
 
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 function isPoliticalActor(actor) {
   return actor?.accountType === "political" || String(actor?.avatar || "").includes("avatar_political_");
 }
@@ -33957,6 +33996,9 @@ function renderFeed() {
 
 
 
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -34295,7 +34337,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -34335,6 +34377,24 @@ function emptyTemplate() {
     ]
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
