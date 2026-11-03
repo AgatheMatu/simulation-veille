@@ -4,14 +4,14 @@
 
 L'interface reproduit les principaux usages d'un fil d'actualité : publications, profils, commentaires, tendances, images, niveaux d'engagement et arrivée de nouveaux messages. Les contenus mélangent informations utiles, prises de position, rumeurs, réactions émotionnelles et sujets sans rapport direct avec le scénario. L'objectif est de placer les élèves dans un environnement dense, proche des conditions réelles de veille.
 
-> Tous les scénarios, comptes, publications, chiffres et documents présentés dans l'outil sont fictifs et créés exclusivement à des fins pédagogiques. Les personnalités parodiques ne s'expriment pas réellement dans la simulation et les propos qui leur sont attribués sont inventés.
+> Tous les scénarios, comptes, publications, chiffres et documents présentés dans l'outil sont créés exclusivement à des fins pédagogiques. Les personnalités parodiques ne s'expriment pas réellement dans la simulation et les propos qui leur sont attribués sont inventés.
 
 ## Accéder à la simulation
 
 - **Page élève :** [ouvrir VEILLE-ILI](https://agathematu.github.io/simulation-veille/eleve.html)
 - **Espace enseignant :** accès réservé à la préparation et à l'animation de l'exercice.
 
-La version élève ne présente ni corrigé, ni niveau de suspicion, ni grille d'analyse. Le fil se renouvelle uniquement lorsque l'utilisateur le demande.
+La version élève ne présente ni corrigé, ni niveau de suspicion, ni grille d'analyse, ni liste de scénarios. Pendant une séance en direct, les publications programmées apparaissent au rythme du chronomètre piloté par l'enseignant.
 
 ## Objectifs pédagogiques
 
@@ -45,7 +45,7 @@ La simulation permet notamment de travailler :
 
 ## Séance en direct
 
-Après la configuration unique décrite dans `CONFIGURATION-DIRECT.txt`, l'enseignant peut lancer une séance, partager son lien élève puis publier autant de messages qu'il le souhaite depuis n'importe quel compte du scénario. Les nouvelles publications sont transmises aux appareils connectés par un flux temps réel, sans modification des fichiers et sans redéploiement GitHub Pages.
+Après la configuration unique décrite dans `CONFIGURATION-DIRECT.txt`, l'enseignant choisit un scénario, lance la simulation à `T+00:00`, partage le lien élève puis pilote la timeline avec pause, reprise, vitesse et sauts de cinq minutes. Il peut publier autant de messages improvisés qu'il le souhaite depuis n'importe quel compte du scénario. Les nouvelles publications sont transmises immédiatement aux appareils connectés, sans modification des fichiers et sans redéploiement GitHub Pages.
 
 ## Mise en ligne avec GitHub Pages
 

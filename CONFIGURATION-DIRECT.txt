@@ -40,9 +40,11 @@ UTILISATION EN CLASSE
 1. Ouvrir la page enseignant VEILLE-ILI.
 2. Cliquer sur Seance en direct.
 3. Coller l'adresse Firebase. Elle sera memorisee sur cet ordinateur.
-4. Cliquer sur Demarrer la seance.
+4. Cliquer sur Lancer la simulation : le chronometre part a T+00:00.
 5. Copier le lien eleve et le transmettre a la classe.
-6. Cliquer sur Creer un post, choisir le compte, rediger puis publier.
+6. Utiliser Pause, Reprendre, -5 min, +5 min ou la vitesse pour adapter la timeline.
+7. Cliquer sur Creer un post, choisir le compte, rediger puis publier. Le message
+   apparait immediatement, quel que soit le temps de la timeline.
 
 La diffusion utilise le flux temps reel Firebase. Le message apparait dans les fils
 eleves des sa reception, sans recharger toute la page. Le code de seance expire au

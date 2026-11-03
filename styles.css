@@ -1289,6 +1289,9 @@ h3 {
 
 
 
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1985,6 +1988,48 @@ body {
 .sidebar-news article:hover { background: #eef3f7; }
 .sidebar-news strong { color: #172434; }
 
+.simulation-console {
+  display: grid;
+  gap: 12px;
+  margin-top: 14px;
+  padding: 14px;
+  border: 1px solid var(--line-strong);
+  border-left: 4px solid var(--gold);
+  border-radius: 7px;
+  background: #f7f9fb;
+}
+
+.simulation-console-head {
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+  gap: 18px;
+}
+
+.simulation-console-head > div { display: grid; gap: 4px; }
+.simulation-console-head span { color: var(--muted); font-size: 13px; font-weight: 700; }
+.simulation-console-head strong { color: var(--navy); font-size: 28px; letter-spacing: 0; }
+.simulation-console-head label { width: 110px; }
+.simulation-controls { display: grid; grid-template-columns: repeat(4, 1fr); gap: 8px; }
+.simulation-controls button { min-width: 0; }
+
+.timeline-waiting {
+  display: grid;
+  justify-items: center;
+  gap: 8px;
+  min-height: 310px;
+  padding: 92px 30px;
+  text-align: center;
+  color: var(--muted);
+  background: #ffffff;
+}
+
+.timeline-waiting strong { color: var(--navy); font-size: 20px; }
+.timeline-waiting span { font-size: 14px; }
+
+body[data-mode="student"] .toolbar { display: none; }
+body[data-mode="student"] .topbar { grid-template-columns: 1fr; }
+
 dialog {
   border: 1px solid var(--line-strong);
   border-radius: 8px;
@@ -2028,4 +2073,7 @@ dialog {
   .search-box { width: 100%; max-width: none; }
   .post { padding: 14px 12px; }
   .post-content { font-size: 15.5px; }
+  .simulation-console-head { align-items: stretch; flex-direction: column; }
+  .simulation-console-head label { width: 100%; }
+  .simulation-controls { grid-template-columns: repeat(2, 1fr); }
 }

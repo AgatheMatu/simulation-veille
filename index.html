@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261015c" />
+    <link rel="stylesheet" href="./styles.css?v=20261103a" />
   </head>
   <body data-mode="teacher">
     <header class="topbar">
@@ -18,12 +18,14 @@
         <img class="school-logo" src="./assets/branding/eae-logo.png" alt="École de l'air et de l'espace" />
       </div>
       <div class="toolbar" aria-label="Contrôles de scénario">
+
         <label class="select-wrap">
           <span>Scénario</span>
           <select id="scenarioSelect"></select>
         </label>
 
-        <a class="text-button student-link" href="./eleve.html">Page élève</a>
+
+        <a id="studentPageLink" class="text-button student-link" href="./eleve.html">Page élève</a>
         <button id="importBtn" class="icon-button" title="Importer un scénario JSON" aria-label="Importer un scénario JSON">↑</button>
         <button id="exportBtn" class="icon-button" title="Exporter le scénario actif" aria-label="Exporter le scénario actif">↓</button>
         <button id="liveSessionBtn" class="text-button live-session-button"><span class="status-dot" aria-hidden="true"></span>Séance en direct</button>
@@ -154,15 +156,34 @@
             <input id="liveStudentLink" type="url" readonly />
           </label>
         </div>
+        <section class="simulation-console" aria-label="Pilotage de la timeline">
+          <div class="simulation-console-head">
+            <div><span id="simulationStatus">En attente de lancement</span><strong id="simulationClock">T+00:00</strong></div>
+            <label>Vitesse
+              <select id="simulationSpeed">
+                <option value="1">1x</option>
+                <option value="2">2x</option>
+                <option value="5">5x</option>
+                <option value="10">10x</option>
+              </select>
+            </label>
+          </div>
+          <div class="simulation-controls">
+            <button type="button" id="rewindSimulation" class="text-button">- 5 min</button>
+            <button type="button" id="pauseSimulation" class="text-button">Pause</button>
+            <button type="button" id="resumeSimulation" class="text-button">Reprendre</button>
+            <button type="button" id="advanceSimulation" class="text-button">+ 5 min</button>
+          </div>
+        </section>
         <div class="live-dialog-actions">
           <button type="button" id="copyStudentLiveLink" class="text-button">Copier le lien élève</button>
           <button type="button" id="stopLiveSession" class="text-button danger-button">Arrêter la séance</button>
-          <button type="button" id="startLiveSession" class="primary-button">Démarrer la séance</button>
+          <button type="button" id="startLiveSession" class="primary-button">Lancer la simulation</button>
         </div>
       </form>
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261015c"></script>
+    <script src="./app.js?v=20261103a"></script>
   </body>
 </html>
