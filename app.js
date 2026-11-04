@@ -30119,7 +30119,7 @@ const builtInScenarios = [
   {
     "id": "deir-ez-zor-convoi-francais",
     "title": "REDLAND : op\u00e9ration BLUE dans la vall\u00e9e de l'Euphrate",
-    "briefing": "Une patrouille terrestre CODO 11 participe \u00e0 une mission de la coalition BLUE dans l'est de REDLAND. Elle doit caract\u00e9riser, sans engagement planifi\u00e9, une infrastructure suspect\u00e9e d'appuyer le retour du groupe terroriste Diich. Des brouillages GPS, un pick-up arm\u00e9, des mouvements a\u00e9riens REDLAND et une fum\u00e9e pr\u00e8s d'une zone industrielle alimentent rapidement des r\u00e9cits contradictoires.",
+    "briefing": "Une patrouille terrestre fran\u00e7aise participe \u00e0 une mission de la coalition BLUE dans l'est de REDLAND. Elle doit caract\u00e9riser, sans engagement planifi\u00e9, une infrastructure suspect\u00e9e d'appuyer le retour du groupe terroriste Diich. Des brouillages GPS, un pick-up arm\u00e9, des mouvements a\u00e9riens REDLAND et une fum\u00e9e pr\u00e8s d'une zone industrielle alimentent rapidement des r\u00e9cits contradictoires.",
     "objective": "Distinguer les observations \u00e9tablies des interpr\u00e9tations, identifier les images recycl\u00e9es et les narratifs coordonn\u00e9s, prot\u00e9ger les informations op\u00e9rationnelles et produire une situation fiable malgr\u00e9 la pression du temps.",
     "timeWindow": "08:00-10:00",
     "location": "Vall\u00e9e de l'Euphrate, est de REDLAND",
@@ -30131,31 +30131,31 @@ const builtInScenarios = [
         "count": "712 k"
       },
       {
-        "tag": "#CODO11",
+        "tag": "#Euphrate",
         "count": "488 k"
       },
       {
-        "tag": "#BLUECoalition",
+        "tag": "#TensionsAuLevant",
         "count": "404 k"
       },
       {
-        "tag": "#Euphrate",
+        "tag": "#BrouillageGPS",
         "count": "331 k"
       },
       {
-        "tag": "#AirspaceViolation",
+        "tag": "#AlerteAuSud",
         "count": "296 k"
       },
       {
-        "tag": "#GPSJamming",
+        "tag": "#EspaceAerien",
         "count": "241 k"
       },
       {
-        "tag": "#Diich",
+        "tag": "#RouteOrientale",
         "count": "198 k"
       },
       {
-        "tag": "#RogueFlight",
+        "tag": "#InfosDuLevant",
         "count": "141 k"
       },
       {
@@ -31122,7 +31122,7 @@ const builtInScenarios = [
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
     "suspectTemplates": [
-      "URGENT : CODO 11 serait encercle. Le silence de BLUE confirme des pertes importantes.",
+      "URGENT : le convoi fran\u00e7ais serait encercl\u00e9. Le silence de BLUE confirmerait des pertes importantes.",
       "Cette fumee prouve que BLUE a frappe une installation civile au bord de l'Euphrate.",
       "La capture radar etablit une violation volontaire de l'espace aerien REDLAND.",
       "Un pick-up de Diich suivrait le convoi depuis une heure. Partagez avant suppression.",
@@ -32314,7 +32314,7 @@ const builtInScenarios = [
         "minute": 55,
         "actor": "@euphrate24",
         "suspect": true,
-        "content": "Cette \u00e9pave serait le premier v\u00e9hicule de CODO 11. Les marquages auraient \u00e9t\u00e9 retir\u00e9s avant l'arriv\u00e9e des habitants.",
+        "content": "Cette \u00e9pave serait le premier v\u00e9hicule du convoi fran\u00e7ais. Les marquages auraient \u00e9t\u00e9 retir\u00e9s avant l'arriv\u00e9e des habitants.",
         "reason": "Image ancienne et raisonnement qui transforme l'absence de marquage en preuve.",
         "likes": 34800,
         "reposts": 21900,
@@ -32333,7 +32333,7 @@ const builtInScenarios = [
         "minute": 65,
         "actor": "@observatoire_euphrate",
         "suspect": false,
-        "content": "V\u00e9rification : l'\u00e9pave circulait d\u00e9j\u00e0 dans une archive ant\u00e9rieure. Elle ne documente pas une attaque contre CODO 11.",
+        "content": "V\u00e9rification : l'\u00e9pave circulait d\u00e9j\u00e0 dans une archive ant\u00e9rieure. Elle ne documente pas une attaque contre la patrouille fran\u00e7aise.",
         "likes": 1840,
         "reposts": 744,
         "replies": 208,
@@ -32784,6 +32784,45 @@ function livePostDate(minute, duration, now = parisNow()) {
 function actorByHandle(scenario, handle) {
   return scenario.actors.find((actor) => actor.handle === handle) || scenario.actors[0];
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -35066,12 +35105,12 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
       },
       "Patrouilles et convois": {
         suspect: [
-          `« ${title} » montrerait CODO 11 quelques minutes avant une embuscade. Plusieurs comptes annoncent déjà des pertes sans source primaire.`,
+          `« ${title} » montrerait le convoi français quelques minutes avant une embuscade. Plusieurs comptes annoncent déjà des pertes sans source primaire.`,
           `La séquence « ${title} » confirmerait que le convoi BLUE a changé d'itinéraire sous la pression d'un groupe armé.`
         ],
         careful: [
           `« ${title} » montre des véhicules en mouvement, mais ne permet de confirmer ni leur unité, ni leur destination, ni un incident.`,
-          `Le convoi visible dans « ${title} » doit être daté et identifié avant toute conclusion sur CODO 11.`
+          `Le convoi visible dans « ${title} » doit être daté et identifié avant toute conclusion sur la patrouille française.`
         ]
       },
       "Vie civile": {
@@ -35097,7 +35136,7 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
       "Incidents ambigus": {
         suspect: [
           `« ${title} » confirmerait une attaque au sud de la patrouille. Plusieurs comptes attribuent déjà l'incident à BLUE sans attendre les secours.`,
-          `Cette image de « ${title} » serait la première preuve d'une frappe près de la route de CODO 11.`
+          `Cette image de « ${title} » serait la première preuve d'une frappe près de la route supposée du convoi français.`
         ],
         careful: [
           `L'incident visible dans « ${title} » est réel, mais sa cause, son heure et sa distance par rapport au convoi restent inconnues.`,
@@ -35116,7 +35155,7 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
       },
       "Sécurité locale": {
         suspect: [
-          `Le groupe visible dans « ${title} » serait une cellule de Diich suivant CODO 11. L'affiliation n'est pourtant pas documentée.`,
+          `Le groupe visible dans « ${title} » serait une cellule de Diich suivant le convoi français. L'affiliation n'est pourtant pas documentée.`,
           `« ${title} » montrerait des combattants préparant une attaque au sud du convoi.`
         ],
         careful: [
@@ -35131,12 +35170,12 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
         ],
         careful: [
           `« ${title} » permet d'observer l'infrastructure, mais pas d'établir un sabotage, une panne ou la responsabilité d'un acteur.`,
-          `Aucune évolution visible ne relie pour l'instant « ${title} » aux mouvements de CODO 11.`
+          `Aucune évolution visible ne relie pour l'instant « ${title} » aux mouvements de la patrouille française.`
         ]
       },
       "Journalisme et OSINT": {
         suspect: [
-          `La scène « ${title} » est présentée comme la confirmation médiatique d'une attaque contre CODO 11, alors qu'aucune source primaire n'est publiée.`,
+          `La scène « ${title} » est présentée comme la confirmation médiatique d'une attaque contre le convoi français, alors qu'aucune source primaire n'est publiée.`,
           `« ${title} » montrerait que plusieurs rédactions possèdent déjà les preuves et refusent de tout révéler.`
         ],
         careful: [
@@ -35156,7 +35195,7 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
       },
       "Indices numériques": {
         suspect: [
-          `« ${title} » prouverait une attaque électronique menée par REDLAND contre la navigation de CODO 11.`,
+          `« ${title} » prouverait une attaque électronique menée par REDLAND contre la navigation du convoi français.`,
           `Les données visibles dans « ${title} » seraient la preuve technique d'un ciblage délibéré du convoi.`
         ],
         careful: [
@@ -35171,13 +35210,13 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
         ],
         careful: [
           `« ${title} » relève de l'actualité quotidienne et ne documente pas l'opération REDLAND.`,
-          `La scène « ${title} » doit être traitée comme une information distincte du dossier CODO 11.`
+          `La scène « ${title} » doit être traitée comme une information distincte de la situation militaire dans la vallée.`
         ]
       }
     };
     const versions = redlandVersions[group] || {
       suspect: [
-        `Le visuel « ${title} » est présenté comme une preuve décisive d'une attaque contre CODO 11, sans fichier original ni source primaire.`,
+        `Le visuel « ${title} » est présenté comme une preuve décisive d'une attaque contre le convoi français, sans fichier original ni source primaire.`,
         `« ${title} » confirmerait les accusations contre l'opération BLUE. Les comptes qui le relaient ne publient pourtant aucun élément brut.`
       ],
       careful: [
@@ -35818,6 +35857,9 @@ function renderFeed() {
 
 
 
+
+
+
 function buildComments(post) {
   const seed = hashSeed(`${post.id}:comments`);
   const random = mulberry32(seed);
@@ -36158,7 +36200,7 @@ function applyScenarioJson() {
     renderScenarioOptions();
     if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
     loadScenario(scenario.id);
-    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
+    if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) if (els.teacherDialog) els.teacherDialog.close();
   } catch (error) {
     alert(`Impossible d'appliquer ce JSON : ${error.message}`);
   }
@@ -36198,6 +36240,24 @@ function emptyTemplate() {
     ]
   };
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
