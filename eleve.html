@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261103a" />
+    <link rel="stylesheet" href="./styles.css?v=20261104b" />
   </head>
   <body data-mode="student">
     <header class="topbar">
@@ -29,11 +29,11 @@
           <strong>VEILLE-ILI</strong>
           <span>Surveillance du fil en direct</span>
         </section>
-        <section class="panel">
-          <div class="panel-heading"><h2>Contexte</h2><span id="postCount" class="metric"></span></div>
-          <p id="scenarioBrief" class="brief"></p>
-          <div class="scenario-meta" id="scenarioMeta"></div>
-        </section>
+        <div hidden aria-hidden="true">
+          <span id="postCount"></span>
+          <p id="scenarioBrief"></p>
+          <div id="scenarioMeta"></div>
+        </div>
         <section class="panel"><h2>Tendances</h2><div id="trendList" class="trend-list"></div></section>
       </aside>
       <section class="feed-shell" aria-label="Fil de publications">
@@ -77,6 +77,6 @@
 
 <div id="answerKey" hidden></div>
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261103a"></script>
+    <script src="./app.js?v=20261104b"></script>
   </body>
 </html>

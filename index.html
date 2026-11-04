@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261103a" />
+    <link rel="stylesheet" href="./styles.css?v=20261104b" />
   </head>
   <body data-mode="teacher">
     <header class="topbar">
@@ -41,11 +41,11 @@
           <strong>VEILLE-ILI</strong>
           <span>Surveillance du fil en direct</span>
         </section>
-        <section class="panel">
-          <div class="panel-heading"><h2>Contexte</h2><span id="postCount" class="metric"></span></div>
-          <p id="scenarioBrief" class="brief"></p>
-          <div class="scenario-meta" id="scenarioMeta"></div>
-        </section>
+        <div hidden aria-hidden="true">
+          <span id="postCount"></span>
+          <p id="scenarioBrief"></p>
+          <div id="scenarioMeta"></div>
+        </div>
         <section class="panel"><h2>Tendances</h2><div id="trendList" class="trend-list"></div></section>
       </aside>
       <section class="feed-shell" aria-label="Fil de publications">
@@ -126,7 +126,7 @@
           <button type="button" id="generateComposeText" class="text-button">Générer le texte</button>
           <button type="button" id="generateComposeVisual" class="text-button">Générer un visuel</button>
         </div>
-        <label>Illustration du scénario
+        <label>Banque d'images du scénario
           <select id="composeMediaSelect"><option value="">Sans illustration</option></select>
         </label>
         <label class="upload-control">Importer une image
@@ -184,6 +184,6 @@
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261103a"></script>
+    <script src="./app.js?v=20261104b"></script>
   </body>
 </html>
