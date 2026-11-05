@@ -39509,13 +39509,16 @@ const liveSync = {
   signature: "",
   timer: null,
   channel: null,
+  eventSource: null,
+  seenMessageIds: new Set(),
   storageHandler: null,
   inFlight: false,
   pollDelay: 15000
 };
 
 const STUDENT_SCENARIO_ID = "deir-ez-zor-convoi-francais";
-const STUDENT_SHORT_URL = "https://is.gd/veilleili";
+const STUDENT_SHORT_URL = "https://is.gd/VeilleILI";
+const SHARED_LIVE_SERVER = "https://ntfy.sh";
 
 const simulationClock = {
   status: "waiting",
@@ -39635,11 +39638,13 @@ function startSimulationTimer() {
 
 async function syncSimulationMeta() {
   if (!isTeacherPage() || !liveSync.enabled) return;
+  const meta = { ...simulationMetaPayload(), updatedAt: new Date().toISOString(), active: true };
   try {
     await liveRequest("meta", {
       method: "PATCH",
-      body: JSON.stringify({ ...simulationMetaPayload(), updatedAt: new Date().toISOString() })
+      body: JSON.stringify(meta)
     });
+    if (liveSync.mode === "shared") await publishSharedEvent("meta", meta);
   } catch (error) {
     setLiveStatus("error", "Synchronisation du chronometre interrompue");
   }
@@ -39688,8 +39693,8 @@ function normalizeLiveRoom(value) {
 
 function createLiveRoomCode() {
   const alphabet = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
-  const bytes = crypto.getRandomValues(new Uint8Array(7));
-  return `ILI-${[...bytes].map((byte) => alphabet[byte % alphabet.length]).join("")}`;
+  const bytes = crypto.getRandomValues(new Uint8Array(12));
+  return `${createPortableSessionCode()}${[...bytes].map((byte) => alphabet[byte % alphabet.length]).join("")}`;
 }
 
 function portableSessionChecksum(minute) {
@@ -39703,18 +39708,19 @@ function createPortableSessionCode(timestamp = Date.now()) {
 }
 
 function decodePortableSessionCode(value) {
-  const code = String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
-  if (code.length !== 6) throw new Error("Le code doit contenir six caractères.");
+  const room = String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  const code = room.slice(0, 6);
+  if (room.length < 18 || code.length !== 6) throw new Error("Le lien de séance est incomplet.");
   const minute = Number.parseInt(code.slice(0, 5), 36);
   if (!Number.isFinite(minute) || code.at(-1) !== portableSessionChecksum(minute)) {
-    throw new Error("Le code de séance est incorrect.");
+    throw new Error("Le lien de séance est incorrect.");
   }
   const startedAt = minute * 60000;
   const age = Date.now() - startedAt;
   if (age < -2 * 60000 || age > 12 * 60 * 60 * 1000) {
     throw new Error("Ce code de séance n’est plus valide.");
   }
-  return { code, startedAt };
+  return { code: room, startedAt };
 }
 
 function localLiveStorageKey() {
@@ -39776,6 +39782,82 @@ function buildStudentLiveUrl() {
   return url.toString();
 }
 
+function sharedTopicName(room = liveSync.room) {
+  const safeRoom = String(room || "").toLowerCase().replace(/[^a-z0-9]/g, "");
+  if (safeRoom.length < 18) throw new Error("Séance partagée non configurée.");
+  return `veille-ili-${safeRoom}`;
+}
+
+async function publishSharedEvent(type, payload) {
+  if (!liveSync.room) throw new Error("Séance partagée non configurée.");
+  const envelope = JSON.stringify({ version: 1, type, room: liveSync.room, sentAt: new Date().toISOString(), payload });
+  if (new Blob([envelope]).size > 3900) throw new Error("Cette publication est trop volumineuse pour le direct.");
+  const response = await fetch(`${SHARED_LIVE_SERVER}/${sharedTopicName()}`, {
+    method: "POST",
+    headers: { "Content-Type": "text/plain;charset=UTF-8" },
+    body: envelope
+  });
+  if (!response.ok) throw new Error(`Canal partagé indisponible (${response.status}).`);
+}
+
+function mergeSharedPosts() {
+  if (!state.scenario) return;
+  const localPosts = state.posts.filter((post) => !post.liveRemote);
+  state.posts = mergeLivePosts(localPosts, state.scenario);
+  renderScenarioInfo();
+  renderFeed();
+}
+
+function applySharedEvent(envelope, messageId = "") {
+  if (!envelope || envelope.version !== 1 || envelope.room !== liveSync.room) return;
+  if (messageId && liveSync.seenMessageIds.has(messageId)) return;
+  if (messageId) {
+    liveSync.seenMessageIds.add(messageId);
+    if (liveSync.seenMessageIds.size > 600) {
+      liveSync.seenMessageIds = new Set([...liveSync.seenMessageIds].slice(-400));
+    }
+  }
+  if (envelope.type === "meta") {
+    const meta = envelope.payload || {};
+    applySimulationMeta(meta);
+    if (meta.active === false) setLiveStatus("waiting", "Séance terminée");
+    else setLiveStatus("connected", `Direct · ${formatSimulationClock()}`);
+    return;
+  }
+  if (envelope.type === "post") {
+    const raw = envelope.payload;
+    if (!raw?.id || raw.scenarioId !== STUDENT_SCENARIO_ID) return;
+    liveSync.remotePosts = [raw, ...liveSync.remotePosts.filter((post) => post.id !== raw.id)];
+    mergeSharedPosts();
+    setLiveStatus("connected", "Nouvelle publication en direct");
+    return;
+  }
+  if (envelope.type === "delete") {
+    const postId = envelope.payload?.postId;
+    liveSync.remotePosts = liveSync.remotePosts.filter((post) => post.id !== postId);
+    state.posts = state.posts.filter((post) => post.id !== postId || !post.liveRemote);
+    mergeSharedPosts();
+  }
+}
+
+function connectSharedStream() {
+  if (!liveSync.enabled || !liveSync.room || typeof EventSource === "undefined") return;
+  if (liveSync.eventSource) liveSync.eventSource.close();
+  const source = new EventSource(`${SHARED_LIVE_SERVER}/${sharedTopicName()}/sse?since=12h`);
+  liveSync.eventSource = source;
+  source.onopen = () => setLiveStatus("connected", `Direct · ${formatSimulationClock()}`);
+  source.onmessage = (event) => {
+    try {
+      const message = JSON.parse(event.data);
+      if (message.event !== "message" || !message.message) return;
+      applySharedEvent(JSON.parse(message.message), message.id || "");
+    } catch (error) {
+      console.warn("Message direct ignoré.", error);
+    }
+  };
+  source.onerror = () => setLiveStatus("connecting", "Reconnexion au direct…");
+}
+
 function setLiveStatus(kind, label) {
   const status = els.liveClassStatus;
   if (status) {
@@ -39790,7 +39872,7 @@ function setLiveStatus(kind, label) {
   }
   if (els.composeLiveHint) {
     els.composeLiveHint.textContent = liveSync.enabled
-      ? `Diffusion immédiate dans la séance ${liveSync.room}`
+      ? "Diffusion immédiate sur les pages élèves connectées."
       : "Publication locale : démarrez une séance en direct pour la diffuser aux élèves.";
   }
 }
@@ -39798,7 +39880,7 @@ function setLiveStatus(kind, label) {
 function saveLiveConfig(active = liveSync.enabled) {
   if (!isTeacherPage()) return;
   localStorage.setItem("veille-ili:live-config", JSON.stringify({
-    mode: "local",
+    mode: liveSync.mode,
     room: liveSync.room,
     expiresAt: liveSync.expiresAt,
     active
@@ -39831,6 +39913,10 @@ function mergeLivePosts(posts, scenario) {
 
 function connectLiveStream() {
   if (!liveSync.enabled || !liveSync.room) return;
+  if (liveSync.mode === "shared") {
+    connectSharedStream();
+    return;
+  }
   if (liveSync.channel) liveSync.channel.close();
   if ("BroadcastChannel" in window) {
     liveSync.channel = new BroadcastChannel(`veille-ili:${liveSync.room}`);
@@ -39854,7 +39940,7 @@ function connectLiveStream() {
 
 function scheduleLivePoll(delay = liveSync.pollDelay) {
   window.clearTimeout(liveSync.timer);
-  if (liveSync.enabled) liveSync.timer = window.setTimeout(pollLiveRoom, delay);
+  if (liveSync.enabled && liveSync.mode !== "shared") liveSync.timer = window.setTimeout(pollLiveRoom, delay);
 }
 
 async function pollLiveRoom() {
@@ -39905,17 +39991,19 @@ async function pollLiveRoom() {
 async function announceLiveScenario(resetTimeline = false) {
   if (!isTeacherPage() || !liveSync.enabled || !state.scenario) return;
   if (resetTimeline) setSimulationPosition("waiting", 0);
+  const meta = {
+    scenarioId: state.scenario.id,
+    scenarioTitle: state.scenario.title,
+    updatedAt: new Date().toISOString(),
+    active: true,
+    ...simulationMetaPayload()
+  };
   try {
     await liveRequest("meta", {
       method: "PATCH",
-      body: JSON.stringify({
-        scenarioId: state.scenario.id,
-        scenarioTitle: state.scenario.title,
-        updatedAt: new Date().toISOString(),
-        active: true,
-        ...simulationMetaPayload()
-      })
+      body: JSON.stringify(meta)
     });
+    if (liveSync.mode === "shared") await publishSharedEvent("meta", meta);
   } catch (error) {
     setLiveStatus("error", "Direct déconnecté");
   }
@@ -39926,6 +40014,12 @@ async function publishLivePost(post) {
   const payload = { ...serializeTeacherPost(post), comments: post.comments || [] };
   try {
     await liveRequest(`posts/${post.id}`, { method: "PUT", body: JSON.stringify(payload) });
+    if (liveSync.mode === "shared") {
+      const sharedPayload = structuredClone(payload);
+      if (new Blob([JSON.stringify(sharedPayload)]).size > 3000) sharedPayload.media = null;
+      sharedPayload.comments = [];
+      await publishSharedEvent("post", sharedPayload);
+    }
     await announceLiveScenario();
     setLiveStatus("connected", `Publié dans ${liveSync.room}`);
   } catch (error) {
@@ -39938,6 +40032,7 @@ async function deleteLivePost(postId) {
   if (!isTeacherPage() || !liveSync.enabled) return;
   try {
     await liveRequest(`posts/${postId}`, { method: "DELETE" });
+    if (liveSync.mode === "shared") await publishSharedEvent("delete", { postId });
   } catch (error) {
     setLiveStatus("error", "Suppression distante impossible");
   }
@@ -39947,7 +40042,7 @@ function fillLiveDialog() {
   if (!els.liveDialog) return;
   els.liveRoomCode.value = liveSync.room || "------";
   els.liveStudentLink.value = liveSync.room ? buildStudentLiveUrl() : buildStudentBaseUrl();
-  const connectedLabel = liveSync.room ? `Séance ${liveSync.room}` : "Séance en cours";
+  const connectedLabel = liveSync.room ? "Séance en direct" : "Séance en cours";
   setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? connectedLabel : "Séance hors ligne");
 }
 
@@ -39958,8 +40053,11 @@ function openLiveDialog() {
 
 async function startLocalSession() {
   try {
-    liveSync.mode = "local";
-    liveSync.room = createPortableSessionCode();
+    if (state.scenario?.id !== STUDENT_SCENARIO_ID) loadScenario(STUDENT_SCENARIO_ID);
+    liveSync.mode = "shared";
+    liveSync.room = createLiveRoomCode();
+    liveSync.seenMessageIds.clear();
+    liveSync.remotePosts = [];
     localStorage.removeItem(localLiveStorageKey());
     liveSync.enabled = true;
     setSimulationPosition("running", 0);
@@ -39974,6 +40072,7 @@ async function startLocalSession() {
     };
     liveSync.expiresAt = meta.expiresAt;
     await liveRequest("meta", { method: "PUT", body: JSON.stringify(meta) });
+    await publishSharedEvent("meta", meta);
     saveLiveConfig(true);
     liveSync.signature = "";
     if (els.liveRoomCode) els.liveRoomCode.value = liveSync.room;
@@ -39990,17 +40089,22 @@ async function startLocalSession() {
 
 async function stopLiveSession() {
   if (liveSync.enabled) {
+    setSimulationPosition("ended", simulationElapsedSeconds());
+    const stoppedMeta = { active: false, updatedAt: new Date().toISOString(), ...simulationMetaPayload() };
     try {
-      await liveRequest("meta", { method: "PATCH", body: JSON.stringify({ active: false, updatedAt: new Date().toISOString() }) });
+      await liveRequest("meta", { method: "PATCH", body: JSON.stringify(stoppedMeta) });
+      if (liveSync.mode === "shared") await publishSharedEvent("meta", stoppedMeta);
     } catch (error) {
       // La séance locale doit pouvoir être arrêtée même si le réseau est indisponible.
     }
   }
   liveSync.enabled = false;
-  setSimulationPosition("ended", simulationElapsedSeconds());
+  if (simulationClock.status !== "ended") setSimulationPosition("ended", simulationElapsedSeconds());
   window.clearTimeout(liveSync.timer);
   if (liveSync.channel) liveSync.channel.close();
   liveSync.channel = null;
+  if (liveSync.eventSource) liveSync.eventSource.close();
+  liveSync.eventSource = null;
   saveLiveConfig(false);
   setLiveStatus("waiting", "Séance hors ligne");
 }
@@ -40024,12 +40128,17 @@ function joinPortableStudentSession(rawCode, { remember = true } = {}) {
     const { code, startedAt } = decodePortableSessionCode(rawCode);
     const duration = scenarioDurationMinutes(state.scenario) * 60;
     const elapsed = Math.min(duration, Math.max(0, (Date.now() - startedAt) / 1000));
+    liveSync.mode = "shared";
     liveSync.room = code;
+    liveSync.enabled = true;
+    liveSync.seenMessageIds.clear();
+    liveSync.remotePosts = [];
     setSimulationPosition(elapsed >= duration ? "ended" : "running", elapsed);
     if (remember) localStorage.setItem("veille-ili:student-session-code", code);
     window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}#${code}`);
     setLiveStatus("connected", `Séance ${code} · ${formatSimulationClock(elapsed)}`);
     createRefreshBatch({ reloadNews: false, scrollToTop: false });
+    connectLiveStream();
     return true;
   } catch (error) {
     console.warn(error.message || "Lien de séance incorrect.");
@@ -40048,10 +40157,10 @@ function initializeLiveSync() {
   if (isTeacherPage()) {
     try {
       const saved = JSON.parse(localStorage.getItem("veille-ili:live-config") || "{}");
-      liveSync.mode = "local";
+      liveSync.mode = saved.mode === "shared" ? "shared" : "local";
       liveSync.expiresAt = Number(saved.expiresAt || 0);
       liveSync.room = liveSync.expiresAt > Date.now() ? (saved.room || "") : "";
-      liveSync.enabled = Boolean(saved.mode === "local" && saved.active && liveSync.room && liveSync.expiresAt > Date.now());
+      liveSync.enabled = Boolean(["local", "shared"].includes(saved.mode) && saved.active && liveSync.room && liveSync.expiresAt > Date.now());
     } catch (error) {
       liveSync.enabled = false;
     }

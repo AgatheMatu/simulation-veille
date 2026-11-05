@@ -12,9 +12,10 @@ Le lien contient l'heure de lancement. Tous les eleves rejoignent ainsi la
 chronologie REDLAND au meme moment. Un rechargement conserve automatiquement
 la position dans la simulation.
 
-Le site etant heberge comme une page statique, les publications improvisees par
-l'enseignant ne sont pas transmises entre plusieurs ordinateurs. Chaque eleve peut
-cependant consulter le scenario REDLAND et sa chronologie depuis son appareil.
+Les publications improvisees par l'enseignant sont transmises en temps reel aux
+pages eleves ouvertes avec le lien de la seance. Pause, reprise et ajustements de
+la chronologie sont egalement partages entre les ordinateurs.
 
-Ne jamais placer de donnees personnelles, sensibles ou operationnelles dans la
-base. Les publications de la simulation doivent rester entierement pedagogiques.
+Le direct utilise un canal public protege uniquement par un identifiant aleatoire
+integre au lien. Ne jamais y placer de donnees personnelles, sensibles ou
+operationnelles. Les publications doivent rester entierement simulees.
