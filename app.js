@@ -31297,7 +31297,7 @@ const builtInScenarios = [
     "title": "REDLAND : op\u00e9ration BLUE dans la vall\u00e9e de l'Euphrate",
     "briefing": "Une patrouille terrestre fran\u00e7aise participe \u00e0 une mission de la coalition BLUE dans l'est de REDLAND. Elle doit caract\u00e9riser, sans engagement planifi\u00e9, une infrastructure suspect\u00e9e d'appuyer le retour du groupe terroriste Diich. Un convoi arm\u00e9 potentiellement BLUE est signal\u00e9 \u00e0 proximit\u00e9 de l'a\u00e9roport de Dayr az Zawr, sans confirmation de son unit\u00e9, de sa direction ni de sa mission. Des brouillages GPS, un pick-up arm\u00e9, des mouvements a\u00e9riens REDLAND et une fum\u00e9e pr\u00e8s d'une zone industrielle alimentent rapidement des r\u00e9cits contradictoires.",
     "objective": "Distinguer les observations \u00e9tablies des interpr\u00e9tations, identifier les images recycl\u00e9es et les narratifs coordonn\u00e9s, prot\u00e9ger les informations op\u00e9rationnelles et produire une situation fiable malgr\u00e9 la pression du temps.",
-    "timeWindow": "08:00-10:00",
+    "timeWindow": "08:00-11:00",
     "location": "Vall\u00e9e de l'Euphrate et abords de l'a\u00e9roport de Dayr az Zawr, est de REDLAND",
     "volume": 1800,
     "seed": 2026110307,
@@ -31539,6 +31539,97 @@ const builtInScenarios = [
         "dailyPosts": 8,
         "created": "Inscrit en 2021",
         "avatar": "avatar_org_secours_euphrate.jpg"
+      },
+      {
+        "name": "Al-Horizon Radio",
+        "handle": "@alhorizon_radio",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "followers": 48200,
+        "following": 315,
+        "bio": "Radio locale de la vallée. Circulation, services publics, témoignages et points de situation civils.",
+        "accountType": "media_network",
+        "language": "ar",
+        "dailyPosts": 18,
+        "created": "Inscrit en 2020",
+        "avatar": "avatar_org_agence_horizon.jpg"
+      },
+      {
+        "name": "Nabil du Fleuve",
+        "handle": "@nabil_du_fleuve",
+        "verified": false,
+        "stance": "citizen",
+        "trust": "medium",
+        "followers": 2840,
+        "following": 621,
+        "bio": "Conducteur et photographe amateur. Routes, marchés et vie quotidienne le long du fleuve.",
+        "accountType": "field_source",
+        "language": "fr",
+        "dailyPosts": 11,
+        "created": "Inscrit en 2022",
+        "avatar": "avatar_human_temoin_crise_quartiers_ri.jpg"
+      },
+      {
+        "name": "Lina Al-Jisr",
+        "handle": "@lina_aljisr",
+        "verified": false,
+        "stance": "journalist",
+        "trust": "medium",
+        "followers": 17600,
+        "following": 903,
+        "bio": "Correspondante indépendante. Je publie les fichiers originaux quand les conditions de sécurité le permettent.",
+        "accountType": "field_source",
+        "language": "ar",
+        "dailyPosts": 15,
+        "created": "Inscrit en 2021",
+        "avatar": "avatar_human_alerte_crise_quartiers_ri.jpg"
+      },
+      {
+        "name": "VIMA | Vérification images",
+        "handle": "@vima_levant",
+        "verified": true,
+        "stance": "analyst",
+        "trust": "high",
+        "followers": 61700,
+        "following": 412,
+        "bio": "Vérification visuelle, recherche d'antériorité et géolocalisation prudente des images du Levant.",
+        "accountType": "fact_checker",
+        "language": "fr",
+        "dailyPosts": 12,
+        "created": "Inscrit en 2019",
+        "avatar": "avatar_org_verif_images.jpg"
+      },
+      {
+        "name": "Maha Redland Presse",
+        "handle": "@maha_redland",
+        "verified": true,
+        "stance": "media",
+        "trust": "medium",
+        "followers": 128000,
+        "following": 746,
+        "bio": "Journaliste et présentatrice. Actualité politique et civile de REDLAND.",
+        "accountType": "media_network",
+        "language": "ar",
+        "dailyPosts": 9,
+        "created": "Inscrit en 2018",
+        "avatar": "avatar_human_leaks24_04.jpg"
+      },
+      {
+        "name": "Levant Direct 07",
+        "handle": "@levant_direct07",
+        "verified": false,
+        "stance": "amplifier",
+        "trust": "low",
+        "followers": 193,
+        "following": 2914,
+        "bio": "Infos sans filtre. Partagez avant suppression.",
+        "accountType": "bot_relay",
+        "language": "fr",
+        "originTrace": "ru",
+        "dailyPosts": 286,
+        "created": "Inscrit en octobre 2026",
+        "avatar": "avatar_human_voixdupeuple_news.jpg"
       },
       {
         "name": "Karim Al-Sharq",
@@ -33844,7 +33935,7 @@ const builtInScenarios = [
         "minute": 120,
         "actor": "@observatoire_euphrate",
         "suspect": false,
-        "content": "Chronologie : brouillage confirme, pick-up non attribue, fumee d'origine inconnue, epave recyclee et capture radar inv\u00e9rifiable. Les pertes annoncees ne sont pas etablies.",
+        "content": "Point intermédiaire : brouillage confirmé, pick-up non attribué, fumée d'origine inconnue, épave recyclée et capture radar invérifiable. Les pertes annoncées ne sont pas établies.",
         "likes": 2380,
         "reposts": 1010,
         "replies": 318,
@@ -33855,6 +33946,269 @@ const builtInScenarios = [
           "trace": "fr",
           "group": "Dossier initial",
           "asset": "deir-ez-zor-convoi-francais_09.jpg"
+        }
+      },
+      {
+        "id": "redland-126-radio",
+        "minute": 126,
+        "actor": "@alhorizon_radio",
+        "suspect": false,
+        "content": "حركة المرور بطيئة قرب قرية النهر بسبب السوق الأسبوعي. لا يوجد تأكيد لإغلاق الطريق أو وقوع اشتباكات.",
+        "language": "ar",
+        "translation": "La circulation est lente près de Qaryat al-Nahr en raison du marché hebdomadaire. Aucune fermeture de route ni aucun combat ne sont confirmés.",
+        "likes": 640,
+        "reposts": 172,
+        "replies": 94,
+        "media": {
+          "kind": "photo",
+          "title": "Circulation autour d'un rond-point",
+          "caption": "",
+          "trace": "fr",
+          "group": "Vie civile",
+          "asset": "deir-ez-zor-convoi-francais_42.jpg"
+        }
+      },
+      {
+        "id": "redland-132-nabil",
+        "minute": 132,
+        "actor": "@nabil_du_fleuve",
+        "suspect": false,
+        "content": "Trois véhicules viennent de passer à distance de Tell Safra. Je n'ai vu ni marquage lisible ni arrêt dans le village. La poussière rend toute identification hasardeuse.",
+        "likes": 214,
+        "reposts": 61,
+        "replies": 48,
+        "media": {
+          "kind": "photo",
+          "title": "Patrouille entre les cultures",
+          "caption": "",
+          "trace": "fr",
+          "group": "Patrouilles et convois",
+          "asset": "deir-ez-zor-convoi-francais_33.jpg"
+        }
+      },
+      {
+        "id": "redland-138-lina",
+        "minute": 138,
+        "actor": "@lina_aljisr",
+        "suspect": false,
+        "content": "الصورة التقطت من مدخل الجسر القديم. اتجاه المركبات غير واضح ولا يمكن معرفة وجهتها من لقطة واحدة.",
+        "language": "ar",
+        "translation": "La photo a été prise depuis l'entrée du vieux pont. Le sens des véhicules reste incertain et une seule image ne permet pas d'établir leur destination.",
+        "likes": 530,
+        "reposts": 146,
+        "replies": 81,
+        "media": {
+          "kind": "photo",
+          "title": "Camion logistique sur un pont",
+          "caption": "",
+          "trace": "fr",
+          "group": "Patrouilles et convois",
+          "asset": "deir-ez-zor-convoi-francais_32.jpg"
+        }
+      },
+      {
+        "id": "redland-143-bot",
+        "minute": 143,
+        "actor": "@levant_direct07",
+        "suspect": true,
+        "content": "URGENT : Tell Safra serait encerclé et totalement coupé du réseau après le passage des Français. Plusieurs arrestations selon nos contacts. Partagez avant suppression.",
+        "reason": "Compte créé récemment, très peu d'abonnés, volume de publication anormal et aucune source primaire identifiable.",
+        "likes": 18400,
+        "reposts": 12900,
+        "replies": 3200,
+        "media": {
+          "kind": "photo",
+          "title": "Route fermée et civils en attente",
+          "caption": "",
+          "trace": "ru",
+          "group": "Incidents ambigus",
+          "asset": "deir-ez-zor-convoi-francais_60.jpg"
+        }
+      },
+      {
+        "id": "redland-147-vima",
+        "minute": 147,
+        "actor": "@vima_levant",
+        "suspect": false,
+        "content": "La photo utilisée pour annoncer un village encerclé montre des civils devant une barrière, mais aucun élément ne permet d'identifier Tell Safra, la date ou la présence de forces françaises.",
+        "likes": 980,
+        "reposts": 412,
+        "replies": 156,
+        "media": {
+          "kind": "photo",
+          "title": "Route fermée et civils en attente",
+          "caption": "",
+          "trace": "ru",
+          "group": "Incidents ambigus",
+          "asset": "deir-ez-zor-convoi-francais_60.jpg"
+        }
+      },
+      {
+        "id": "redland-151-current-news",
+        "minute": 151,
+        "actor": "@franceinfo_flux",
+        "suspect": false,
+        "distractor": true,
+        "content": "Journée de mobilisation en France : perturbations limitées sur les grandes lignes, mais trafic plus irrégulier sur plusieurs réseaux régionaux. Les prévisions doivent être vérifiées ligne par ligne.",
+        "likes": 1460,
+        "reposts": 388,
+        "replies": 241,
+        "media": {
+          "kind": "photo",
+          "title": "Retard sur un quai ferroviaire",
+          "caption": "",
+          "trace": "fr",
+          "group": "Actualité quotidienne",
+          "asset": "deir-ez-zor-convoi-francais_109.jpg"
+        }
+      },
+      {
+        "id": "redland-155-state",
+        "minute": 155,
+        "actor": "@redland_national",
+        "suspect": true,
+        "content": "BLUE is preparing to strike a civilian grain depot near Al-Jisr. The convoy's route proves that the humanitarian narrative was a cover from the beginning.",
+        "language": "en",
+        "translation": "BLUE préparerait une frappe contre un dépôt de céréales civil près d'Al-Jisr. L'itinéraire du convoi prouverait que le discours humanitaire était une couverture.",
+        "reason": "Une installation civile supposée et une intention offensive sont affirmées sans document source ni localisation vérifiable.",
+        "likes": 38600,
+        "reposts": 24800,
+        "replies": 6700,
+        "media": {
+          "kind": "photo",
+          "title": "Hangar ouvert et cour de stockage",
+          "caption": "",
+          "trace": "unknown",
+          "group": "Sites industriels",
+          "asset": "deir-ez-zor-convoi-francais_23.jpg"
+        }
+      },
+      {
+        "id": "redland-159-aid",
+        "minute": 159,
+        "actor": "@secours_euphrate",
+        "suspect": false,
+        "content": "La clinique mobile d'Al-Jisr fonctionne normalement. Nous n'avons reçu aucun patient correspondant aux arrestations massives ou aux combats annoncés en ligne.",
+        "likes": 1240,
+        "reposts": 504,
+        "replies": 177,
+        "media": {
+          "kind": "photo",
+          "title": "Clinique mobile au bord du fleuve",
+          "caption": "",
+          "trace": "fr",
+          "group": "Aide humanitaire",
+          "asset": "deir-ez-zor-convoi-francais_45.jpg"
+        }
+      },
+      {
+        "id": "redland-163-vostok",
+        "minute": 163,
+        "actor": "@vostok_novosti",
+        "suspect": true,
+        "content": "Появились первые фотографии французских пленных после провала операции в REDLAND. Париж продолжает молчать.",
+        "language": "ru",
+        "translation": "Les premières photos de prétendus prisonniers français après l'échec de l'opération en REDLAND circulent. Paris continuerait de garder le silence.",
+        "reason": "Le visuel ne montre ni insigne identifiable, ni visage exploitable, ni élément de datation ou de géolocalisation.",
+        "likes": 58200,
+        "reposts": 41700,
+        "replies": 11600,
+        "media": {
+          "kind": "photo",
+          "title": "Groupe autour d'un ancien véhicule",
+          "caption": "",
+          "trace": "ru",
+          "group": "Sécurité locale",
+          "asset": "deir-ez-zor-convoi-francais_74.jpg"
+        }
+      },
+      {
+        "id": "redland-166-vima",
+        "minute": 166,
+        "actor": "@vima_levant",
+        "suspect": false,
+        "content": "La photo présentée comme celle de prisonniers français ne montre aucun prisonnier identifiable. Une version plus ancienne du fichier circule déjà dans des canaux locaux sans lien établi avec l'opération.",
+        "likes": 1860,
+        "reposts": 791,
+        "replies": 265,
+        "media": {
+          "kind": "photo",
+          "title": "Comparaison de photos sur téléphone",
+          "caption": "",
+          "trace": "fr",
+          "group": "Journalisme et OSINT",
+          "asset": "deir-ez-zor-convoi-francais_91.jpg"
+        }
+      },
+      {
+        "id": "redland-169-maha",
+        "minute": 169,
+        "actor": "@maha_redland",
+        "suspect": false,
+        "content": "حتى الآن لا توجد أسماء أو صور أصلية أو جهة مستقلة تؤكد مزاعم الأسر. المقاطع المتداولة لا تكفي لإثبات الرواية.",
+        "language": "ar",
+        "translation": "À cette heure, aucun nom, fichier original ou source indépendante ne confirme les affirmations de capture. Les séquences diffusées ne suffisent pas à établir ce récit.",
+        "likes": 2930,
+        "reposts": 1040,
+        "replies": 486,
+        "media": {
+          "kind": "photo",
+          "title": "Correspondante en direct au crépuscule",
+          "caption": "",
+          "trace": "fr",
+          "group": "Journalisme et OSINT",
+          "asset": "deir-ez-zor-convoi-francais_98.jpg"
+        }
+      },
+      {
+        "id": "redland-173-world",
+        "minute": 173,
+        "actor": "@world_news_service",
+        "suspect": false,
+        "content": "No independent source confirms fighting, coalition casualties or prisoners in eastern REDLAND. Images circulating online are being reviewed for date and origin.",
+        "language": "en",
+        "translation": "Aucune source indépendante ne confirme des combats, des pertes de la coalition ou des prisonniers dans l'est de REDLAND. La date et l'origine des images sont en cours de vérification.",
+        "likes": 4620,
+        "reposts": 1730,
+        "replies": 603,
+        "media": {
+          "kind": "screenshot",
+          "title": "Article World News Service",
+          "caption": "",
+          "trace": "fr",
+          "group": "Dossier initial",
+          "asset": "deir-ez-zor-convoi-francais_14.jpg"
+        }
+      },
+      {
+        "id": "redland-176-bot",
+        "minute": 176,
+        "actor": "@levant_direct07",
+        "suspect": true,
+        "content": "Le silence officiel confirme tout : pertes, prisonniers et retrait précipité. Des centaines de comptes ont déjà les preuves que les médias refusent de montrer.",
+        "reason": "Le message transforme l'absence de confirmation en preuve et agrège plusieurs rumeurs incompatibles sans source.",
+        "likes": 24600,
+        "reposts": 17100,
+        "replies": 4400
+      },
+      {
+        "id": "redland-179-coalition",
+        "minute": 179,
+        "actor": "@coalition_situation",
+        "suspect": false,
+        "content": "The patrol is complete. For operational security, no route or live position will be released. No coalition personnel are missing, and no civilian incident linked to the patrol has been confirmed.",
+        "language": "en",
+        "translation": "La patrouille est terminée. Pour des raisons de sécurité, aucun itinéraire ni aucune position ne seront publiés. Aucun personnel de la coalition n'est porté disparu et aucun incident civil lié à la patrouille n'est confirmé.",
+        "likes": 7240,
+        "reposts": 2860,
+        "replies": 1180,
+        "media": {
+          "kind": "photo",
+          "title": "Salle de conférence avant un point presse",
+          "caption": "",
+          "trace": "fr",
+          "group": "Réactions publiques",
+          "asset": "deir-ez-zor-convoi-francais_103.jpg"
         }
       }
     ],
@@ -37774,11 +38128,17 @@ function createLivePost(renderImmediately = true) {
   const seed = hashSeed(`${state.scenario.id}:live:${Date.now()}:${state.posts.length}`);
   const random = mulberry32(seed);
   const liveDate = parisNow();
+  const duration = scenarioDurationMinutes(state.scenario);
+  const releaseMinute = timelineIsActive()
+    ? Math.min(duration, simulationElapsedSeconds() / 60)
+    : duration;
   const distractorActors = state.scenario.actors.filter((actor) => isDistractorActor(actor));
   if (distractorActors.length && random() < 0.42) {
     const actor = pick(distractorActors, random);
-    const post = distractorPostForScenario(state.scenario, actor, `live-${Date.now()}-${Math.floor(random() * 9999)}`, scenarioDurationMinutes(state.scenario), random);
+    const post = distractorPostForScenario(state.scenario, actor, `live-${Date.now()}-${Math.floor(random() * 9999)}`, duration, random);
     post.actor = actor;
+    post.minute = releaseMinute;
+    post.manualRefresh = true;
     post.liveDate = liveDate;
     post.time = formatTime(liveDate);
     post.relativeTime = "à l'instant";
@@ -37813,7 +38173,7 @@ function createLivePost(renderImmediately = true) {
   const media = mediaPool.length && random() > (suspect ? 0.12 : 0.55) ? structuredClone(pick(mediaPool, random)) : null;
   let post = {
     id: `${state.scenario.id}-live-${Date.now()}-${Math.floor(random() * 9999)}`,
-    minute: scenarioDurationMinutes(state.scenario),
+    minute: releaseMinute,
     actor,
     content: `${media ? contentForSelectedMedia(state.scenario, media, suspect, random) : pick(templates, random)} ${random() > 0.36 ? trend : ""}`.trim(),
     suspect,
@@ -37824,7 +38184,8 @@ function createLivePost(renderImmediately = true) {
     media,
     liveDate,
     time: formatTime(liveDate),
-    relativeTime: "à l'instant"
+    relativeTime: "à l'instant",
+    manualRefresh: true
   };
   post = normalizePostEngagement(post, liveDate);
   post.comments = buildComments(post);
@@ -37836,14 +38197,20 @@ function createLivePost(renderImmediately = true) {
   return post;
 }
 
-function refreshFeedManually() {
+function createRefreshBatch({ reloadNews = true, scrollToTop = true } = {}) {
   if (!state.scenario) return;
-  void loadLiveNews(true);
+  if (reloadNews) void loadLiveNews(true);
   const batchSize = 3 + (hashSeed(`${state.scenario.id}:${Date.now()}`) % 4);
   for (let index = 0; index < batchSize; index += 1) createLivePost(false);
+  persistRefreshPosts();
   renderScenarioInfo();
   refreshLiveTimes();
-  document.querySelector(".feed-shell")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  if (scrollToTop) document.querySelector(".feed-shell")?.scrollIntoView({ behavior: "smooth", block: "start" });
+  return batchSize;
+}
+
+function refreshFeedManually() {
+  createRefreshBatch();
 }
 
 function refreshLiveTimes() {
@@ -37897,7 +38264,11 @@ function loadScenario(id) {
   if (els.scenarioSelect) els.scenarioSelect.value = scenario.id;
   const studentPageLink = document.querySelector("#studentPageLink");
   if (studentPageLink) studentPageLink.href = `./eleve.html?scenario=${encodeURIComponent(scenario.id)}`;
-  state.posts = mergeLivePosts([...restoreTeacherPosts(state.scenario), ...generatePosts(state.scenario)], state.scenario);
+  state.posts = mergeLivePosts([
+    ...restoreTeacherPosts(state.scenario),
+    ...restoreRefreshPosts(state.scenario),
+    ...generatePosts(state.scenario)
+  ], state.scenario);
   state.posts = mergeLiveNewsPosts(state.posts, state.scenario);
   state.flags.clear();
   state.query = "";
@@ -39063,6 +39434,71 @@ function restoreTeacherPosts(scenario) {
   });
 }
 
+function refreshPostsStorageKey(scenarioId = state.scenario?.id || "scenario") {
+  return `veille-ili:refresh-posts:${scenarioId}`;
+}
+
+function serializeRefreshPost(post) {
+  return {
+    id: post.id,
+    scenarioId: state.scenario?.id || "",
+    minute: Number(post.minute) || 0,
+    actor: post.actor.handle,
+    content: post.content,
+    language: post.language || post.actor.language || "fr",
+    translation: post.translation || "",
+    suspect: Boolean(post.suspect),
+    distractor: Boolean(post.distractor),
+    reason: post.reason || "",
+    likes: Number(post._targetLikes ?? post.likes) || 0,
+    reposts: Number(post._targetReposts ?? post.reposts) || 0,
+    replies: Number(post._targetReplies ?? post.replies) || 0,
+    media: post.media || null,
+    liveDate: post.liveDate.toISOString(),
+    manualRefresh: true
+  };
+}
+
+function persistRefreshPosts() {
+  if (!state.scenario) return;
+  const posts = state.posts
+    .filter((post) => post.manualRefresh)
+    .slice(0, 120)
+    .map(serializeRefreshPost);
+  try {
+    localStorage.setItem(refreshPostsStorageKey(), JSON.stringify(posts));
+  } catch (error) {
+    console.warn("Les nouvelles publications restent visibles, mais leur mémorisation est indisponible.", error);
+  }
+}
+
+function restoreRefreshPosts(scenario) {
+  let stored = [];
+  try {
+    stored = JSON.parse(localStorage.getItem(refreshPostsStorageKey(scenario.id)) || "[]");
+  } catch (error) {
+    stored = [];
+  }
+  const now = parisNow();
+  const freshnessLimit = 6 * 60 * 60 * 1000;
+  return (Array.isArray(stored) ? stored : [])
+    .filter((post) => post.scenarioId === scenario.id)
+    .map((post) => ({ ...post, liveDate: new Date(post.liveDate || now) }))
+    .filter((post) => Number.isFinite(post.liveDate.getTime()) && now - post.liveDate < freshnessLimit)
+    .map((post) => {
+      const actor = actorByHandle(scenario, post.actor);
+      if (!actor) return null;
+      return normalizePostEngagement({
+        ...post,
+        actor,
+        manualRefresh: true,
+        time: formatTime(post.liveDate),
+        relativeTime: formatRelativeTime(post.liveDate, now)
+      }, now);
+    })
+    .filter(Boolean);
+}
+
 // VEILLE-ILI LIVE SYNC START
 const liveSync = {
   enabled: false,
@@ -39574,6 +40010,7 @@ function initializeLiveSync() {
     setLiveStatus("connecting", "Connexion au direct");
     connectLiveStream();
     scheduleLivePoll(0);
+    if (!isTeacherPage()) createRefreshBatch({ reloadNews: false, scrollToTop: false });
   } else if (isTeacherPage()) {
     setLiveStatus("waiting", "Séance hors ligne");
   }

@@ -1,330 +1,330 @@
 {
-  "updatedAt": "2026-11-04T15:38:10Z",
+  "updatedAt": "2026-11-05T15:25:48Z",
   "sourceCount": 4,
   "items": [
     {
-      "id": "3f8e0df0f0cc539ac596",
+      "id": "9d6185030846383e2756",
       "source": "France 24",
       "handle": "@france24_flux",
-      "title": "Éducation, transports, santé... à quoi s'attendre pour la journée de mobilisation de jeudi ?",
-      "url": "https://www.france24.com/fr/france/20261104-%C3%A9ducation-transports-sant%C3%A9-%C3%A0-quoi-s-attendre-journ%C3%A9e-mobilisation-jeudi",
-      "publishedAt": "2026-11-04T15:35:55Z",
-      "category": "sciences"
-    },
-    {
-      "id": "6499711be4fe9234074e",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Afghanistan : la France reconnaît des « discussions techniques » avec les talibans afghans",
-      "url": "https://www.lemonde.fr/international/article/2026/11/04/afghanistan-la-france-reconnait-des-discussions-techniques-avec-les-talibans-afghans_6806312_3210.html",
-      "publishedAt": "2026-11-04T15:30:02Z",
+      "title": "Portugal : Cristiano Ronaldo annonce sa retraite internationale",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-portugal-cristiano-ronaldo-annonce-sa-retraite-internationale",
+      "publishedAt": "2026-11-05T15:18:31Z",
       "category": "actualite"
     },
     {
-      "id": "d18d07001fc6aa7dd329",
+      "id": "1b3d73e40e1599e09d08",
       "source": "France 24",
       "handle": "@france24_flux",
-      "title": "Midterms 2026 : la victoire écrasante des démocrates prévisible ?",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-2026-la-victoire-%C3%A9crasante-des-d%C3%A9mocrates-pr%C3%A9visible",
-      "publishedAt": "2026-11-04T15:19:48Z",
-      "category": "sciences"
+      "title": "JOJ DAKAR 2026 : La pépite Marocaine de l’équitation, Ghali Bougja",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-joj-dakar-2026-la-p%C3%A9pite-marocaine-de-l-%C3%A9quitation-ghali-bougja",
+      "publishedAt": "2026-11-05T15:17:06Z",
+      "category": "actualite"
     },
     {
-      "id": "450d1211afc934c32516",
+      "id": "a0ec1b197d4d33975344",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Présidentielle 2027 : la majorité du groupe communiste à l'Assemblée apporte son soutien à Jean-Luc Mélenchon plutôt qu'à Fabien Roussel",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/presidentielle-2027-la-majorite-du-groupe-communiste-a-l-assemblee-apporte-son-soutien-a-jean-luc-melenchon-plutot-qu-a-fabien-roussel_8269403.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T15:03:46Z",
+      "category": "politique"
+    },
+    {
+      "id": "521ec027080dc88d45d3",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "\"Je m'en contrefous\" : Raphaël Glucksmann répond aux militants hostiles à sa présence, avant d'être contraint de quitter le cortège",
+      "url": "https://www.franceinfo.fr/elections/presidentielle/je-m-en-contrefous-raphael-glucksmann-repond-aux-militants-hostiles-a-sa-presence-sur-la-manifestation-parisienne_8269385.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T15:03:27Z",
+      "category": "actualite"
+    },
+    {
+      "id": "6155e59bcd78ae9dfdd8",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Mobilisation du 5 novembre : une très forte participation à Paris, quelques incidents en tête de cortège",
+      "url": "https://www.franceinfo.fr/societe/manifestations/direct-greve-du-5-novembre-plus-de-250-actions-annoncees-dans-toute-la-france-selon-une-carte-de-la-ggt_8268827.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T14:58:59Z",
+      "category": "actualite"
+    },
+    {
+      "id": "9b66ae65cc03d9c11778",
       "source": "France 24",
       "handle": "@france24_flux",
-      "title": "Midterms : la Chine disposée \"à continuer à travailler avec les États-Unis\"",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-la-chine-dispos%C3%A9e-%C3%A0-continuer-%C3%A0-travailler-avec-les-%C3%A9tats-unis",
-      "publishedAt": "2026-11-04T15:07:58Z",
+      "title": "Législatives en Israël : Eisenkot veut \"renforcer les relations\" avec les États-Unis",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-l%C3%A9gislatives-en-isra%C3%ABl-eisenkot-veut-renforcer-les-relations-avec-les-%C3%A9tats-unis",
+      "publishedAt": "2026-11-05T14:53:52Z",
       "category": "international"
     },
     {
-      "id": "e0156902ef5223e76b8d",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Les deux départements corses placés en vigilance orange \"pluie-inondations\" à partir de jeudi matin",
-      "url": "https://www.franceinfo.fr/environnement/meteo/les-deux-departements-corses-places-en-vigilance-orange-pluie-inondations-a-partir-de-jeudi-matin_8267861.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T15:06:27Z",
-      "category": "actualite"
-    },
-    {
-      "id": "d7f587d1e61a5844e56f",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms 2026 : quelle fin de mandat pour Trump ? Parlons-en avec A. Cohen, A. Hurst et A. Corpet",
-      "url": "https://www.france24.com/fr/%C3%A9missions/parlons-en-les-invit%C3%A9s/20261104-midterms-2026-quelle-fin-de-mandat-pour-trump-parlons-en-avec-a-cohen-a-hurst-et-a-corpet",
-      "publishedAt": "2026-11-04T15:06:07Z",
-      "category": "actualite"
-    },
-    {
-      "id": "f4699b5dd26569e13a4b",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Six gravures de Picasso volées dans un restaurant des Alpes-Maritimes retrouvées, sept personnes en garde à vue",
-      "url": "https://www.franceinfo.fr/faits-divers/six-gravures-de-picasso-volees-dans-un-restaurant-des-alpes-maritimes-retrouvees-sept-personnes-en-garde-a-vue_8267891.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T15:04:50Z",
-      "category": "actualite"
-    },
-    {
-      "id": "1d1d1bdcb6a824f35f64",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : les républicains de l'État du Wyoming conservent leur place",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-r%C3%A9publicains-de-l-%C3%A9tat-du-wyoming-conservent-leur-place",
-      "publishedAt": "2026-11-04T15:03:32Z",
-      "category": "actualite"
-    },
-    {
-      "id": "162e4ff5296e6aa9bdb0",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : \"mes lasers spatiaux dans les élections n'ont pas fonctionné cette fois\"",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-mes-lasers-spatiaux-dans-les-%C3%A9lections-n-ont-pas-fonctionn%C3%A9-cette-fois",
-      "publishedAt": "2026-11-04T15:00:12Z",
+      "id": "b269ea7e01e5a237e14a",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Présidentielle 2027 : la majorité du groupe communiste et ultramarin à l’Assemblée annonce soutenir Jean-Luc Mélenchon",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/05/presidentielle-2027-la-majorite-du-groupe-communiste-et-ultramarin-a-l-assemblee-annonce-soutenir-jean-luc-melenchon_6806973_823448.html",
+      "publishedAt": "2026-11-05T14:49:26Z",
       "category": "politique"
     },
     {
-      "id": "cac6478dc31adb0b43ee",
+      "id": "1df1e7841bd73e02bbca",
       "source": "France 24",
       "handle": "@france24_flux",
-      "title": "Midterms : le démocrate Abdul El-Sayed devient le premier sénateur musulman des États-Unis",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-d%C3%A9mocrate-abdul-el-sayed-devient-le-premier-s%C3%A9nateur-musulman-des-%C3%A9tats-unis",
-      "publishedAt": "2026-11-04T14:57:41Z",
-      "category": "politique"
-    },
-    {
-      "id": "1bdd784e65f96216f8b1",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : le nouveau Congrès va-t-il permettre un retour à l'équilibre des pouvoirs ?",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-nouveau-congr%C3%A8s-va-t-il-permettre-un-retour-%C3%A0-l-%C3%A9quilibre-des-pouvoirs",
-      "publishedAt": "2026-11-04T14:54:57Z",
-      "category": "actualite"
-    },
-    {
-      "id": "414f6cb96bba4c955f0a",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Etat, épargnants, banques… A qui profite (vraiment) le relèvement du plafond du livret A ?",
-      "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/etat-epargnants-banques-a-qui-profite-vraiment-le-relevement-du-plafond-du-livret-a_8267444.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T14:53:35Z",
-      "category": "culture"
-    },
-    {
-      "id": "a94d55bfda0092b078a9",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : féliciter les démocrates, une stratégie de Trump ?",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-f%C3%A9liciter-les-d%C3%A9mocrates-une-strat%C3%A9gie-de-trump",
-      "publishedAt": "2026-11-04T14:52:38Z",
-      "category": "actualite"
-    },
-    {
-      "id": "5538363315a211e34060",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : les pays européens réagissent à la victoire des démocrates",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-pays-europ%C3%A9ens-r%C3%A9agissent-%C3%A0-la-victoire-des-d%C3%A9mocrates",
-      "publishedAt": "2026-11-04T14:51:03Z",
-      "category": "economie"
-    },
-    {
-      "id": "476f0c6b95106ed0f435",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : les résultats illustrent la déroute des républicains à ces élections",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-r%C3%A9sultats-illustrent-la-d%C3%A9route-des-r%C3%A9publicains-%C3%A0-ces-%C3%A9lections",
-      "publishedAt": "2026-11-04T14:48:42Z",
-      "category": "politique"
-    },
-    {
-      "id": "56531bedf5e9b9fc0e73",
-      "source": "France 24",
-      "handle": "@france24_flux",
-      "title": "Midterms : les électeurs sanctionnent-ils les politiques de Trump par le vote ?",
-      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-%C3%A9lecteurs-sanctionnent-ils-les-politiques-de-trump-par-le-vote",
-      "publishedAt": "2026-11-04T14:45:58Z",
-      "category": "actualite"
-    },
-    {
-      "id": "fd35d9d6fbc331b851df",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
-      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T14:40:30Z",
-      "category": "actualite"
-    },
-    {
-      "id": "1fd03ed9ec919748536d",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "EN DIRECT, guerre en Ukraine : le bilan de l’attaque russe à Komychouvakha, dans l’oblast de Zaporijia, s’élève désormais à 40 morts, selon Volodymyr Zelensky",
-      "url": "https://www.lemonde.fr/international/live/2026/11/04/en-direct-guerre-en-ukraine-le-bombardement-de-lundi-sur-une-ecole-de-komychouvakha-dans-l-oblast-de-zaporijia-a-fait-37-morts-selon-un-nouveau-bilan_6803934_3210.html",
-      "publishedAt": "2026-11-04T14:38:32Z",
-      "category": "international"
-    },
-    {
-      "id": "65869215f1833390adb9",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Dans l’Auxerre gallo-romaine, une singulière « nécropole des tout-petits »",
-      "url": "https://www.lemonde.fr/sciences/article/2026/11/04/dans-l-auxerre-gallo-romaine-une-singuliere-necropole-des-tout-petits_6806270_1650684.html",
-      "publishedAt": "2026-11-04T14:30:59Z",
-      "category": "actualite"
-    },
-    {
-      "id": "e974fc46c25e38574364",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Quand et de combien augmenter le smic ? Les deux questions sont \"sur la table\" du gouvernement",
-      "url": "https://www.franceinfo.fr/economie/pouvoir-achat/quand-et-de-combien-augmenter-le-smic-les-deux-questions-sont-sur-la-table-du-gouvernement_8267768.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T14:22:47Z",
-      "category": "politique"
-    },
-    {
-      "id": "204c1e156cace19b385f",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Au-delà du Nutri-Score, \"60 Millions de consommateurs\" souhaite un indicateur du \"degré de transformation du produit\"",
-      "url": "https://www.franceinfo.fr/sante/alimentation/au-dela-du-nutri-score-60-millions-de-consommateurs-souhaite-un-indicateur-du-degre-de-transformation-du-produit_8267792.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T14:04:17Z",
-      "category": "actualite"
-    },
-    {
-      "id": "332d158e4ece5e845677",
-      "source": "RFI",
-      "handle": "@rfi_flux",
-      "title": "Yannick Haenel, prix Femina 2026, proclame: «La Solitude des professeurs est infinie»",
-      "url": "https://www.rfi.fr/fr/culture/20261104-yannick-haenel-prix-femina-2026-proclame-la-solitude-des-professeurs-est-infinie",
-      "publishedAt": "2026-11-04T14:04:14Z",
-      "category": "economie"
-    },
-    {
-      "id": "87adc7cd9d96ee1f4a11",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Pouvoir d'achat, prix du carburant... Ces Américains expliquent le \"Blue-nami\", cette \"vague bleue\" aux midterms 2026 qui déstabilise Donald Trump",
-      "url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/pouvoir-d-achat-prix-du-carburant-ces-americains-expliquent-le-blunami-cette-vague-bleue-aux-midterms-2026-qui-destabilise-donald-trump_8246506.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T14:00:45Z",
-      "category": "economie"
-    },
-    {
-      "id": "eb8b6ec4a9b23fb579f6",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Midterms 2026 : visualisez en cartes et en graphiques les premiers enseignements du scrutin",
-      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/midterms-2026-visualisez-en-cartes-et-en-graphiques-les-premiers-enseignements-du-scrutin_6806235_4355770.html",
-      "publishedAt": "2026-11-04T13:48:07Z",
-      "category": "actualite"
-    },
-    {
-      "id": "4c966dd4e772a4192aad",
-      "source": "RFI",
-      "handle": "@rfi_flux",
-      "title": "France: des chambres froides de l'Établissement français du sang victimes d'une cyberattaque",
-      "url": "https://www.rfi.fr/fr/france/20261104-france-des-chambres-froides-de-l-%C3%A9tablissement-fran%C3%A7ais-du-sang-victimes-d-une-cyberattaque",
-      "publishedAt": "2026-11-04T13:26:50Z",
-      "category": "actualite"
-    },
-    {
-      "id": "afc449d27eaaff7f555d",
-      "source": "franceinfo",
-      "handle": "@franceinfo_flux",
-      "title": "Midterms 2026 : raz-de-marée démocrate au Congrès, les derniers résultats attendus pour la Chambre des représentants et le Sénat",
-      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-nette-avance-democrate-au-congres-des-premieres-victoires-historiques-suivez-les-resultats-des-elections-de-mi-mandat_8265776.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T13:21:13Z",
-      "category": "politique"
-    },
-    {
-      "id": "7b2ea1823dffa90a5506",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Des réfrigérateurs de l’Etablissement français du sang à leur tour victimes d’une cyberattaque",
-      "url": "https://www.lemonde.fr/pixels/article/2026/11/04/des-frigos-de-l-etablissement-francais-du-sang-a-leur-tour-victimes-d-une-cyberattaque_6806228_4408996.html",
-      "publishedAt": "2026-11-04T13:18:16Z",
-      "category": "actualite"
-    },
-    {
-      "id": "79ca60ade02f12f4396f",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Grève du 5 novembre : CFDT et CGT dénoncent les conditions d’organisation des manifestations",
-      "url": "https://www.lemonde.fr/politique/article/2026/11/04/greve-du-5-novembre-cfdt-et-cgt-denoncent-les-conditions-d-organisation-des-manifestations_6806226_823448.html",
-      "publishedAt": "2026-11-04T13:13:21Z",
+      "title": "Grève du 5 novembre : environ 1 000 lycées \"à l'arrêt\" selon l'Union Syndicale Étudiante",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-gr%C3%A8ve-du-5-novembre-environ-1-000-lyc%C3%A9es-%C3%A0-l-arr%C3%AAt-selon-l-union-syndicale-%C3%A9tudiante",
+      "publishedAt": "2026-11-05T14:48:06Z",
       "category": "societe"
     },
     {
-      "id": "2725d6c4c2908546224c",
+      "id": "a396c00c90e55887fa79",
       "source": "Le Monde",
       "handle": "@lemonde_flux",
-      "title": "Le dérapage du déficit public français à 5,4 % du PIB en 2026 officialisé",
-      "url": "https://www.lemonde.fr/politique/article/2026/11/04/finances-publiques-le-derapage-du-deficit-en-2026-officialise_6806225_823448.html",
-      "publishedAt": "2026-11-04T13:09:21Z",
+      "title": "La ministre des affaires étrangères yéménite, en visite à Paris, demande à l’UE d’ajouter les houthistes à sa liste des organisations terroristes",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/la-ministre-des-affaires-etrangeres-yemenite-en-visite-a-paris-demande-a-l-ue-d-ajouter-les-houthistes-a-sa-liste-des-organisations-terroristes_6806971_3210.html",
+      "publishedAt": "2026-11-05T14:45:05Z",
+      "category": "politique"
+    },
+    {
+      "id": "4f6cf7add7f7f707488e",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Pourquoi le « Ring » de Richard Wagner continue de fasciner les foules, 150 ans après sa création",
+      "url": "https://www.lemonde.fr/culture/article/2026/11/05/pourquoi-le-ring-de-richard-wagner-continue-de-fasciner-les-foules-150-ans-apres-sa-creation_6806970_3246.html",
+      "publishedAt": "2026-11-05T14:44:51Z",
       "category": "actualite"
     },
     {
-      "id": "56d8689e20543bcde70e",
-      "source": "Le Monde",
-      "handle": "@lemonde_flux",
-      "title": "Au lycée Lakanal, à Sceaux, les classes préparatoires « dans le collimateur » du proviseur",
-      "url": "https://www.lemonde.fr/campus/article/2026/11/04/au-lycee-lakanal-a-sceaux-les-classes-preparatoires-dans-le-collimateur-du-proviseur_6806224_4401467.html",
-      "publishedAt": "2026-11-04T13:00:07Z",
+      "id": "6e0ae76b7f7738957c9f",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Mobilisations en France : \"il va falloir un peu se bouger sur les réponses sociales\"",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-mobilisations-en-france-il-va-falloir-un-peu-se-bouger-sur-les-r%C3%A9ponses-sociales",
+      "publishedAt": "2026-11-05T14:44:02Z",
       "category": "actualite"
     },
     {
-      "id": "3764b957d9f6596daaca",
+      "id": "d7cb23dbff126a9f8b74",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "France : un début d'incendie éteint dans un lycée près de Toulouse",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-france-un-d%C3%A9but-d-incendie-dans-un-lyc%C3%A9e-pr%C3%A8s-de-toulouse",
+      "publishedAt": "2026-11-05T14:39:41Z",
+      "category": "actualite"
+    },
+    {
+      "id": "56d3d6fc49ccd9add7d9",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Grève du 5 novembre : jusqu'à 700 000 manifestants attendus partout dans le pays",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-gr%C3%A8ve-du-5-novembre-jusqu-%C3%A0-700-000-manifestants-attendus-partout-dans-le-pays",
+      "publishedAt": "2026-11-05T14:37:35Z",
+      "category": "societe"
+    },
+    {
+      "id": "631c7ae9d01b9e9ebdfd",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Europe : au moins 15 avions perturbés par de fausses alertes à la bombe",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-europe-au-moins-15-avions-perturb%C3%A9s-par-de-fausses-alertes-%C3%A0-la-bombe",
+      "publishedAt": "2026-11-05T14:35:26Z",
+      "category": "economie"
+    },
+    {
+      "id": "a90c88637343fc033332",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Europe : le trafic aérien de perturbé après plusieurs alertes sécuritaires",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-europe-le-trafic-a%C3%A9rien-de-perturb%C3%A9-apr%C3%A8s-plusieurs-alertes-s%C3%A9curitaires",
+      "publishedAt": "2026-11-05T14:34:03Z",
+      "category": "economie"
+    },
+    {
+      "id": "fc43661f14c4e667969e",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Ce que l’on sait des alertes à la bombe qui ont perturbé le trafic aérien en Europe",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/ce-que-l-on-sait-des-alertes-a-la-bombe-qui-ont-perturbe-le-trafic-aerien-en-europe_6806848_3211.html",
+      "publishedAt": "2026-11-05T14:29:48Z",
+      "category": "economie"
+    },
+    {
+      "id": "f4e3fe413985665b67fe",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Midterms 2026 : l’argent d’Elon Musk n’a pas suffi à garder le Texas dans le giron républicain",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/midterms-2026-l-argent-d-elon-musk-n-a-pas-suffi-a-garder-le-texas-dans-le-giron-republicain_6806937_3210.html",
+      "publishedAt": "2026-11-05T14:21:11Z",
+      "category": "actualite"
+    },
+    {
+      "id": "5e86f383524d497903f7",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Un avion reliant Dublin à Rome dérouté vers la base d'Evreux après une alerte à la bombe",
+      "url": "https://www.franceinfo.fr/france/un-avion-de-ligne-a320-reliant-dublin-a-rome-a-ete-deroute-vers-la-base-aerienne-d-evreux-a-la-suite-d-une-alerte-a-la-bombe-annonce-matignon_8268986.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T14:15:24Z",
+      "category": "actualite"
+    },
+    {
+      "id": "c61fe99639180a4c5b0e",
       "source": "RFI",
       "handle": "@rfi_flux",
-      "title": "Indonésie: scandale d’écoutes illégales au sommet de l’État, un proche de Widodo soupçonné",
-      "url": "https://www.rfi.fr/fr/asie-pacifique/20261104-indon%C3%A9sie-scandale-d-%C3%A9coutes-ill%C3%A9gales-au-sommet-de-l-%C3%A9tat-un-proche-de-widodo-soup%C3%A7onn%C3%A9",
-      "publishedAt": "2026-11-04T12:50:06Z",
+      "title": "Israël: Gadi Eisenkot en position favorable pour former le prochain gouvernement",
+      "url": "https://www.rfi.fr/fr/moyen-orient/20261105-isra%C3%ABl-gadi-eisenkot-en-position-favorable-pour-former-le-prochain-gouvernement",
+      "publishedAt": "2026-11-05T14:10:11Z",
+      "category": "politique"
+    },
+    {
+      "id": "8fecd0b36785d1cd72e7",
+      "source": "RFI",
+      "handle": "@rfi_flux",
+      "title": "Élimintoires CAN 2027: Patrick Vieira annonce la liste du Sénégal sans Sadio Mané",
+      "url": "https://www.rfi.fr/fr/afrique-foot/20261105-%C3%A9limintoires-can-2027-patrick-vieira-annonce-la-liste-du-s%C3%A9n%C3%A9gal-sans-sadio-man%C3%A9",
+      "publishedAt": "2026-11-05T14:10:08Z",
       "category": "actualite"
     },
     {
-      "id": "9fcb71b26ceda51da731",
+      "id": "3dce816c2d7ac0e5135f",
       "source": "franceinfo",
       "handle": "@franceinfo_flux",
-      "title": "Le prix Femina 2026 est remis à Yannick Haenel pour \"La solitude des professeurs est infinie\"",
-      "url": "https://www.franceinfo.fr/culture/livres/prix-litteraires/le-prix-femina-2026-est-remis-a-yannick-haenel-pour-la-solitude-des-professeurs-est-infinie_8267663.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T12:40:35Z",
-      "category": "economie"
+      "title": "Des milliers de cas confirmés, plusieurs morts en Pennsylvanie, une vaccination en recul... Ce que l'on sait de l'épidémie de rougeole aux Etats-Unis",
+      "url": "https://www.franceinfo.fr/sante/maladie/des-milliers-de-cas-confirmes-plusieurs-morts-en-pennsylvanie-une-vaccination-en-recul-ce-que-l-on-sait-de-l-epidemie-de-rougeole-aux-etats-unis_8269070.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T13:57:37Z",
+      "category": "international"
     },
     {
-      "id": "ec2b230ef3d0c26a327c",
+      "id": "72056ccffc6fbf9f9c02",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Les images de destruction à Gaza remplacées sur Apple Plans ? Retour sur une confusion",
+      "url": "https://www.france24.com/fr/moyen-orient/20261105-images-de-destruction-gaza-remplac%C3%A9es-sur-apple-plans-retour-sur-une-confusion",
+      "publishedAt": "2026-11-05T13:57:04Z",
+      "category": "actualite"
+    },
+    {
+      "id": "f5e711b21dde2d4a941a",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Un adolescent de 16 ans blessé par arme blanche par un autre élève majeur, en marge d'un blocage devant un lycée de La Courneuve",
+      "url": "https://www.franceinfo.fr/faits-divers/un-adolescent-de-16-ans-blesse-par-arme-blanche-par-un-autre-eleve-majeur-en-marge-d-un-blocage-devant-un-lycee-de-la-courneuve_8269352.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T13:45:13Z",
+      "category": "actualite"
+    },
+    {
+      "id": "1b70d38b75f2c7a29c71",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Le point sur la mobilisation du 5 novembre",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-le-point-sur-la-mobilisation-du-5-novembre",
+      "publishedAt": "2026-11-05T13:42:06Z",
+      "category": "actualite"
+    },
+    {
+      "id": "8ad5c44e18dde2167315",
       "source": "Le Monde",
       "handle": "@lemonde_flux",
-      "title": "Le prix Femina est décerné à Yannick Haenel pour « La solitude des professeurs est infinie »",
-      "url": "https://www.lemonde.fr/livres/article/2026/11/04/le-prix-femina-est-decerne-a-yannick-haenel-pour-la-solitude-des-professeurs-est-infinie_6806219_3260.html",
-      "publishedAt": "2026-11-04T12:19:25Z",
+      "title": "« Un jour, nous trouvons le directeur superstar du labo en train de réparer une fuite sous l’évier » : Jean-Baptiste, 30 ans, agent du ministère de la recherche",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/05/un-jour-nous-trouvons-le-directeur-superstar-du-labo-en-train-de-reparer-une-fuite-sous-l-evier-jean-baptiste-30-ans-agent-du-ministere-de-la-recherche_6806870_4401467.html",
+      "publishedAt": "2026-11-05T13:16:18Z",
+      "category": "sciences"
+    },
+    {
+      "id": "477e1f01f40ed104f13f",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Sabotage de câbles en mer Baltique : un capitaine russe et un membre d’équipage condamnés en Finlande",
+      "url": "https://www.lemonde.fr/international/article/2026/11/05/sabotage-de-cables-en-mer-baltique-un-capitaine-russe-et-un-membre-d-equipage-condamnes-en-finlande_6806868_3210.html",
+      "publishedAt": "2026-11-05T13:01:30Z",
+      "category": "actualite"
+    },
+    {
+      "id": "c2f0800cdcb833c3a640",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "En Tunisie, dans les camps de migrants d’El-Amra, une économie de la survie abandonnée à la violence",
+      "url": "https://www.lemonde.fr/afrique/article/2026/11/05/en-tunisie-dans-les-camps-de-migrants-d-el-amra-une-economie-de-la-survie-abandonnee-a-la-violence_6806867_3212.html",
+      "publishedAt": "2026-11-05T13:00:20Z",
       "category": "economie"
     },
     {
-      "id": "d477f65293a92ee9ced1",
+      "id": "8e3258dc6ff8793ca282",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "EN DIRECT, grève du 5 novembre : « La cocotte-minute bout depuis trop longtemps », suivez la mobilisation à Marseille et à Paris avec nos journalistes",
+      "url": "https://www.lemonde.fr/politique/live/2026/11/05/en-direct-greve-du-5-novembre-les-corteges-se-deroulent-globalement-bien-rapporte-l-entourage-de-laurent-nunez-qui-denombre-270-000-manifestants-hors-paris_6806775_823448.html",
+      "publishedAt": "2026-11-05T12:55:32Z",
+      "category": "societe"
+    },
+    {
+      "id": "20f83fd049b51d96e3d6",
       "source": "franceinfo",
       "handle": "@franceinfo_flux",
-      "title": "Donald Trump peut-il être visé par une procédure de destitution après la victoire des démocrates aux midterms ?",
-      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/donald-trump-peut-il-etre-vise-par-une-procedure-de-destitution-apres-la-victoire-des-democrates-aux-midterms_8267429.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T11:51:53Z",
+      "title": "Des millions d'euros volés, une attaque inédite, une enquête ouverte... Ce que l'on sait du piratage du Crédit mutuel Arkéa",
+      "url": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/des-millions-d-euros-voles-une-attaque-inedite-et-une-enquete-ouverte-ce-que-l-on-sait-du-piratage-du-credit-mutuel-arkea_8269124.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T12:51:03Z",
+      "category": "economie"
+    },
+    {
+      "id": "92ed37604553f2f8e7ba",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Les six gravures de Picasso volées dans un restaurant près de Cannes ont été retrouvées un mois plus tard",
+      "url": "https://www.lemonde.fr/culture/article/2026/11/05/les-six-gravures-de-picasso-volees-dans-un-restaurant-pres-de-cannes-ont-ete-retrouvees-un-mois-plus-tard_6806863_3246.html",
+      "publishedAt": "2026-11-05T12:43:20Z",
       "category": "actualite"
     },
     {
-      "id": "83348a02edffeea3ec8c",
+      "id": "705eca0f21974102d627",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "EN DIRECT, guerre en Ukraine : les forces russes progressent à Kostiantynivka, selon DeepState",
+      "url": "https://www.lemonde.fr/international/live/2026/11/05/en-direct-guerre-en-ukraine-l-importation-de-gazole-russe-aux-etats-unis-tourne-court_6803934_3210.html",
+      "publishedAt": "2026-11-05T12:39:29Z",
+      "category": "international"
+    },
+    {
+      "id": "c84d335147c46b844ee8",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Afrique du Sud : l’ANC au pouvoir en danger lors des municipales",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261105-afrique-du-sud-l-anc-au-pouvoir-en-danger-lors-des-municipales",
+      "publishedAt": "2026-11-05T12:20:54Z",
+      "category": "international"
+    },
+    {
+      "id": "412f6f23f17cc008e15a",
       "source": "franceinfo",
       "handle": "@franceinfo_flux",
-      "title": "Nouveaux horaires, clients concernés... On répond à cinq questions sur le changement des heures creuses d'électricité mis en place mercredi",
-      "url": "https://www.franceinfo.fr/environnement/energie/nouveaux-horaires-clients-concernes-on-repond-a-cinq-questions-sur-le-changement-des-heures-creuses-d-electricite-mis-en-place-mercredi_8267228.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T11:32:20Z",
+      "title": "Un lycée de Tournefeuille, près de Toulouse, touché par un incendie après l'irruption d'individus munis de mortiers d'artifice",
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/un-lycee-de-tournefeuille-pres-de-toulouse-touche-par-un-incendie-apres-l-irruption-d-individus-munis-de-mortiers-d-artifice_8269217.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T12:16:24Z",
       "category": "actualite"
     },
     {
-      "id": "4dc6c663cfe50de11bb8",
+      "id": "103ecbbfa8854165e1c3",
+      "source": "RFI",
+      "handle": "@rfi_flux",
+      "title": "«Porter la voix de mes camarades»: quand les jeunes se questionnent sur l'engagement syndical",
+      "url": "https://www.rfi.fr/fr/france/20261105-porter-la-voix-de-mes-camarades-quand-les-jeunes-se-questionnent-sur-l-engagement-syndical",
+      "publishedAt": "2026-11-05T12:08:49Z",
+      "category": "actualite"
+    },
+    {
+      "id": "15333c00f369bcc6ceab",
       "source": "franceinfo",
       "handle": "@franceinfo_flux",
-      "title": "James Talarico au Texas, Abdul el-Sayed au Michigan, Jon Ossoff en Géorgie… Ces figures démocrates qui vont compter après leurs victoires aux midterms 2026",
-      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/james-talarico-au-texas-abdul-el-sayed-au-michigan-jon-ossoff-en-georgie-ces-figures-democrates-qui-vont-compter-apres-leurs-victoires-aux-midterms-2026_8267432.html#xtor=RSS-3-[lestitres]",
-      "publishedAt": "2026-11-04T11:19:56Z",
-      "category": "actualite"
+      "title": "Bâtiments vétustes, toilettes insalubres, chauffage défectueux... Découvrez les 200 lycées prioritaires pour être rénovés dans notre moteur de recherche",
+      "url": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/batiments-vetustes-toilettes-insalubres-chauffage-defectueux-decouvrez-les-200-lycees-prioritaires-pour-etre-renoves-dans-notre-moteur-de-recherche_8268914.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-05T11:14:07Z",
+      "category": "sciences"
+    },
+    {
+      "id": "779bd39a9453a531ac34",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Cristiano Ronaldo, légende du football portugais, annonce sa retraite internationale",
+      "url": "https://www.lemonde.fr/sport/article/2026/11/05/le-footballeur-cristiano-ronaldo-annonce-sa-retraite-internationale_6806853_3242.html",
+      "publishedAt": "2026-11-05T10:55:09Z",
+      "category": "sport"
     }
   ]
 }
