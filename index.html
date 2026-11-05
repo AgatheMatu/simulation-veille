@@ -62,7 +62,11 @@
             <button class="segment is-active" data-filter="all">Tout</button>
             <button class="segment" data-filter="media">Avec visuel</button>
           </div>
-          <label class="search-box"><span aria-hidden="true">⌕</span><input id="searchInput" type="search" placeholder="Rechercher" /></label>
+          <div class="search-box" role="search">
+            <span class="search-icon" aria-hidden="true">⌕</span>
+            <input id="searchInput" type="search" placeholder="Rechercher dans le fil" aria-label="Rechercher dans le fil" autocomplete="off" spellcheck="false" />
+            <button id="clearSearch" class="search-clear" type="button" title="Effacer la recherche" aria-label="Effacer la recherche" hidden>×</button>
+          </div>
         </div>
         <div id="feed" class="feed"></div>
       </section>

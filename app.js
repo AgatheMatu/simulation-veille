@@ -33905,6 +33905,7 @@ const els = {
   postCount: document.querySelector("#postCount"),
   feed: document.querySelector("#feed"),
   searchInput: document.querySelector("#searchInput"),
+  clearSearch: document.querySelector("#clearSearch"),
   flaggedCount: document.querySelector("#flaggedCount"),
   confidenceScore: document.querySelector("#confidenceScore"),
   flagList: document.querySelector("#flagList"),
@@ -37200,14 +37201,31 @@ function renderScenarioInfo() {
     .join("");
 }
 
+function normalizeSearchText(value) {
+  return String(value || "")
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .toLowerCase()
+    .trim();
+}
+
 function filteredPosts() {
-  const q = state.query.trim().toLowerCase();
+  const q = normalizeSearchText(state.query);
   return state.posts.filter((post) => {
     const matchesFilter =
       state.filter === "all" ||
       (state.filter === "flagged" && state.flags.has(post.id)) ||
       (state.filter === "media" && post.media);
-    const haystack = `${post.actor.name} ${post.actor.handle} ${post.content}`.toLowerCase();
+    const haystack = normalizeSearchText([
+      post.actor?.name,
+      post.actor?.handle,
+      post.actor?.bio,
+      post.content,
+      post.media?.title,
+      post.media?.caption,
+      post.media?.label,
+      post.source
+    ].filter(Boolean).join(" "));
     return matchesFilter && (!q || haystack.includes(q));
   });
 }
@@ -37223,9 +37241,12 @@ function renderFeed() {
   const visiblePosts = posts.slice(0, limit);
   if (!posts.length) {
     const waiting = timelineIsActive() && simulationClock.status === "waiting";
+    const searchMessage = state.query.trim()
+      ? `<div class="panel"><p class="brief">Aucune publication ne correspond à « ${escapeHtml(state.query.trim())} ».</p></div>`
+      : `<div class="panel"><p class="brief">Aucun post ne correspond au filtre actif.</p></div>`;
     els.feed.innerHTML = waiting
       ? `<div class="timeline-waiting"><strong>La simulation n'a pas encore commence</strong><span>Le fil s'activera au lancement de la seance.</span></div>`
-      : `<div class="panel"><p class="brief">Aucun post ne correspond au filtre actif.</p></div>`;
+      : searchMessage;
     return;
   }
   const remaining = posts.length - visiblePosts.length;
@@ -37676,6 +37697,7 @@ function loadScenario(id) {
   state.flags.clear();
   state.query = "";
   if (els.searchInput) els.searchInput.value = "";
+  if (els.clearSearch) els.clearSearch.hidden = true;
   renderScenarioInfo();
   renderFeed();
   renderFlags();
@@ -39609,7 +39631,15 @@ function bindEvents() {
   if (els.scenarioSelect) els.scenarioSelect.addEventListener("change", (event) => { loadScenario(event.target.value); announceLiveScenario(); });
   if (els.searchInput) els.searchInput.addEventListener("input", (event) => {
     state.query = event.target.value;
+    if (els.clearSearch) els.clearSearch.hidden = !state.query;
     renderFeed();
+  });
+  if (els.clearSearch) els.clearSearch.addEventListener("click", () => {
+    state.query = "";
+    els.searchInput.value = "";
+    els.clearSearch.hidden = true;
+    renderFeed();
+    els.searchInput.focus();
   });
   document.querySelectorAll(".segment").forEach((button) => {
     button.addEventListener("click", () => {
