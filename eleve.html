@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261105h" />
+    <link rel="stylesheet" href="./styles.css?v=20261105j" />
   </head>
   <body data-mode="student">
     <header class="topbar">
@@ -17,9 +17,8 @@
         <span class="brand-separator" aria-hidden="true"></span>
         <img class="school-logo" src="./assets/branding/eae-logo.png" alt="École de l'air et de l'espace" />
       </div>
-      <div class="toolbar" aria-label="Contrôles de scénario">
-
-
+      <div class="toolbar" aria-label="Contrôles de séance">
+        <button id="studentSessionBtn" class="text-button session-code-button" type="button">Code séance</button>
       </div>
     </header>
     <main class="layout">
@@ -80,7 +79,22 @@
     </dialog>
 
 <div id="answerKey" hidden></div>
+    <dialog id="studentSessionDialog" class="dialog session-code-dialog">
+      <form method="dialog">
+        <div class="compose-heading">
+          <div><h2>Rejoindre la séance</h2><p>Entrez le code donné par l’enseignant.</p></div>
+          <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
+        </div>
+        <label for="studentSessionCode">Code de séance</label>
+        <input id="studentSessionCode" class="student-session-code" type="text" inputmode="text" maxlength="6" autocomplete="off" autocapitalize="characters" spellcheck="false" placeholder="ABC123" />
+        <p id="studentSessionError" class="session-code-error" hidden>Code incorrect. Vérifiez les six caractères.</p>
+        <menu>
+          <button value="cancel" class="text-button">Consulter sans code</button>
+          <button type="button" id="joinStudentSession" class="primary-button">Rejoindre</button>
+        </menu>
+      </form>
+    </dialog>
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261105h"></script>
+    <script src="./app.js?v=20261105j"></script>
   </body>
 </html>

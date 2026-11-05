@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261105h" />
+    <link rel="stylesheet" href="./styles.css?v=20261105j" />
   </head>
   <body data-mode="teacher">
     <header class="topbar">
@@ -150,14 +150,15 @@
           <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
         </div>
         <button type="button" id="startLocalSession" class="primary-button live-simple-start">Lancer la simulation</button>
-        <div class="compose-grid">
-          <label>Code de séance
-            <input id="liveRoomCode" type="text" maxlength="28" autocomplete="off" />
+        <div class="compose-grid live-share-grid">
+          <label>Code à communiquer aux élèves
+            <input id="liveRoomCode" class="live-room-code" type="text" maxlength="6" autocomplete="off" readonly value="------" />
           </label>
-          <label>Lien à transmettre aux élèves
+          <label>Adresse courte de la page élève
             <input id="liveStudentLink" type="url" readonly />
           </label>
         </div>
+        <p class="live-share-help">Les élèves ouvrent cette adresse puis saisissent le code affiché. Aucun long lien de séance n’est à recopier.</p>
         <section class="simulation-console" aria-label="Pilotage de la timeline">
           <div class="simulation-console-head">
             <div><span id="simulationStatus">En attente de lancement</span><strong id="simulationClock">T+00:00</strong></div>
@@ -178,13 +179,13 @@
           </div>
         </section>
         <div class="live-dialog-actions">
-          <button type="button" id="copyStudentLiveLink" class="text-button">Copier le lien élève</button>
+          <button type="button" id="copyStudentLiveLink" class="text-button">Copier l’adresse élève</button>
           <button type="button" id="stopLiveSession" class="text-button danger-button">Arrêter la séance</button>
         </div>
       </form>
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261105h"></script>
+    <script src="./app.js?v=20261105j"></script>
   </body>
 </html>

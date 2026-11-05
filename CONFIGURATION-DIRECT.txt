@@ -5,16 +5,16 @@ La seance ne demande aucun compte, aucune adresse et aucune configuration.
 1. Ouvrir la page enseignant VEILLE-ILI.
 2. Cliquer sur Seance en direct.
 3. Cliquer sur Lancer la simulation.
-4. Ouvrir le lien eleve dans un autre onglet du meme navigateur.
-5. L'enseignant peut piloter le temps et publier autant de messages qu'il le souhaite.
+4. Communiquer https://is.gd/veilleili et le code de six caracteres.
+5. Les eleves ouvrent la page depuis leur ordinateur et saisissent ce code.
 
-Ce mode est ideal pour preparer l'exercice, faire une demonstration projetee ou
-utiliser deux onglets sur un meme ordinateur. La synchronisation est instantanee
-entre les pages ouvertes dans le meme navigateur.
+Le code contient l'heure de lancement. Tous les eleves rejoignent ainsi la
+chronologie REDLAND au meme moment, sans compte ni service externe. Un
+rechargement de la page conserve le code et la position dans la simulation.
 
 Le site etant heberge comme une page statique, les publications improvisees par
 l'enseignant ne sont pas transmises entre plusieurs ordinateurs. Chaque eleve peut
-cependant consulter normalement le scenario publie depuis son propre appareil.
+cependant consulter le scenario REDLAND et sa chronologie depuis son appareil.
 
 Ne jamais placer de donnees personnelles, sensibles ou operationnelles dans la
 base. Les publications de la simulation doivent rester entierement pedagogiques.

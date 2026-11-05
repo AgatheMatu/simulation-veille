@@ -34512,7 +34512,12 @@ const els = {
   simulationSpeed: document.querySelector("#simulationSpeed"),
   startLocalSession: document.querySelector("#startLocalSession"),
   stopLiveSession: document.querySelector("#stopLiveSession"),
-  copyStudentLiveLink: document.querySelector("#copyStudentLiveLink")
+  copyStudentLiveLink: document.querySelector("#copyStudentLiveLink"),
+  studentSessionBtn: document.querySelector("#studentSessionBtn"),
+  studentSessionDialog: document.querySelector("#studentSessionDialog"),
+  studentSessionCode: document.querySelector("#studentSessionCode"),
+  studentSessionError: document.querySelector("#studentSessionError"),
+  joinStudentSession: document.querySelector("#joinStudentSession")
 };
 
 function hashSeed(input) {
@@ -39514,6 +39519,9 @@ const liveSync = {
   pollDelay: 15000
 };
 
+const STUDENT_SCENARIO_ID = "deir-ez-zor-convoi-francais";
+const STUDENT_SHORT_URL = "https://is.gd/veilleili";
+
 const simulationClock = {
   status: "waiting",
   baseSeconds: 0,
@@ -39689,6 +39697,31 @@ function createLiveRoomCode() {
   return `ILI-${[...bytes].map((byte) => alphabet[byte % alphabet.length]).join("")}`;
 }
 
+function portableSessionChecksum(minute) {
+  return ((minute * 11 + 17) % 36).toString(36).toUpperCase();
+}
+
+function createPortableSessionCode(timestamp = Date.now()) {
+  const minute = Math.floor(timestamp / 60000);
+  const stamp = minute.toString(36).toUpperCase().padStart(5, "0").slice(-5);
+  return `${stamp}${portableSessionChecksum(minute)}`;
+}
+
+function decodePortableSessionCode(value) {
+  const code = String(value || "").toUpperCase().replace(/[^A-Z0-9]/g, "");
+  if (code.length !== 6) throw new Error("Le code doit contenir six caractères.");
+  const minute = Number.parseInt(code.slice(0, 5), 36);
+  if (!Number.isFinite(minute) || code.at(-1) !== portableSessionChecksum(minute)) {
+    throw new Error("Le code de séance est incorrect.");
+  }
+  const startedAt = minute * 60000;
+  const age = Date.now() - startedAt;
+  if (age < -2 * 60000 || age > 12 * 60 * 60 * 1000) {
+    throw new Error("Ce code de séance n’est plus valide.");
+  }
+  return { code, startedAt };
+}
+
 function localLiveStorageKey() {
   return `veille-ili:local-room:${liveSync.room}`;
 }
@@ -39738,14 +39771,13 @@ async function liveRequest(path = "", options = {}) {
   return localLiveRequest(path, options);
 }
 
+function buildStudentBaseUrl() {
+  return STUDENT_SHORT_URL;
+}
+
 function buildStudentLiveUrl() {
-  if (!liveSync.room) return "";
-  const url = new URL("./eleve.html", window.location.href);
-  url.search = "";
-  url.hash = "";
-  url.searchParams.set("live", liveSync.room);
-  url.searchParams.set("local", "1");
-  url.searchParams.set("scenario", state.scenario?.id || "");
+  const url = new URL(buildStudentBaseUrl());
+  if (liveSync.room) url.hash = liveSync.room;
   return url.toString();
 }
 
@@ -39854,7 +39886,8 @@ async function pollLiveRoom() {
     liveSync.remotePosts = remotePosts;
     if (signature !== liveSync.signature) {
       liveSync.signature = signature;
-      const nextScenario = state.scenarios.find((item) => item.id === meta.scenarioId);
+      const nextScenarioId = isTeacherPage() ? meta.scenarioId : STUDENT_SCENARIO_ID;
+      const nextScenario = state.scenarios.find((item) => item.id === nextScenarioId);
       if (nextScenario && state.scenario?.id !== nextScenario.id) {
         if (els.scenarioSelect) els.scenarioSelect.value = nextScenario.id;
         loadScenario(nextScenario.id);
@@ -39917,10 +39950,9 @@ async function deleteLivePost(postId) {
 
 function fillLiveDialog() {
   if (!els.liveDialog) return;
-  if (!liveSync.room) liveSync.room = createLiveRoomCode();
-  els.liveRoomCode.value = liveSync.room;
-  els.liveStudentLink.value = buildStudentLiveUrl();
-  const connectedLabel = `Séance ${liveSync.room}`;
+  els.liveRoomCode.value = liveSync.room || "------";
+  els.liveStudentLink.value = buildStudentBaseUrl();
+  const connectedLabel = liveSync.room ? `Séance ${liveSync.room}` : "Séance en cours";
   setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? connectedLabel : "Séance hors ligne");
 }
 
@@ -39932,7 +39964,7 @@ function openLiveDialog() {
 async function startLocalSession() {
   try {
     liveSync.mode = "local";
-    liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
+    liveSync.room = createPortableSessionCode();
     localStorage.removeItem(localLiveStorageKey());
     liveSync.enabled = true;
     setSimulationPosition("running", 0);
@@ -39949,7 +39981,8 @@ async function startLocalSession() {
     await liveRequest("meta", { method: "PUT", body: JSON.stringify(meta) });
     saveLiveConfig(true);
     liveSync.signature = "";
-    els.liveStudentLink.value = buildStudentLiveUrl();
+    if (els.liveRoomCode) els.liveRoomCode.value = liveSync.room;
+    if (els.liveStudentLink) els.liveStudentLink.value = buildStudentBaseUrl();
     setLiveStatus("connected", `Séance ${liveSync.room}`);
     updateSimulationUi(true);
     connectLiveStream();
@@ -39978,11 +40011,62 @@ async function stopLiveSession() {
 }
 
 async function copyStudentLiveLink() {
-  const link = buildStudentLiveUrl();
+  const link = buildStudentBaseUrl();
   if (!link) return;
   els.liveStudentLink.value = link;
   await navigator.clipboard.writeText(link);
-  setLiveStatus("connected", "Lien élève copié");
+  setLiveStatus("connected", "Adresse élève copiée");
+}
+
+function studentSessionCodeFromLocation() {
+  const params = new URLSearchParams(window.location.search);
+  return decodeURIComponent(window.location.hash.slice(1) || params.get("code") || "").trim();
+}
+
+function openStudentSessionDialog() {
+  if (!els.studentSessionDialog) return;
+  if (els.studentSessionError) els.studentSessionError.hidden = true;
+  if (els.studentSessionCode && liveSync.room) els.studentSessionCode.value = liveSync.room;
+  els.studentSessionDialog.showModal();
+  window.setTimeout(() => els.studentSessionCode?.focus(), 0);
+}
+
+function joinPortableStudentSession(rawCode, { remember = true } = {}) {
+  if (isTeacherPage() || !state.scenario) return false;
+  try {
+    const { code, startedAt } = decodePortableSessionCode(rawCode);
+    const duration = scenarioDurationMinutes(state.scenario) * 60;
+    const elapsed = Math.min(duration, Math.max(0, (Date.now() - startedAt) / 1000));
+    liveSync.room = code;
+    setSimulationPosition(elapsed >= duration ? "ended" : "running", elapsed);
+    if (remember) localStorage.setItem("veille-ili:student-session-code", code);
+    window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}#${code}`);
+    if (els.studentSessionCode) els.studentSessionCode.value = code;
+    if (els.studentSessionError) els.studentSessionError.hidden = true;
+    if (els.studentSessionDialog?.open) els.studentSessionDialog.close();
+    setLiveStatus("connected", `Séance ${code} · ${formatSimulationClock(elapsed)}`);
+    createRefreshBatch({ reloadNews: false, scrollToTop: false });
+    return true;
+  } catch (error) {
+    if (els.studentSessionError) {
+      els.studentSessionError.textContent = error.message || "Code de séance incorrect.";
+      els.studentSessionError.hidden = false;
+    }
+    return false;
+  }
+}
+
+function initializeStudentSessionCode() {
+  if (isTeacherPage()) return;
+  const locationCode = studentSessionCodeFromLocation();
+  let savedCode = "";
+  try {
+    savedCode = localStorage.getItem("veille-ili:student-session-code") || "";
+  } catch (error) {
+    savedCode = "";
+  }
+  if ((locationCode && joinPortableStudentSession(locationCode)) || (savedCode && joinPortableStudentSession(savedCode))) return;
+  openStudentSessionDialog();
 }
 
 function initializeLiveSync() {
@@ -40306,6 +40390,20 @@ function bindEvents() {
   if (els.simulationSpeed) els.simulationSpeed.addEventListener("change", (event) => changeSimulationSpeed(event.target.value));
   if (els.stopLiveSession) els.stopLiveSession.addEventListener("click", stopLiveSession);
   if (els.copyStudentLiveLink) els.copyStudentLiveLink.addEventListener("click", copyStudentLiveLink);
+  if (els.studentSessionBtn) els.studentSessionBtn.addEventListener("click", openStudentSessionDialog);
+  if (els.joinStudentSession) els.joinStudentSession.addEventListener("click", () => joinPortableStudentSession(els.studentSessionCode?.value));
+  if (els.studentSessionCode) {
+    els.studentSessionCode.addEventListener("input", () => {
+      els.studentSessionCode.value = els.studentSessionCode.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6);
+      if (els.studentSessionError) els.studentSessionError.hidden = true;
+    });
+    els.studentSessionCode.addEventListener("keydown", (event) => {
+      if (event.key === "Enter") {
+        event.preventDefault();
+        joinPortableStudentSession(els.studentSessionCode.value);
+      }
+    });
+  }
   if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;
@@ -40358,7 +40456,13 @@ renderScenarioOptions();
 bindEvents();
 // VEILLE-ILI BOOTSTRAP START
 const requestedScenario = new URLSearchParams(window.location.search).get("scenario");
-loadScenario(state.scenarios.some((item) => item.id === requestedScenario) ? requestedScenario : builtInScenarios[0].id);
+const initialScenarioId = isTeacherPage() && state.scenarios.some((item) => item.id === requestedScenario)
+  ? requestedScenario
+  : isTeacherPage()
+    ? builtInScenarios[0].id
+    : STUDENT_SCENARIO_ID;
+loadScenario(initialScenarioId);
 initializeLiveSync();
+initializeStudentSessionCode();
 void loadLiveNews(false);
 // VEILLE-ILI BOOTSTRAP END
