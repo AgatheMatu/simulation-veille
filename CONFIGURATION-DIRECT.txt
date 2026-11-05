@@ -1,52 +1,34 @@
-CONFIGURATION UNIQUE DU MODE SEANCE EN DIRECT
+SEANCE EN DIRECT - MODE SIMPLE
 
-Le direct permet a l'enseignant de publier autant de messages qu'il le souhaite.
-Chaque publication apparait immediatement sur les appareils des eleves, sans
-actualisation manuelle et sans nouveau depot GitHub.
+Le mode simple ne demande aucun compte, aucune adresse et aucune configuration.
 
-PREPARATION FIREBASE - A FAIRE UNE SEULE FOIS
+1. Ouvrir la page enseignant VEILLE-ILI.
+2. Cliquer sur Seance en direct.
+3. Cliquer sur Lancer sur cet appareil.
+4. Ouvrir le lien eleve dans un autre onglet du meme navigateur.
+5. L'enseignant peut piloter le temps et publier autant de messages qu'il le souhaite.
+
+Ce mode est ideal pour preparer l'exercice, faire une demonstration projetee ou
+utiliser deux onglets sur un meme ordinateur. La synchronisation est instantanee.
+
+IMPORTANT - PLUSIEURS ORDINATEURS OU TELEPHONES
+
+GitHub Pages est un hebergement statique : il ne peut pas, a lui seul, transmettre
+en temps reel les publications d'un ordinateur vers les appareils des eleves.
+Pour une classe connectee sur plusieurs appareils, ouvrir la rubrique
+Connexion multi-appareils et utiliser une base Firebase Realtime Database.
+
+Cette configuration n'est a faire qu'une seule fois. Firebase propose une formule
+gratuite Spark, sans periode d'essai, suffisante pour un exercice de cette taille.
 
 1. Ouvrir https://console.firebase.google.com/ et creer un projet dedie a VEILLE-ILI.
 2. Dans Build, ouvrir Realtime Database puis choisir Creer une base de donnees.
 3. Choisir de preference une region europeenne.
-4. Dans l'onglet Regles de Realtime Database, remplacer les regles par celles-ci :
-
-{
-  "rules": {
-    "rooms": {
-      "$room": {
-        ".read": "data.child('meta').child('expiresAt').val() > now",
-        ".write": "(!data.exists() && newData.child('meta').child('expiresAt').val() > now) || data.child('meta').child('expiresAt').val() > now",
-        "meta": {
-          ".validate": "newData.hasChildren(['active', 'scenarioId', 'updatedAt', 'expiresAt'])"
-        },
-        "posts": {
-          "$post": {
-            ".validate": "newData.val() == null || (newData.hasChildren(['id', 'scenarioId', 'actor', 'content', 'liveDate']) && newData.child('content').isString() && newData.child('content').val().length <= 520)"
-          }
-        },
-        "$other": { ".validate": false }
-      }
-    }
-  }
-}
-
-5. Cliquer sur Publier.
-6. Copier l'adresse affichee en haut de l'onglet Donnees. Elle se termine par
+4. Dans l'onglet Regles, publier les regles adaptees a votre exercice.
+5. Copier l'adresse affichee dans l'onglet Donnees. Elle se termine par
    firebasedatabase.app ou firebaseio.com.
+6. Dans VEILLE-ILI, ouvrir Connexion multi-appareils, coller cette adresse puis
+   cliquer sur Connecter la classe.
 
-UTILISATION EN CLASSE
-
-1. Ouvrir la page enseignant VEILLE-ILI.
-2. Cliquer sur Seance en direct.
-3. Coller l'adresse Firebase. Elle sera memorisee sur cet ordinateur.
-4. Cliquer sur Lancer la simulation : le chronometre part a T+00:00.
-5. Copier le lien eleve et le transmettre a la classe.
-6. Utiliser Pause, Reprendre, -5 min, +5 min ou la vitesse pour adapter la timeline.
-7. Cliquer sur Creer un post, choisir le compte, rediger puis publier. Le message
-   apparait immediatement, quel que soit le temps de la timeline.
-
-La diffusion utilise le flux temps reel Firebase. Le message apparait dans les fils
-eleves des sa reception, sans recharger toute la page. Le code de seance expire au
-bout de douze heures. La base doit rester reservee a des contenus fictifs et ne doit
-contenir aucune donnee personnelle ou sensible.
+Ne jamais placer de donnees personnelles, sensibles ou operationnelles dans la
+base. Les publications de la simulation doivent rester entierement pedagogiques.

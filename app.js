@@ -31311,31 +31311,31 @@ const builtInScenarios = [
         "count": "488 k"
       },
       {
-        "tag": "#TensionsAuLevant",
+        "tag": "#ActualiteDuLevant",
         "count": "404 k"
       },
       {
-        "tag": "#BrouillageGPS",
+        "tag": "#ReseauxPerturbes",
         "count": "331 k"
       },
       {
-        "tag": "#AlerteAuSud",
+        "tag": "#RoutesDuLevant",
         "count": "296 k"
       },
       {
-        "tag": "#EspaceAerien",
+        "tag": "#VolsPerturbes",
         "count": "241 k"
       },
       {
-        "tag": "#RouteOrientale",
+        "tag": "#VieLocaleRedland",
         "count": "198 k"
       },
       {
-        "tag": "#AeroportDeir",
+        "tag": "#AeroportRegional",
         "count": "176 k"
       },
       {
-        "tag": "#InfosDuLevant",
+        "tag": "#VerificationImages",
         "count": "141 k"
       },
       {
@@ -32359,6 +32359,10 @@ const builtInScenarios = [
       "La coalition ne publie ni route, ni horaire, ni position de la patrouille.",
       "Des vehicules militaires ont ete signales pres de l'aeroport de Dayr az Zawr, mais leur appartenance, leur direction et leur mission ne sont pas confirmees.",
       "La carte partagee situe des axes et une zone aeroportuaire ; elle ne donne aucune position en temps reel.",
+      "Des habitants disent eviter temporairement certains axes apres des rumeurs de combats ; aucune fermeture generale n'est confirmee.",
+      "La reprise d'une infrastructure par Diich est evoquee par plusieurs comptes, mais tous remontent a une seule source non authentifiee.",
+      "Des frappes sont signalees plus a l'ouest de la vallee. Leur auteur, leur cible et leur lien avec le convoi restent inconnus.",
+      "Le passage de vehicules legers armes ne suffit pas a identifier un groupe : date, lieu, marquages et source originale doivent etre verifies.",
       "Un grand compte politique peut acc\u00e9l\u00e9rer la crise sans apporter la moindre preuve nouvelle.",
       "Plus le volume augmente, plus il faut ralentir la v\u00e9rification : origine, date, lieu, source primaire, puis seulement interpr\u00e9tation."
     ],
@@ -32370,6 +32374,10 @@ const builtInScenarios = [
       "EXCLUSIF : un convoi lourd BLUE serait entre dans l'aeroport de Dayr az Zawr pour preparer une operation au sud.",
       "Des explosions auraient vise la route de l'aeroport. Le convoi BLUE compterait deja plusieurs vehicules detruits.",
       "La carte prouve que BLUE installe une base permanente pres de l'aeroport et coupe la vallee en deux.",
+      "BLUE inventerait une resurgence terroriste pour justifier une presence permanente dans la vallee.",
+      "REDLAND protegerait secretement Diich afin de provoquer une intervention et d'accuser ensuite la coalition.",
+      "Des familles quitteraient massivement la zone : preuve qu'une offensive BLUE aurait deja commence, malgre l'absence d'images datees.",
+      "Une installation civile serait presentee comme centre terroriste pour preparer une frappe et effacer les preuves.",
       "L'epave est celle d'un vehicule francais detruit ce matin, malgre l'absence de marquage.",
       "Les avions visibles sont forcement des Rafale : REDLAND prepare une riposte immediate.",
       "Le site presente comme un atelier civil serait en realite une usine secrete de la coalition.",
@@ -33524,6 +33532,18 @@ const builtInScenarios = [
         }
       },
       {
+        "id": "redland-context-22",
+        "minute": 22,
+        "actor": "@deir_aujourdhui",
+        "suspect": false,
+        "content": "\u0628\u0639\u0636 \u0627\u0644\u0639\u0627\u0626\u0644\u0627\u062a \u062a\u062a\u062c\u0646\u0628 \u0627\u0644\u0637\u0631\u064a\u0642 \u0628\u0633\u0628\u0628 \u0634\u0627\u0626\u0639\u0627\u062a \u0639\u0646 \u0627\u0634\u062a\u0628\u0627\u0643\u0627\u062a. \u0627\u0644\u0645\u062d\u0644\u0627\u062a \u0645\u0641\u062a\u0648\u062d\u0629 \u0648\u0644\u0627 \u064a\u0648\u062c\u062f \u062a\u0623\u0643\u064a\u062f \u0644\u0625\u063a\u0644\u0627\u0642 \u0639\u0627\u0645.",
+        "language": "ar",
+        "translation": "Certaines familles evitent la route apres des rumeurs de combats. Les commerces restent ouverts et aucune fermeture generale n'est confirmee.",
+        "likes": 210,
+        "reposts": 61,
+        "replies": 39
+      },
+      {
         "id": "redland-24",
         "minute": 24,
         "actor": "@world_news_service",
@@ -33584,6 +33604,19 @@ const builtInScenarios = [
           "group": "Dossier initial",
           "asset": "deir-ez-zor-convoi-francais_11.jpg"
         }
+      },
+      {
+        "id": "redland-context-33",
+        "minute": 33,
+        "actor": "@redland_national",
+        "suspect": true,
+        "content": "BLUE is recycling the terrorist threat to justify a permanent foreign presence in the Euphrates valley.",
+        "language": "en",
+        "translation": "BLUE recyclerait la menace terroriste pour justifier une presence etrangere permanente dans la vallee de l'Euphrate.",
+        "reason": "Le message attribue une intention strategique a la coalition sans document ni fait nouveau.",
+        "likes": 9200,
+        "reposts": 5700,
+        "replies": 1900
       },
       {
         "id": "redland-airport-35",
@@ -33687,6 +33720,16 @@ const builtInScenarios = [
         }
       },
       {
+        "id": "redland-context-60",
+        "minute": 60,
+        "actor": "@observatoire_euphrate",
+        "suspect": false,
+        "content": "Trois recits circulent autour d'une meme sequence : reprise d'une infrastructure par Diich, frappe de REDLAND ou operation de BLUE. La video originale, sa date et son lieu ne sont toujours pas etablis.",
+        "likes": 1180,
+        "reposts": 470,
+        "replies": 156
+      },
+      {
         "id": "redland-65",
         "minute": 65,
         "actor": "@observatoire_euphrate",
@@ -33731,6 +33774,19 @@ const builtInScenarios = [
           "group": "Dossier initial",
           "asset": "deir-ez-zor-convoi-francais_08.jpg"
         }
+      },
+      {
+        "id": "redland-context-86",
+        "minute": 86,
+        "actor": "@vostok_novosti",
+        "suspect": true,
+        "content": "\u0418\u043d\u043e\u0441\u0442\u0440\u0430\u043d\u043d\u0430\u044f \u043a\u043e\u0430\u043b\u0438\u0446\u0438\u044f \u043d\u0430\u043c\u0435\u0440\u0435\u043d\u043d\u043e \u043f\u0440\u043e\u0434\u043b\u0435\u0432\u0430\u0435\u0442 \u0445\u0430\u043e\u0441, \u0447\u0442\u043e\u0431\u044b \u0441\u043e\u0445\u0440\u0430\u043d\u0438\u0442\u044c \u043a\u043e\u043d\u0442\u0440\u043e\u043b\u044c \u043d\u0430\u0434 \u0440\u0435\u0433\u0438\u043e\u043d\u043e\u043c.",
+        "language": "ru",
+        "translation": "La coalition etrangere prolongerait deliberement le chaos pour conserver le controle de la region.",
+        "reason": "Narratif d'intention sans preuve, repris par un reseau de comptes amplificateurs.",
+        "likes": 27400,
+        "reposts": 18100,
+        "replies": 5200
       },
       {
         "id": "redland-92",
@@ -34101,6 +34157,7 @@ const els = {
   rewindSimulation: document.querySelector("#rewindSimulation"),
   advanceSimulation: document.querySelector("#advanceSimulation"),
   simulationSpeed: document.querySelector("#simulationSpeed"),
+  startLocalSession: document.querySelector("#startLocalSession"),
   startLiveSession: document.querySelector("#startLiveSession"),
   stopLiveSession: document.querySelector("#stopLiveSession"),
   copyStudentLiveLink: document.querySelector("#copyStudentLiveLink")
@@ -39011,6 +39068,7 @@ function restoreTeacherPosts(scenario) {
 // VEILLE-ILI LIVE SYNC START
 const liveSync = {
   enabled: false,
+  mode: "remote",
   dbUrl: "",
   room: "",
   expiresAt: 0,
@@ -39018,6 +39076,8 @@ const liveSync = {
   signature: "",
   timer: null,
   stream: null,
+  channel: null,
+  storageHandler: null,
   reconnectTimer: null,
   inFlight: false,
   pollDelay: 15000
@@ -39223,13 +39283,58 @@ function decodeLiveValue(value) {
   return new TextDecoder().decode(bytes);
 }
 
+function localLiveStorageKey() {
+  return `veille-ili:local-room:${liveSync.room}`;
+}
+
+function localLiveValue(snapshot, segments) {
+  return segments.reduce((value, segment) => value?.[segment], snapshot);
+}
+
+async function localLiveRequest(path = "", options = {}) {
+  const key = localLiveStorageKey();
+  let snapshot = {};
+  try {
+    snapshot = JSON.parse(localStorage.getItem(key) || "{}") || {};
+  } catch (error) {
+    snapshot = {};
+  }
+  const segments = String(path || "").split("/").filter(Boolean);
+  const method = String(options.method || "GET").toUpperCase();
+  if (method === "GET") return segments.length ? (localLiveValue(snapshot, segments) ?? null) : snapshot;
+
+  let payload = null;
+  if (options.body) payload = JSON.parse(options.body);
+  let parent = snapshot;
+  for (let index = 0; index < Math.max(0, segments.length - 1); index += 1) {
+    const segment = segments[index];
+    if (!parent[segment] || typeof parent[segment] !== "object") parent[segment] = {};
+    parent = parent[segment];
+  }
+  const leaf = segments.at(-1);
+  if (!leaf) {
+    if (method === "PUT") snapshot = payload || {};
+    else if (method === "PATCH") snapshot = { ...snapshot, ...(payload || {}) };
+  } else if (method === "DELETE") {
+    delete parent[leaf];
+  } else if (method === "PATCH") {
+    parent[leaf] = { ...(parent[leaf] || {}), ...(payload || {}) };
+  } else {
+    parent[leaf] = payload;
+  }
+  localStorage.setItem(key, JSON.stringify(snapshot));
+  liveSync.channel?.postMessage({ room: liveSync.room, updatedAt: Date.now() });
+  return payload;
+}
+
 function liveRoomEndpoint(path = "") {
   const suffix = path ? `/${path}` : "";
   return `${liveSync.dbUrl}/rooms/${encodeURIComponent(liveSync.room)}${suffix}.json`;
 }
 
 async function liveRequest(path = "", options = {}) {
-  if (!liveSync.dbUrl || !liveSync.room) throw new Error("Séance non configurée.");
+  if (!liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) throw new Error("Séance non configurée.");
+  if (liveSync.mode === "local") return localLiveRequest(path, options);
   const response = await fetch(liveRoomEndpoint(path), {
     cache: "no-store",
     ...options,
@@ -39241,12 +39346,13 @@ async function liveRequest(path = "", options = {}) {
 }
 
 function buildStudentLiveUrl() {
-  if (!liveSync.dbUrl || !liveSync.room) return "";
+  if (!liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) return "";
   const url = new URL("./eleve.html", window.location.href);
   url.search = "";
   url.hash = "";
   url.searchParams.set("live", liveSync.room);
-  url.searchParams.set("db", encodeLiveValue(liveSync.dbUrl));
+  if (liveSync.mode === "local") url.searchParams.set("local", "1");
+  else url.searchParams.set("db", encodeLiveValue(liveSync.dbUrl));
   url.searchParams.set("scenario", state.scenario?.id || "");
   return url.toString();
 }
@@ -39273,6 +39379,7 @@ function setLiveStatus(kind, label) {
 function saveLiveConfig(active = liveSync.enabled) {
   if (!isTeacherPage()) return;
   localStorage.setItem("veille-ili:live-config", JSON.stringify({
+    mode: liveSync.mode,
     dbUrl: liveSync.dbUrl,
     room: liveSync.room,
     expiresAt: liveSync.expiresAt,
@@ -39305,9 +39412,31 @@ function mergeLivePosts(posts, scenario) {
 }
 
 function connectLiveStream() {
-  if (!liveSync.enabled || !liveSync.dbUrl || !liveSync.room) return;
+  if (!liveSync.enabled || !liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) return;
   if (liveSync.stream) liveSync.stream.close();
   window.clearTimeout(liveSync.reconnectTimer);
+  if (liveSync.mode === "local") {
+    if (liveSync.channel) liveSync.channel.close();
+    if ("BroadcastChannel" in window) {
+      liveSync.channel = new BroadcastChannel(`veille-ili:${liveSync.room}`);
+      liveSync.channel.onmessage = () => {
+        liveSync.signature = "";
+        pollLiveRoom();
+      };
+    }
+    if (!liveSync.storageHandler) {
+      liveSync.storageHandler = (event) => {
+        if (liveSync.enabled && liveSync.mode === "local" && event.key === localLiveStorageKey()) {
+          liveSync.signature = "";
+          pollLiveRoom();
+        }
+      };
+      window.addEventListener("storage", liveSync.storageHandler);
+    }
+    setLiveStatus("connected", `Direct local ${liveSync.room}`);
+    scheduleLivePoll(0);
+    return;
+  }
   try {
     const stream = new EventSource(liveRoomEndpoint());
     liveSync.stream = stream;
@@ -39373,7 +39502,7 @@ async function pollLiveRoom() {
         renderFeed();
       }
     }
-    setLiveStatus("connected", `Direct ${liveSync.room}`);
+    setLiveStatus("connected", liveSync.mode === "local" ? `Direct local ${liveSync.room}` : `Direct ${liveSync.room}`);
   } catch (error) {
     setLiveStatus("error", "Direct déconnecté");
   } finally {
@@ -39426,10 +39555,11 @@ async function deleteLivePost(postId) {
 function fillLiveDialog() {
   if (!els.liveDialog) return;
   if (!liveSync.room) liveSync.room = createLiveRoomCode();
-  els.liveDbUrl.value = liveSync.dbUrl;
+  els.liveDbUrl.value = liveSync.mode === "remote" ? liveSync.dbUrl : "";
   els.liveRoomCode.value = liveSync.room;
   els.liveStudentLink.value = buildStudentLiveUrl();
-  setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? `Direct ${liveSync.room}` : "Séance hors ligne");
+  const connectedLabel = liveSync.mode === "local" ? `Direct local ${liveSync.room}` : `Direct ${liveSync.room}`;
+  setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? connectedLabel : "Séance hors ligne");
 }
 
 function openLiveDialog() {
@@ -39437,8 +39567,43 @@ function openLiveDialog() {
   els.liveDialog?.showModal();
 }
 
+async function startLocalSession() {
+  try {
+    liveSync.mode = "local";
+    liveSync.dbUrl = "";
+    liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
+    localStorage.removeItem(localLiveStorageKey());
+    liveSync.enabled = true;
+    setSimulationPosition("running", 0);
+    const meta = {
+      active: true,
+      scenarioId: state.scenario?.id || "",
+      scenarioTitle: state.scenario?.title || "",
+      startedAt: new Date().toISOString(),
+      updatedAt: new Date().toISOString(),
+      expiresAt: Date.now() + 12 * 60 * 60 * 1000,
+      ...simulationMetaPayload()
+    };
+    liveSync.expiresAt = meta.expiresAt;
+    await liveRequest("meta", { method: "PUT", body: JSON.stringify(meta) });
+    saveLiveConfig(true);
+    liveSync.signature = "";
+    els.liveStudentLink.value = buildStudentLiveUrl();
+    setLiveStatus("connected", `Direct local ${liveSync.room}`);
+    updateSimulationUi(true);
+    connectLiveStream();
+  } catch (error) {
+    liveSync.enabled = false;
+    setSimulationPosition("waiting", 0);
+    setLiveStatus("error", error.message || "Lancement local impossible");
+  }
+}
+
 async function startLiveSession() {
   try {
+    if (liveSync.channel) liveSync.channel.close();
+    liveSync.channel = null;
+    liveSync.mode = "remote";
     liveSync.dbUrl = normalizeLiveDbUrl(els.liveDbUrl?.value);
     liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
     liveSync.enabled = true;
@@ -39464,8 +39629,7 @@ async function startLiveSession() {
   } catch (error) {
     liveSync.enabled = false;
     setSimulationPosition("waiting", 0);
-    setLiveStatus("error", "Connexion impossible");
-    alert(error.message);
+    setLiveStatus("error", error.message || "Connexion impossible");
   }
 }
 
@@ -39483,6 +39647,8 @@ async function stopLiveSession() {
   window.clearTimeout(liveSync.reconnectTimer);
   if (liveSync.stream) liveSync.stream.close();
   liveSync.stream = null;
+  if (liveSync.channel) liveSync.channel.close();
+  liveSync.channel = null;
   saveLiveConfig(false);
   setLiveStatus("waiting", "Séance hors ligne");
 }
@@ -39492,7 +39658,7 @@ async function copyStudentLiveLink() {
   if (!link) return;
   els.liveStudentLink.value = link;
   await navigator.clipboard.writeText(link);
-  setLiveStatus("connected", "Lien élève copié");
+  setLiveStatus("connected", liveSync.mode === "local" ? "Lien local copié" : "Lien élève copié");
 }
 
 function initializeLiveSync() {
@@ -39500,15 +39666,26 @@ function initializeLiveSync() {
   if (isTeacherPage()) {
     try {
       const saved = JSON.parse(localStorage.getItem("veille-ili:live-config") || "{}");
-      liveSync.dbUrl = saved.dbUrl || "";
+      liveSync.mode = saved.mode === "local" ? "local" : "remote";
+      liveSync.dbUrl = /votre-projet|mon-projet/i.test(saved.dbUrl || "") ? "" : (saved.dbUrl || "");
       liveSync.expiresAt = Number(saved.expiresAt || 0);
       liveSync.room = liveSync.expiresAt > Date.now() ? (saved.room || "") : "";
-      liveSync.enabled = Boolean(saved.active && liveSync.dbUrl && liveSync.room && liveSync.expiresAt > Date.now());
+      const hasTransport = liveSync.mode === "local" || Boolean(liveSync.dbUrl);
+      liveSync.enabled = Boolean(saved.active && hasTransport && liveSync.room && liveSync.expiresAt > Date.now());
+    } catch (error) {
+      liveSync.enabled = false;
+    }
+  } else if (params.get("live") && params.get("local") === "1") {
+    try {
+      liveSync.mode = "local";
+      liveSync.room = normalizeLiveRoom(params.get("live"));
+      liveSync.enabled = true;
     } catch (error) {
       liveSync.enabled = false;
     }
   } else if (params.get("live") && params.get("db")) {
     try {
+      liveSync.mode = "remote";
       liveSync.room = normalizeLiveRoom(params.get("live"));
       liveSync.dbUrl = normalizeLiveDbUrl(decodeLiveValue(params.get("db")));
       liveSync.enabled = true;
@@ -39807,6 +39984,7 @@ function bindEvents() {
   if (els.composeUpload) els.composeUpload.addEventListener("change", (event) => importComposeImage(event.target.files[0]));
   if (els.publishComposePost) els.publishComposePost.addEventListener("click", publishComposePost);
   if (els.liveSessionBtn) els.liveSessionBtn.addEventListener("click", openLiveDialog);
+  if (els.startLocalSession) els.startLocalSession.addEventListener("click", startLocalSession);
   if (els.startLiveSession) els.startLiveSession.addEventListener("click", startLiveSession);
   if (els.pauseSimulation) els.pauseSimulation.addEventListener("click", pauseSimulation);
   if (els.resumeSimulation) els.resumeSimulation.addEventListener("click", resumeSimulation);
