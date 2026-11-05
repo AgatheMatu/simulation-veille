@@ -1874,7 +1874,7 @@ body {
 }
 
 .feed-tools {
-  top: 168px;
+  top: 180px;
   display: grid;
   grid-template-columns: max-content minmax(240px, 1fr);
   margin: 0;
@@ -2102,7 +2102,7 @@ dialog {
   .toolbar { justify-content: flex-start; flex-wrap: wrap; }
   .left-panel, .right-panel { top: 154px; }
   .feed-title { top: 154px; }
-  .feed-tools { top: 216px; }
+  .feed-tools { top: 228px; }
 }
 
 @media (max-width: 1080px) {
@@ -2110,7 +2110,7 @@ dialog {
   .left-panel, .right-panel { position: static; max-height: none; }
   .feed-shell { min-height: 0; }
   .feed-title { top: 0; }
-  .feed-tools { top: 61px; }
+  .feed-tools { top: 74px; }
 }
 
 @media (max-width: 680px) {
