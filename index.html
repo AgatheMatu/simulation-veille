@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261105j" />
+    <link rel="stylesheet" href="./styles.css?v=20261105k" />
   </head>
   <body data-mode="teacher">
     <header class="topbar">
@@ -150,15 +150,13 @@
           <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
         </div>
         <button type="button" id="startLocalSession" class="primary-button live-simple-start">Lancer la simulation</button>
-        <div class="compose-grid live-share-grid">
-          <label>Code à communiquer aux élèves
-            <input id="liveRoomCode" class="live-room-code" type="text" maxlength="6" autocomplete="off" readonly value="------" />
-          </label>
-          <label>Adresse courte de la page élève
+        <div class="live-share-grid">
+          <label>Lien court à transmettre aux élèves
             <input id="liveStudentLink" type="url" readonly />
           </label>
         </div>
-        <p class="live-share-help">Les élèves ouvrent cette adresse puis saisissent le code affiché. Aucun long lien de séance n’est à recopier.</p>
+        <input id="liveRoomCode" type="hidden" />
+        <p class="live-share-help">Après le lancement, copiez ce lien unique. Les élèves arrivent directement dans REDLAND au bon moment, sans code à saisir.</p>
         <section class="simulation-console" aria-label="Pilotage de la timeline">
           <div class="simulation-console-head">
             <div><span id="simulationStatus">En attente de lancement</span><strong id="simulationClock">T+00:00</strong></div>
@@ -186,6 +184,6 @@
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261105j"></script>
+    <script src="./app.js?v=20261105k"></script>
   </body>
 </html>

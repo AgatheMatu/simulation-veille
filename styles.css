@@ -1678,35 +1678,8 @@ body {
 .live-dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
 .danger-button { color: var(--danger); }
 .live-simple-start { width: 100%; min-height: 48px; }
-.live-share-grid { align-items: end; }
-.live-dialog .live-room-code {
-  color: var(--navy);
-  font-size: 28px;
-  font-weight: 850;
-  letter-spacing: 4px;
-  text-align: center;
-}
+.live-share-grid { display: grid; }
 .live-share-help { margin: -4px 0 0; color: var(--muted); font-size: 13px; line-height: 1.45; }
-.session-code-button { white-space: nowrap; }
-.session-code-dialog { width: min(430px, calc(100vw - 32px)); }
-.session-code-dialog form { display: grid; gap: 14px; }
-.session-code-dialog label { font-weight: 750; }
-.session-code-dialog .compose-heading p { margin-top: 4px; color: var(--muted); }
-.session-code-dialog input {
-  width: 100%;
-  box-sizing: border-box;
-  border: 1px solid var(--line-strong);
-  border-radius: 8px;
-  padding: 14px 16px;
-  color: var(--navy);
-  background: #fff;
-  font: 850 28px/1 "Segoe UI Variable", "Segoe UI", Arial, sans-serif;
-  letter-spacing: 4px;
-  text-align: center;
-  text-transform: uppercase;
-}
-.session-code-dialog menu { display: flex; justify-content: flex-end; gap: 8px; margin: 0; padding: 0; }
-.session-code-error { margin: -4px 0 0; color: var(--danger); font-size: 13px; font-weight: 700; }
 
 .compose-dialog .compose-grid { grid-template-columns: minmax(0, 1fr); }
 .news-panel { overflow: hidden; padding: 0; }

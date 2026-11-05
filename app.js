@@ -34512,12 +34512,7 @@ const els = {
   simulationSpeed: document.querySelector("#simulationSpeed"),
   startLocalSession: document.querySelector("#startLocalSession"),
   stopLiveSession: document.querySelector("#stopLiveSession"),
-  copyStudentLiveLink: document.querySelector("#copyStudentLiveLink"),
-  studentSessionBtn: document.querySelector("#studentSessionBtn"),
-  studentSessionDialog: document.querySelector("#studentSessionDialog"),
-  studentSessionCode: document.querySelector("#studentSessionCode"),
-  studentSessionError: document.querySelector("#studentSessionError"),
-  joinStudentSession: document.querySelector("#joinStudentSession")
+  copyStudentLiveLink: document.querySelector("#copyStudentLiveLink")
 };
 
 function hashSeed(input) {
@@ -39951,7 +39946,7 @@ async function deleteLivePost(postId) {
 function fillLiveDialog() {
   if (!els.liveDialog) return;
   els.liveRoomCode.value = liveSync.room || "------";
-  els.liveStudentLink.value = buildStudentBaseUrl();
+  els.liveStudentLink.value = liveSync.room ? buildStudentLiveUrl() : buildStudentBaseUrl();
   const connectedLabel = liveSync.room ? `Séance ${liveSync.room}` : "Séance en cours";
   setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? connectedLabel : "Séance hors ligne");
 }
@@ -39982,7 +39977,7 @@ async function startLocalSession() {
     saveLiveConfig(true);
     liveSync.signature = "";
     if (els.liveRoomCode) els.liveRoomCode.value = liveSync.room;
-    if (els.liveStudentLink) els.liveStudentLink.value = buildStudentBaseUrl();
+    if (els.liveStudentLink) els.liveStudentLink.value = buildStudentLiveUrl();
     setLiveStatus("connected", `Séance ${liveSync.room}`);
     updateSimulationUi(true);
     connectLiveStream();
@@ -40011,7 +40006,7 @@ async function stopLiveSession() {
 }
 
 async function copyStudentLiveLink() {
-  const link = buildStudentBaseUrl();
+  const link = buildStudentLiveUrl();
   if (!link) return;
   els.liveStudentLink.value = link;
   await navigator.clipboard.writeText(link);
@@ -40021,14 +40016,6 @@ async function copyStudentLiveLink() {
 function studentSessionCodeFromLocation() {
   const params = new URLSearchParams(window.location.search);
   return decodeURIComponent(window.location.hash.slice(1) || params.get("code") || "").trim();
-}
-
-function openStudentSessionDialog() {
-  if (!els.studentSessionDialog) return;
-  if (els.studentSessionError) els.studentSessionError.hidden = true;
-  if (els.studentSessionCode && liveSync.room) els.studentSessionCode.value = liveSync.room;
-  els.studentSessionDialog.showModal();
-  window.setTimeout(() => els.studentSessionCode?.focus(), 0);
 }
 
 function joinPortableStudentSession(rawCode, { remember = true } = {}) {
@@ -40041,17 +40028,11 @@ function joinPortableStudentSession(rawCode, { remember = true } = {}) {
     setSimulationPosition(elapsed >= duration ? "ended" : "running", elapsed);
     if (remember) localStorage.setItem("veille-ili:student-session-code", code);
     window.history.replaceState(null, "", `${window.location.pathname}${window.location.search}#${code}`);
-    if (els.studentSessionCode) els.studentSessionCode.value = code;
-    if (els.studentSessionError) els.studentSessionError.hidden = true;
-    if (els.studentSessionDialog?.open) els.studentSessionDialog.close();
     setLiveStatus("connected", `Séance ${code} · ${formatSimulationClock(elapsed)}`);
     createRefreshBatch({ reloadNews: false, scrollToTop: false });
     return true;
   } catch (error) {
-    if (els.studentSessionError) {
-      els.studentSessionError.textContent = error.message || "Code de séance incorrect.";
-      els.studentSessionError.hidden = false;
-    }
+    console.warn(error.message || "Lien de séance incorrect.");
     return false;
   }
 }
@@ -40059,14 +40040,7 @@ function joinPortableStudentSession(rawCode, { remember = true } = {}) {
 function initializeStudentSessionCode() {
   if (isTeacherPage()) return;
   const locationCode = studentSessionCodeFromLocation();
-  let savedCode = "";
-  try {
-    savedCode = localStorage.getItem("veille-ili:student-session-code") || "";
-  } catch (error) {
-    savedCode = "";
-  }
-  if ((locationCode && joinPortableStudentSession(locationCode)) || (savedCode && joinPortableStudentSession(savedCode))) return;
-  openStudentSessionDialog();
+  if (locationCode) joinPortableStudentSession(locationCode);
 }
 
 function initializeLiveSync() {
@@ -40390,20 +40364,6 @@ function bindEvents() {
   if (els.simulationSpeed) els.simulationSpeed.addEventListener("change", (event) => changeSimulationSpeed(event.target.value));
   if (els.stopLiveSession) els.stopLiveSession.addEventListener("click", stopLiveSession);
   if (els.copyStudentLiveLink) els.copyStudentLiveLink.addEventListener("click", copyStudentLiveLink);
-  if (els.studentSessionBtn) els.studentSessionBtn.addEventListener("click", openStudentSessionDialog);
-  if (els.joinStudentSession) els.joinStudentSession.addEventListener("click", () => joinPortableStudentSession(els.studentSessionCode?.value));
-  if (els.studentSessionCode) {
-    els.studentSessionCode.addEventListener("input", () => {
-      els.studentSessionCode.value = els.studentSessionCode.value.toUpperCase().replace(/[^A-Z0-9]/g, "").slice(0, 6);
-      if (els.studentSessionError) els.studentSessionError.hidden = true;
-    });
-    els.studentSessionCode.addEventListener("keydown", (event) => {
-      if (event.key === "Enter") {
-        event.preventDefault();
-        joinPortableStudentSession(els.studentSessionCode.value);
-      }
-    });
-  }
   if (els.feed) els.feed.addEventListener("click", (event) => {
     const button = event.target.closest("button[data-action]");
     if (!button) return;

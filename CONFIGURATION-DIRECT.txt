@@ -5,12 +5,12 @@ La seance ne demande aucun compte, aucune adresse et aucune configuration.
 1. Ouvrir la page enseignant VEILLE-ILI.
 2. Cliquer sur Seance en direct.
 3. Cliquer sur Lancer la simulation.
-4. Communiquer https://is.gd/veilleili et le code de six caracteres.
-5. Les eleves ouvrent la page depuis leur ordinateur et saisissent ce code.
+4. Copier le lien court affiche apres le lancement.
+5. Envoyer ce lien aux eleves. Ils n'ont aucun code a saisir.
 
-Le code contient l'heure de lancement. Tous les eleves rejoignent ainsi la
-chronologie REDLAND au meme moment, sans compte ni service externe. Un
-rechargement de la page conserve le code et la position dans la simulation.
+Le lien contient l'heure de lancement. Tous les eleves rejoignent ainsi la
+chronologie REDLAND au meme moment. Un rechargement conserve automatiquement
+la position dans la simulation.
 
 Le site etant heberge comme une page statique, les publications improvisees par
 l'enseignant ne sont pas transmises entre plusieurs ordinateurs. Chaque eleve peut
