@@ -4,7 +4,7 @@ on:
   push:
     branches: [main]
   schedule:
-    - cron: "17 * * * *"
+    - cron: "17 */4 * * *"
   workflow_dispatch:
 
 permissions:
@@ -44,6 +44,7 @@ jobs:
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
+          retention-days: 1
 
       - name: Publier le site
         id: deployment

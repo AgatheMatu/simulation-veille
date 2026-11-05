@@ -51,7 +51,7 @@ Après la configuration unique décrite dans `CONFIGURATION-DIRECT.txt`, l'ensei
 
 VEILLE-ILI importe uniquement les titres, dates et liens issus des flux RSS officiels de France 24, RFI, franceinfo et Le Monde. Ils apparaissent dans le fil sous des comptes médias identifiés et servent de bruit d'actualité autour du scénario. Les titres ne sont ni réécrits ni présentés comme des éléments du scénario.
 
-Le fichier `actualites.json` est reconstruit puis le site est republié automatiquement chaque heure par le workflow GitHub Actions fourni dans `.github/workflows`. Une panne temporaire d'un flux conserve le dernier fichier valide. Dans un onglet déjà ouvert, le bouton **Actualiser** relit la dernière version disponible sans recharger automatiquement toute la page.
+Le fichier `actualites.json` est reconstruit puis le site est republié automatiquement toutes les quatre heures par le workflow GitHub Actions fourni dans `.github/workflows`. Une panne temporaire d'un flux conserve le dernier fichier valide. Dans un onglet déjà ouvert, le bouton **Actualiser** relit la dernière version disponible sans recharger automatiquement toute la page.
 
 ## Mise en ligne avec GitHub Pages
 
