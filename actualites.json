@@ -1,0 +1,330 @@
+{
+  "updatedAt": "2026-11-04T15:38:10Z",
+  "sourceCount": 4,
+  "items": [
+    {
+      "id": "3f8e0df0f0cc539ac596",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Éducation, transports, santé... à quoi s'attendre pour la journée de mobilisation de jeudi ?",
+      "url": "https://www.france24.com/fr/france/20261104-%C3%A9ducation-transports-sant%C3%A9-%C3%A0-quoi-s-attendre-journ%C3%A9e-mobilisation-jeudi",
+      "publishedAt": "2026-11-04T15:35:55Z",
+      "category": "sciences"
+    },
+    {
+      "id": "6499711be4fe9234074e",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Afghanistan : la France reconnaît des « discussions techniques » avec les talibans afghans",
+      "url": "https://www.lemonde.fr/international/article/2026/11/04/afghanistan-la-france-reconnait-des-discussions-techniques-avec-les-talibans-afghans_6806312_3210.html",
+      "publishedAt": "2026-11-04T15:30:02Z",
+      "category": "actualite"
+    },
+    {
+      "id": "d18d07001fc6aa7dd329",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms 2026 : la victoire écrasante des démocrates prévisible ?",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-2026-la-victoire-%C3%A9crasante-des-d%C3%A9mocrates-pr%C3%A9visible",
+      "publishedAt": "2026-11-04T15:19:48Z",
+      "category": "sciences"
+    },
+    {
+      "id": "450d1211afc934c32516",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : la Chine disposée \"à continuer à travailler avec les États-Unis\"",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-la-chine-dispos%C3%A9e-%C3%A0-continuer-%C3%A0-travailler-avec-les-%C3%A9tats-unis",
+      "publishedAt": "2026-11-04T15:07:58Z",
+      "category": "international"
+    },
+    {
+      "id": "e0156902ef5223e76b8d",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Les deux départements corses placés en vigilance orange \"pluie-inondations\" à partir de jeudi matin",
+      "url": "https://www.franceinfo.fr/environnement/meteo/les-deux-departements-corses-places-en-vigilance-orange-pluie-inondations-a-partir-de-jeudi-matin_8267861.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T15:06:27Z",
+      "category": "actualite"
+    },
+    {
+      "id": "d7f587d1e61a5844e56f",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms 2026 : quelle fin de mandat pour Trump ? Parlons-en avec A. Cohen, A. Hurst et A. Corpet",
+      "url": "https://www.france24.com/fr/%C3%A9missions/parlons-en-les-invit%C3%A9s/20261104-midterms-2026-quelle-fin-de-mandat-pour-trump-parlons-en-avec-a-cohen-a-hurst-et-a-corpet",
+      "publishedAt": "2026-11-04T15:06:07Z",
+      "category": "actualite"
+    },
+    {
+      "id": "f4699b5dd26569e13a4b",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Six gravures de Picasso volées dans un restaurant des Alpes-Maritimes retrouvées, sept personnes en garde à vue",
+      "url": "https://www.franceinfo.fr/faits-divers/six-gravures-de-picasso-volees-dans-un-restaurant-des-alpes-maritimes-retrouvees-sept-personnes-en-garde-a-vue_8267891.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T15:04:50Z",
+      "category": "actualite"
+    },
+    {
+      "id": "1d1d1bdcb6a824f35f64",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : les républicains de l'État du Wyoming conservent leur place",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-r%C3%A9publicains-de-l-%C3%A9tat-du-wyoming-conservent-leur-place",
+      "publishedAt": "2026-11-04T15:03:32Z",
+      "category": "actualite"
+    },
+    {
+      "id": "162e4ff5296e6aa9bdb0",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : \"mes lasers spatiaux dans les élections n'ont pas fonctionné cette fois\"",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-mes-lasers-spatiaux-dans-les-%C3%A9lections-n-ont-pas-fonctionn%C3%A9-cette-fois",
+      "publishedAt": "2026-11-04T15:00:12Z",
+      "category": "politique"
+    },
+    {
+      "id": "cac6478dc31adb0b43ee",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : le démocrate Abdul El-Sayed devient le premier sénateur musulman des États-Unis",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-d%C3%A9mocrate-abdul-el-sayed-devient-le-premier-s%C3%A9nateur-musulman-des-%C3%A9tats-unis",
+      "publishedAt": "2026-11-04T14:57:41Z",
+      "category": "politique"
+    },
+    {
+      "id": "1bdd784e65f96216f8b1",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : le nouveau Congrès va-t-il permettre un retour à l'équilibre des pouvoirs ?",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-le-nouveau-congr%C3%A8s-va-t-il-permettre-un-retour-%C3%A0-l-%C3%A9quilibre-des-pouvoirs",
+      "publishedAt": "2026-11-04T14:54:57Z",
+      "category": "actualite"
+    },
+    {
+      "id": "414f6cb96bba4c955f0a",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Etat, épargnants, banques… A qui profite (vraiment) le relèvement du plafond du livret A ?",
+      "url": "https://www.franceinfo.fr/economie/votre-argent/livret-a/etat-epargnants-banques-a-qui-profite-vraiment-le-relevement-du-plafond-du-livret-a_8267444.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T14:53:35Z",
+      "category": "culture"
+    },
+    {
+      "id": "a94d55bfda0092b078a9",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : féliciter les démocrates, une stratégie de Trump ?",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-f%C3%A9liciter-les-d%C3%A9mocrates-une-strat%C3%A9gie-de-trump",
+      "publishedAt": "2026-11-04T14:52:38Z",
+      "category": "actualite"
+    },
+    {
+      "id": "5538363315a211e34060",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : les pays européens réagissent à la victoire des démocrates",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-pays-europ%C3%A9ens-r%C3%A9agissent-%C3%A0-la-victoire-des-d%C3%A9mocrates",
+      "publishedAt": "2026-11-04T14:51:03Z",
+      "category": "economie"
+    },
+    {
+      "id": "476f0c6b95106ed0f435",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : les résultats illustrent la déroute des républicains à ces élections",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-r%C3%A9sultats-illustrent-la-d%C3%A9route-des-r%C3%A9publicains-%C3%A0-ces-%C3%A9lections",
+      "publishedAt": "2026-11-04T14:48:42Z",
+      "category": "politique"
+    },
+    {
+      "id": "56531bedf5e9b9fc0e73",
+      "source": "France 24",
+      "handle": "@france24_flux",
+      "title": "Midterms : les électeurs sanctionnent-ils les politiques de Trump par le vote ?",
+      "url": "https://www.france24.com/fr/vid%C3%A9o/20261104-midterms-les-%C3%A9lecteurs-sanctionnent-ils-les-politiques-de-trump-par-le-vote",
+      "publishedAt": "2026-11-04T14:45:58Z",
+      "category": "actualite"
+    },
+    {
+      "id": "fd35d9d6fbc331b851df",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Majorité au Congrès, conquête de bastions républicains historiques... Visualisez la nette victoire des démocrates aux midterms face au camp de Donald Trump",
+      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/majorite-au-congres-conquete-de-bastions-republicains-historiques-visualisez-la-nette-victoire-des-democrates-aux-midterms-face-au-camp-de-donald-trump_8267237.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T14:40:30Z",
+      "category": "actualite"
+    },
+    {
+      "id": "1fd03ed9ec919748536d",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "EN DIRECT, guerre en Ukraine : le bilan de l’attaque russe à Komychouvakha, dans l’oblast de Zaporijia, s’élève désormais à 40 morts, selon Volodymyr Zelensky",
+      "url": "https://www.lemonde.fr/international/live/2026/11/04/en-direct-guerre-en-ukraine-le-bombardement-de-lundi-sur-une-ecole-de-komychouvakha-dans-l-oblast-de-zaporijia-a-fait-37-morts-selon-un-nouveau-bilan_6803934_3210.html",
+      "publishedAt": "2026-11-04T14:38:32Z",
+      "category": "international"
+    },
+    {
+      "id": "65869215f1833390adb9",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Dans l’Auxerre gallo-romaine, une singulière « nécropole des tout-petits »",
+      "url": "https://www.lemonde.fr/sciences/article/2026/11/04/dans-l-auxerre-gallo-romaine-une-singuliere-necropole-des-tout-petits_6806270_1650684.html",
+      "publishedAt": "2026-11-04T14:30:59Z",
+      "category": "actualite"
+    },
+    {
+      "id": "e974fc46c25e38574364",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Quand et de combien augmenter le smic ? Les deux questions sont \"sur la table\" du gouvernement",
+      "url": "https://www.franceinfo.fr/economie/pouvoir-achat/quand-et-de-combien-augmenter-le-smic-les-deux-questions-sont-sur-la-table-du-gouvernement_8267768.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T14:22:47Z",
+      "category": "politique"
+    },
+    {
+      "id": "204c1e156cace19b385f",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Au-delà du Nutri-Score, \"60 Millions de consommateurs\" souhaite un indicateur du \"degré de transformation du produit\"",
+      "url": "https://www.franceinfo.fr/sante/alimentation/au-dela-du-nutri-score-60-millions-de-consommateurs-souhaite-un-indicateur-du-degre-de-transformation-du-produit_8267792.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T14:04:17Z",
+      "category": "actualite"
+    },
+    {
+      "id": "332d158e4ece5e845677",
+      "source": "RFI",
+      "handle": "@rfi_flux",
+      "title": "Yannick Haenel, prix Femina 2026, proclame: «La Solitude des professeurs est infinie»",
+      "url": "https://www.rfi.fr/fr/culture/20261104-yannick-haenel-prix-femina-2026-proclame-la-solitude-des-professeurs-est-infinie",
+      "publishedAt": "2026-11-04T14:04:14Z",
+      "category": "economie"
+    },
+    {
+      "id": "87adc7cd9d96ee1f4a11",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Pouvoir d'achat, prix du carburant... Ces Américains expliquent le \"Blue-nami\", cette \"vague bleue\" aux midterms 2026 qui déstabilise Donald Trump",
+      "url": "https://www.franceinfo.fr/replay-radio/le-choix-franceinfo/pouvoir-d-achat-prix-du-carburant-ces-americains-expliquent-le-blunami-cette-vague-bleue-aux-midterms-2026-qui-destabilise-donald-trump_8246506.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T14:00:45Z",
+      "category": "economie"
+    },
+    {
+      "id": "eb8b6ec4a9b23fb579f6",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Midterms 2026 : visualisez en cartes et en graphiques les premiers enseignements du scrutin",
+      "url": "https://www.lemonde.fr/les-decodeurs/article/2026/11/04/midterms-2026-visualisez-en-cartes-et-en-graphiques-les-premiers-enseignements-du-scrutin_6806235_4355770.html",
+      "publishedAt": "2026-11-04T13:48:07Z",
+      "category": "actualite"
+    },
+    {
+      "id": "4c966dd4e772a4192aad",
+      "source": "RFI",
+      "handle": "@rfi_flux",
+      "title": "France: des chambres froides de l'Établissement français du sang victimes d'une cyberattaque",
+      "url": "https://www.rfi.fr/fr/france/20261104-france-des-chambres-froides-de-l-%C3%A9tablissement-fran%C3%A7ais-du-sang-victimes-d-une-cyberattaque",
+      "publishedAt": "2026-11-04T13:26:50Z",
+      "category": "actualite"
+    },
+    {
+      "id": "afc449d27eaaff7f555d",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Midterms 2026 : raz-de-marée démocrate au Congrès, les derniers résultats attendus pour la Chambre des représentants et le Sénat",
+      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/direct-midterms-2026-nette-avance-democrate-au-congres-des-premieres-victoires-historiques-suivez-les-resultats-des-elections-de-mi-mandat_8265776.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T13:21:13Z",
+      "category": "politique"
+    },
+    {
+      "id": "7b2ea1823dffa90a5506",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Des réfrigérateurs de l’Etablissement français du sang à leur tour victimes d’une cyberattaque",
+      "url": "https://www.lemonde.fr/pixels/article/2026/11/04/des-frigos-de-l-etablissement-francais-du-sang-a-leur-tour-victimes-d-une-cyberattaque_6806228_4408996.html",
+      "publishedAt": "2026-11-04T13:18:16Z",
+      "category": "actualite"
+    },
+    {
+      "id": "79ca60ade02f12f4396f",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Grève du 5 novembre : CFDT et CGT dénoncent les conditions d’organisation des manifestations",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/04/greve-du-5-novembre-cfdt-et-cgt-denoncent-les-conditions-d-organisation-des-manifestations_6806226_823448.html",
+      "publishedAt": "2026-11-04T13:13:21Z",
+      "category": "societe"
+    },
+    {
+      "id": "2725d6c4c2908546224c",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Le dérapage du déficit public français à 5,4 % du PIB en 2026 officialisé",
+      "url": "https://www.lemonde.fr/politique/article/2026/11/04/finances-publiques-le-derapage-du-deficit-en-2026-officialise_6806225_823448.html",
+      "publishedAt": "2026-11-04T13:09:21Z",
+      "category": "actualite"
+    },
+    {
+      "id": "56d8689e20543bcde70e",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Au lycée Lakanal, à Sceaux, les classes préparatoires « dans le collimateur » du proviseur",
+      "url": "https://www.lemonde.fr/campus/article/2026/11/04/au-lycee-lakanal-a-sceaux-les-classes-preparatoires-dans-le-collimateur-du-proviseur_6806224_4401467.html",
+      "publishedAt": "2026-11-04T13:00:07Z",
+      "category": "actualite"
+    },
+    {
+      "id": "3764b957d9f6596daaca",
+      "source": "RFI",
+      "handle": "@rfi_flux",
+      "title": "Indonésie: scandale d’écoutes illégales au sommet de l’État, un proche de Widodo soupçonné",
+      "url": "https://www.rfi.fr/fr/asie-pacifique/20261104-indon%C3%A9sie-scandale-d-%C3%A9coutes-ill%C3%A9gales-au-sommet-de-l-%C3%A9tat-un-proche-de-widodo-soup%C3%A7onn%C3%A9",
+      "publishedAt": "2026-11-04T12:50:06Z",
+      "category": "actualite"
+    },
+    {
+      "id": "9fcb71b26ceda51da731",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Le prix Femina 2026 est remis à Yannick Haenel pour \"La solitude des professeurs est infinie\"",
+      "url": "https://www.franceinfo.fr/culture/livres/prix-litteraires/le-prix-femina-2026-est-remis-a-yannick-haenel-pour-la-solitude-des-professeurs-est-infinie_8267663.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T12:40:35Z",
+      "category": "economie"
+    },
+    {
+      "id": "ec2b230ef3d0c26a327c",
+      "source": "Le Monde",
+      "handle": "@lemonde_flux",
+      "title": "Le prix Femina est décerné à Yannick Haenel pour « La solitude des professeurs est infinie »",
+      "url": "https://www.lemonde.fr/livres/article/2026/11/04/le-prix-femina-est-decerne-a-yannick-haenel-pour-la-solitude-des-professeurs-est-infinie_6806219_3260.html",
+      "publishedAt": "2026-11-04T12:19:25Z",
+      "category": "economie"
+    },
+    {
+      "id": "d477f65293a92ee9ced1",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Donald Trump peut-il être visé par une procédure de destitution après la victoire des démocrates aux midterms ?",
+      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/donald-trump-peut-il-etre-vise-par-une-procedure-de-destitution-apres-la-victoire-des-democrates-aux-midterms_8267429.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T11:51:53Z",
+      "category": "actualite"
+    },
+    {
+      "id": "83348a02edffeea3ec8c",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "Nouveaux horaires, clients concernés... On répond à cinq questions sur le changement des heures creuses d'électricité mis en place mercredi",
+      "url": "https://www.franceinfo.fr/environnement/energie/nouveaux-horaires-clients-concernes-on-repond-a-cinq-questions-sur-le-changement-des-heures-creuses-d-electricite-mis-en-place-mercredi_8267228.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T11:32:20Z",
+      "category": "actualite"
+    },
+    {
+      "id": "4dc6c663cfe50de11bb8",
+      "source": "franceinfo",
+      "handle": "@franceinfo_flux",
+      "title": "James Talarico au Texas, Abdul el-Sayed au Michigan, Jon Ossoff en Géorgie… Ces figures démocrates qui vont compter après leurs victoires aux midterms 2026",
+      "url": "https://www.franceinfo.fr/monde/usa/midterms-2018/james-talarico-au-texas-abdul-el-sayed-au-michigan-jon-ossoff-en-georgie-ces-figures-democrates-qui-vont-compter-apres-leurs-victoires-aux-midterms-2026_8267432.html#xtor=RSS-3-[lestitres]",
+      "publishedAt": "2026-11-04T11:19:56Z",
+      "category": "actualite"
+    }
+  ]
+}

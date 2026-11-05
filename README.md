@@ -47,6 +47,12 @@ La simulation permet notamment de travailler :
 
 Après la configuration unique décrite dans `CONFIGURATION-DIRECT.txt`, l'enseignant choisit un scénario, lance la simulation à `T+00:00`, partage le lien élève puis pilote la timeline avec pause, reprise, vitesse et sauts de cinq minutes. Il peut publier autant de messages improvisés qu'il le souhaite depuis n'importe quel compte du scénario. Les nouvelles publications sont transmises immédiatement aux appareils connectés, sans modification des fichiers et sans redéploiement GitHub Pages.
 
+## Actualités réelles automatiques
+
+VEILLE-ILI importe uniquement les titres, dates et liens issus des flux RSS officiels de France 24, RFI, franceinfo et Le Monde. Ils apparaissent dans le fil sous des comptes médias identifiés et servent de bruit d'actualité autour du scénario. Les titres ne sont ni réécrits ni présentés comme des éléments du scénario.
+
+Le fichier `actualites.json` est reconstruit puis le site est republié automatiquement chaque heure par le workflow GitHub Actions fourni dans `.github/workflows`. Une panne temporaire d'un flux conserve le dernier fichier valide. Dans un onglet déjà ouvert, le bouton **Actualiser** relit la dernière version disponible sans recharger automatiquement toute la page.
+
 ## Mise en ligne avec GitHub Pages
 
 Les fichiers doivent être déposés **à la racine** du dépôt GitHub, et non dans un dossier supplémentaire. Le dépôt doit notamment contenir :
@@ -55,10 +61,13 @@ Les fichiers doivent être déposés **à la racine** du dépôt GitHub, et non 
 - `eleve.html`
 - `app.js`
 - `styles.css`
+- `actualites.json`
 - `.nojekyll`
+- le dossier `.github`
+- le dossier `tools`
 - le dossier `assets`
 
-Dans GitHub, ouvrir **Settings**, puis **Pages**. Choisir **Deploy from a branch**, sélectionner la branche `main` et le dossier `/ (root)`, puis enregistrer. Le déploiement peut demander quelques minutes.
+Dans GitHub, ouvrir **Settings**, puis **Pages**. Dans **Build and deployment**, choisir **GitHub Actions** comme source. Ouvrir ensuite l'onglet **Actions**, sélectionner **VEILLE-ILI - Actualités et déploiement**, puis lancer une première fois **Run workflow**. Les mises à jour suivantes seront automatiques. Le déploiement peut demander quelques minutes.
 
 ## Mettre à jour la simulation
 

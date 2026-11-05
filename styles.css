@@ -1297,6 +1297,11 @@ h3 {
 
 
 
+
+
+
+
+
 /* VEILLE-ILI immersive X-like refresh */
 :root {
   --bg: #ffffff;
@@ -1477,6 +1482,16 @@ body {
 .post-translation span { color: var(--muted); font-size: 12px; }
 .post-translation p { margin: 3px 0 0; font-size: 16px; line-height: 1.42; }
 .post-translation[hidden] { display: none; }
+.live-news-source {
+  display: inline-flex;
+  align-items: center;
+  min-height: 28px;
+  margin-top: 8px;
+  color: var(--muted);
+  font-size: 13px;
+  text-decoration: none;
+}
+.live-news-source:hover { color: var(--blue); text-decoration: underline; }
 
 .avatar {
   width: 46px;

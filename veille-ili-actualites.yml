@@ -1,0 +1,50 @@
+name: VEILLE-ILI - Actualites et deploiement
+
+on:
+  push:
+    branches: [main]
+  schedule:
+    - cron: "17 * * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  update-and-deploy:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Recuperer le site
+        uses: actions/checkout@v6
+
+      - name: Preparer Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+
+      - name: Actualiser les titres
+        run: python tools/update_actualites.py --output actualites.json
+
+      - name: Preparer GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Preparer le site statique
+        shell: bash
+        run: |
+          mkdir -p _site
+          cp index.html eleve.html app.js styles.css actualites.json .nojekyll _site/
+          cp -R assets _site/assets
+
+      - name: Creer le paquet Pages
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+      - name: Publier le site
+        id: deployment
+        uses: actions/deploy-pages@v4
