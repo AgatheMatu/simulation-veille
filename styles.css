@@ -1678,25 +1678,6 @@ body {
 .live-dialog-actions { display: flex; justify-content: flex-end; flex-wrap: wrap; gap: 8px; }
 .danger-button { color: var(--danger); }
 .live-simple-start { width: 100%; min-height: 48px; }
-.live-advanced {
-  border: 1px solid var(--line-strong);
-  border-radius: 7px;
-  background: #f7f9fb;
-}
-.live-advanced summary {
-  padding: 12px 14px;
-  color: var(--navy);
-  font-weight: 750;
-  cursor: pointer;
-}
-.live-advanced-content {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) auto;
-  align-items: end;
-  gap: 10px;
-  padding: 0 14px 14px;
-}
-.live-advanced-content .text-button { min-width: 170px; }
 
 .compose-dialog .compose-grid { grid-template-columns: minmax(0, 1fr); }
 .news-panel { overflow: hidden; padding: 0; }
@@ -2189,6 +2170,4 @@ dialog {
   .simulation-console-head { align-items: stretch; flex-direction: column; }
   .simulation-console-head label { width: 100%; }
   .simulation-controls { grid-template-columns: repeat(2, 1fr); }
-  .live-advanced-content { grid-template-columns: minmax(0, 1fr); }
-  .live-advanced-content .text-button { width: 100%; }
 }

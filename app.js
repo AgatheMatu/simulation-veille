@@ -34146,7 +34146,6 @@ const els = {
   liveSessionBtn: document.querySelector("#liveSessionBtn"),
   liveClassStatus: document.querySelector("#liveClassStatus"),
   liveDialog: document.querySelector("#liveDialog"),
-  liveDbUrl: document.querySelector("#liveDbUrl"),
   liveRoomCode: document.querySelector("#liveRoomCode"),
   liveStudentLink: document.querySelector("#liveStudentLink"),
   liveDialogStatus: document.querySelector("#liveDialogStatus"),
@@ -34158,7 +34157,6 @@ const els = {
   advanceSimulation: document.querySelector("#advanceSimulation"),
   simulationSpeed: document.querySelector("#simulationSpeed"),
   startLocalSession: document.querySelector("#startLocalSession"),
-  startLiveSession: document.querySelector("#startLiveSession"),
   stopLiveSession: document.querySelector("#stopLiveSession"),
   copyStudentLiveLink: document.querySelector("#copyStudentLiveLink")
 };
@@ -39068,17 +39066,14 @@ function restoreTeacherPosts(scenario) {
 // VEILLE-ILI LIVE SYNC START
 const liveSync = {
   enabled: false,
-  mode: "remote",
-  dbUrl: "",
+  mode: "local",
   room: "",
   expiresAt: 0,
   remotePosts: [],
   signature: "",
   timer: null,
-  stream: null,
   channel: null,
   storageHandler: null,
-  reconnectTimer: null,
   inFlight: false,
   pollDelay: 15000
 };
@@ -39246,17 +39241,6 @@ async function changeSimulationSpeed(value) {
   await syncSimulationMeta();
 }
 
-function normalizeLiveDbUrl(value) {
-  const url = String(value || "").trim().replace(/\/+$/, "");
-  const isFirebase = /^https:\/\/[a-z0-9.-]+(?:firebasedatabase\.app|firebaseio\.com)$/i.test(url);
-  const isLocalTest = /^(?:http:\/\/)?(?:127\.0\.0\.1|localhost):\d+$/i.test(url)
-    && ["127.0.0.1", "localhost"].includes(window.location.hostname);
-  if (!isFirebase && !isLocalTest) {
-    throw new Error("Adresse Firebase Realtime Database invalide.");
-  }
-  return url;
-}
-
 function normalizeLiveRoom(value) {
   const room = String(value || "").toUpperCase().replace(/[^A-Z0-9-]/g, "").slice(0, 28);
   if (room.length < 6) throw new Error("Le code de séance doit contenir au moins 6 caractères.");
@@ -39267,20 +39251,6 @@ function createLiveRoomCode() {
   const alphabet = "23456789ABCDEFGHJKLMNPQRSTUVWXYZ";
   const bytes = crypto.getRandomValues(new Uint8Array(7));
   return `ILI-${[...bytes].map((byte) => alphabet[byte % alphabet.length]).join("")}`;
-}
-
-function encodeLiveValue(value) {
-  const bytes = new TextEncoder().encode(String(value));
-  let binary = "";
-  bytes.forEach((byte) => { binary += String.fromCharCode(byte); });
-  return btoa(binary).replace(/\+/g, "-").replace(/\//g, "_").replace(/=+$/g, "");
-}
-
-function decodeLiveValue(value) {
-  const normalized = String(value || "").replace(/-/g, "+").replace(/_/g, "/");
-  const binary = atob(normalized.padEnd(Math.ceil(normalized.length / 4) * 4, "="));
-  const bytes = Uint8Array.from(binary, (character) => character.charCodeAt(0));
-  return new TextDecoder().decode(bytes);
 }
 
 function localLiveStorageKey() {
@@ -39327,32 +39297,18 @@ async function localLiveRequest(path = "", options = {}) {
   return payload;
 }
 
-function liveRoomEndpoint(path = "") {
-  const suffix = path ? `/${path}` : "";
-  return `${liveSync.dbUrl}/rooms/${encodeURIComponent(liveSync.room)}${suffix}.json`;
-}
-
 async function liveRequest(path = "", options = {}) {
-  if (!liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) throw new Error("Séance non configurée.");
-  if (liveSync.mode === "local") return localLiveRequest(path, options);
-  const response = await fetch(liveRoomEndpoint(path), {
-    cache: "no-store",
-    ...options,
-    headers: { "Content-Type": "application/json", ...(options.headers || {}) }
-  });
-  if (!response.ok) throw new Error(`Connexion refusée (${response.status}). Vérifiez l'adresse et les règles Firebase.`);
-  if (response.status === 204) return null;
-  return response.json();
+  if (!liveSync.room) throw new Error("Séance non configurée.");
+  return localLiveRequest(path, options);
 }
 
 function buildStudentLiveUrl() {
-  if (!liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) return "";
+  if (!liveSync.room) return "";
   const url = new URL("./eleve.html", window.location.href);
   url.search = "";
   url.hash = "";
   url.searchParams.set("live", liveSync.room);
-  if (liveSync.mode === "local") url.searchParams.set("local", "1");
-  else url.searchParams.set("db", encodeLiveValue(liveSync.dbUrl));
+  url.searchParams.set("local", "1");
   url.searchParams.set("scenario", state.scenario?.id || "");
   return url.toString();
 }
@@ -39379,8 +39335,7 @@ function setLiveStatus(kind, label) {
 function saveLiveConfig(active = liveSync.enabled) {
   if (!isTeacherPage()) return;
   localStorage.setItem("veille-ili:live-config", JSON.stringify({
-    mode: liveSync.mode,
-    dbUrl: liveSync.dbUrl,
+    mode: "local",
     room: liveSync.room,
     expiresAt: liveSync.expiresAt,
     active
@@ -39412,54 +39367,26 @@ function mergeLivePosts(posts, scenario) {
 }
 
 function connectLiveStream() {
-  if (!liveSync.enabled || !liveSync.room || (liveSync.mode !== "local" && !liveSync.dbUrl)) return;
-  if (liveSync.stream) liveSync.stream.close();
-  window.clearTimeout(liveSync.reconnectTimer);
-  if (liveSync.mode === "local") {
-    if (liveSync.channel) liveSync.channel.close();
-    if ("BroadcastChannel" in window) {
-      liveSync.channel = new BroadcastChannel(`veille-ili:${liveSync.room}`);
-      liveSync.channel.onmessage = () => {
-        liveSync.signature = "";
-        pollLiveRoom();
-      };
-    }
-    if (!liveSync.storageHandler) {
-      liveSync.storageHandler = (event) => {
-        if (liveSync.enabled && liveSync.mode === "local" && event.key === localLiveStorageKey()) {
-          liveSync.signature = "";
-          pollLiveRoom();
-        }
-      };
-      window.addEventListener("storage", liveSync.storageHandler);
-    }
-    setLiveStatus("connected", `Direct local ${liveSync.room}`);
-    scheduleLivePoll(0);
-    return;
-  }
-  try {
-    const stream = new EventSource(liveRoomEndpoint());
-    liveSync.stream = stream;
-    const refresh = () => {
+  if (!liveSync.enabled || !liveSync.room) return;
+  if (liveSync.channel) liveSync.channel.close();
+  if ("BroadcastChannel" in window) {
+    liveSync.channel = new BroadcastChannel(`veille-ili:${liveSync.room}`);
+    liveSync.channel.onmessage = () => {
       liveSync.signature = "";
       pollLiveRoom();
     };
-    stream.addEventListener("put", refresh);
-    stream.addEventListener("patch", refresh);
-    stream.addEventListener("cancel", () => setLiveStatus("error", "Accès au direct refusé"));
-    stream.addEventListener("auth_revoked", () => setLiveStatus("error", "Accès au direct expiré"));
-    stream.onopen = () => setLiveStatus("connected", `Direct ${liveSync.room}`);
-    stream.onerror = () => {
-      stream.close();
-      if (liveSync.stream === stream) liveSync.stream = null;
-      if (liveSync.enabled) {
-        setLiveStatus("connecting", "Reconnexion au direct");
-        liveSync.reconnectTimer = window.setTimeout(connectLiveStream, 3500);
+  }
+  if (!liveSync.storageHandler) {
+    liveSync.storageHandler = (event) => {
+      if (liveSync.enabled && event.key === localLiveStorageKey()) {
+        liveSync.signature = "";
+        pollLiveRoom();
       }
     };
-  } catch (error) {
-    scheduleLivePoll(1800);
+    window.addEventListener("storage", liveSync.storageHandler);
   }
+  setLiveStatus("connected", `Séance ${liveSync.room}`);
+  scheduleLivePoll(0);
 }
 
 function scheduleLivePoll(delay = liveSync.pollDelay) {
@@ -39502,7 +39429,7 @@ async function pollLiveRoom() {
         renderFeed();
       }
     }
-    setLiveStatus("connected", liveSync.mode === "local" ? `Direct local ${liveSync.room}` : `Direct ${liveSync.room}`);
+    setLiveStatus("connected", `Séance ${liveSync.room}`);
   } catch (error) {
     setLiveStatus("error", "Direct déconnecté");
   } finally {
@@ -39555,10 +39482,9 @@ async function deleteLivePost(postId) {
 function fillLiveDialog() {
   if (!els.liveDialog) return;
   if (!liveSync.room) liveSync.room = createLiveRoomCode();
-  els.liveDbUrl.value = liveSync.mode === "remote" ? liveSync.dbUrl : "";
   els.liveRoomCode.value = liveSync.room;
   els.liveStudentLink.value = buildStudentLiveUrl();
-  const connectedLabel = liveSync.mode === "local" ? `Direct local ${liveSync.room}` : `Direct ${liveSync.room}`;
+  const connectedLabel = `Séance ${liveSync.room}`;
   setLiveStatus(liveSync.enabled ? "connected" : "waiting", liveSync.enabled ? connectedLabel : "Séance hors ligne");
 }
 
@@ -39570,7 +39496,6 @@ function openLiveDialog() {
 async function startLocalSession() {
   try {
     liveSync.mode = "local";
-    liveSync.dbUrl = "";
     liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
     localStorage.removeItem(localLiveStorageKey());
     liveSync.enabled = true;
@@ -39589,47 +39514,13 @@ async function startLocalSession() {
     saveLiveConfig(true);
     liveSync.signature = "";
     els.liveStudentLink.value = buildStudentLiveUrl();
-    setLiveStatus("connected", `Direct local ${liveSync.room}`);
+    setLiveStatus("connected", `Séance ${liveSync.room}`);
     updateSimulationUi(true);
     connectLiveStream();
   } catch (error) {
     liveSync.enabled = false;
     setSimulationPosition("waiting", 0);
     setLiveStatus("error", error.message || "Lancement local impossible");
-  }
-}
-
-async function startLiveSession() {
-  try {
-    if (liveSync.channel) liveSync.channel.close();
-    liveSync.channel = null;
-    liveSync.mode = "remote";
-    liveSync.dbUrl = normalizeLiveDbUrl(els.liveDbUrl?.value);
-    liveSync.room = normalizeLiveRoom(els.liveRoomCode?.value || createLiveRoomCode());
-    liveSync.enabled = true;
-    setSimulationPosition("running", 0);
-    const meta = {
-      active: true,
-      scenarioId: state.scenario?.id || "",
-      scenarioTitle: state.scenario?.title || "",
-      startedAt: new Date().toISOString(),
-      updatedAt: new Date().toISOString(),
-      expiresAt: Date.now() + 12 * 60 * 60 * 1000,
-      ...simulationMetaPayload()
-    };
-    liveSync.expiresAt = meta.expiresAt;
-    await liveRequest("meta", { method: "PUT", body: JSON.stringify(meta) });
-    saveLiveConfig(true);
-    liveSync.signature = "";
-    els.liveStudentLink.value = buildStudentLiveUrl();
-    setLiveStatus("connected", `Direct ${liveSync.room}`);
-    updateSimulationUi(true);
-    connectLiveStream();
-    scheduleLivePoll(0);
-  } catch (error) {
-    liveSync.enabled = false;
-    setSimulationPosition("waiting", 0);
-    setLiveStatus("error", error.message || "Connexion impossible");
   }
 }
 
@@ -39644,9 +39535,6 @@ async function stopLiveSession() {
   liveSync.enabled = false;
   setSimulationPosition("ended", simulationElapsedSeconds());
   window.clearTimeout(liveSync.timer);
-  window.clearTimeout(liveSync.reconnectTimer);
-  if (liveSync.stream) liveSync.stream.close();
-  liveSync.stream = null;
   if (liveSync.channel) liveSync.channel.close();
   liveSync.channel = null;
   saveLiveConfig(false);
@@ -39658,7 +39546,7 @@ async function copyStudentLiveLink() {
   if (!link) return;
   els.liveStudentLink.value = link;
   await navigator.clipboard.writeText(link);
-  setLiveStatus("connected", liveSync.mode === "local" ? "Lien local copié" : "Lien élève copié");
+  setLiveStatus("connected", "Lien élève copié");
 }
 
 function initializeLiveSync() {
@@ -39666,12 +39554,10 @@ function initializeLiveSync() {
   if (isTeacherPage()) {
     try {
       const saved = JSON.parse(localStorage.getItem("veille-ili:live-config") || "{}");
-      liveSync.mode = saved.mode === "local" ? "local" : "remote";
-      liveSync.dbUrl = /votre-projet|mon-projet/i.test(saved.dbUrl || "") ? "" : (saved.dbUrl || "");
+      liveSync.mode = "local";
       liveSync.expiresAt = Number(saved.expiresAt || 0);
       liveSync.room = liveSync.expiresAt > Date.now() ? (saved.room || "") : "";
-      const hasTransport = liveSync.mode === "local" || Boolean(liveSync.dbUrl);
-      liveSync.enabled = Boolean(saved.active && hasTransport && liveSync.room && liveSync.expiresAt > Date.now());
+      liveSync.enabled = Boolean(saved.mode === "local" && saved.active && liveSync.room && liveSync.expiresAt > Date.now());
     } catch (error) {
       liveSync.enabled = false;
     }
@@ -39679,15 +39565,6 @@ function initializeLiveSync() {
     try {
       liveSync.mode = "local";
       liveSync.room = normalizeLiveRoom(params.get("live"));
-      liveSync.enabled = true;
-    } catch (error) {
-      liveSync.enabled = false;
-    }
-  } else if (params.get("live") && params.get("db")) {
-    try {
-      liveSync.mode = "remote";
-      liveSync.room = normalizeLiveRoom(params.get("live"));
-      liveSync.dbUrl = normalizeLiveDbUrl(decodeLiveValue(params.get("db")));
       liveSync.enabled = true;
     } catch (error) {
       liveSync.enabled = false;
@@ -39985,7 +39862,6 @@ function bindEvents() {
   if (els.publishComposePost) els.publishComposePost.addEventListener("click", publishComposePost);
   if (els.liveSessionBtn) els.liveSessionBtn.addEventListener("click", openLiveDialog);
   if (els.startLocalSession) els.startLocalSession.addEventListener("click", startLocalSession);
-  if (els.startLiveSession) els.startLiveSession.addEventListener("click", startLiveSession);
   if (els.pauseSimulation) els.pauseSimulation.addEventListener("click", pauseSimulation);
   if (els.resumeSimulation) els.resumeSimulation.addEventListener("click", resumeSimulation);
   if (els.rewindSimulation) els.rewindSimulation.addEventListener("click", () => adjustSimulation(-5));

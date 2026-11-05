@@ -1,34 +1,20 @@
-SEANCE EN DIRECT - MODE SIMPLE
+SEANCE EN DIRECT
 
-Le mode simple ne demande aucun compte, aucune adresse et aucune configuration.
+La seance ne demande aucun compte, aucune adresse et aucune configuration.
 
 1. Ouvrir la page enseignant VEILLE-ILI.
 2. Cliquer sur Seance en direct.
-3. Cliquer sur Lancer sur cet appareil.
+3. Cliquer sur Lancer la simulation.
 4. Ouvrir le lien eleve dans un autre onglet du meme navigateur.
 5. L'enseignant peut piloter le temps et publier autant de messages qu'il le souhaite.
 
 Ce mode est ideal pour preparer l'exercice, faire une demonstration projetee ou
-utiliser deux onglets sur un meme ordinateur. La synchronisation est instantanee.
+utiliser deux onglets sur un meme ordinateur. La synchronisation est instantanee
+entre les pages ouvertes dans le meme navigateur.
 
-IMPORTANT - PLUSIEURS ORDINATEURS OU TELEPHONES
-
-GitHub Pages est un hebergement statique : il ne peut pas, a lui seul, transmettre
-en temps reel les publications d'un ordinateur vers les appareils des eleves.
-Pour une classe connectee sur plusieurs appareils, ouvrir la rubrique
-Connexion multi-appareils et utiliser une base Firebase Realtime Database.
-
-Cette configuration n'est a faire qu'une seule fois. Firebase propose une formule
-gratuite Spark, sans periode d'essai, suffisante pour un exercice de cette taille.
-
-1. Ouvrir https://console.firebase.google.com/ et creer un projet dedie a VEILLE-ILI.
-2. Dans Build, ouvrir Realtime Database puis choisir Creer une base de donnees.
-3. Choisir de preference une region europeenne.
-4. Dans l'onglet Regles, publier les regles adaptees a votre exercice.
-5. Copier l'adresse affichee dans l'onglet Donnees. Elle se termine par
-   firebasedatabase.app ou firebaseio.com.
-6. Dans VEILLE-ILI, ouvrir Connexion multi-appareils, coller cette adresse puis
-   cliquer sur Connecter la classe.
+Le site etant heberge comme une page statique, les publications improvisees par
+l'enseignant ne sont pas transmises entre plusieurs ordinateurs. Chaque eleve peut
+cependant consulter normalement le scenario publie depuis son propre appareil.
 
 Ne jamais placer de donnees personnelles, sensibles ou operationnelles dans la
 base. Les publications de la simulation doivent rester entierement pedagogiques.

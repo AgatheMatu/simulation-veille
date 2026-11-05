@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>VEILLE-ILI - veille informationnelle</title>
-    <link rel="stylesheet" href="./styles.css?v=20261105e" />
+    <link rel="stylesheet" href="./styles.css?v=20261105f" />
   </head>
   <body data-mode="teacher">
     <header class="topbar">
@@ -149,7 +149,7 @@
           <div><h2>Séance en direct</h2><p id="liveDialogStatus" class="live-dialog-status" data-kind="waiting">Séance hors ligne</p></div>
           <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
         </div>
-        <button type="button" id="startLocalSession" class="primary-button live-simple-start">Lancer sur cet appareil</button>
+        <button type="button" id="startLocalSession" class="primary-button live-simple-start">Lancer la simulation</button>
         <div class="compose-grid">
           <label>Code de séance
             <input id="liveRoomCode" type="text" maxlength="28" autocomplete="off" />
@@ -158,15 +158,6 @@
             <input id="liveStudentLink" type="url" readonly />
           </label>
         </div>
-        <details class="live-advanced">
-          <summary>Connexion multi-appareils</summary>
-          <div class="live-advanced-content">
-            <label>Adresse Firebase Realtime Database
-              <input id="liveDbUrl" type="url" placeholder="https://mon-projet-default-rtdb.europe-west1.firebasedatabase.app" autocomplete="off" />
-            </label>
-            <button type="button" id="startLiveSession" class="text-button">Connecter la classe</button>
-          </div>
-        </details>
         <section class="simulation-console" aria-label="Pilotage de la timeline">
           <div class="simulation-console-head">
             <div><span id="simulationStatus">En attente de lancement</span><strong id="simulationClock">T+00:00</strong></div>
@@ -194,6 +185,6 @@
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261105e"></script>
+    <script src="./app.js?v=20261105f"></script>
   </body>
 </html>
