@@ -1,4 +1,4 @@
 DEPOT GITHUB PAGES
 
-Envoyer a la racine du depot : index.html, eleve.html, styles.css, app.js, actualites.json, .nojekyll, .github, tools et assets.
+Envoyer a la racine du depot : index.html, eleve.html, styles.css, app.js, redland-phase-two.js, actualites.json, .nojekyll, .github, tools et assets.
 Ne pas envoyer le dossier parent ni le zip seul.

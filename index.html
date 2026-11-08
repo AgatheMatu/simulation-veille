@@ -149,7 +149,24 @@
           <div><h2>Séance en direct</h2><p id="liveDialogStatus" class="live-dialog-status" data-kind="waiting">Séance hors ligne</p></div>
           <button value="cancel" class="icon-button" title="Fermer" aria-label="Fermer">×</button>
         </div>
-        <button type="button" id="startLocalSession" class="primary-button live-simple-start">Lancer la simulation</button>
+        <section class="phase-launcher" aria-label="Choisir le temps de simulation">
+          <div class="phase-launcher-heading">
+            <strong>Choisir le point de départ</strong>
+            <span>Chaque temps dure 3 heures et peut être lancé indépendamment.</span>
+          </div>
+          <div class="phase-launch-grid">
+            <button type="button" id="startLocalSession" class="phase-launch-button">
+              <span class="phase-launch-kicker">Temps 1 · 3 h</span>
+              <strong>Départ et approche</strong>
+              <small>De l’aéroport aux abords de l’installation suspecte</small>
+            </button>
+            <button type="button" id="startPhaseTwo" class="phase-launch-button phase-launch-button-alert">
+              <span class="phase-launch-kicker">Temps 2 · 3 h</span>
+              <strong>Incident et escalade</strong>
+              <small>Embuscade, récits concurrents et pression informationnelle</small>
+            </button>
+          </div>
+        </section>
         <div class="live-share-grid">
           <label>Lien court à transmettre aux élèves
             <input id="liveStudentLink" type="url" readonly />
@@ -184,6 +201,7 @@
     </dialog>
 
     <input id="fileInput" type="file" accept="application/json,.json" hidden />
-    <script src="./app.js?v=20261105l"></script>
+    <script src="./redland-phase-two.js?v=20261108a"></script>
+    <script src="./app.js?v=20261108a"></script>
   </body>
 </html>
