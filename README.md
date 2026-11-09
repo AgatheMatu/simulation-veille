@@ -48,7 +48,7 @@ La simulation permet notamment de travailler :
 La séance ne demande ni compte supplémentaire, ni adresse de serveur, ni configuration technique. Dans **Séance en direct**, l'enseignant choisit le point de départ voulu :
 
 - **Temps 1 · 3 h :** départ de l'aéroport et progression jusqu'aux abords de l'installation suspecte ;
-- **Temps 2 · 3 h :** poursuite du déplacement, incident, récits concurrents et montée de la pression informationnelle.
+- **Temps 2 · 3 h :** arrivée devant l'usine, analyse d'indices contradictoires, confirmation progressive de son usage par DIISH, puis destruction du site et bataille des récits sur ses conséquences.
 
 Après le lancement, l'enseignant transmet le lien court affiché puis pilote la chronologie avec pause, reprise, vitesse et sauts de cinq minutes. Il peut publier autant de messages improvisés qu'il le souhaite depuis n'importe quel compte du scénario. Les nouvelles publications sont transmises immédiatement aux appareils connectés, sans modification des fichiers et sans redéploiement GitHub Pages.
 

@@ -34453,7 +34453,7 @@ if (redlandScenario && redlandPhaseTwoData) {
 }
 
 evidenceAssets["deir-ez-zor-convoi-francais_126.jpg"] = "./assets/evidence/deir-ez-zor-convoi-francais_126.jpg";
-for (let index = 127; index <= 133; index += 1) {
+for (let index = 127; index <= 136; index += 1) {
   const asset = `deir-ez-zor-convoi-francais_${index}.jpg`;
   evidenceAssets[asset] = `./assets/evidence/${asset}`;
 }
@@ -37118,8 +37118,8 @@ function contentForSelectedMedia(scenario, media, suspect, random) {
       },
       "Patrouilles et convois": {
         suspect: [
-          `« ${title} » montrerait le convoi français quelques minutes avant une embuscade. Plusieurs comptes annoncent déjà des pertes sans source primaire.`,
-          `La séquence « ${title} » confirmerait que le convoi BLUE a changé d'itinéraire sous la pression d'un groupe armé.`
+          `« ${title} » montrerait le convoi français arrivé aux abords d'un complexe industriel. Plusieurs comptes lui attribuent déjà une mission sans source primaire.`,
+          `La séquence « ${title} » confirmerait une activité militaire près de l'usine, mais son origine et son objectif restent contestés.`
         ],
         careful: [
           `« ${title} » montre des véhicules en mouvement, mais ne permet de confirmer ni leur unité, ni leur destination, ni un incident.`,
