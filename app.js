@@ -37667,12 +37667,12 @@ function escapeHtml(value) {
 function renderMedia(media, post) {
   if (!media) return "";
   const asset = media.asset || defaultEvidenceAsset(media, post);
-  const src = media.dataUrl || evidenceAssets[asset];
+  const src = media.dataUrl || media.externalUrl || evidenceAssets[asset];
   if (!src) return "";
 
   return `
     <div class="post-media evidence-card">
-      <img class="evidence-image" src="${src}" alt="Image jointe à la publication" loading="lazy" />
+      <img class="evidence-image" src="${escapeHtml(src)}" alt="Image jointe à la publication" loading="lazy" />
     </div>
   `;
 }
@@ -39829,6 +39829,48 @@ async function publishSharedEvent(type, payload) {
   if (!response.ok) throw new Error(`Canal partagé indisponible (${response.status}).`);
 }
 
+function dataUrlToBlob(dataUrl) {
+  const [header, encoded = ""] = String(dataUrl || "").split(",", 2);
+  const mime = header.match(/^data:([^;]+);base64$/i)?.[1] || "image/jpeg";
+  const binary = atob(encoded);
+  const bytes = new Uint8Array(binary.length);
+  for (let index = 0; index < binary.length; index += 1) bytes[index] = binary.charCodeAt(index);
+  return new Blob([bytes], { type: mime });
+}
+
+async function uploadSharedImage(dataUrl, postId) {
+  const blob = dataUrlToBlob(dataUrl);
+  if (!blob.size) throw new Error("L'image importée est vide.");
+  if (blob.size > 1_900_000) throw new Error("L'image reste trop volumineuse après compression.");
+  const filename = `${String(postId || "veille-ili").replace(/[^a-z0-9_-]/gi, "-")}.jpg`;
+  const endpoint = `${SHARED_LIVE_SERVER}/${sharedTopicName()}?filename=${encodeURIComponent(filename)}`;
+  const response = await fetch(endpoint, {
+    method: "PUT",
+    headers: { "Content-Type": blob.type || "image/jpeg" },
+    body: blob
+  });
+  if (!response.ok) throw new Error(`Envoi de l'image impossible (${response.status}).`);
+  const message = await response.json();
+  const url = message?.attachment?.url;
+  if (!url) throw new Error("Le service n'a pas renvoyé l'adresse de l'image.");
+  return { url, expiresAt: message.attachment.expires || null };
+}
+
+async function prepareSharedPostPayload(payload) {
+  const sharedPayload = structuredClone(payload);
+  sharedPayload.comments = [];
+  if (sharedPayload.media?.dataUrl) {
+    const uploaded = await uploadSharedImage(sharedPayload.media.dataUrl, sharedPayload.id);
+    sharedPayload.media = {
+      ...sharedPayload.media,
+      dataUrl: "",
+      externalUrl: uploaded.url,
+      attachmentExpiresAt: uploaded.expiresAt
+    };
+  }
+  return sharedPayload;
+}
+
 function mergeSharedPosts() {
   if (!state.scenario) return;
   const localPosts = state.posts.filter((post) => !post.liveRemote);
@@ -39879,7 +39921,13 @@ function connectSharedStream() {
     try {
       const message = JSON.parse(event.data);
       if (message.event !== "message" || !message.message) return;
-      applySharedEvent(JSON.parse(message.message), message.id || "");
+      let envelope = null;
+      try {
+        envelope = JSON.parse(message.message);
+      } catch (error) {
+        return;
+      }
+      applySharedEvent(envelope, message.id || "");
     } catch (error) {
       console.warn("Message direct ignoré.", error);
     }
@@ -40042,12 +40090,17 @@ async function publishLivePost(post) {
   if (!isTeacherPage() || !liveSync.enabled) return;
   const payload = { ...serializeTeacherPost(post), comments: post.comments || [] };
   try {
-    await liveRequest(`posts/${post.id}`, { method: "PUT", body: JSON.stringify(payload) });
     if (liveSync.mode === "shared") {
-      const sharedPayload = structuredClone(payload);
-      if (new Blob([JSON.stringify(sharedPayload)]).size > 3000) sharedPayload.media = null;
-      sharedPayload.comments = [];
+      const sharedPayload = await prepareSharedPostPayload(payload);
+      await liveRequest(`posts/${post.id}`, { method: "PUT", body: JSON.stringify(sharedPayload) });
       await publishSharedEvent("post", sharedPayload);
+      if (post.media?.dataUrl && sharedPayload.media?.externalUrl) {
+        post.media = structuredClone(sharedPayload.media);
+        persistTeacherPosts();
+        renderFeed();
+      }
+    } else {
+      await liveRequest(`posts/${post.id}`, { method: "PUT", body: JSON.stringify(payload) });
     }
     await announceLiveScenario();
     setLiveStatus("connected", `Publié dans ${liveSync.room}`);
@@ -40387,15 +40440,68 @@ async function generateComposeVisual() {
   updateComposePreview(state.composeVisual);
 }
 
-function importComposeImage(file) {
+function canvasToBlob(canvas, type, quality) {
+  return new Promise((resolve, reject) => {
+    canvas.toBlob((blob) => blob ? resolve(blob) : reject(new Error("Compression de l'image impossible.")), type, quality);
+  });
+}
+
+function blobToDataUrl(blob) {
+  return new Promise((resolve, reject) => {
+    const reader = new FileReader();
+    reader.addEventListener("load", () => resolve(String(reader.result || "")), { once: true });
+    reader.addEventListener("error", () => reject(new Error("Lecture de l'image impossible.")), { once: true });
+    reader.readAsDataURL(blob);
+  });
+}
+
+async function compressComposeImage(file) {
+  if (!String(file.type || "").startsWith("image/")) throw new Error("Choisissez une image JPEG, PNG ou WebP.");
+  const sourceUrl = URL.createObjectURL(file);
+  try {
+    const image = new Image();
+    image.src = sourceUrl;
+    await image.decode();
+    const maxEdge = 1400;
+    const scale = Math.min(1, maxEdge / Math.max(image.naturalWidth, image.naturalHeight));
+    const canvas = document.createElement("canvas");
+    canvas.width = Math.max(1, Math.round(image.naturalWidth * scale));
+    canvas.height = Math.max(1, Math.round(image.naturalHeight * scale));
+    const context = canvas.getContext("2d");
+    context.fillStyle = "#ffffff";
+    context.fillRect(0, 0, canvas.width, canvas.height);
+    context.drawImage(image, 0, 0, canvas.width, canvas.height);
+    let quality = 0.82;
+    let blob = await canvasToBlob(canvas, "image/jpeg", quality);
+    while (blob.size > 1_700_000 && quality > 0.48) {
+      quality -= 0.08;
+      blob = await canvasToBlob(canvas, "image/jpeg", quality);
+    }
+    if (blob.size > 1_900_000) throw new Error("Cette image est trop volumineuse. Choisissez une photo plus petite.");
+    return blobToDataUrl(blob);
+  } finally {
+    URL.revokeObjectURL(sourceUrl);
+  }
+}
+
+async function importComposeImage(file) {
   if (!file) return;
-  const reader = new FileReader();
-  reader.addEventListener("load", () => {
-    state.composeVisual = String(reader.result || "");
+  if (els.publishComposePost) els.publishComposePost.disabled = true;
+  if (els.composeLiveHint) els.composeLiveHint.textContent = "Préparation de l'image…";
+  try {
+    state.composeVisual = await compressComposeImage(file);
     els.composeMediaSelect.value = "";
     updateComposePreview(state.composeVisual);
-  });
-  reader.readAsDataURL(file);
+    if (els.composeLiveHint) els.composeLiveHint.textContent = liveSync.enabled
+      ? "Image prête : elle sera diffusée immédiatement aux élèves."
+      : "Image prête pour une publication locale.";
+  } catch (error) {
+    state.composeVisual = null;
+    updateComposePreview();
+    if (els.composeLiveHint) els.composeLiveHint.textContent = error.message || "Impossible de préparer cette image.";
+  } finally {
+    if (els.publishComposePost) els.publishComposePost.disabled = false;
+  }
 }
 
 async function publishComposePost() {
